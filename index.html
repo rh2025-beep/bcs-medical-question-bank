@@ -71627,74 +71627,108 @@ WHO SURGICAL SITE INFECTION PREVENTION BUNDLE:
 </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Definition of Surgical Site Infection (SSI):</strong>
-A Surgical Site Infection (SSI) is an infection occurring at or near the surgical incision site within <strong>30 days of an operative procedure</strong> (or within <strong>90 days</strong> if a permanent prosthetic implant, mesh, or joint prosthesis has been left in place), satisfying standardized clinical and laboratory criteria.
+              <strong>1. Overview & CDC Definition:</strong><br>
+Surgical Site Infection (SSI) is defined by the Centers for Disease Control and Prevention (CDC) and the National Healthcare Safety Network (NHSN) as an infection occurring at or near a surgical incision within <strong>30 days</strong> of an operative procedure without an implant, OR within <strong>90 days</strong> if a foreign body implant or prosthesis (e.g., orthopedic joint, synthetic vascular graft, prosthetic mesh, heart valve) was placed in situ during surgery. SSIs represent the most frequent hospital-acquired infection among surgical inpatients, significantly driving morbidity, prolonged hospitalization, and readmission.
 
-<strong>2. CDC Anatomical Classification of SSI:</strong>
-<div class="overflow-x-auto my-2">
-<table class="min-w-full text-xs border border-slate-300">
-  <tr class="bg-slate-100">
-    <th class="p-1 border">Class of SSI</th>
-    <th class="p-1 border">Anatomical Structures Involved</th>
-    <th class="p-1 border">Diagnostic Criteria (At least ONE of following)</th>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">1. Superficial Incisional SSI</td>
-    <td class="p-1 border">Involves <strong>only the skin and subcutaneous tissue</strong> of the incision.</td>
-    <td class="p-1 border">
-      • Purulent drainage from the superficial incision.<br>
-      • Organisms isolated from aseptically obtained culture of fluid/tissue.<br>
-      • At least one sign of inflammation (pain, localized swelling, erythema, heat) AND superficial incision is deliberately opened by surgeon (unless culture is negative).
-    </td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">2. Deep Incisional SSI</td>
-    <td class="p-1 border">Involves the <strong>deep soft tissues (fascial and muscle layers)</strong> of the incision.</td>
-    <td class="p-1 border">
-      • Purulent drainage from the deep incision.<br>
-      • A deep incision that spontaneously dehisces or is deliberately opened by a surgeon when patient has fever (&gt; 38&deg;C) or localized pain/tenderness.<br>
-      • An abscess or other evidence of infection involving the deep incision found on direct examination, reoperation, histopathology, or imaging.
-    </td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">3. Organ / Space SSI</td>
-    <td class="p-1 border">Involves <strong>any part of the anatomy other than the incised body wall layers</strong> that was opened or manipulated during the operative procedure.</td>
-    <td class="p-1 border">
-      • Purulent drainage from a drain placed into the organ/space (e.g., pelvic drain).<br>
-      • Organisms isolated from fluid/tissue in the organ/space.<br>
-      • An abscess or evidence of infection in the cavity diagnosed by direct examination during reoperation or radiologically (e.g., subphrenic abscess, anastomotic leak peritonitis, pelvic collection on CT).
-    </td>
-  </tr>
-</table>
+<br><br><strong>2. CDC / NHSN Anatomical Classification of SSI:</strong><br>
+SSIs are categorized anatomically into three discrete hierarchical classes depending on the depth of tissue planes involved:
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">SSI Classification</th>
+        <th class="p-3 font-semibold">Anatomical Depth Involved</th>
+        <th class="p-3 font-semibold">Diagnostic Criteria & Clinical Signs</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-blue-600">1. Superficial Incisional SSI</td>
+        <td class="p-3">Involves <strong>only the skin and subcutaneous tissue</strong> of the incision (occurs within 30 days).</td>
+        <td class="p-3">
+          At least one of the following:<br>
+          &bull; Purulent discharge/drainage from the superficial incision.<br>
+          &bull; Organism isolated from an aseptically obtained culture of superficial fluid/tissue.<br>
+          &bull; Localized signs of inflammation (pain, tenderness, localized swelling, erythema, heat) AND superficial incision is deliberately opened by the surgeon (unless culture is negative).<br>
+          &bull; Diagnosis of superficial SSI by attending surgeon.
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-amber-600">2. Deep Incisional SSI</td>
+        <td class="p-3">Involves <strong>deep soft tissues</strong> (fascia and muscle layers) of the incision (occurs within 30 or 90 days).</td>
+        <td class="p-3">
+          At least one of the following:<br>
+          &bull; Purulent drainage from the deep incision (subfascial).<br>
+          &bull; Deep incision spontaneously dehisces OR is deliberately opened when the patient has fever (&gt; 38&deg;C) or localized deep pain/tenderness.<br>
+          &bull; An abscess or other evidence of deep infection is discovered on direct examination, during reoperation, or via histopathology or radiologic imaging (CT/ultrasound).
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600">3. Organ / Space SSI</td>
+        <td class="p-3">Involves <strong>any anatomic part deeper than the fascial/muscle layers</strong> that was opened or manipulated during surgery (e.g., peritoneal cavity, subhepatic space, joint space, mediastinum).</td>
+        <td class="p-3">
+          At least one of the following:<br>
+          &bull; Purulent drainage from an intra-abdominal or organ-space drain placed through a stab wound.<br>
+          &bull; Organisms isolated from an aseptically obtained fluid or tissue from the organ/space.<br>
+          &bull; An abscess or evidence of organ/space infection seen on imaging (e.g., subdiaphragmatic or pelvic abscess on CT scan), histopathologic examination, or re-laparotomy.
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<strong>3. Evidence-Based SSI Prevention Bundles (WHO / CDC Guidelines):</strong>
-Prevention relies on executing a multimodal bundle of care across three chronological surgical phases:
-<ol>
-  <li><strong>Pre-operative Phase Interventions:</strong>
-    <ul>
-      <li><strong>Preoperative Bathing:</strong> Patient should bathe or shower with antimicrobial soap (Chlorhexidine gluconate) or plain soap the evening before or morning of surgery.</li>
-      <li><strong>Hair Removal Policy:</strong> <strong>Routine hair removal is strongly discouraged.</strong> If hair interferes with the incision, remove immediately before surgery using <strong>electric clippers with a single-use head</strong>. <em>Shaving with a razor blade is strictly prohibited</em> because micro-abrasions promote bacterial colonization and double the SSI rate.</li>
-      <li><strong>Surgical Antibiotic Prophylaxis (SAP):</strong> Administer an appropriate IV antibiotic (e.g., IV Cefuroxime 1.5 g &plusmn; Metronidazole 500 mg) <strong>within 60 minutes prior to surgical skin incision</strong> (within 120 mins for vancomycin/fluoroquinolones). Re-dose if surgery exceeds two antibiotic half-lives or blood loss exceeds 1500 mL. <strong>Discontinue within 24 hours post-operatively</strong> (prolonged postoperative antibiotics do NOT prevent SSI and breed multidrug resistance).</li>
-    </ul>
-  </li>
-  <li><strong>Intra-operative Phase Interventions:</strong>
-    <ul>
-      <li><strong>Surgical Hand Preparation:</strong> Scrub with antimicrobial soap and water for 3-5 minutes, or use alcohol-based surgical hand rub.</li>
-      <li><strong>Surgical Skin Antisepsis:</strong> Prepare patient's skin using an <strong>alcohol-based Chlorhexidine gluconate (2% CHG in 70% isopropyl alcohol)</strong> solution (superior to povidone-iodine; provides sustained residual bactericidal activity).</li>
-      <li><strong>Maintenance of Intraoperative Normothermia:</strong> Maintain core body temperature <strong>&gt; 36.0&deg;C</strong> using active warming blankets and warmed IV fluids (hypothermia induces cutaneous vasoconstriction, reduces tissue oxygen tension, and impairs neutrophil oxidative killing).</li>
-      <li><strong>Perioperative Glycemic Control:</strong> Maintain blood glucose <strong>&lt; 10.0 mmol/L (180 mg/dL)</strong> using insulin protocols in all patients.</li>
-      <li><strong>Optimized Tissue Oxygenation:</strong> Administer 80% inspired oxygen (FiO2 0.8) during surgery and for 2-6 hours postoperatively in intubated patients.</li>
-      <li><strong>Wound Protector Devices:</strong> Dual-ring wound protectors in clean-contaminated and contaminated abdominal surgeries; change gloves and surgical instruments before abdominal wall closure.</li>
-    </ul>
-  </li>
-  <li><strong>Post-operative Phase Interventions:</strong>
-    <ul>
-      <li>Keep the primary surgical dressing intact and sterile for the <strong>first 48 hours</strong> postoperatively unless leakage or fever develops.</li>
-      <li>Strict hand hygiene compliance before and after dressing changes.</li>
-    </ul>
-  </li>
-</ol>
+<br><strong>3. Evidence-Based SSI Prevention Bundles (WHO, CDC & NICE Guidelines):</strong><br>
+Preventative interventions are executed systematically across the perioperative timeline:
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">Perioperative Phase</th>
+        <th class="p-3 font-semibold">Evidence-Based Bundle Intervention</th>
+        <th class="p-3 font-semibold">Clinical Specifics & Target Goals</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold text-blue-600" rowspan="3">Pre-Operative Care</td>
+        <td class="p-3 font-medium">Antiseptic Skin Cleansing & Bathing</td>
+        <td class="p-3">Preoperative full-body bath or shower with soap or Chlorhexidine Gluconate (CHG) the evening before and morning of surgery.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>No Hair Shaving (Use Clippers Only)</strong></td>
+        <td class="p-3"><strong>Razors/shaving are strictly prohibited!</strong> (Razors produce microscopic epidermal abrasions that colonize bacteria). If hair interferes with the field, remove immediately before surgery using an <strong>electric surgical clipper with a single-use disposable head</strong>.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Surgical Antibiotic Prophylaxis (SAP)</strong></td>
+        <td class="p-3">
+          &bull; <strong>Timing:</strong> Administer within <strong>60 minutes prior to surgical skin incision</strong> (or within 120 min for Vancomycin / Fluoroquinolones) to achieve peak bactericidal tissue concentrations.<br>
+          &bull; <strong>Re-dosing:</strong> Re-dose intraoperatively if surgery exceeds two drug half-lives (e.g., &gt; 3-4 hrs for Cefazolin) or massive blood loss (&gt; 1,500 mL).<br>
+          &bull; <strong>Duration:</strong> Discontinue within <strong>24 hours post-op</strong> (single pre-op dose is sufficient for most clean-contaminated cases).
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold text-amber-600" rowspan="3">Intra-Operative Care</td>
+        <td class="p-3 font-medium">Alcohol-Based Chlorhexidine Skin Preparation</td>
+        <td class="p-3">Surgical site preparation using <strong>2% Chlorhexidine Gluconate in 70% Isopropyl Alcohol</strong> (significantly superior to aqueous povidone-iodine). Allow to dry completely for &ge; 3 minutes to avoid surgical drape flash fires.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Maintenance of Normothermia</strong></td>
+        <td class="p-3">Maintain core body temperature <strong>&ge; 36.0&deg;C</strong> using forced-air active warming blankets and warmed IV fluids (hypothermia triggers peripheral vasoconstriction, impairs neutrophil oxidative killing, and increases bleeding).</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Perioperative Glycemic Control</strong></td>
+        <td class="p-3">Maintain target blood glucose <strong>&lt; 10.0 mmol/L (&lt; 180 mg/dL)</strong> in both diabetic and non-diabetic patients. (Hyperglycemia paralyzes leukocyte phagocytic capacity).</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold text-emerald-600">Post-Operative Care</td>
+        <td class="p-3 font-medium">Aseptic Wound Dressing Care</td>
+        <td class="p-3">Keep sterile surgical dressing undisturbed for the first <strong>48 hours</strong> postoperatively unless leakage or contamination occurs; perform hand hygiene and use aseptic no-touch technique for dressing changes.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -71702,24 +71736,132 @@ Prevention relies on executing a multimodal bundle of care across three chronolo
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট ও পরীক্ষার বুলেট পয়েন্ট:</strong>
-<ul>
-  <li><strong>Surgical Site Infection (SSI) এর ৩টি শ্রেণি:</strong>
-    <ol>
-      <li><strong>Superficial:</strong> কেবল চামড়া ও নিচের সাবকিউটেনিয়াস ফ্যাট ইনফেকশন হওয়া।</li>
-      <li><strong>Deep:</strong> পেটের পেশি ও ফাসা (Fascia/Muscle) ইনফেকশন হওয়া।</li>
-      <li><strong>Organ / Space:</strong> অপারেশনের ভেতরের খালি জায়গায় পুঁজ হওয়া (যেমন পেটের ভেতরে সাবফ্রেনিক অ্যাবসেস বা পেলভিক অ্যাবসেস)।</li>
-    </ol>
+              <div class="space-y-4">
+
+<div class="callout-blue">
+<h3 class="font-bold text-lg mb-2">📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)</h3>
+
+<strong>১. সার্জিক্যাল সাইট ইনফেকশন (SSI) পরিচিতি ও সংজ্ঞা:</strong><br>
+সার্জিক্যাল সাইট ইনফেকশন (SSI) হলো অপারেশনের পর কাটা স্থানে বা অপারেশনের সাথে সম্পর্কিত কোনো অঙ্গের ভেতরে রোগজীবাণুর সংক্রমণ। আন্তর্জাতিক CDC গাইডলাইন অনুযায়ী:
+<br>&bull; সাধারণ সার্জারির পর কাটা স্থানে <strong>৩০ দিনের মধ্যে</strong> ইনফেকশন হলে; অথবা
+<br>&bull; রোগীর শরীরে কোনো কৃত্রিম ইমপ্লান্ট বা কৃত্রিম উপাদান (যেমন: হার্নিয়ার মেশ, কৃত্রিম জয়েন্ট, ভাস্কুলার গ্রাফ্ট ইত্যাদি) বসানো হলে <strong>৯০ দিনের মধ্যে</strong> ইনফেকশন হলে তাকে SSI বলা হয়।
+
+<br><br><strong>২. অ্যানাটমিক্যাল শ্রেণিবিভাগ (CDC / NHSN Classification):</strong><br>
+সংক্রমণের গভীরতার ওপর ভিত্তি করে SSI-কে ৩টি ভাগে ভাগ করা হয়:
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">শ্রেণিবিভাগ</th>
+        <th class="p-3 font-semibold">আক্রান্ত টিস্যুর স্তর</th>
+        <th class="p-3 font-semibold">ডায়াগনস্টিক মানদণ্ড ও লক্ষণসমূহ</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-blue-600">১. সুপারফিশিয়াল ইনসিশনাল SSI<br><span class="text-xs font-normal text-slate-500">(Superficial Incisional)</span></td>
+        <td class="p-3">শুধুমাত্র <strong>ত্বক (Skin) এবং সাবকিউটেনিয়াস ফ্যাট</strong> স্তরে সীমাবদ্ধ (৩০ দিনের মধ্যে)।</td>
+        <td class="p-3">
+          নিচের যে কোনো একটি:<br>
+          &bull; সেলাইয়ের মুখ থেকে পুঁজ বের হওয়া।<br>
+          &bull; ফ্লুইড কালচারে ব্যাক্টেরিয়া পাওয়া।<br>
+          &bull; কাটা স্থান লাল হওয়া (Erythema), ফুলে যাওয়া, তীব্র ব্যথা বা গরম হওয়া এবং সার্জন কর্তৃক সেলাই আলগা করে দেওয়া।
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-amber-600">২. ডিপ ইনসিশনাল SSI<br><span class="text-xs font-normal text-slate-500">(Deep Incisional)</span></td>
+        <td class="p-3">ত্বক ভেদ করে নিচের <strong>ডিপ ফ্যাসিয়া (Fascia) এবং মাংসপেশির স্তর (Muscle)</strong> পর্যন্ত বিস্তৃত।</td>
+        <td class="p-3">
+          &bull; ফ্যাসিয়াল স্তরের গভীর থেকে পুঁজ বের হওয়া।<br>
+          &bull; সেলাই নিজে থেকেই ফেটে যাওয়া (Dehiscence) সাথে জ্বর (&gt; ৩৮&deg;C) বা তীব্র ব্যথা।<br>
+          &bull; সিটি স্ক্যান বা সরাসরি অপারেশনে ডিপ টিস্যুতে ফোড়া (Abscess) পাওয়া।
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600">৩. অর্গান / স্পেস SSI<br><span class="text-xs font-normal text-slate-500">(Organ / Space SSI)</span></td>
+        <td class="p-3">মাংসপেশির গভীরে থাকা <strong>শরীরের ভেতরের কোনো অঙ্গ বা ফাঁকা গহ্বর</strong> (যেমন: পেরিটোনিয়াল ক্যাভিটি, সাবহেপাটিক স্পেস, পেলভিস, জয়েন্ট স্পেস)।</td>
+        <td class="p-3">
+          &bull; পেটের ভেতর ড্রেন টিউব দিয়ে পুঁজ বের হওয়া।<br>
+          &bull; পেটের ভেতরের ফ্লুইড কালচারে ব্যাক্টেরিয়া পাওয়া।<br>
+          &bull; আল্ট্রাসাউন্ড বা সিটি স্ক্যানে পেটের ভেতরে বা কোনো অঙ্গে ফোড়া (Intra-abdominal Abscess) ধরা পড়া।
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><strong>৩. সংক্রমণ প্রতিরোধের আধুনিক প্রোটোকল বা প্রিভেনশন বান্ডেল (SSI Prevention Bundles):</strong><br>
+অপারেশনের আগে, চলাকালীন এবং পরে সুনির্দিষ্ট নিয়ম মানা বাধ্যতামূলক:
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">ধাপ</th>
+        <th class="p-3 font-semibold">প্রমাণভিত্তিক প্রতিরোধমূলক পদক্ষেপ</th>
+        <th class="p-3 font-semibold">সুনির্দিষ্ট ক্লিনিক্যাল নিয়ম ও লক্ষ্যমাত্রা</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold text-blue-600" rowspan="3">অপারেশনের পূর্বে (Pre-operative)</td>
+        <td class="p-3 font-medium">অ্যান্টিসেপটিক গোসল</td>
+        <td class="p-3">অপারেশনের আগের রাতে এবং সকালে ক্লোরহেক্সিডিন সাবান বা সাধারণ সাবান দিয়ে রোগীকে ভালোভাবে গোসল করানো।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>ব্লেড দিয়ে লোম কামানো সম্পূর্ণ নিষেধ!</strong></td>
+        <td class="p-3"><strong>রেজর বা ব্লেড দিয়ে শেভ করা সম্পূর্ণ নিষিদ্ধ!</strong> কারণ রেজরে ত্বকে সূক্ষ্ম খাঁজ বা ক্ষত তৈরি হয় যা জীবাণুর বাসা বানায়। লোম বেশি থাকলে অপারেশনের ঠিক পূর্বে <strong>ইলেকট্রিক ক্লিপার (Electric Clipper)</strong> দিয়ে ছেঁটে দিতে হবে।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>প্রোফাইল্যাকটিক অ্যান্টিবায়োটিকের সঠিক সময়</strong></td>
+        <td class="p-3">
+          &bull; চামড়া কাটার ঠিক <strong>৬০ মিনিট পূর্বে (Within 60 min before skin incision)</strong> শিরাপথে ইনজেকশন দিতে হবে (অপারেশন শেষ হওয়ার পর অ্যান্টিবায়োটিক দেওয়ার কোনো যৌক্তিকতা নেই)।<br>
+          &bull; অপারেশন ৩ ঘণ্টার বেশি দীর্ঘ হলে মাঝপথে দ্বিতীয় ডোজ দিতে হবে।<br>
+          &bull; অপারেশনের ২৪ ঘণ্টার মধ্যে এই প্রোফাইল্যাকটিক অ্যান্টিবায়োটিক বন্ধ করে দিতে হবে।
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold text-amber-600" rowspan="3">অপারেশন চলাকালীন (Intra-operative)</td>
+        <td class="p-3 font-medium">ক্লোরহেক্সিডিন স্কিন প্রিপারেশন</td>
+        <td class="p-3">কাটার স্থান জীবাণুমুক্ত করতে <strong>২% Chlorhexidine Gluconate ও ৭০% অ্যালকোহল</strong> ব্যবহার করা পোভিডন আয়োডিনের চেয়ে দ্বিগুণ কার্যকর।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>শরীরের তাপমাত্রা স্বাভাবিক রাখা (Normothermia)</strong></td>
+        <td class="p-3">রোগীর তাপমাত্রা <strong>&ge; ৩৬.০&deg;C</strong>-এ রাখতে ওয়ার্মিং কম্বল ও গরম স্যালাইন ব্যবহার করতে হবে (হাইপোথার্মিয়া রক্তনালী সংকুচিত করে সংক্রমণ ৩ গুণ বাড়ায়)।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>রক্তে সুগার নিয়ন্ত্রণ</strong></td>
+        <td class="p-3">ডায়াবেটিক ও নন-ডায়াবেটিক উভয় রোগীর ক্ষেত্রে অপারেশন চলাকালীন সুগার <strong>&lt; ১০.০ mmol/L</strong>-এর নিচে রাখতে হবে।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold text-emerald-600">অপারেশনের পরে (Post-operative)</td>
+        <td class="p-3 font-medium">সেলাইয়ের ড্রেসিং পরিচর্যা</td>
+        <td class="p-3">অপারেশনের পর প্রথম <strong>৪৮ ঘণ্টা সেলাইয়ের ড্রেসিং খোলা যাবে না</strong> (৪৮ ঘণ্টার মধ্যে ত্বকের এপিথেলিয়াম জোড়া লেগে প্রাকৃতিক সিল তৈরি হয়)। ড্রেসিং পরিবর্তন করলে জীবাণুমুক্ত নো-টাচ টেকনিক মানতে হবে।</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="callout-amber">
+<h3 class="font-bold text-lg mb-2">💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)</h3>
+
+<ul class="list-disc pl-5 space-y-3">
+  <li><strong>অপারেশনের আগের রাতে রেজর দিয়ে শেভ করলে কী বিপদ ঘটে?</strong>
+    <br>এটি ভাইভাতে অত্যন্ত কমন সার্জিক্যাল প্রশ্ন!
+    <br>উত্তর: রেজর দিয়ে কামালে ত্বকের এপিডার্মিসে অসংখ্য আণুবীক্ষণিক কাটাছেঁড়া (Micro-abrasions) তৈরি হয়। অপারেশনের আগের রাতে শেভ করলে সারারাত ধরে এই খাঁজগুলোতে রোগীর নিজস্ব ত্বকের <strong>Staphylococcus aureus</strong> ব্যাক্টেরিয়া বহুগুণে বংশবৃদ্ধি করে কলোনি তৈরি করে। ফলে অপারেশনের পর সেলাইয়ে ভয়াবহ ইনফেকশন হয়। তাই আন্তর্জাতিক নিয়মে রেজর সম্পূর্ণ বাতিল করে <strong>অপারেটিং রুমের ভেতর ডিসপোজেবল ক্লিপার</strong> দিয়ে চুল ছাঁটার নির্দেশ দেওয়া হয়েছে।
   </li>
-  <li><strong>SSI প্রতিরোধের আন্তর্জাতিক বান্ডেল (WHO Bundle):</strong>
-    <ul>
-      <li><strong>চুল কাটার নিয়ম:</strong> ব্লেড বা রেজার দিয়ে শেভ করা সম্পূর্ণ নিষিদ্ধ! কারণ এতে চামড়া কেটে গিয়ে ইনফেকশন দ্বিগুণ বাড়ে। প্রয়োজনে অপারেশনের ঠিক আগে <em>Electric Clipper</em> দিয়ে চুল ট্রিম করতে হবে।</li>
-      <li><strong>প্রোফাইল্যাক্টিক অ্যান্টিবায়োটিক:</strong> চামড়া কাটার (Skin incision) <strong>ঠিক ৬০ মিনিটের মধ্যে</strong> দিতে হবে। এবং অপারেশন শেষ হওয়ার ২৪ ঘণ্টার মধ্যে অ্যান্টিবায়োটিক বন্ধ করতে হবে (অতিরিক্ত দিন অ্যান্টিবায়োটিক চালালে কোনো লাভ হয় না)।</li>
-      <li><strong>চামড়া জীবাণুমুক্তকরণ:</strong> পোভিডন আয়োডিনের চেয়ে <em>Alcoholic Chlorhexidine (2%)</em> অনেক বেশি কার্যকর।</li>
-      <li><strong>অপারেশনের সময় শরীর গরম রাখা:</strong> তাপমাত্রা &gt; ৩৬ ডিগ্রি সেলসিয়াসের উপরে এবং ব্লাড সুগার ১০ mmol/L এর নিচে রাখতে হবে।</li>
-    </ul>
+  <li><strong>প্রোফাইল্যাকটিক অ্যান্টিবায়োটিক কেন চামড়া কাটার ৬০ মিনিট আগেই দিতে হয়?</strong>
+    <br>সার্জন যখন ছুরি দিয়ে চামড়া কাটেন, তখন রক্তনালী কেটে যায় এবং রক্তপাত হয়। ছুরির প্রথম স্পর্শের সময়ই কাটা টিস্যুর ভেতর অ্যান্টিবায়োটিকের সর্বোচ্চ ঘনত্ব (Peak bactericidal tissue level) বজায় থাকতে হবে যাতে বাতাস বা ত্বকের ব্যাক্টেরিয়া পড়ার সাথে সাথে মারা যায়। চামড়া কাটার পর বা অপারেশন শেষে অ্যান্টিবায়োটিক পুশ করলে ইনফেকশন প্রতিরোধে কোনো কাজই হয় না।
+  </li>
+  <li><strong>অপারেশনের ক্ষত থেকে দুর্গন্ধযুক্ত পুঁজ বের হলে তাৎক্ষণিক কাজ কী?</strong>
+    <br>অ্যান্টিবায়োটিক পরিবর্তন করার চেয়ে অনেক বেশি জরুরি হলো: <strong>সেলাইয়ের কয়েকটি স্টিচ বা ক্লিপ কেটে মুখ ফাঁক করে জমে থাকা পুঁজ দ্রুত বের করে দেওয়া (Drainage of pus)</strong> এবং হাইড্রোজেন পারঅক্সাইড/নরমাল স্যালাইন দিয়ে ড্রেসিং করা। কারণ: সার্জারির মূল নীতি হলো "Ubi pus, ibi evacua" (যেখানে পুঁজ, সেখানেই নিষ্কাশন করো)!
   </li>
 </ul>
+</div>
+
+</div>
             </div>
           </div>
         </article>
@@ -71801,72 +71943,100 @@ Prevention relies on executing a multimodal bundle of care across three chronolo
 </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Pre-operative Assessment & Optimization:</strong>
-Surgical stress, anesthetic agents, and post-traumatic endocrine responses elicit a surge of counter-regulatory hormones (cortisol, epinephrine, glucagon, growth hormone), inducing severe insulin resistance, hyperglycemia, impaired phagocytosis, delayed wound healing, and risk of hyperosmolar crises.
-<ul>
-  <li><strong>Glycemic Target:</strong> Optimal target <strong>HbA1c &lt; 8.0% (64 mmol/mol)</strong>. If HbA1c &gt; 9-10% in elective surgery, postpone procedure for 2-4 weeks for glycemic optimization with endocrinology consult.</li>
-  <li><strong>Screening for Diabetic End-Organ Triopathy:</strong>
-    <br>• <strong>Cardiovascular:</strong> 12-lead ECG and echocardiography (silent myocardial ischemia occurs frequently due to cardiac autonomic neuropathy).
-    <br>• <strong>Renal:</strong> Serum creatinine, electrolytes, and eGFR (high risk of acute kidney injury from hypovolemia or radiocontrast).
-    <br>• <strong>Autonomic Neuropathy:</strong> Diabetic gastroparesis delays gastric emptying; consider patient as having a <strong>"full stomach"</strong> regardless of fasting duration &rarr; rapid sequence induction (RSI) with cricoid pressure to prevent aspiration. Orthostatic hypotension predisposes to profound intraoperative hypotension.
+              <strong>1. Overview & Surgical Stress Pathophysiology:</strong><br>
+Major abdominal surgery incites an intense neuroendocrine catabolic stress response characterized by surges in counter-regulatory hormones (cortisol, epinephrine, norepinephrine, glucagon, and growth hormone) alongside relative insulin deficiency. This accelerates hepatic gluconeogenesis and glycogenolysis while inducing peripheral insulin resistance. Uncontrolled perioperative hyperglycemia paralyzes polymorphonuclear neutrophil chemotaxis and phagocytosis (increasing SSI risk 3- to 5-fold), precipitates osmotic diuresis (hypovolemia and acute electrolyte collapse), impairs collagen cross-linking (delayed wound healing/wound dehiscence), and significantly elevates perioperative cardiovascular mortality.
+
+<br><br><strong>2. Pre-operative Assessment & Optimization (Outpatient / Pre-Admission Phase):</strong><br>
+Comprehensive assessment evaluates both glycemic control and multi-system end-organ damage:
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>Glycemic Assessment:</strong>
+    <br>&bull; Measure <strong>HbA1c</strong> within 2 to 3 months prior to surgery. Target is <strong>&lt; 8.0% (64 mmol/mol)</strong> (ideally &lt; 7.0-7.5% for elective surgery).
+    <br>&bull; If HbA1c is &gt; 8.5% to 9.0%, postpone elective major abdominal surgery for 2 to 4 weeks to optimize glycemic control, unless oncological urgency dictates otherwise.
   </li>
-  <li><strong>Surgical Scheduling:</strong> Schedule the patient as the <strong>first case on the morning operating list</strong> to minimize fasting duration.</li>
+  <li><strong>Screening for Diabetic End-Organ Complications:</strong>
+    <br>&bull; <strong>Cardiovascular Evaluation:</strong> Diabetic patients frequently suffer from <strong>silent myocardial ischemia</strong> due to cardiac autonomic neuropathy. Perform resting 12-lead ECG; evaluate for orthostatic hypotension and loss of resting sinus arrhythmia. Order echocardiogram if dyspnea or known ischemic heart disease is present.
+    <br>&bull; <strong>Renal Function:</strong> Serum creatinine, eGFR, and electrolytes (assess diabetic nephropathy; assess risk of post-operative acute kidney injury and contrast-induced nephropathy).
+    <br>&bull; <strong>Autonomic Neuropathy & Gastroparesis:</strong> Diabetic gastroparesis severely delays gastric emptying, carrying an extreme risk of <strong>pulmonary aspiration during anesthetic induction</strong>. (Requires prolonged preoperative fasting, preoperative prokinetics [Metoclopramide], and Rapid Sequence Induction [RSI] with cricoid pressure).
+  </li>
 </ul>
 
-<strong>2. Medication Adjustments Prior to Surgery:</strong>
-<div class="overflow-x-auto my-2">
-<table class="min-w-full text-xs border border-slate-300">
-  <tr class="bg-slate-100">
-    <th class="p-1 border">Antidiabetic Agent</th>
-    <th class="p-1 border">Pre-operative Timing Action</th>
-    <th class="p-1 border">Rationale & Risk Prevented</th>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">Metformin</td>
-    <td class="p-1 border">Omit on morning of surgery; stop <strong>24 to 48 hours prior</strong> if major surgery with risk of hypoperfusion, sepsis, or IV contrast.</td>
-    <td class="p-1 border">Prevents fatal <strong>Lactic Acidosis</strong> in the setting of perioperative renal hypoperfusion.</td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">SGLT2 Inhibitors (Empagliflozin, Dapagliflozin)</td>
-    <td class="p-1 border"><strong>Discontinue 3 to 4 days prior</strong> to major surgery.</td>
-    <td class="p-1 border">Prevents catastrophic <strong>Euglycemic Diabetic Ketoacidosis (euDKA)</strong> triggered by surgical starvation.</td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">Sulfonylureas (Gliclazide, Glimepiride)</td>
-    <td class="p-1 border">Omit the dose on the morning of surgery while fasting.</td>
-    <td class="p-1 border">Prevents severe, unmonitored intraoperative hypoglycemia.</td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">GLP-1 Receptor Agonists (Semaglutide, Liraglutide)</td>
-    <td class="p-1 border">Hold weekly dose 1 week prior; daily dose on day of surgery.</td>
-    <td class="p-1 border">Markedly slows gastric emptying; increases risk of pulmonary aspiration during induction.</td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">Basal Insulin (Glargine / Degludec)</td>
-    <td class="p-1 border">Administer <strong>75 to 80% (reduce by 20-25%)</strong> of regular evening or morning dose.</td>
-    <td class="p-1 border">Maintains basal suppression of lipolysis and ketogenesis without causing hypoglycemia.</td>
-  </tr>
-</table>
+<br><strong>3. Perioperative Antidiabetic Medication Adjustments:</strong><br>
+Standard medications must be systematically modified to prevent intraoperative hypoglycemia or metabolic acidosis:
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">Medication Class</th>
+        <th class="p-3 font-semibold">Specific Drugs</th>
+        <th class="p-3 font-semibold">Perioperative Adjustment Schedule</th>
+        <th class="p-3 font-semibold">Rationale & Clinical Risk</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600">Biguanides</td>
+        <td class="p-3">Metformin</td>
+        <td class="p-3 font-semibold text-rose-600">Omit on the morning of surgery (withhold 24-48 hrs prior if eGFR &lt; 45 or IV contrast planned).</td>
+        <td class="p-3">Prevents fatal <strong>Lactic Acidosis</strong> in the setting of intraoperative hypoperfusion, hypotension, or renal impairment.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600">SGLT2 Inhibitors</td>
+        <td class="p-3">Empagliflozin, Dapagliflozin</td>
+        <td class="p-3 font-bold text-rose-600">Discontinue 3 to 4 days prior to surgery!</td>
+        <td class="p-3">Prevents life-threatening <strong>Euglycemic Diabetic Ketoacidosis (euDKA)</strong> triggered by surgical starvation and stress with normal blood glucose levels!</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-amber-600">Sulfonylureas</td>
+        <td class="p-3">Glimepiride, Gliclazide</td>
+        <td class="p-3">Omit on the morning of surgery while fasting.</td>
+        <td class="p-3">Prevents severe intraoperative hypoglycemia during fasting.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold">DPP-4 Inhibitors</td>
+        <td class="p-3">Linagliptin, Sitagliptin</td>
+        <td class="p-3">Omit on the morning of surgery.</td>
+        <td class="p-3">Low hypoglycemia risk; resume once eating normally.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold">GLP-1 Receptor Agonists</td>
+        <td class="p-3">Semaglutide, Liraglutide</td>
+        <td class="p-3">Withhold for 1 week prior (for weekly formulations).</td>
+        <td class="p-3">Delays gastric emptying; prevents pulmonary aspiration during anesthesia.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-blue-600">Basal Subcutaneous Insulin</td>
+        <td class="p-3">Glargine, Degludec, NPH</td>
+        <td class="p-3">Reduce evening dose by <strong>20% to 30%</strong> (give 70-80% of normal dose) on night before surgery.</td>
+        <td class="p-3">Prevents nocturnal and fasting hypoglycemia while maintaining basal suppression of lipolysis.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<strong>3. Intraoperative & Postoperative Glycemic Protocol (Major Abdominal Surgery):</strong>
-Because major abdominal surgery involves prolonged fasting (&gt; 1 missed meal), oral intake cannot be resumed immediately:
-<ul>
-  <li><strong>Variable Rate Intravenous Insulin Infusion (VRIII) / Alberti GKI Regimen:</strong>
-    <br>• <strong>Substrate Line:</strong> Infuse <strong>5% Dextrose with 0.45% Saline + 10-20 mmol KCl per Liter</strong> at a steady maintenance rate of 100 mL/hour to provide steady calories and prevent hypokalemia.
-    <br>• <strong>Insulin Line:</strong> Infuse Regular (soluble) Actrapid insulin (50 units in 50 mL 0.9% normal saline via syringe driver pump).
+<br><strong>4. Intra-operative Management: The Variable Rate IV Insulin Infusion (VRIII):</strong><br>
+Major abdominal operations (e.g., gastrectomy, hemicolectomy, Whipple's) involve prolonged fasting (&gt; 1 missed meal). Management is governed by the <strong>Variable Rate Intravenous Insulin Infusion (VRIII / Sliding Scale)</strong>:
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>Scheduling:</strong> Always schedule the patient as the <strong>first case on the morning operating list (8:00 AM)</strong> to minimize starvation time.</li>
+  <li><strong>VRIII Formulation & Setup:</strong>
+    <br>&bull; Insulin line: <strong>50 units of Regular Soluble Human Insulin (Actrapid) in 50 mL 0.9% Normal Saline</strong> (concentration: 1 unit/mL) via syringe infusion pump.
+    <br>&bull; Substrate line (Co-infusion): Run a simultaneous parallel IV infusion of <strong>5% Dextrose in 0.45% Saline + 20 mmol KCl</strong> at 100 mL/hour. (This provides steady basal carbohydrate substrate to suppress ketogenesis and prevents hypokalemia driven by insulin).
   </li>
-  <li><strong>Intraoperative Sliding Scale (Hourly Capillary Blood Glucose Monitoring):</strong>
-    <br>• Target Blood Glucose Range: <strong>7.8 to 10.0 mmol/L (140 to 180 mg/dL)</strong>.
-    <br>• Glucose &lt; 4.0 mmol/L: Stop insulin, give 50 mL 20% Dextrose bolus, recheck in 15 mins.
-    <br>• Glucose 4.0 - 7.7 mmol/L: Insulin infusion at 0.5 - 1.0 unit/hour.
-    <br>• Glucose 7.8 - 10.0 mmol/L: Insulin infusion at 1.5 - 2.0 units/hour.
-    <br>• Glucose 10.1 - 13.0 mmol/L: Insulin infusion at 2.5 - 3.0 units/hour.
-    <br>• Glucose &gt; 13.0 mmol/L: Insulin infusion at 4.0 units/hour &plusmn; 2 unit IV bolus.
+  <li><strong>Target Intraoperative Blood Glucose Window:</strong>
+    <br>Maintain blood glucose strictly between <strong>6.0 to 10.0 mmol/L (110 to 180 mg/dL)</strong>. (Tolerate up to 12.0 mmol/L; avoid &lt; 4.0 mmol/L [hypoglycemia] and &gt; 12.0 mmol/L [catabolism/infection]).
   </li>
-  <li><strong>Transition to Subcutaneous Insulin / Oral Agents Postoperatively:</strong>
-    <br>Continue VRIII until the patient tolerates oral nutrition (passage of flatus, bowel sounds active). Administer subcutaneous basal insulin <strong>1 to 2 hours before discontinuing the IV insulin infusion</strong> to prevent rebound hyperglycemia and acute ketosis.</li>
+  <li><strong>Hourly Capillary Blood Glucose (CBG) Monitoring & Titration:</strong>
+    <br>&bull; CBG &lt; 4.0 mmol/L: Stop insulin, give 100 mL of 10% Dextrose bolus; recheck in 15 min.
+    <br>&bull; CBG 4.1 to 7.0 mmol/L: Infuse insulin at 0.5 to 1.0 unit/hour.
+    <br>&bull; CBG 7.1 to 9.0 mmol/L: Infuse insulin at 1.5 to 2.0 units/hour.
+    <br>&bull; CBG 9.1 to 11.0 mmol/L: Infuse insulin at 2.5 to 3.0 units/hour.
+    <br>&bull; CBG &gt; 11.0 mmol/L: Infuse insulin at 4.0 to 6.0 units/hour.
+  </li>
 </ul>
+
+<br><strong>5. Postoperative Transition Protocol:</strong><br>
+Continue VRIII postoperatively until the patient is awake, extubated, bowel motility returns, and the patient tolerates a solid meal.
+<br><strong>The Golden Rule of Transition:</strong> Administer the patient's usual subcutaneous basal insulin (or dose of fast-acting insulin) <strong>30 to 60 minutes BEFORE stopping the IV insulin infusion</strong>. Abrupt cessation of IV insulin without subcutaneous overlap triggers immediate rebound hyperglycemia and diabetic ketoacidosis due to the ultra-short half-life of IV insulin (5 minutes)!
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -71874,26 +72044,99 @@ Because major abdominal surgery involves prolonged fasting (&gt; 1 missed meal),
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট ও পরীক্ষার গোল্ডেন পয়েন্ট:</strong>
-<ul>
-  <li><strong>অপারেশনের আগের প্রস্তুতি:</strong>
-    <ul>
-      <li>ডায়াবেটিস রোগীর অপারেশনের আগের দিন <strong>HbA1c &lt; 8%</strong> থাকা ভালো। খুব বেশি থাকলে রুটিন অপারেশন পিছিয়ে দিতে হয়।</li>
-      <li>রোগীকে সকালের ওটি লিস্টের <strong>সবার প্রথমে (১ম কেস)</strong> রাখতে হবে যাতে দীর্ঘক্ষণ না খেয়ে থাকতে না হয়।</li>
-      <li>সাইলেন্ট হার্ট অ্যাটাকের ঝুঁকি থাকায় বাধ্যতামূলক <strong>ECG</strong> করতে হবে এবং কিডনি ফাংশন দেখতে হবে। গ্যাস্ট্রোপ্যারোসিস থাকায় পেট ভরা ধরে নিয়ে অ্যানেসথেসিয়া দিতে হয়।</li>
-    </ul>
+              <div class="space-y-4">
+
+<div class="callout-blue">
+<h3 class="font-bold text-lg mb-2">📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)</h3>
+
+<strong>১. সার্জারিতে ডায়াবেটিস রোগীর প্যাথোফিজিওলজি ও জটিলতা:</strong><br>
+পেটের বড় অপারেশনের সময় সার্জিক্যাল ট্রমা ও অ্যানেস্থেসিয়ার কারণে শরীরে স্ট্রেস হরমোন (কর্টিসল, অ্যাড্রিনালিন ও গ্লুকাগন) তীব্রভাবে বৃদ্ধি পায়। ফলে রক্তে মারাত্মক ইনসুলিন রেজিস্ট্যান্স ও সুগার বেড়ে যায়। রক্তে সুগার অনিয়ন্ত্রিত থাকলে শ্বেতরক্তকণিকার কার্যক্ষমতা নষ্ট হয়ে সার্জিক্যাল সাইট ইনফেকশন (SSI) ৩ থেকে ৫ গুণ বেড়ে যায়, অপারেশনের কাটা স্থানের জোড়া লাগা ব্যাহত হয় এবং হার্ট অ্যাটাকের ঝুঁকি মারাত্মক বৃদ্ধি পায়।
+
+<br><br><strong>২. অপারেশনের পূর্বে মূল্যায়ন ও প্রস্তুতি (Pre-operative Assessment):</strong>
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>১. সুগার নিয়ন্ত্রণের মাত্রা (HbA1c):</strong>
+    <br>অপারেশনের পূর্বে রক্তের <strong>HbA1c &lt; ৮.০%</strong> এর মধ্যে থাকতে হবে (আদর্শ মান &lt; ৭.৫%)। ৮.৫% বা ৯.০%-এর বেশি থাকলে জরুরি ক্যান্সার সার্জারি ছাড়া সাধারণ রুটিন অপারেশন কয়েক সপ্তাহের জন্য পিছিয়ে সুগার নিয়ন্ত্রণ করতে হয়।
   </li>
-  <li><strong>ওষুধ বন্ধ করার নিয়ম (পরীক্ষায় খুব আসে):</strong>
-    <ol>
-      <li><strong>Metformin:</strong> অপারেশনের ২৪-৪৮ ঘণ্টা আগে বন্ধ করতে হবে (নাহলে <em>Lactic Acidosis</em> হতে পারে)।</li>
-      <li><strong>SGLT2i (Empagliflozin/Dapagliflozin):</strong> অপারেশনের <strong>৩-৪ দিন আগে</strong> বন্ধ করতে হবে (নাহলে ব্লাড সুগার নরমাল রেখেও মারাত্মক <em>Euglycemic DKA</em> হতে পারে)।</li>
-      <li><strong>Sulfonylurea (Gliclazide):</strong> অপারেশনের দিন সকালে খাওয়া নিষেধ (অপারেশনের টেবিলে সুগার কমে যাওয়ার ঝুঁকি থাকে)।</li>
-    </ol>
-  </li>
-  <li><strong>বড় পেটের অপারেশনে ইনসুলিন প্রোটোকল:</strong>
-    <br>রোগী না খেয়ে থাকা অবস্থায় শিরায় <strong>১০% ডেক্সট্রোজ স্যালাইনের সাথে আলাদা সিরিঞ্জ পাম্প দিয়ে Regular Insulin (Actrapid)</strong> চালিয়ে সুগার <strong>৭.৮ থেকে ১০.০ mmol/L</strong> এর মধ্যে রাখতে হবে। মুখে ভাত বা খাবার খাওয়ার ১-২ ঘণ্টা আগে চামড়ার নিচে ইনসুলিন দিয়ে তবেই শিরার ইনসুলিন ড্রিপ বন্ধ করতে হবে।
+  <li><strong>২. জটিলতা ও অঙ্গের সক্ষমতা স্ক্রিনিং:</strong>
+    <br>&bull; <strong>নীরব হার্ট অ্যাটাক (Silent MI):</strong> ডায়াবেটিক নিউরোপ্যাথির কারণে রোগী কোনো বুকে ব্যথা অনুভব না করেই হার্ট অ্যাটাকে ভুগতে পারে। তাই ইসিজি (ECG) ও ইকোকার্ডিওগ্রাম বাধ্যতামূলক।
+    <br>&bull; <strong>কিডনির অবস্থা (Nephropathy):</strong> সিরাম ক্রিয়েটিনিন ও ইলেক্ট্রোলাইট পরীক্ষা করা।
+    <br>&bull; <strong>ডায়াবেটিক গ্যাস্ট্রোপ্যারেসিস (Gastroparesis):</strong> পাকস্থলীর নার্ভ দুর্বল থাকায় পেট খালি হতে অনেক দেরি হয়। ফলে অ্যানেস্থেসিয়ার সময় খাদ্যনালী দিয়ে খাবার ফুসফুসে ঢুকে মারাত্মক নিউমোনিয়া (Aspiration Pneumonitis) হতে পারে (তাই রোগীকে দীর্ঘক্ষণ অভুক্ত রাখতে হয় এবং মুখে নল পরানোর সময় বিশেষ সতর্কতা মানতে হয়)।
   </li>
 </ul>
+
+<br><strong>৩. ডায়াবেটিসের ওষুধ বন্ধ ও পরিবর্তনের নিয়মাবলী:</strong>
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">ওষুধের নাম</th>
+        <th class="p-3 font-semibold">অপারেশনের পূর্বে বন্ধ করার নিয়ম</th>
+        <th class="p-3 font-semibold">বন্ধ না করলে কী বিপদ ঘটবে?</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600">Metformin</td>
+        <td class="p-3 font-semibold text-rose-600">অপারেশনের দিন সকালে বন্ধ রাখতে হবে (কিডনি দুর্বল হলে ২৪-৪৮ ঘণ্টা পূর্বে)।</td>
+        <td class="p-3">অপারেশনের সময় রক্তচাপ কমলে বা কিডনি দুর্বল হলে রক্তে মারাত্মক <strong>ল্যাকটিক অ্যাসিডোসিস (Lactic Acidosis)</strong> হয়ে রোগী মারা যেতে পারে।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600">SGLT2 Inhibitors<br><span class="text-xs font-normal text-slate-500">(Empagliflozin, Dapagliflozin)</span></td>
+        <td class="p-3 font-bold text-rose-600">অপারেশনের ৩ থেকে ৪ দিন পূর্বে বন্ধ করতে হবে!</td>
+        <td class="p-3">রক্তে সুগার স্বাভাবিক থাকা সত্ত্বেও জীবনঘাতী <strong>ইউগ্লাইসেমিক ডিকেএ (Euglycemic DKA)</strong> হতে পারে!</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-amber-600">Sulfonylureas<br><span class="text-xs font-normal text-slate-500">(Glimepiride, Gliclazide)</span></td>
+        <td class="p-3">অপারেশনের দিন সকালে না খেয়ে থাকার সময় বন্ধ।</td>
+        <td class="p-3">অপারেশনের টেবিলে বিপজ্জনক হাইপোগ্লাইসেমিয়া হতে পারে।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-semibold text-blue-600">রাতের ইনসুলিন (Lantus/NPH)</td>
+        <td class="p-3">অপারেশনের আগের রাতে স্বাভাবিক ডোজের <strong>২০-৩০% কমিয়ে</strong> (৭০-৮০% ডোজ) দিতে হবে।</td>
+        <td class="p-3">রাতে না খেয়ে থাকার সময় সুগার অতিরিক্ত কমে যাওয়া রোধ করতে।</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><strong>৪. অপারেশন চলাকালীন শিরাপথে ইনসুলিন ইনফিউশন (VRIII / Sliding Scale):</strong><br>
+পেটের বড় অপারেশনের সময় রোগীকে না খেয়ে থাকতে হয়, তাই শিরায় ইনসুলিন ড্রিপ দিয়ে সুগার নিয়ন্ত্রণ করা হয়:
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>অপারেশনের সময়সূচি:</strong> ডায়াবেটিক রোগীর অপারেশন সবসময় <strong>সকালের প্রথম কেস (First case on morning list)</strong> হিসেবে রাখতে হবে।</li>
+  <li><strong>VRIII ইনসুলিন সেটআপ:</strong>
+    <br>&bull; ৫০ ইউনিট রেগুলার অ্যাক্ট্রাপিড ইনসুলিন ৫০ মিলি নরমাল স্যালাইনে মিশিয়ে সিরিঞ্জ পাম্প দিয়ে শিরায় চালানো (১ ইউনিট/মিলি)।
+    <br>&bull; সাথে আলাদা চ্যানেলে <strong>5% Dextrose + 0.45% Saline + 20 mmol KCl</strong> স্যালাইন প্রতি ঘণ্টায় ১০০ মিলি হারে কন্টিনিউয়াস চালাতে হবে (যাতে সুগার শূন্য না হয় এবং কিটোঅ্যাসিডোসিস তৈরি না হয়)।
+  </li>
+  <li><strong>সুগারের কাঙ্ক্ষিত মাত্রা:</strong> অপারেশন চলাকালীন রক্তের গ্লুকোজ <strong>৬.০ থেকে ১০.০ mmol/L</strong>-এর মধ্যে রাখতে হবে।</li>
+  <li><strong>প্রতি ঘণ্টায় সুগার মনিটরিং ও টাইট্রেশন:</strong>
+    <br>&bull; সুগার &lt; ৪.০ হলে ইনসুলিন বন্ধ ও ১০% ডেক্সট্রোজ পুশ; ৪-৭ হলে ১ ইউনিট/ঘণ্টা; ৭-৯ হলে ২ ইউনিট/ঘণ্টা; ৯-১১ হলে ৩ ইউনিট/ঘণ্টা; &gt; ১১ হলে ৪-৬ ইউনিট/ঘণ্টা।
+  </li>
+</ul>
+
+<br><strong>৫. অপারেশনের পর স্বাভাবিক ইনসুলিনে ফেরার নিয়ম (Post-op Transition):</strong><br>
+রোগী সম্পূর্ণ সুস্থ হয়ে মুখে স্বাভাবিক খাবার খাওয়া শুরু না করা পর্যন্ত শিরায় ইনসুলিন চলবে।
+<br><strong>গুরুত্বপূর্ণ গোল্ডেন রুল:</strong> শিরায় চলা ইনসুলিন বন্ধ করার <strong>৩০ থেকে ৬০ মিনিট পূর্বে চামড়ার নিচে (Subcutaneous) স্বাভাবিক ইনসুলিন ইনজেকশন পুশ করতে হবে</strong>! কারণ শিরায় দেওয়া ইনসুলিনের আয়ু মাত্র ৫ মিনিট। আগে সাবকিউটেনিয়াস ইনসুলিন না দিয়ে ড্রিপ বন্ধ করলেই সুগার হঠাৎ লাফিয়ে উঠে রোগী কিটোঅ্যাসিডোসিসে চলে যাবে!
+</div>
+
+<div class="callout-amber">
+<h3 class="font-bold text-lg mb-2">💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)</h3>
+
+<ul class="list-disc pl-5 space-y-3">
+  <li><strong>SGLT2 ইনহিবিটর কেন ৩ দিন আগে বন্ধ করতেই হয়? (Euglycemic DKA):</strong>
+    <br>এটি আধুনিক সার্জারি ও এন্ডোক্রাইনোলজির সবচেয়ে হট ভাইভা প্রশ্ন!
+    <br>ডায়াপাগ্লিফ্লোজিন বা এমপাগ্লিফ্লোজিন প্রস্রাবের সাথে গ্লুকোজ বের করে দেয়। অপারেশনের সময় রোগী না খেয়ে থাকলে এবং সার্জিক্যাল স্ট্রেসে গ্লুকাগন বাড়লে শরীর ফ্যাট ভেঙে প্রচুর কিটোন বডি তৈরি করে মারাত্মক কিটোঅ্যাসিডোসিস (DKA) ঘটায়। কিন্তু প্রস্রাবে সুগার বের হয়ে যাওয়ায় রক্তে গ্লুকোজ সম্পূর্ণ স্বাভাবিক (৭-৯ mmol/L) থাকে! অসতর্ক ডাক্তার সুগার নরমাল দেখে কিটোঅ্যাসিডোসিস ধরতে পারেন না এবং রোগী মারা যায়। একে <strong>Euglycemic DKA</strong> বলে। এই মারাত্মক ঝুঁকি এড়াতে অপারেশনের ৩-৪ দিন আগে ড্রাগটি বন্ধ করতে হয়।
+  </li>
+  <li><strong>মেটফরমিন কেন অপারেশনের দিন বন্ধ?</strong>
+    <br>মেটফরমিন লিভারের মাইটোকন্ড্রিয়াতে ল্যাকটেট থেকে গ্লুকোজ তৈরি বন্ধ করে। অপারেশনের সময় যদি রক্তক্ষরণ বা এনেস্থেশিয়ার কারণে রক্তচাপ কমে যায় বা কিডনি সাময়িক কাজ না করে, তবে শরীরে ল্যাকটিক অ্যাসিডের বিষাক্ত বন্যা বয়ে যায় (Fatal Lactic Acidosis - মৃত্যুহার ৫০%)। তাই অপারেশনের দিন সকালে মেটফরমিন সম্পূর্ণ বন্ধ রাখতে হয়।
+  </li>
+  <li><strong>ডায়াবেটিস রোগীর অপারেশন সকালে কেন প্রথম কেস?</strong>
+    <br>রোগীকে যদি দুপুরের পর বা বিকেলে অপারেশন লিস্টে রাখা হয়, তবে দীর্ঘক্ষণ উপোস থাকার কারণে একদিকে তীব্র হাইপোগ্লাইসেমিয়া বা কিটোসিস হতে পারে, অন্যদিকে শিরাপথের ফ্লুইড ও ইনসুলিন নিয়ন্ত্রণ জটিল হয়ে পড়ে। সকালে প্রথম কেস হিসেবে অপারেশন করলে দ্রুত সার্জারি শেষ করে দিনে দিনেই স্থিতিশীল অবস্থায় আনা সম্ভব হয়।
+  </li>
+</ul>
+</div>
+
+</div>
             </div>
           </div>
         </article>
@@ -71978,71 +72221,104 @@ DUAL PROPHYLAXIS MODALITIES:
 </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Pathophysiology and Virchow's Triad in Surgery:</strong>
-Venous Thromboembolism (VTE), encompassing Deep Vein Thrombosis (DVT) and fatal Pulmonary Embolism (PE), represents the leading preventable cause of in-hospital surgical mortality. Surgical patients fulfill all three arms of <strong>Virchow's Triad</strong>:
-<ol>
-  <li><strong>Venous Stasis:</strong> General anesthesia and neuromuscular paralysis abolish the soleal muscle calf pump; prolonged horizontal recumbency and pelvic venous pooling slow femoral/iliac venous velocity by &gt; 50%.</li>
-  <li><strong>Endothelial Injury:</strong> Direct surgical dissection, retractor traction, limb positioning, or thermal diathermy injury expose thrombogenic subendothelial collagen and von Willebrand factor.</li>
-  <li><strong>Hypercoagulability:</strong> Surgical tissue injury triggers massive Tissue Factor release, surges in fibrinogen and Factor VIII, and inhibition of endogenous fibrinolysis via high PAI-1 levels.</li>
-</ol>
-
-<strong>2. Risk Stratification (Caprini Risk Assessment Model):</strong>
-All surgical patients undergo preoperative Caprini scoring:
-<ul>
-  <li><strong>Very Low Risk (Score 0):</strong> Minor surgery (&lt; 45 mins), mobile patient &rarr; <em>Early aggressive ambulation alone</em>.</li>
-  <li><strong>Low Risk (Score 1-2):</strong> Minor surgery in patients with comorbidities or uncomplicated general surgery aged 40-60 &rarr; <em>Mechanical prophylaxis alone</em>.</li>
-  <li><strong>Moderate Risk (Score 3-4):</strong> Major surgery in non-malignant patients, age &gt; 60 &rarr; <em>Pharmacological prophylaxis (LMWH) or Mechanical</em>.</li>
-  <li><strong>High Risk (Score &ge; 5):</strong> Major cancer surgery, pelvic/bariatric/orthopedic arthroplasty, prior VTE, prolonged immobility &rarr; <strong>Dual Prophylaxis: Combined Pharmacological (LMWH) PLUS Mechanical Prophylaxis (IPC)</strong>.</li>
+              <strong>1. Overview & Virchow's Triad in the Surgical Patient:</strong><br>
+Venous Thromboembolism (VTE), encompassing Deep Vein Thrombosis (DVT) and fatal Pulmonary Embolism (PE), represents the single most preventable cause of in-hospital post-operative mortality. Surgical patients uniquely harbor all three elements of <strong>Virchow's Triad</strong>:
+<ul class="list-disc pl-5 space-y-1 mt-1">
+  <li><strong>Venous Stasis:</strong> Intraoperative immobility on the operating table, muscle relaxants paralyzing the physiological calf muscle pump, venodilation from general/regional anesthesia, and postoperative bed rest.</li>
+  <li><strong>Endothelial Vascular Injury:</strong> Direct surgical dissection, retractor traction, pelvic manipulation, or intraoperative positioning stretching femoral/iliac veins.</li>
+  <li><strong>Hypercoagulability:</strong> Surgical tissue injury unleashes systemic release of Tissue Factor, suppresses protein C and antithrombin, and stimulates acute-phase procoagulant factor synthesis.</li>
 </ul>
 
-<strong>3. Comparison of Prophylactic Modalities:</strong>
-<div class="overflow-x-auto my-2">
-<table class="min-w-full text-xs border border-slate-300">
-  <tr class="bg-slate-100">
-    <th class="p-1 border">Modality</th>
-    <th class="p-1 border">Intervention & Mechanism</th>
-    <th class="p-1 border">Clinical Indications & Contraindications</th>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">1. Mechanical: Graduated Compression Stockings (GCS / TED hose)</td>
-    <td class="p-1 border">Knee-length or thigh-length elastic stockings providing a calibrated pressure gradient (18 mmHg at the ankle, decreasing to 14 mmHg at the calf and 8 mmHg at the thigh). Reduces venous diameter, accelerating deep venous linear flow velocity.</td>
-    <td class="p-1 border">
-      • <strong>Indication:</strong> All surgical patients from admission until full ambulation.<br>
-      • <strong>Contraindications:</strong> Severe peripheral arterial disease (ABPI &lt; 0.8), acute massive leg edema, peripheral neuropathy, active leg ulceration / gangrene, or local dermatitis.
-    </td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">2. Mechanical: Intermittent Pneumatic Compression (IPC)</td>
-    <td class="p-1 border">Inflatable multi-chamber calf or thigh cuffs connected to an automated pump that periodically inflates (e.g., 35-45 mmHg for 12 seconds every minute). Mimics the calf muscle pump and stimulates endogenous endothelial release of tPA (tissue plasminogen activator).</td>
-    <td class="p-1 border">
-      • <strong>Indication:</strong> High-risk patients undergoing major pelvic, abdominal, or neurosurgery intraoperatively and postoperatively.<br>
-      • <strong>Contraindication:</strong> Suspected established deep vein thrombosis (risk of dislodging pulmonary embolus).
-    </td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">3. Pharmacological: Low Molecular Weight Heparin (LMWH)</td>
-    <td class="p-1 border">
-      • <strong>Enoxaparin:</strong> <strong>40 mg (4,000 IU) Subcutaneously once daily</strong>.<br>
-      • <em>Alternative:</em> Dalteparin 5,000 IU SC OD.<br>
-      • <em>Mechanism:</em> Potentiates antithrombin III, selectively inhibiting Factor Xa &gt; Factor IIa (ratio 3:1). Superior bioavailability (90%), longer half-life, predictable pharmacokinetics, and &lt; 0.2% risk of Heparin-Induced Thrombocytopenia (HIT).
-    </td>
-    <td class="p-1 border">
-      • <strong>Indication:</strong> Gold standard pharmacological agent for moderate-to-high risk surgery.<br>
-      • <strong>Contraindications:</strong> Active major bleeding, severe bleeding diathesis (platelets &lt; 50,000), acute intracranial hemorrhage, severe renal impairment (eGFR &lt; 30 mL/min - use dose-adjusted Unfractionated Heparin 5,000 IU BD instead).
-    </td>
-  </tr>
-</table>
+<br><strong>2. Risk Stratification: The Caprini Score:</strong><br>
+All surgical candidates must be formally risk-stratified using the validated <strong>Caprini Risk Assessment Model</strong>:
+<ul class="list-disc pl-5 space-y-1">
+  <li><strong>Very Low Risk (Score 0):</strong> Early aggressive ambulation alone.</li>
+  <li><strong>Low Risk (Score 1-2):</strong> Mechanical prophylaxis (IPC or GCS).</li>
+  <li><strong>Moderate Risk (Score 3-4):</strong> Pharmacological prophylaxis (LMWH) OR Mechanical prophylaxis.</li>
+  <li><strong>High / Highest Risk (Score &ge; 5):</strong> <strong>Dual Prophylaxis</strong> (Pharmacological LMWH PLUS Mechanical IPC).</li>
+</ul>
+
+<br><strong>3. Detailed Comparison: Mechanical vs. Pharmacological Prophylaxis:</strong>
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">Parameter / Domain</th>
+        <th class="p-3 font-semibold text-blue-600">Mechanical Prophylaxis</th>
+        <th class="p-3 font-semibold text-purple-600">Pharmacological Prophylaxis</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Primary Modalities</strong></td>
+        <td class="p-3">
+          1. <strong>Intermittent Pneumatic Compression (IPC):</strong> Sequential inflatable pneumatic calf/thigh garments.<br>
+          2. <strong>Graduated Compression Stockings (GCS / TED hose):</strong> Ankle pressure 18 mmHg tapering to 8 mmHg at thigh.<br>
+          3. Early postoperative ambulation.
+        </td>
+        <td class="p-3">
+          1. <strong>Low Molecular Weight Heparin (LMWH - Gold Standard):</strong> <strong>Enoxaparin 40 mg SC once daily</strong> (or 20 mg OD in moderate risk / Dalteparin 5,000 IU OD).<br>
+          2. <strong>Low-Dose Unfractionated Heparin (LDUH):</strong> 5,000 IU SC q8-12h.<br>
+          3. <strong>Fondaparinux:</strong> 2.5 mg SC OD (selective Xa inhibitor).
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Mechanism of Action</strong></td>
+        <td class="p-3">
+          &bull; Rhythmic pneumatic compression empties deep venous sinuses of the calf, eliminating venous stasis and increasing femoral blood flow velocity.<br>
+          &bull; Enhances endothelial release of endogenous <strong>Tissue Plasminogen Activator (tPA)</strong>, stimulating local fibrinolysis.
+        </td>
+        <td class="p-3">
+          &bull; LMWH binds Antithrombin III (ATIII), accelerating inhibition of <strong>Factor Xa</strong> (and Factor IIa [thrombin]), preventing fibrin generation and thrombus propagation.
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Primary Indications</strong></td>
+        <td class="p-3">
+          &bull; Low-to-moderate risk surgical patients.<br>
+          &bull; <strong>SOLE FIRST-LINE CHOICE</strong> in patients with high bleeding risk (active bleeding, severe thrombocytopenia &lt; 50, coagulopathy, recent intracranial hemorrhage).<br>
+          &bull; Combined with LMWH in high-risk patients.
+        </td>
+        <td class="p-3">
+          &bull; Moderate to high VTE risk surgical patients (Caprini &ge; 3) without contraindications to anticoagulation.<br>
+          &bull; Major abdominal, pelvic, oncological, and major orthopedic operations.
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Contraindications</strong></td>
+        <td class="p-3">
+          &bull; Severe peripheral arterial disease (PAD / Ankle-Brachial Index &lt; 0.8).<br>
+          &bull; Suspected or proven acute pre-existing DVT (risks dislodging embolus!).<br>
+          &bull; Severe peripheral neuropathy, leg ulcerations, gangrene, or severe leg edema.
+        </td>
+        <td class="p-3">
+          &bull; Active, uncontrollable major surgical hemorrhage.<br>
+          &bull; Severe uncorrected thrombocytopenia (&lt; 50 &times; 10^9/L).<br>
+          &bull; Severe bleeding diathesis (hemophilia, DIC).<br>
+          &bull; Recent intracranial or intraocular surgery (&lt; 2-4 weeks).<br>
+          &bull; Severe renal impairment (for LMWH: eGFR &lt; 15-30 &rarr; switch to UFH).
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>Timing & Duration</strong></td>
+        <td class="p-3">
+          Applied immediately prior to anesthetic induction in the holding bay; continued intraoperatively and postoperatively until full unassisted ambulation is achieved.
+        </td>
+        <td class="p-3">
+          &bull; Initiate <strong>12 hours before surgery</strong> OR <strong>6 to 12 hours postoperatively</strong> once hemostasis is verified.<br>
+          &bull; <strong>Duration:</strong> 7 to 10 days for general surgery; extended to <strong>28 to 35 days (4 weeks)</strong> in major abdominal/pelvic cancer surgery and hip/knee arthroplasty!
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<strong>4. Crucial Timing Principles & Neuraxial Anesthesia Safety:</strong>
-<ul>
-  <li><strong>Pre-op vs Post-op Initiation:</strong> In elective general surgery, administer LMWH 40 mg SC <strong>10 to 12 hours before surgery</strong>; or initiate <strong>6 to 12 hours post-operatively</strong> once surgical hemostasis is secure.</li>
-  <li><strong>Spinal / Epidural Hematoma Prevention:</strong> To avoid catastrophic spinal subdural/epidural hematoma and paraplegia:
-    <br>• Withhold prophylactic LMWH for <strong>at least 12 hours</strong> prior to spinal needle insertion or epidural catheter placement.
-    <br>• Do not remove an epidural catheter until <strong>at least 12 hours after</strong> the last LMWH dose.
-    <br>• Do not administer the next LMWH dose until <strong>at least 4 hours after</strong> catheter removal.
-  </li>
-  <li><strong>Extended Prophylaxis:</strong> In patients undergoing major abdominal or pelvic surgery for <strong>malignancy</strong>, extend LMWH prophylaxis for <strong>28 days (4 weeks)</strong> post-discharge.</li>
+<br><strong>4. Critical Neuraxial Anesthesia Safety Guidelines (ASRA Protocols):</strong><br>
+Administering pharmacological thromboprophylaxis around spinal or epidural anesthesia poses a catastrophic risk of <strong>Spinal Epidural Hematoma</strong>, leading to permanent paraplegia:
+<ul class="list-disc pl-5 space-y-1">
+  <li><strong>Before Needle Placement or Epidural Catheter Removal:</strong> Withhold prophylactic LMWH (e.g., Enoxaparin 40 mg) for at least <strong>12 hours</strong> (or 24 hours for therapeutic doses).</li>
+  <li><strong>After Epidural Catheter Removal:</strong> Wait at least <strong>4 hours</strong> before administering the next dose of LMWH.</li>
 </ul>
             </div>
 
@@ -72051,23 +72327,114 @@ All surgical patients undergo preoperative Caprini scoring:
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট ও পরীক্ষার গোল্ডেন পয়েন্ট:</strong>
-<ul>
-  <li><strong>DVT হওয়ার ৩টি কারণ (Virchow's Triad):</strong>
-    <ol>
-      <li><strong>Venous Stasis:</strong> অপারেশনের টেবিলে রোগী ঘণ্টার পর ঘণ্টা নড়াচড়া ছাড়া শুয়ে থাকায় পায়ের শিরার রক্ত জমাট বাঁধে।</li>
-      <li><strong>Endothelial Injury:</strong> অপারেশনের সময় রক্তনালীর ভেতরের দেয়াল ক্ষতিগ্রস্ত হওয়া।</li>
-      <li><strong>Hypercoagulability:</strong> আঘাতের কারণে রক্ত জমাট বাঁধার উপাদান বেড়ে যাওয়া।</li>
-    </ol>
-  </li>
-  <li><strong>DVT প্রতিরোধের ২টি প্রধান উপায়:</strong>
-    <ul>
-      <li><strong>১. মেকানিক্যাল (রক্তক্ষরণের কোনো ভয় নেই):</strong> <em>Graduated Compression Stockings (TED মোজা)</em> পরানো যা গোড়ালিতে ১৮ mmHg এবং উরুতে ৮ mmHg চাপ দিয়ে রক্তপ্রবাহ সচল রাখে। অথবা মেশিনের সাহায্যে <em>Intermittent Pneumatic Compression (IPC)</em> দিয়ে পায়ে বাতাস ফুলিয়ে রক্ত পাম্প করা।</li>
-      <li><strong>২. ফার্মাকোলজিক্যাল (ওষুধ):</strong> <strong>Low Molecular Weight Heparin (LMWH - Enoxaparin ৪০ মিগ্রা চামড়ার নিচে দৈনিক ১ বার)</strong>। এটি অপারেশনের ১২ ঘণ্টা আগে অথবা অপারেশনের ৬-১২ ঘণ্টা পর শুরু করতে হয়। পেটের ক্যান্সারের অপারেশনে এই ইনজেকশন <strong>৪ সপ্তাহ (২৮ দিন)</strong> পর্যন্ত চালিয়ে যেতে হয়।</li>
-    </ul>
-  </li>
-  <li><strong>সবচেয়ে মারাত্মক সতর্কতা (Spinal Anesthesia):</strong> কোমরে অবশ করার ইনজেকশন (Spinal/Epidural) দেওয়ার <strong>কমপক্ষে ১২ ঘণ্টা আগে</strong> LMWH ইনজেকশন বন্ধ রাখতে হবে এবং ক্যাথেটার খোলার ৪ ঘণ্টার মধ্যে LMWH দেওয়া যাবে না—নাহলে স্পাইনাল কর্ডে রক্ত জমে রোগী আজীবনের জন্য পঙ্গু (প্যারালাইসিস) হয়ে যেতে পারে!</li>
+              <div class="space-y-4">
+
+<div class="callout-blue">
+<h3 class="font-bold text-lg mb-2">📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)</h3>
+
+<strong>১. সার্জারিতে ডিভিটি (DVT) ও ভারচৌ'স ট্রায়াড পরিচিতি:</strong><br>
+সার্জারির রোগীদের পায়ের গভীর শিরায় রক্ত জমাট বাঁধা (Deep Vein Thrombosis - DVT) এবং সেই জমাট রক্ত ছুটে ফুসফুসে গিয়ে বন্ধ হয়ে যাওয়া (Pulmonary Embolism - PE) হলো হাসপাতালে অপারেশনের পর মৃত্যুর অন্যতম প্রধান প্রতিরোধযোগ্য কারণ। অপারেশনের সময় <strong>Virchow's Triad</strong>-এর ৩টি উপাদানই একসাথে উপস্থিত থাকে:
+<ul class="list-disc pl-5 space-y-1 mt-1">
+  <li><strong>১. রক্ত চলাচলে স্থবিরতা (Venous Stasis):</strong> অপারেশনের টেবিলে ঘণ্টার পর ঘণ্টা অনড় থাকা এবং এনেস্থেশিয়ায় পায়ের কাফ মাসল পাম্প সম্পূর্ণ অবশ থাকা।</li>
+  <li><strong>২. রক্তনালীর প্রাচীরে ক্ষত (Endothelial Injury):</strong> পেটের ভেতর অপারেশনের টানাহেঁচড়ায় পেলভিক ও ফিমোরাল শিরা ক্ষতিগ্রস্ত হওয়া।</li>
+  <li><strong>৩. রক্ত দ্রুত জমাট বাঁধার প্রবণতা (Hypercoagulability):</strong> সার্জিক্যাল ট্রমার কারণে রক্তে ক্লটিং ফ্যাক্টর ও টিস্যু ফ্যাক্টরের মাত্রা বিপুল বৃদ্ধি পাওয়া।</li>
 </ul>
+
+<br><strong>২. মেকানিক্যাল বনাম ফার্মাকোলজিক্যাল ডিভিটি প্রোফাইল্যাক্সিস: পূর্ণাঙ্গ তুলনামূলক ছক:</strong>
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">প্যারামিটার</th>
+        <th class="p-3 font-semibold text-blue-600">মেকানিক্যাল প্রোফাইল্যাক্সিস (Mechanical)</th>
+        <th class="p-3 font-semibold text-purple-600">ফার্মাকোলজিক্যাল প্রোফাইল্যাক্সিস (Pharmacological)</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>প্রধান পদ্ধতি ও ওষুধসমূহ</strong></td>
+        <td class="p-3">
+          ১. <strong>Intermittent Pneumatic Compression (IPC):</strong> মেশিনের সাহায্যে পায়ের কাফ মাসলে পর্যায়ক্রমিক বাতাস ফুলিয়ে রক্ত পাম্প করা।<br>
+          ২. <strong>Graduated Compression Stockings (TED মোজা):</strong> বিশেষ ইলাস্টিক মোজা।<br>
+          ৩. দ্রুত বিছানা ছেড়ে হাঁটাচলা (Early ambulation)।
+        </td>
+        <td class="p-3">
+          ১. <strong>Low Molecular Weight Heparin (LMWH - গোল্ড স্ট্যান্ডার্ড):</strong> <strong>Enoxaparin ৪০ mg চামড়ার নিচে (SC) দিনে ১ বার</strong> (মডারেট রিস্কে ২০ mg)।<br>
+          ২. Unfractionated Heparin (UFH): ৫০০০ IU SC দিনে ২-৩ বার (কিডনি ফেইলিউরে)।<br>
+          ৩. Fondaparinux: ২.৫ mg SC দিনে ১ বার।
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>কাজের মেকানিজম</strong></td>
+        <td class="p-3">
+          পায়ে চাপ দিয়ে শিরার রক্তকে ক্রমাগত হার্টের দিকে ঠেলে দেয়, ফলে পায়ে রক্ত জমে থাকতে পারে না। পাশাপাশি রক্তনালী থেকে প্রাকৃতিক ক্লট-গলানো এনজাইম (tPA) ক্ষরণ বাড়ায়।
+        </td>
+        <td class="p-3">
+          অ্যান্টিথ্রম্বিনের সাথে যুক্ত হয়ে রক্ত জমাট বাঁধার <strong>Factor Xa</strong> নিষ্ক্রিয় করে রক্ত জমাট বাঁধা সরাসরি প্রতিরোধ করে।
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>প্রধান ব্যবহারের ক্ষেত্র</strong></td>
+        <td class="p-3">
+          &bull; কম থেকে মাঝারি ঝুঁকিপূর্ণ রোগী।<br>
+          &bull; <strong>যেসব রোগীর রক্তক্ষরণের ঝুঁকি বেশি</strong> (যেমন: সক্রিয় রক্তপাত, ব্রেন সার্জারি, প্লেটলেট কম), তাদের ক্ষেত্রে এটিই একমাত্র প্রথম পছন্দ।
+        </td>
+        <td class="p-3">
+          &bull; মাঝারি থেকে উচ্চ ঝুঁকিপূর্ণ সমস্ত রোগী (পেটের বড় ক্যান্সার সার্জারি, অর্থোপেডিক হিপ/নী রিপ্লেসমেন্ট)।<br>
+          &bull; উচ্চ ঝুঁকিতে মেকানিক্যাল ডিভাইসের সাথে <strong>একসাথে কম্বিনেশনে</strong> দেওয়া হয়।
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>কখন দেওয়া সম্পূর্ণ নিষিদ্ধ? (Contraindications)</strong></td>
+        <td class="p-3">
+          &bull; পায়ের ধমনীতে ব্লক থাকা (Peripheral Arterial Disease / ABI &lt; ০.৮)।<br>
+          &bull; <strong>ইতোমধ্যে পায়ে DVT হয়ে থাকলে</strong> (চাপ দিলে রক্তজমাট ছুটে ফুসফুসে গিয়ে সাথে সাথে মৃত্যু হতে পারে!)।<br>
+          &bull; পায়ে ঘা বা গ্যাংগ্রিন থাকা।
+        </td>
+        <td class="p-3">
+          &bull; সক্রিয় মারাত্মক রক্তক্ষরণ চলাকালীন।<br>
+          &bull; প্লেটলেট মারাত্মক কম থাকা (&lt; ৫০ &times; ১০^৯/L)।<br>
+          &bull; সাম্প্রতিক ব্রেন বা চোখের অপারেশন।<br>
+          &bull; তীব্র কিডনি ফেইলিউরে LMWH দেওয়া যায় না (UFH দিতে হয়)।
+        </td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium"><strong>প্রয়োগের সময় ও মেয়াদ</strong></td>
+        <td class="p-3">
+          অপারেশনের ঠিক পূর্বে ওটি টেবিলে চালু করা হয় এবং রোগী হেঁটে স্বাভাবিক না হওয়া পর্যন্ত চলতে থাকে।
+        </td>
+        <td class="p-3">
+          &bull; অপারেশনের <strong>১২ ঘণ্টা পূর্বে</strong> অথবা অপারেশনের <strong>৬-১২ ঘণ্টা পর</strong> রক্তপাত না থাকলে শুরু করা।<br>
+          &bull; <strong>মেয়াদ:</strong> সাধারণ সার্জারিতে ৭-১০ দিন; তবে পেটের বড় ক্যান্সার সার্জারিতে টানা <strong>২৮ দিন (৪ সপ্তাহ)</strong> চালিয়ে যেতে হয়!
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<div class="callout-amber">
+<h3 class="font-bold text-lg mb-2">💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)</h3>
+
+<ul class="list-disc pl-5 space-y-3">
+  <li><strong>স্পাইনাল বা এপিডুরাল অ্যানেস্থেসিয়ায় হেপারিনের মারাত্মক বিপদ (Spinal Hematoma):</strong>
+    <br>ভাইভাতে অত্যন্ত কড়াভাবে জিজ্ঞেস করা হয়:
+    <br>মেরুদণ্ডে ইনজেকশন বা এপিডুরাল ক্যাথেটার থাকার সময় যদি শরীরে LMWH থাকে, তবে মেরুদণ্ডের ক্যানালে রক্তক্ষরণ হয়ে হেমাটোমা তৈরি হবে এবং স্পাইনাল কর্ড চেপে গিয়ে রোগী <strong>চিরতরে পক্ষাঘাতগ্রস্ত বা প্যারালাইজড (Permanent Paraplegia)</strong> হয়ে যাবে!
+    <br>তাই গোল্ডেন রুল:
+    <br>&bull; এপিডুরাল সুঁই দেওয়ার বা ক্যাথেটার খোলার <strong>কমপক্ষে ১২ ঘণ্টা আগে</strong> LMWH বন্ধ রাখতে হবে।
+    <br>&bull; ক্যাথেটার বের করার <strong>কমপক্ষে ৪ ঘণ্টা পর</strong> পরবর্তী ডোজ দিতে হবে।
+  </li>
+  <li><strong>ক্যান্সার সার্জারিতে কেন ৪ সপ্তাহ হেপারিন দিতে হয়?</strong>
+    <br>পেটের ক্যান্সার (যেমন কোলোরেকটাল বা ওভারিয়ান ক্যান্সার) অপারেশনের পর এক-তৃতীয়াংশ DVT এবং পালমোনারি এমবলিজম ঘটে রোগী হাসপাতাল থেকে বাড়ি ফিরে যাওয়ার পর (২য় থেকে ৪র্থ সপ্তাহে)! তাই আন্তর্জাতিক গাইডলাইনে ক্যান্সার সার্জারির রোগীদের টানা <strong>২৮ দিন (৪ সপ্তাহ)</strong> সাবকিউটেনিয়াস Enoxaparin চালিয়ে যাওয়ার স্পষ্ট নির্দেশ রয়েছে।
+  </li>
+  <li><strong>পায়ে DVT সন্দেহ হলে কখনো IPC পাম্প চালু করবেন না:</strong>
+    <br>রোগীর পায়ে যদি আগে থেকেই রক্তজমাট বেঁধে থাকে এবং নার্স না বুঝে মেশিনের প্রেশার কাফ চালু করে দেয়, তবে মেশিনের চাপে আস্ত থ্রম্বাস ছুটে গিয়ে হার্ট হয়ে সরাসরি ফুসফুসের ধমনী আটকে দিয়ে <strong>Massive Pulmonary Embolism</strong>-এ রোগীকে মুহূর্তের মধ্যে মেরে ফেলবে! তাই সন্দেহ হলে আগে ডপলার আল্ট্রাসাউন্ড দিয়ে নিশ্চিত হতে হয়।
+  </li>
+</ul>
+</div>
+
+</div>
             </div>
           </div>
         </article>
@@ -72150,69 +72517,94 @@ SURGICAL CRITERIA             MEDICAL CRITERIA              SOCIAL CRITERIA
 </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Definition & Core Principles of Day-Care (Ambulatory) Surgery:</strong>
-Day-care surgery is the planned process whereby an elective surgical patient is admitted to a dedicated ambulatory surgical unit, undergoes an operative procedure under local, regional, or general anesthesia, and is <strong>discharged safely home on the exact same calendar day</strong> (typically within 4 to 8 hours post-op), with zero overnight hospital bed occupancy.
-<ul>
-  <li><strong>Advantages:</strong> Dramatically reduces hospital healthcare costs; minimizes the risk of hospital-acquired multidrug-resistant infections (MRSA/pseudomonas); avoids surgical cancellations due to inpatient emergency bed shortages; allows earlier patient mobilization and psychological recovery in a familiar domestic environment.</li>
-  <li><strong>Core Prerequisites:</strong> Standardized operative protocols, short-acting anesthetics (Propofol, Sevoflurane, LMA), multimodal opioid-sparing analgesia, aggressive antiemetic prophylaxis, and rigorous structured discharge criteria.</li>
+              <strong>1. Overview & Core Philosophy:</strong><br>
+Day-Care Surgery (Ambulatory Surgery / Same-Day Surgery) is defined as the planned, scheduled surgical and interventional management of selected patients who are admitted to the surgical facility, operated upon, recovered, and safely discharged home on the <strong>same calendar day</strong> (within 24 hours of admission, typically within 4 to 8 hours post-procedure).
+
+<br><br><strong>Major Advantages of Day-Care Surgery:</strong>
+<ul class="list-disc pl-5 space-y-1">
+  <li>Substantial reduction in hospital-acquired (nosocomial) infections (such as MRSA and SSI).</li>
+  <li>Earlier return to personal home environment, promoting rapid mobilization and markedly decreasing DVT/PE risk.</li>
+  <li>Substantial psychological benefit (especially in pediatric and elderly cohorts).</li>
+  <li>Massive cost-efficiency for healthcare systems and liberation of inpatient hospital beds for acute emergencies.</li>
 </ul>
 
-<strong>2. Comprehensive Patient Selection Criteria:</strong>
-Selection is governed by a strict triad of Surgical, Medical, and Social criteria:
-<div class="overflow-x-auto my-2">
-<table class="min-w-full text-xs border border-slate-300">
-  <tr class="bg-slate-100">
-    <th class="p-1 border">Domain</th>
-    <th class="p-1 border">Mandatory Eligibility Criteria</th>
-    <th class="p-1 border">Absolute Disqualifiers (Unsuitable)</th>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">1. Surgical Selection Criteria</td>
-    <td class="p-1 border">
-      • Expected operative duration <strong>&lt; 60 to 90 minutes</strong>.<br>
-      • Minimal anticipated blood loss (&lt; 100-200 mL).<br>
-      • No major body cavity opening (or minimally invasive laparoscopic/endoscopic).<br>
-      • Low likelihood of acute postoperative complications (hemorrhage, airway compromise).<br>
-      • Postoperative pain easily manageable with oral non-opioid analgesics.<br>
-      • <em>Prototypes:</em> Inguinal hernia mesh repair, laparoscopic cholecystectomy, superficial lumpectomies, circumcision, varicose vein ligation/ablation, diagnostic laparoscopy, cataract surgery.
-    </td>
-    <td class="p-1 border">Emergency surgeries; major visceral resections; operations with high risk of reactionary hemorrhage or massive third-space fluid shifts; prolonged operations &gt; 2 hours.</td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">2. Medical Selection Criteria</td>
-    <td class="p-1 border">
-      • <strong>ASA Physical Status Class I (healthy) or Class II (mild systemic disease)</strong>.<br>
-      • Selected, medically stable Class III patients whose chronic conditions (e.g., well-controlled hypertension, non-insulin dependent diabetes) are well managed.<br>
-      • Body Mass Index (BMI) &lt; 35 - 40 kg/m&sup2;.<br>
-      • Age: Biological independence is more important than chronological age.
-    </td>
-    <td class="p-1 border">Unstable ischemic heart disease, severe heart failure (NYHA III/IV), severe COPD/asthma, untreated severe Obstructive Sleep Apnea (high risk of postoperative airway obstruction), poorly controlled brittle diabetes, active coagulopathy, severe morbid obesity (BMI &gt; 40-45).</td>
-  </tr>
-  <tr>
-    <td class="p-1 border font-semibold">3. Social / Domestic Selection Criteria</td>
-    <td class="p-1 border">
-      • A <strong>responsible, competent adult escort</strong> must accompany the patient home in private transport (not public bus).<br>
-      • A responsible adult must remain with the patient at home for the <strong>first 24 hours</strong> postoperatively.<br>
-      • Direct working telephone access at home.<br>
-      • Residence located within <strong>1 hour travel time (or 20-30 km)</strong> of an emergency hospital facility.<br>
-      • Clean domestic environment with indoor sanitation.
-    </td>
-    <td class="p-1 border">Patients living alone with no caregiver; no telephone access; remote geographic location (&gt; 1-2 hours from medical help); substance abuse or severe psychiatric impairment.</td>
-  </tr>
-</table>
+<br><strong>2. Tripartite Patient Selection Criteria:</strong><br>
+Safety in day-care surgery is predicated on the strict application of three interlocking criteria:
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">Selection Category</th>
+        <th class="p-3 font-semibold">Mandatory Criterion / Parameter</th>
+        <th class="p-3 font-semibold">Clinical Rationale & Specific Requirements</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-blue-600" rowspan="3">1. Social & Environmental Criteria<br><span class="text-xs font-normal text-slate-500">(The Non-Negotiable Foundation)</span></td>
+        <td class="p-3 font-medium">Responsible Adult Carer</td>
+        <td class="p-3">A responsible, competent adult must accompany the patient home and <strong>stay continuously with the patient for the first 24 hours</strong> postoperatively. (Patients living alone cannot undergo day-care surgery!).</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">Geographic Proximity & Transit</td>
+        <td class="p-3">Residence located within a maximum of <strong>1 hour of travel time (or &lt; 30 miles)</strong> from the hospital facility or an emergency center via motorized private transport. (Public transit/buses are prohibited).</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">Home Amenities & Communication</td>
+        <td class="p-3">Direct access to a reliable telephone/cellular network; suitable home environment (indoor toilet, running water, no steep hazardous staircases without aid).</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-amber-600" rowspan="3">2. Medical & Physiological Criteria<br><span class="text-xs font-normal text-slate-500">(Patient Physical Fitness)</span></td>
+        <td class="p-3 font-medium">ASA Physical Status</td>
+        <td class="p-3">Predominantly <strong>ASA Class I (Normal healthy)</strong> and <strong>ASA Class II (Mild well-controlled systemic disease)</strong>. Selected, stable ASA Class III patients (e.g., well-controlled hypertension or stable diabetes on oral agents without organ damage) are acceptable if stable for &ge; 3 months.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">Body Mass Index (BMI)</td>
+        <td class="p-3">Generally <strong>BMI &lt; 35 to 40 kg/m2</strong> without obstructive sleep apnea. (Morbid obesity dramatically increases post-anesthetic airway obstruction and hypoventilation risks).</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">Specific Medical Exclusions</td>
+        <td class="p-3">Uncontrolled brittle diabetes, unstable angina, severe COPD, untreated severe Obstructive Sleep Apnea (OSA), malignant hyperthermia susceptibility, substance abuse, severe cognitive impairment.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600" rowspan="3">3. Surgical & Procedural Criteria<br><span class="text-xs font-normal text-slate-500">(Nature of Surgical Procedure)</span></td>
+        <td class="p-3 font-medium">Operating Duration & Blood Loss</td>
+        <td class="p-3">Operative duration typically <strong>&lt; 60 to 90 minutes</strong> (rarely up to 120 min). Minimal anticipated blood loss (<strong>&lt; 500 mL</strong>) with zero requirement for intraoperative or postoperative blood transfusion.</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">Pain & Postoperative Morbidity</td>
+        <td class="p-3">Pain must be readily manageable with oral analgesics and local/regional wound infiltration (no IV opioid requirement at home). Low risk of intractable postoperative nausea/vomiting (PONV).</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">Recovery & Care Needs</td>
+        <td class="p-3">Rapid return of oral intake and independent unassisted ambulation. No major surgical drains or prolonged indwelling urinary catheterization required.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<strong>3. Structured Post-Anesthetic Discharge Criteria (PADSS Score &ge; 9):</strong>
-Prior to discharge, the patient must achieve a Post-Anesthetic Discharge Scoring System (PADSS) score &ge; 9 out of 10:
-<ol>
-  <li><strong>Vital Signs:</strong> Blood pressure and pulse within &plusmn; 20% of baseline pre-op values.</li>
-  <li><strong>Ambulation & Mentation:</strong> Fully conscious, oriented in time/place, able to walk steadily without dizziness or assist.</li>
-  <li><strong>Pain Control:</strong> Mild or absent pain, comfortably controlled with prescribed oral analgesics.</li>
-  <li><strong>Nausea & Emesis:</strong> Minimal nausea; zero active vomiting; able to tolerate oral sips of water.</li>
-  <li><strong>Surgical Site:</strong> Clean, dry surgical dressing with no active bleeding, oozing, or expanding hematoma.</li>
-  <li><strong>Micturition (Voiding):</strong> Mandatory spontaneous urination following spinal/epidural anesthesia, pelvic or inguinal hernia operations (to exclude acute urinary retention).</li>
-  <li><strong>Take-Home Pack:</strong> Written instructions, 24-hour emergency hospital hotline number, and oral analgesics provided.</li>
-</ol>
+<br><strong>3. Ideal Procedures for Day-Care Surgery:</strong>
+<ul class="list-disc pl-5 space-y-1">
+  <li><strong>General Surgery:</strong> Inguinal / umbilical hernia repair, laparoscopic cholecystectomy (in selected cases), hemorrhoidectomy, excision of lipomas/sebaceous cysts, breast lump excision, perianal fistulectomy/fissurectomy.</li>
+  <li><strong>Urology:</strong> Circumcision, varicocelectomy, hydrocelectomy, diagnostic cystoscopy.</li>
+  <li><strong>Orthopedics:</strong> Arthroscopy of knee/shoulder, carpal tunnel release, removal of orthopedic hardware.</li>
+  <li><strong>Ophthalmology & ENT:</strong> Cataract extraction with IOL implant, myringotomy/grommets, tonsillectomy (in adults/older children), septoplasty.</li>
+  <li><strong>Gynecology:</strong> Diagnostic laparoscopy, hysteroscopy, dilatation and curettage (D&C), tubal ligation.</li>
+</ul>
+
+<br><strong>4. Formal Discharge Criteria (PADSS / Aldrete Score &ge; 9):</strong><br>
+Before physical discharge, the patient must fulfill the standardized <strong>Post-Anesthetic Discharge Scoring System (PADSS)</strong>:
+<ul class="list-disc pl-5 space-y-1">
+  <li>Vital signs stable and consistent with preoperative baseline for &ge; 1 hour.</li>
+  <li>Fully alert, oriented, and free from dizziness.</li>
+  <li>Able to ambulate steadily unassisted.</li>
+  <li>Pain acceptable and controlled with oral non-opioid analgesics.</li>
+  <li>Minimal nausea; able to tolerate oral clear fluids.</li>
+  <li>Minimal surgical wound bleeding, swelling, or discharge.</li>
+  <li>Voiding: Spontaneous urination is required after spinal/epidural anesthesia or pelvic/perineal/hernia operations.</li>
+  <li>Given clear written instructions, emergency 24-hour hospital helpline contact numbers, and follow-up appointment.</li>
+</ul>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -72220,18 +72612,113 @@ Prior to discharge, the patient must achieve a Post-Anesthetic Discharge Scoring
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট ও পরীক্ষার বুলেট পয়েন্ট:</strong>
-<ul>
-  <li><strong>Day-care Surgery কী?</strong> যে অপারেশনে রোগী একই দিনে হাসপাতালে ভর্তি হয়ে অপারেশন করায় এবং কোনো বেড দখল না করে <strong>একই দিনে সুস্থ অবস্থায় ঘরে ফিরে যায়</strong> (যেমন: হার্নিয়া অপারেশন, ল্যাপারোস্কোপিক পিত্তথলি অপারেশন, খৎনা, পাইলস বা চোখের ছানি অপারেশন)।</li>
-  <li><strong>রোগী বাছাইয়ের ৩টি শর্ত (Surgical, Medical, Social):</strong>
-    <ol>
-      <li><strong>সার্জিক্যাল শর্ত:</strong> অপারেশন <strong>৬০-৯০ মিনিটের কম</strong> সময়ের হতে হবে, রক্তক্ষরণ খুব কম হতে হবে এবং মুখে খাওয়ার ব্যথানাশক দিয়ে ব্যথা নিয়ন্ত্রণযোগ্য হতে হবে।</li>
-      <li><strong>মেডিকেল শর্ত:</strong> রোগী মোটামুটি সুস্থ (ASA Class I বা II) হতে হবে। মারাত্মক হার্টের রোগী, অনিয়ন্ত্রিত অ্যাজমা বা অতিরিক্ত মোটা (BMI &gt; ৪০) রোগীদের ডে-কেয়ারে নেওয়া যাবে না।</li>
-      <li><strong>সামাজিক শর্ত (Social - খুব গুরুত্বপূর্ণ):</strong> রোগীকে বাড়ি নিয়ে যাওয়ার জন্য এবং প্রথম ২৪ ঘণ্টা ঘরে দেখাশোনার জন্য <strong>একজন প্রাপ্তবয়স্ক দায়িত্ববান সঙ্গী</strong> থাকতে হবে, বাসায় ফোন থাকতে হবে এবং বাসা হাসপাতাল থেকে <strong>সর্বোচ্চ ১ ঘণ্টার দূরত্বের মধ্যে</strong> হতে হবে। একা থাকা মানুষদের ডে-কেয়ার করা যাবে না।</li>
-    </ol>
-  </li>
-  <li><strong>ছুটি দেওয়ার ক্রাইটেরিয়া:</strong> রোগীকে সম্পূর্ণ সজ্ঞান হতে হবে, মাথা ঘোরা ছাড়া হাঁটতে পারবে, বমি থাকবে না, কাটা জায়গা দিয়ে রক্ত পড়বে না এবং স্পাইনাল অ্যানেসথেসিয়া বা হার্নিয়া অপারেশনের রোগীকে অবশ্যই <strong>নিজে নিজে প্রস্রাব করে</strong> তবেই বাড়ি যেতে হবে।</li>
+              <div class="space-y-4">
+
+<div class="callout-blue">
+<h3 class="font-bold text-lg mb-2">📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)</h3>
+
+<strong>১. ডে-কেয়ার সার্জারি (Day-Care Surgery) পরিচিতি ও সুবিধা:</strong><br>
+ডে-কেয়ার সার্জারি (বা অ্যাম্বুলেটরি সার্জারি) হলো এমন একটি আধুনিক অস্ত্রোপচার ব্যবস্থা যেখানে রোগীকে সকালে হাসপাতালে ভর্তি করে একই দিনে অপারেশন ও রিকভারি সম্পন্ন করে <strong>২৪ ঘণ্টার মধ্যে (সাধারণত ৪ থেকে ৮ ঘণ্টার মধ্যে) নিরাপদে বাড়ি পাঠিয়ে দেওয়া হয়</strong>।
+<br><br><strong>প্রধান সুবিধাসমূহ:</strong>
+<ul class="list-disc pl-5 space-y-1 mt-1">
+  <li>হাসপাতাল থেকে ক্ষতিকর ইনফেকশন (যেমন MRSA) ছড়ানোর ঝুঁকি প্রায় শূন্যে নেমে আসে।</li>
+  <li>রোগী নিজের বাড়ির পরিচিত পরিবেশে দ্রুত সুস্থ হয় এবং দ্রুত হাঁটাচলা করায় পায়ে রক্তজমাট (DVT) বাঁধার ঝুঁকি কমে।</li>
+  <li>হাসপাতালের খরচ বিপুল পরিমাণে কমে যায় এবং জরুরি রোগীদের জন্য ইনডোর বেড খালি থাকে।</li>
 </ul>
+
+<br><strong>২. রোগী নির্বাচনের ৩টি মৌলিক শর্ত (Tripartite Selection Criteria):</strong><br>
+ডে-কেয়ার সার্জারির নিরাপত্তা নিশ্চিত করতে ৩টি ক্যাটাগরির শর্ত শতভাগ পূরণ হতে হবে:
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 border-b border-slate-200 dark:border-slate-700">
+        <th class="p-3 font-semibold">বিভাগ</th>
+        <th class="p-3 font-semibold">আবশ্যকীয় শর্তসমূহ</th>
+        <th class="p-3 font-semibold">ক্লিনিক্যাল গুরুত্ব ও ব্যাখ্যা</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-800 dark:text-slate-200">
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-blue-600" rowspan="3">১. সামাজিক ও পারিবারিক শর্ত<br><span class="text-xs font-normal text-slate-500">(Social Criteria - সবচেয়ে গুরুত্বপূর্ণ)</span></td>
+        <td class="p-3 font-medium">দায়িত্বশীল প্রাপ্তবয়স্ক সহযোগী</td>
+        <td class="p-3">রোগীকে হাসপাতাল থেকে বাড়ি নিয়ে যাওয়ার জন্য এবং <strong>পরবর্তী ২৪ ঘণ্টা বাসায় সার্বক্ষণিক সাথে থাকার জন্য</strong> একজন প্রাপ্তবয়স্ক সুস্থ আত্মীয় থাকতে হবে (একা থাকা ব্যক্তির ডে-কেয়ার সার্জারি নিষেধ!)।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">দূরত্ব ও যোগাযোগ</td>
+        <td class="p-3">রোগীর বাসা হাসপাতাল থেকে <strong>সর্বোচ্চ ১ ঘণ্টার দূরত্বের মধ্যে</strong> হতে হবে এবং ব্যক্তিগত যান চলাচলের সুব্যবস্থা থাকতে হবে (বাস বা গণপরিবহনে ফেরা নিষেধ)।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">বাসার পরিবেশ ও ফোন</td>
+        <td class="p-3">জরুরি প্রয়োজনে হাসপাতালে যোগাযোগের সচল টেলিফোন বা মোবাইল নেটওয়ার্ক থাকতে হবে এবং বাসায় বিদ্যুৎ ও ভালো টয়লেটের সুবিধা থাকতে হবে।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-amber-600" rowspan="3">২. রোগীর শারীরিক ও মেডিকেল শর্ত<br><span class="text-xs font-normal text-slate-500">(Medical Criteria)</span></td>
+        <td class="p-3 font-medium">শারীরিক ফিটনেস (ASA Class)</td>
+        <td class="p-3">প্রধানত <strong>ASA I (সম্পূর্ণ সুস্থ)</strong> এবং <strong>ASA II (নিয়ন্ত্রিত হালকা রোগ)</strong>। সুনিয়ন্ত্রিত প্রেসার বা ডায়াবেটিস রোগী (ASA III) যাদের ৩ মাসের মধ্যে কোনো তীব্র সমস্যা হয়নি তাদেরও করা যায়।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">ওজন ও বডি ম্যাস ইনডেক্স</td>
+        <td class="p-3">রোগীর ওজন <strong>BMI &lt; ৩৫-৪০ kg/m2</strong> এর মধ্যে হওয়া বাঞ্ছনীয় (চরম স্থূলকায় ব্যক্তিদের এনেস্থেশিয়া পরবর্তী শ্বাসকষ্টের ঝুঁকি বেশি)।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">বর্জনীয় রোগসমূহ</td>
+        <td class="p-3">অনিয়ন্ত্রিত ডায়াবেটিস বা হার্টের রোগ, তীব্র সিওপিডি (COPD), স্লিপ অ্যাপনিয়া (Sleep Apnea), এবং ড্রাগে আসক্ত রোগী ডে-কেয়ারের জন্য অনুপযুক্ত।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-bold text-rose-600" rowspan="3">৩. সার্জিক্যাল বা অপারেশনের শর্ত<br><span class="text-xs font-normal text-slate-500">(Surgical Criteria)</span></td>
+        <td class="p-3 font-medium">অপারেশনের সময় ও রক্তপাত</td>
+        <td class="p-3">অপারেশনটি <strong>১ থেকে ১.৫ ঘণ্টার মধ্যে (সর্বোচ্চ ৯০ মিনিট)</strong> শেষ হতে হবে। রক্তপাতের ঝুঁকি নগণ্য হতে হবে (রক্ত দেওয়ার কোনো প্রয়োজন পড়বে না)।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">অপারেশন পরবর্তী ব্যথা</td>
+        <td class="p-3">ব্যথা মুখে সাধারণ ব্যথানাশক বড়ি (NSAID / Paracetamol) খেয়েই নিরাময়যোগ্য হতে হবে (বাসায় গিয়ে ইনজেকশন দেওয়ার প্রয়োজন নেই)।</td>
+      </tr>
+      <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+        <td class="p-3 font-medium">রিকভারি ও ড্রেন টিউব</td>
+        <td class="p-3">অপারেশনের পর রোগী নিজে নিজে হাঁটতে সক্ষম হতে হবে। পেটে কোনো বড় ড্রেন টিউব বা ইউরিনারি ক্যাথেটার থাকা চলবে না।</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br><strong>৩. ডে-কেয়ার সার্জারির উপযোগী প্রধান অপারেশনসমূহ:</strong>
+<ul class="list-disc pl-5 space-y-1">
+  <li><strong>জেনারেল সার্জারি:</strong> হার্নিয়া অপারেশন (Inguinal / Umbilical hernia), ল্যাপারোস্কোপিক পিত্তথলির পাথর অপারেশন (Laparoscopic cholecystectomy), পাইলস বা ফিশার অপারেশন, লাইপোমা বা সিস্ট কাটা।</li>
+  <li><strong>চোখ ও নাক-কান-গলা:</strong> চোখের ছানি অপারেশন (Cataract), নাকের পলিপ বা টনসিল।</li>
+  <li><strong>অর্থোপেডিকস:</strong> হাঁটুর আর্থ্রোস্কোপি, কার্পাল টানেল রিলিজ, রড বা প্লেট অপসারণ।</li>
+  <li><strong>ইউরোলজি:</strong> খৎনা (Circumcision), হাইড্রোসিল ও সিস্টোস্কোপি।</li>
+</ul>
+
+<br><strong>৪. বাড়ি পাঠানোর ডিসচার্জ ক্রাইটেরিয়া (PADSS Score &ge; 9):</strong><br>
+বাড়ি ছাড়ার পূর্বে রোগীকে নিচের শর্তগুলো পূরণ করতে হবে:
+<ul class="list-disc pl-5 space-y-1">
+  <li>রক্তচাপ, নাড়ি ও শ্বাসপ্রশ্বাস অন্তত ১ ঘণ্টা ধরে সম্পূর্ণ স্বাভাবিক থাকা।</li>
+  <li>মাথা ঘোরা ছাড়া নিজে নিজে সোজা হয়ে হাঁটতে পারা।</li>
+  <li>মুখে পানি বা তরল খাবার হজম করতে পারা (বমি না থাকা)।</li>
+  <li>অপারেশনের ক্ষত থেকে অতিরিক্ত রক্তক্ষরণ বা ফোলা না থাকা।</li>
+  <li>প্রস্রাব স্বাভাবিকভাবে নিজে থেকে সম্পন্ন করা (বিশেষ করে স্পাইনাল বা হার্নিয়া অপারেশনের পর)।</li>
+  <li>জরুরি ২৪ ঘণ্টার হেল্পলাইন নম্বর এবং প্রেসক্রিপশন বুঝিয়ে দেওয়া।</li>
+</ul>
+</div>
+
+<div class="callout-amber">
+<h3 class="font-bold text-lg mb-2">💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)</h3>
+
+<ul class="list-disc pl-5 space-y-3">
+  <li><strong>একাকী বসবাসকারী ব্যক্তির ডে-কেয়ার সার্জারি কেন নিষিদ্ধ?</strong>
+    <br>অ্যানেস্থেসিয়ার ড্রাগগুলোর অবশিষ্টাংশ পরবর্তী ২৪ ঘণ্টা পর্যন্ত মস্তিষ্কের বিচারবুদ্ধি ও রিফ্লেক্সকে অবদমিত রাখে। রোগী বাড়ি গিয়ে হঠাৎ অজ্ঞান হতে পারে, বমি শ্বাসনালীতে ঢুকে শ্বাস বন্ধ হতে পারে বা পড়ে গিয়ে রক্তক্ষরণ হতে পারে। কাছে কোনো সুস্থ সাহায্যকারী না থাকলে এই বিপদে রোগীর মৃত্যু হতে পারে। তাই সঙ্গীহীন রোগীকে অন্তত ১ রাত হাসপাতালে ভর্তি রাখা বাধ্যতামূলক।
+  </li>
+  <li><strong>স্পাইনাল অ্যানেস্থেসিয়ার পর প্রস্রাব না করে বাড়ি পাঠানো কেন অপরাধ?</strong>
+    <br>স্পাইনাল অ্যানেস্থেসিয়া মূত্রথলির অটোনোমিক স্নায়ু (S2-S4 parasympathetic outflow)-কে অবশ করে রাখে। অনেক সময় রোগীর পা সচল হলেও মূত্রথলি প্যারালাইজড থাকে। প্রস্রাব না করিয়ে বাড়ি পাঠিয়ে দিলে প্রস্রাব আটকে মূত্রথলি অতিরিক্ত ফুলে (Acute Urinary Retention) মারাত্মক যন্ত্রণা ও কিডনির ক্ষতি হতে পারে।
+  </li>
+  <li><strong>বাড়ি ফেরার সময় গণপরিবহন (Public Bus) কেন নিষিদ্ধ?</strong>
+    <br>বাস বা ট্রেনে যাতায়াতের ঝাঁকুনিতে সেলাইয়ের তাজা ক্ষতস্থান ছিঁড়ে হঠাৎ তীব্র রক্তক্ষরণ (Reactionary hemorrhage) হতে পারে। এছাড়া গণপরিবহনে ইনফেকশনের জীবাণু বেশি থাকে। তাই রোগীকে সবসময় ব্যক্তিগত অ্যাম্বুলেন্স, প্রাইভেট কার বা সিএনজিতে ফিরতে হবে।
+  </li>
+</ul>
+</div>
+
+</div>
             </div>
           </div>
         </article>
@@ -73105,53 +73592,77 @@ STEP 2: DEFINITIVE TUBE THORACOSTOMY (CHEST DRAIN)
 </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Pathophysiology and Clinical Presentation:</strong>
-Tension pneumothorax is a life-threatening, rapidly fatal thoracic emergency that occurs when a "one-way valve" (ball-valve) flap defect develops in the visceral pleura or tracheobronchial tree.
-<ul>
-  <li><strong>Mechanism:</strong> Air enters the pleural space during inspiration but is trapped and prevented from exiting during expiration. Intrapleural pressure progressively builds until it exceeds atmospheric pressure, completely collapsing the ipsilateral lung.</li>
-  <li><strong>Hemodynamic Collapse:</strong> Extreme intrapleural pressure pushes the mobile mediastinum and trachea massively toward the contralateral hemithorax. This acutely <strong>kinks and compresses the Inferior Vena Cava (IVC) and Superior Vena Cava (SVC)</strong>, obliterating systemic venous return (preload) to the heart. Cardiac output plummets, rapidly culminating in electromechanical dissociation (PEA cardiac arrest) and death.</li>
-  <li><strong>Cardinal Clinical Signs (Clinical Diagnosis Only):</strong>
-    <ol>
-      <li>Severe respiratory distress, tachypnea, and intense central cyanosis.</li>
-      <li><strong>Tracheal deviation away</strong> from the affected side (to the contralateral side).</li>
-      <li>Markedly distended, engorged neck veins (elevated JVP due to obstructed venous return). <em>(May be absent if severe hypovolemic shock coexists)</em>.</li>
-      <li><strong>Hyperresonant percussion note</strong> over the affected hemithorax.</li>
-      <li><strong>Absent or markedly diminished breath sounds</strong> on the affected side.</li>
-      <li>Hemodynamic shock: profound hypotension, tachycardia, cold clammy skin.</li>
-    </ol>
+              <strong>1. Overview & Pathophysiological Emergency:</strong><br>
+Tension Pneumothorax is a catastrophic, immediately life-threatening thoracic emergency characterized by the progressive accumulation of air under pressure within the pleural space. It results from a disruption of the visceral pleura, tracheobronchial tree, or chest wall that forms a physiological <strong>"one-way valve" (flap-valve / ball-valve mechanism)</strong>: air enters the pleural cavity during inspiration but is trapped and cannot escape during expiration.
+
+<br><br><strong>Pathophysiological Cascade:</strong>
+<ol class="list-decimal pl-5 space-y-1 mt-1 font-medium text-slate-800 dark:text-slate-200">
+  <li>Unchecked accumulation of air generates positive intrapleural pressure, exceeding atmospheric pressure throughout the respiratory cycle.</li>
+  <li>This causes complete ipsilateral pulmonary collapse and massive <strong>contralateral deviation/shift of the mediastinum and trachea</strong> away from the affected side.</li>
+  <li>Massive mediastinal shift kinks and severely compresses the thin-walled <strong>Superior and Inferior Vena Cava</strong>, abruptly halting venous return to the right atrium.</li>
+  <li>Acute reduction in ventricular pre-load precipitates <strong>Obstructive Shock</strong>, profound arterial hypotension, severe hypoxemia from extreme ventilation-perfusion mismatch, rapid progression to Pulseless Electrical Activity (PEA) cardiac arrest, and death within minutes.</li>
+</ol>
+
+<br><strong>2. Bedside Clinical Diagnosis (The Golden Surgical Rule):</strong><br>
+<strong>Tension Pneumothorax is a STRICTLY CLINICAL DIAGNOSIS!</strong>
+<br><strong>Mandatory Resuscitation Principle:</strong> <strong>NEVER send the patient for a diagnostic Chest X-ray or delay decompression for imaging!</strong> Transporting an unstable patient to radiology or waiting for an X-ray is lethal medical negligence.
+
+<br><strong>Classic Clinical Diagnostic Hallmarks:</strong>
+<ul class="list-disc pl-5 space-y-1 mt-1">
+  <li>Severe respiratory distress, air hunger, tachypnea (&gt; 35/min), diaphoresis, central cyanosis.</li>
+  <li><strong>Tracheal Deviation:</strong> Obvious physical shift of the trachea away from the affected side toward the contralateral hemithorax.</li>
+  <li><strong>Ipsilateral Chest Findings:</strong>
+    <br>&bull; Asymmetric, hyper-expanded, fixed hemithorax with absent respiratory excursion.
+    <br>&bull; <strong>Stony hyper-resonance to percussion</strong> across the entire hemithorax.
+    <br>&bull; <strong>Total absence of breath sounds</strong> on auscultation.
   </li>
-  <li><strong>THE CARDINAL ATLS RULE:</strong>
-    <br><strong>Tension pneumothorax is a purely CLINICAL diagnosis. It is an absolute medical malpractice to send the patient for a chest X-ray or wait for radiographic confirmation!</strong> Intervention must be performed instantly at the bedside.</li>
+  <li><strong>Distended Neck Veins (Elevated JVP):</strong> Due to mechanical superior vena caval obstruction. (May be flat if coexisting severe hemorrhagic hypovolemic shock is present).</li>
+  <li><strong>Hemodynamic Collapse:</strong> Severe refractory hypotension (Systolic BP &lt; 80 mmHg), tachycardia (&gt; 120-140 bpm), pulsus paradoxus, and impending PEA arrest.</li>
 </ul>
 
-<strong>2. Step-by-Step Immediate Bedside Surgical Intervention:</strong>
-<ol>
-  <li><strong>Step 1: Emergency Needle Thoracostomy (Needle Decompression):</strong>
-    <ul>
-      <li><strong>Equipment:</strong> Large-bore <strong>14-gauge or 16-gauge IV cannula (with needle)</strong>, at least 5 to 8 cm in length (standard 4.5 cm cannulas may fail to penetrate chest wall musculature in muscular or obese patients).</li>
-      <li><strong>Anatomical Landmark (Two Approved Sites):</strong>
-        <br>• <strong>Traditional Site:</strong> <strong>2nd Intercostal Space in the Midclavicular Line</strong> (just lateral to the sternal angle of Louis, inserting the needle directly over the superior border of the 3rd rib to avoid injuring the intercostal neurovascular bundle running along the rib's lower border).
-        <br>• <strong>Preferred Modern Site (ATLS 10th ed.):</strong> <strong>5th Intercostal Space in the Anterior Axillary Line</strong> (thinner chest wall, lower failure rate).
-      </li>
-      <li><strong>Execution:</strong> Clean skin, insert the needle perpendicular into the pleural space until resistance yields. Remove the inner trochar needle while leaving the plastic cannula in place.
-      <br>• <strong>Confirmation:</strong> An instantaneous, audible, pressurized <strong>"rush or hiss of air"</strong> escapes through the cannula. The tension is immediately converted into a harmless open pneumothorax; venous return is restored, blood pressure rebounds, and tachypnea improves within seconds.</li>
-    </ul>
+<br><strong>3. Immediate Bedside Surgical Interventions (Two-Stage Resuscitation):</strong><br>
+Management proceeds in two sequential, life-saving surgical stages:
+
+<br><strong>Stage 1: Immediate Emergency Needle Thoracostomy (Needle Decompression):</strong><br>
+Immediately converts a lethal tension pneumothorax into an open, non-tension pneumothorax, instantly relieving vena caval compression and restoring cardiac output:
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>Instrument:</strong> Large-bore cannula: <strong>14-gauge or 16-gauge IV cannula (minimum length: 4.5 to 5.0 cm / 2 inches)</strong>. (Standard short 3 cm needles fail in up to 50% of patients due to thick pectoral/chest wall musculature).</li>
+  <li><strong>Anatomical Site Selection (Modern ATLS 10th Edition Consensus):</strong>
+    <br>&bull; <strong>Primary Preferred Site (ATLS 10th Edition):</strong> <strong>5th Intercostal Space in the Anterior Axillary Line</strong> (just anterior to the mid-axillary line) on the affected side. (Evidence demonstrates the chest wall is significantly thinner at the lateral chest, resulting in successful pleural penetration in &gt; 90% vs. &lt; 50% in the anterior chest).
+    <br>&bull; <strong>Traditional Alternative Site:</strong> <strong>2nd Intercostal Space in the Midclavicular Line</strong> on the affected side.
   </li>
-  <li><strong>Step 2: Definitive Tube Thoracostomy (Formal Chest Drain Insertion):</strong>
-    <ul>
-      <li>Needle decompression is strictly a temporary temporizing bridge. A formal intercostal chest drain must be placed immediately thereafter.</li>
-      <li><strong>Anatomical Site ("The Safe Triangle"):</strong>
-        <br>• Anterior border: Lateral border of Pectoralis Major.
-        <br>• Posterior border: Anterior border of Latissimus Dorsi.
-        <br>• Inferior border: Horizontal line level with the 5th intercostal space (nipple level in males).
-        <br>• Apex: Base of the axilla.
-      </li>
-      <li><strong>Procedure:</strong> Infiltrate 1-2% lidocaine local anesthetic. Make a 2-3 cm transverse incision over the 5th rib. Bluntly dissect through intercostal muscles with curved Kelly forceps just above the 6th rib. Puncture the parietal pleura; sweep an examining finger 360 degrees into the pleural space to lyse adhesions and ensure the lung is not adherent.</li>
-      <li>Insert a large-bore <strong>28 to 32 French chest tube</strong> directed apically and posteriorly. Secure the tube with heavy silk sutures (purse-string or mattress stitch) and tape.</li>
-      <li>Connect the tube to an <strong>Underwater Seal Drainage Bottle</strong>. Confirm position by observing fluid column oscillation ("swinging") with respiration and continuous bubbling of air. Secure sterile dressing and obtain a post-procedure erect chest radiograph.</li>
-    </ul>
+  <li><strong>Step-by-Step Surgical Technique:</strong>
+    <br>1. Rapid antiseptic swab of the site.
+    <br>2. Insert the needle perpendicular to the chest wall <strong>DIRECTLY OVER THE SUPERIOR BORDER OF THE LOWER RIB</strong>.
+    <br>&bull; <strong>Crucial Anatomical Rationale:</strong> The <strong>Intercostal Neurovascular Bundle (Vein, Artery, Nerve - VAN)</strong> courses within the subcostal groove along the <strong>inferior border</strong> of each rib. Inserting over the superior border avoids catastrophic laceration of the intercostal artery!
+    <br>3. Puncture the parietal pleura; a dramatic, audible <strong>hissing rush of pressurized air</strong> instantly escapes!
+    <br>4. Withdraw the metallic stylet while advancing and securing the plastic cannula in situ.
+    <br>5. Blood pressure and oxygen saturation instantly rebound.
   </li>
-</ol>
+</ul>
+
+<br><strong>Stage 2: Definitive Tube Thoracostomy (Intercostal Chest Drain with Under-Water Seal):</strong><br>
+Needle decompression is strictly a temporary, temporizing resuscitation maneuver (the cannula easily kinks, blocks, or dislodges). Formal chest tube placement is <strong>mandatory immediately thereafter</strong>:
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>Anatomical Site: The "Safe Triangle" (British Thoracic Society Guidelines):</strong>
+    <br>Bounded by:
+    <br>&bull; <strong>Anterior border:</strong> Lateral edge of Pectoralis Major muscle.
+    <br>&bull; <strong>Posterior border:</strong> Anterior edge of Latissimus Dorsi muscle.
+    <br>&bull; <strong>Inferior border:</strong> Horizontal line level with the 5th intercostal space (nipple line in males).
+    <br>&bull; <strong>Apex:</strong> Axillary fossa.
+    <br><strong>(Prevents injury to internal mammary vessels, long thoracic nerve, and subdiaphragmatic abdominal viscera).</strong>
+  </li>
+  <li><strong>Surgical Technique:</strong>
+    <br>1. Infiltrate 10-20 mL of 1% Lidocaine into skin, intercostal muscle, and parietal pleura.
+    <br>2. 2 to 3 cm transverse skin incision in the 5th ICS over the rib.
+    <br>3. Blunt dissection with curved Kelly/Spencer Wells forceps over the superior border of the rib.
+    <br>4. Puncture the parietal pleura with forceps; insert a gloved index finger into the pleural space to perform a <strong>360-degree sweep</strong> (confirms intrapleural position and verifies absence of dense lung adhesions).
+    <br>5. Guide a large-bore chest tube (<strong>28 to 32 French in trauma/hemothorax; 20 to 24 Fr in simple pneumothorax</strong>) with clamp apically and posteriorly.
+    <br>6. Connect tube to an <strong>Under-Water Seal Drainage System</strong> (observe continuous air bubbling and respiratory fluid swing).
+    <br>7. Secure firmly to chest wall using heavy silk (stay suture and mattress closure suture); apply sterile occlusive dressing.
+    <br>8. Obtain an erect chest radiograph <strong>post-procedure</strong> to verify complete lung re-expansion and correct tube positioning.
+  </li>
+</ul>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -73159,25 +73670,90 @@ Tension pneumothorax is a life-threatening, rapidly fatal thoracic emergency tha
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট ও পরীক্ষার গোল্ডেন পয়েন্ট:</strong>
-<ul>
-  <li><strong>Tension Pneumothorax কেন এত মারাত্মক?</strong> ফুসফুসের পর্দায় একমুখী ভালভের মতো ফুটো হয়ে বাতাস শুধু ভেতরে ঢোকে কিন্তু বের হতে পারে না। অতিরিক্ত বাতাসের চাপে ফুসফুস চুপসে যায় এবং হার্টের প্রধান শিরা (Vena cava) দুমড়ে-মুচড়ে গিয়ে হার্টে রক্ত পৌঁছানো বন্ধ হয়ে যায়। ফলে রোগী কয়েক মিনিটের মধ্যে কার্ডিয়াক অ্যারেস্টে মারা যায়।</li>
-  <li><strong>লক্ষণ (দেখে চেনার উপায়):</strong>
-    <ol>
-      <li>তীব্র শ্বাসকষ্ট ও নীল হয়ে যাওয়া।</li>
-      <li>গলার শ্বাসনালী (Trachea) যে পাশে রোগ তার উল্টোদিকে বেঁকে যায়।</li>
-      <li>গলার শিরাগুলো ফুলে মোটা হয়ে থাকে (JVP high)।</li>
-      <li>আক্রান্ত বুকে টোকা দিলে ঢোলের মতো আওয়াজ (Hyperresonance) এবং স্টেথোস্কোপে কোনো শ্বাসের শব্দ পাওয়া যায় না।</li>
-    </ol>
+              <div class="space-y-4">
+
+<div class="callout-blue">
+<h3 class="font-bold text-lg mb-2">📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)</h3>
+
+<strong>১. টেনশন নিউমোথোরাক্স (Tension Pneumothorax) পরিচিতি ও প্যাথোফিজিওলজি:</strong><br>
+টেনশন নিউমোথোরাক্স হলো একটি অতি-জরুরি ও জীবনঘাতী থোরাসিক ইমার্জেন্সি। বুকে আঘাতের ফলে ফুসফুস বা বুকের খাঁচায় এমন একটি ত্রুটি তৈরি হয় যা একটি <strong>"একমুখী ভাল্ব" (One-way valve mechanism)</strong>-এর মতো কাজ করে: শ্বাস নেওয়ার সময় বাতাস প্লুরাল স্পেসে ঢোকে, কিন্তু শ্বাস ছাড়ার সময় বের হতে পারে না।
+<br><br><strong>মৃত্যুর কারণ (Obstructive Shock):</strong><br>
+বাতাস জমে জমে প্লুরাল ক্যাভিটিতে অস্বাভাবিক উচ্চ চাপ তৈরি করে। এই চাপে আক্রান্ত পাশের ফুসফুস সম্পূর্ণ চুপসে যায় এবং বুকের ভেতরের মধ্যচ্ছদা বা মিডিয়াস্টিনাম (হৃৎপিণ্ড ও রক্তনালী) সজোরে বিপরীত পাশে বেঁকে যায়। এর ফলে হার্টে রক্ত নিয়ে আসা <strong>সুপিরিয়র ও ইনফেরিয়র ভেনাকাভা (SVC & IVC) বেঁকে গিয়ে রক্ত চলাচল বন্ধ হয়ে যায়</strong>। হার্ট রক্তশূন্য হয়ে তীব্র অবস্ট্রাকটিভ শক এবং কয়েক মিনিটের মধ্যে কার্ডিয়াক অ্যারেস্টে রোগীর মৃত্যু ঘটে!
+
+<br><br><strong>২. বেডসাইড ক্লিনিক্যাল ডায়াগনোসিস (সবচেয়ে গুরুত্বপূর্ণ নিয়ম):</strong><br>
+<strong>টেনশন নিউমোথোরাক্স শতভাগ ক্লিনিক্যাল ডায়াগনোসিস!</strong>
+<br><strong>সবচেয়ে জরুরি সতর্কবার্তা:</strong> <strong>রোগীকে কখনোই বুকের এক্স-রে (Chest X-ray) করতে পাঠানো যাবে না!</strong> এক্স-রে করতে পাঠানো বা রিপোর্টের অপেক্ষা করা ক্ষমার অযোগ্য অবহেলা; এক্স-রে করতে করতে রোগী মারা যাবে। বেডসাইডেই রোগ ধরে তাৎক্ষণিক সুঁই ফোটাতে হবে!
+
+<br><strong>প্রধান ক্লাসিকাল লক্ষণসমূহ:</strong>
+<ul class="list-disc pl-5 space-y-1 mt-1">
+  <li>চরম শ্বাসকষ্ট, হাঁসফাঁস করা, শরীর নীল হয়ে যাওয়া (Cyanosis) ও প্রচণ্ড অস্থিরতা।</li>
+  <li><strong>শ্বাসনালী বা ট্র্যাকিয়া বিপরীত পাশে সরে যাওয়া (Tracheal deviation):</strong> গলায় হাত দিলে ট্র্যাকিয়া সুস্থ পাশের দিকে বাঁকা পাওয়া যায়।</li>
+  <li><strong>আক্রান্ত পাশের বুকের লক্ষণ:</strong>
+    <br>&bull; বুকের একপাশ অস্বাভাবিক ফুলে থাকা এবং শ্বাসপ্রশ্বাসের সাথে না নড়া।
+    <br>&bull; টোকা দিলে ঢোলের মতো গভীর আওয়াজ হওয়া (<strong>Stony Hyper-resonance</strong>)।
+    <br>&bull; স্টেথোস্কোপ দিয়ে শুনলে <strong>শ্বাসপ্রশ্বাসের কোনো শব্দ না পাওয়া (Absent breath sounds)</strong>।
   </li>
-  <li><strong>চিকিৎসার পরম নিয়ম (Golden Rule):</strong>
-    <br><strong>ভুলেও বুকের এক্স-রে করার জন্য রোগীকে পাঠানো যাবে না!</strong> এক্স-রে করতে পাঠানো মানে রোগীকে মেরে ফেলা। লক্ষণ দেখামাত্রই বেডসাইডে তাৎক্ষণিক চিকিৎসা শুরু করতে হবে:
-    <ul>
-      <li><strong>ধাপ ১: Needle Decompression:</strong> একটি মোটা <strong>14G বা 16G ক্যানুলা</strong> নিয়ে বুকের <strong>২য় ইন্টারকোস্টাল স্পেসের মিড-ক্ল্যাভিকুলার লাইনে</strong> (অথবা ৫ম ইন্টারকোস্টাল স্পেসের অ্যান্টিরিয়র অ্যাক্সিলারি লাইনে) পাংচার করতে হবে। সাথে সাথে সাঁ সাঁ করে বাতাস বের হয়ে রক্তচাপ স্বাভাবিক হবে এবং রোগী বেঁচে যাবে।</li>
-      <li><strong>ধাপ ২: Chest Drain (নল পরানো):</strong> বাতাস বের করার পর বগলের নিচে <em>Safe Triangle</em> দিয়ে <strong>28-32F সাইজের চেস্ট ড্রেন</strong> পরিয়ে পানির নিচে (Underwater seal) সংযোগ করে দিতে হবে।</li>
-    </ul>
+  <li>গলার শিরা ফুলে মোটা হয়ে যাওয়া (Engorged neck veins / High JVP)।</li>
+  <li>রক্তচাপ ধসে পড়া (BP &lt; ৮০ mmHg) এবং দ্রুত নাড়ির স্পন্দন (&gt; ১৩০ বিট/মিনিট)।</li>
+</ul>
+
+<br><strong>৩. তাৎক্ষণিক বেডসাইড সার্জিক্যাল চিকিৎসা (২টি পর্যায়ক্রমিক ধাপ):</strong>
+
+<br><strong>১ম ধাপ: তাৎক্ষণিক সুঁই ফুটিয়ে চাপমুক্ত করা (Needle Thoracostomy / Decompression):</strong><br>
+এটি কয়েক সেকেন্ডের মধ্যে টেনশন নিউমোথোরাক্সকে সাধারণ নিউমোথোরাক্সে রূপান্তর করে হার্টের রক্ত চলাচল সচল করে রোগীর প্রাণ বাঁচায়:
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>সুঁইয়ের মাপ:</strong> মোটা মাপের আইভি ক্যানুলা: <strong>১৪ বা ১৬ গেজ (14G or 16G)</strong> এবং কমপক্ষে ৪.৫ থেকে ৫ সেমি লম্বা সুঁই।</li>
+  <li><strong>সুঁই ফোটানোর স্থান (আধুনিক ATLS 10th Edition গাইডলাইন):</strong>
+    <br>&bull; <strong>প্রথম পছন্দ (First Choice):</strong> আক্রান্ত পাশের বুকের <strong>৫ম ইন্টারকোস্টাল স্পেস (5th ICS) অ্যান্টেরিওর অ্যাক্সিলারি লাইনে</strong> (বগলের সামনের খাঁজে)। (কারণ এখানে বুকের দেওয়াল পাতলা থাকে, ফলে ৯৫% ক্ষেত্রে সহজেই বাতাস বের হয়)।
+    <br>&bull; বিকল্প স্থান: ২য় ইন্টারকোস্টাল স্পেস মিড-ক্ল্যাভিকুলার লাইনে।
+  </li>
+  <li><strong>সার্জিক্যাল টেকনিক ও অ্যানাটমির নিয়ম:</strong>
+    <br>&bull; ক্যানুলাটি পাঁজরের নিচের খাঁজের বদলে <strong>নিচের পাঁজরের ওপরের কিনারা ঘেঁষে (Over the superior border of the rib)</strong> ৯০ ডিগ্রি কোণে সরাসরি ফুটাতে হবে।
+    <br>&bull; <strong>কেন ওপরের কিনারা ঘেঁষে?</strong> কারণ পাঁজরের নিচের খাঁজ দিয়ে গুরুত্বপূর্ণ রক্তনালী ও স্নায়ু (<strong>Intercostal Vein, Artery, Nerve - VAN</strong>) চলে। নিচের কিনারায় সুঁই দিলে ধমনী কেটে তীব্র রক্তক্ষরণ হবে!
+    <br>&bull; প্লুরা ভেদ করার সাথে সাথে <strong>সজোরে হিস-হিস শব্দ করে বাতাস বের হয়ে আসবে</strong> এবং রোগীর রক্তচাপ ও জ্ঞান সাথে সাথে ফিরে আসবে!
+    <br>&bull; ধাতব সুঁইটি বের করে প্লাস্টিকের ক্যানুলাটি বুকের গায়ে রেখে দিতে হবে।
   </li>
 </ul>
+
+<br><strong>২য় ধাপ: স্থায়ী চেস্ট ড্রেন টিউব বসানো (Tube Thoracostomy with Under-Water Seal):</strong><br>
+সুঁই ফোটানো কেবল সাময়িক ব্যবস্থা (ক্যানুলা যেকোনো মুহূর্তে আটকে যেতে পারে)। তাই সাথে সাথে ওটিতে বা বেডসাইডেই স্থায়ী <strong>চেস্ট ড্রেন (Chest Tube)</strong> বসাতে হবে:
+<ul class="list-disc pl-5 space-y-2 mt-1">
+  <li><strong>টিউব বসানোর স্থান: "নিরাপদ ত্রিভুজ" (The Safe Triangle):</strong>
+    <br>&bull; সামনে: পেক্টোরালিস মেজর পেশির বহিরাংশ।
+    <br>&bull; পেছনে: ল্যাটিসিমাস ডরসি পেশির অগ্রভাগ।
+    <br>&bull; নিচে: ৫ম ইন্টারকোস্টাল স্পেস বরাবর আনুভূমিক রেখা (পুরুষের স্তনবৃন্ত বরাবর)।
+    <br>&bull; চূড়া: বগলের খাঁজ (Axilla)।
+  </li>
+  <li><strong>পদ্ধতি:</strong>
+    <br>১. স্থানটিতে লোকাল এনেস্থেশিয়া (1% Lidocaine) দিয়ে অবশ করা।
+    <br>২. ৫ম পাঁজরের ওপর চামড়ায় ২-৩ সেমি আড়াআড়ি ছিদ্র করা।
+    <br>৩. বাঁকা ফরসেপ দিয়ে পাঁজরের ওপরের কিনারা দিয়ে মাংসপেশি ফাঁক করে প্লুরা ফুটো করা।
+    <br>৪. আঙুল ঢুকিয়ে চারপাশ পরীক্ষা করা (যাতে ফুসফুস আটকে না থাকে)।
+    <br>৫. একটি মোটা চেস্ট টিউব (২৮-৩২ ফ্রেঞ্চ) পেছনের ও ওপরের দিকে তাক করে প্লুরাল ক্যাভিটিতে ঢুকিয়ে দেওয়া।
+    <br>৬. টিউবের অন্য প্রান্তটি <strong>আন্ডার-ওয়াটার সিল ড্রেনেজ বোতলে (Under-water seal)</strong> ডুবিয়ে রাখা (শ্বাস ছাড়লে পানিতে বুদবুদ উঠবে)।
+    <br>৭. মোটা সুতো দিয়ে সেলাই করে টিউবটি শক্তভাবে চামড়ার সাথে আটকে দেওয়া।
+    <br>৮. <strong>সবশেষে</strong> ফুসফুস সম্পূর্ণ ফুলেছে কিনা তা নিশ্চিত করতে একটি বুকের এক্স-রে করা।
+  </li>
+</ul>
+</div>
+
+<div class="callout-amber">
+<h3 class="font-bold text-lg mb-2">💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)</h3>
+
+<ul class="list-disc pl-5 space-y-3">
+  <li><strong>এক্স-রে রুমে পাঠালে কেন মৃত্যু অনিবার্য?</strong>
+    <br>টেনশন নিউমোথোরাক্সের রোগী তীব্র কার্ডিয়াক শকে থাকে। এক্স-রে রুমে শিফট করার সময় বা ক্যাসেট লাগানোর সময় ঝাঁকুনিতে কার্ডিয়াক আউটপুট শূন্য হয়ে রোগী মুহূর্তেই পিইএ কার্ডিয়াক অ্যারেস্টে চলে যায়। তাই আন্তর্জাতিক ট্রমা বোর্ড (ATLS)-এর নীতি: <strong>"Do NOT obtain a radiograph in suspected tension pneumothorax — decompress immediately!"</strong>
+  </li>
+  <li><strong>ATLS 10th সংস্করণে সুঁই ফোটানোর স্থান পরিবর্তন হলো কেন?</strong>
+    <br>পূর্বে ২য় ইন্টারকোস্টাল স্পেস মিড-ক্ল্যাভিকুলার লাইনে সুঁই দেওয়া হতো। কিন্তু আধুনিক সিটি স্ক্যান গবেষণায় দেখা গেছে মানুষের বুকের সামনের মাংসপেশি (Pectoralis major) অনেক পুরু থাকে (গড়ে ৪.৫ সেমির বেশি)। ফলে সাধারণ সুঁই ৫০% ক্ষেত্রে প্লুরা পর্যন্ত পৌঁছাতেই পারত না! অন্যদিকে বগলের নিচে <strong>৫ম ইন্টারকোস্টাল স্পেস অ্যান্টেরিওর অ্যাক্সিলারি লাইনে</strong> চামড়া ও মাংসের স্তর অনেক পাতলা থাকে, ফলে সাধারণ ক্যানুলা দিয়েও ৯৫% ক্ষেত্রে ফুসফুসে সফলভাবে পৌঁছানো যায়।
+  </li>
+  <li><strong>নিরাপদ ত্রিভুজ (Safe Triangle) কেন নিরাপদ?</strong>
+    <br>এই ত্রিভুজের ভেতর দিয়ে বুকের দুধের রক্তনালী (Internal mammary artery), ঘাড়ের বড় নার্ভ বা পেটের লিভার ও প্লীহা থাকে না। ফলে এই অংশে বুক ফুটো করলে কোনো বড় রক্তনালী কাটা পড়ার বা পেটের ভেতর ড্রেন ঢুকে যাওয়ার কোনো ঝুঁকি থাকে না।
+  </li>
+</ul>
+</div>
+
+</div>
             </div>
           </div>
         </article>
