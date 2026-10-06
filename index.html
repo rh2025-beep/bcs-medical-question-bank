@@ -1899,21 +1899,97 @@
             <div class="my-2 p-2 bg-slate-50 dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-center text-xs font-bold text-purple-600">Formula: Number of Barr Bodies = (Total Number of X Chromosomes) - 1</div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">Barr Body & Lyon's Hypothesis:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Definition:</strong> Inactive, condensed, heterochromatic sex chromatin mass seen at the periphery of the nucleus in female somatic cells (or as a "drumstick" appendage in neutrophil nuclei).</li>
-  <li><strong>Lyon Hypothesis (Mary Lyon, 1961):</strong> In somatic cells of female mammals, one of the two X chromosomes is randomly inactivated around the 16th day of embryonic development, achieving dosage compensation between males (XY) and females (XX).</li>
-  <li><strong>Formula:</strong> <strong>Number of Barr bodies = Total X chromosomes − 1</strong>.
-    <ul class="list-circle pl-5 mt-1">
-      <li>Normal female (46, XX): <strong>1 Barr body</strong>.</li>
-      <li>Normal male (46, XY): <strong>0 Barr body</strong>.</li>
-      <li>Turner Syndrome (45, X0): <strong>0 Barr body</strong>.</li>
-      <li>Klinefelter Syndrome (47, XXY): <strong>1 Barr body</strong>.</li>
-      <li>Triple X Syndrome (47, XXX): <strong>2 Barr bodies</strong>.</li>
+              <div class="space-y-6">
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">1. Barr Body (Sex Chromatin)</h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Discovery & Definition:</strong> First identified by Murray Barr and Ewart Bertram in 1949 in the feline nerve cell nuclei. A <strong>Barr body</strong> is a densely stained, condensed mass of facultative heterochromatin representing the genetically inactivated X chromosome in somatic cell nuclei of normal mammalian females.</li>
+      <li><strong>Morphological Appearance & Location:</strong> Under light microscopy (Feulgen or Giemsa stain), it appears as a planoconvex or triangular dark chromatin body (~1 &mu;m in diameter) closely apposed to the inner surface of the nuclear membrane in interphase cells (typically examined in buccal mucosal scrapings). In circulating mature neutrophils, it projects from the nucleus as a characteristic small pedunculated lobule termed a <strong>"drumstick" appendage</strong> (present in 2–7% of female neutrophils).</li>
+      <li><strong>The N - 1 Rule:</strong> The number of Barr bodies present in any somatic cell is always equal to the total number of X chromosomes minus one:
+        <br><code class="font-bold text-blue-600 dark:text-blue-400">Number of Barr Bodies = Total X Chromosomes - 1</code>
+      </li>
     </ul>
-  </li>
-</ul>
+
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Phenotype / Clinical Condition</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Karyotype</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Total X Chromosomes</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Number of Barr Bodies</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">Normal Male</td>
+            <td class="p-3">46, XY</td>
+            <td class="p-3">1</td>
+            <td class="p-3"><strong>0</strong> (Chromatin-negative)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Normal Female</td>
+            <td class="p-3">46, XX</td>
+            <td class="p-3">2</td>
+            <td class="p-3"><strong>1</strong> (Chromatin-positive)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Turner Syndrome</td>
+            <td class="p-3">45, X (or 45, X0)</td>
+            <td class="p-3">1</td>
+            <td class="p-3"><strong>0</strong> (Female, but chromatin-negative)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Klinefelter Syndrome</td>
+            <td class="p-3">47, XXY</td>
+            <td class="p-3">2</td>
+            <td class="p-3"><strong>1</strong> (Male, but chromatin-positive)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Triple X Syndrome</td>
+            <td class="p-3">47, XXX</td>
+            <td class="p-3">3</td>
+            <td class="p-3"><strong>2</strong></td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Tetrasomy X / Klinefelter Variant</td>
+            <td class="p-3">48, XXXX / 48, XXXY</td>
+            <td class="p-3">4</td>
+            <td class="p-3"><strong>3</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">2. Lyon Hypothesis (Dosage Compensation)</h3>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+      Formulated by British geneticist Mary Lyon in 1961, the <strong>Lyon Hypothesis</strong> explains the genetic mechanism of X-chromosome inactivation:
+    </p>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Postulate 1 (Heterochromatinization):</strong> In female mammalian somatic cells, one of the two X chromosomes is genetically inactivated and condensed into a Barr body, equalizing the dose of X-linked gene products between females (XX) and males (XY) (<strong>Dosage Compensation</strong>).</li>
+      <li><strong>Postulate 2 (Timing):</strong> Inactivation occurs early during embryonic development (approximately at the blastocyst stage, around day 16 post-fertilization).</li>
+      <li><strong>Postulate 3 (Randomness):</strong> Inactivation is completely random within each cell; either the maternally derived X (Xm) or the paternally derived X (Xp) may be inactivated.</li>
+      <li><strong>Postulate 4 (Clonal Propagation & Mosaicism):</strong> Once an X chromosome is inactivated in a progenitor embryonic cell, that specific inactive state is permanently and faithfully transmitted to all subsequent mitotic daughter cells. Consequently, normal human females are <strong>cellular mosaics</strong> composed of alternating cell patches expressing either maternal or paternal X alleles.</li>
+    </ul>
+
+    <h4 class="font-bold text-slate-800 dark:text-slate-200 mt-4 mb-2">Molecular Mechanism of X-Inactivation:</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+      Controlled by the <strong>X-Inactivation Center (XIC)</strong> located at <strong>Xq13.2</strong>. The XIC encodes a 17-kb long non-coding RNA called <strong>XIST</strong> (X-inactive specific transcript). <strong>XIST</strong> RNA coats the entire X chromosome from which it is transcribed in cis, recruiting Polycomb repressive complexes (PRC1/PRC2), promoting histone deacetylation, histone H3 lysine-9/27 methylation, and promoter DNA hypermethylation, permanently silencing transcriptional activity. A minority of genes (~15%), notably at the pseudoautosomal regions (PAR1 and PAR2 at the tips of the X chromosome), escape inactivation.
+    </p>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">3. Clinical Significance</h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Rapid Screening for Sex Chromosome Aneuploidies:</strong> Buccal smear cytology for Barr body count provides a quick, inexpensive bedside screening tool to distinguish Turner syndrome (45, X; 0 Barr bodies) from gonadal dysgenesis, and Klinefelter syndrome (47, XXY; 1 Barr body) from normal male hypogonadism.</li>
+      <li><strong>Evaluation of Ambiguous Genitalia / Intersex Disorders:</strong> Helps determine underlying genetic sex in neonates presenting with indeterminate external genitalia (e.g., Congenital Adrenal Hyperplasia in 46, XX females showing chromatin positivity).</li>
+      <li><strong>Manifesting Heterozygotes in X-Linked Recessive Diseases:</strong> Skewed (non-random) lyonization—where by chance the normal X chromosome is preferentially inactivated in a majority of cells—explains why occasional female carriers of X-linked recessive disorders (e.g., Hemophilia A, Duchenne Muscular Dystrophy, Fragile X syndrome) exhibit clinical bleeding or muscle weakness.</li>
+      <li><strong>Calico / Tortoiseshell Coat Color in Female Cats:</strong> The classical visual demonstration of the Lyon hypothesis, where alternating orange and black fur patches reflect clonal expansion of cells inactivating paternal vs maternal X chromosomes.</li>
+    </ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -1921,7 +1997,107 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200"><strong>💡 বাংলা হেল্প নোট:</strong> মেয়েদের দুইটা X ক্রোমোজোমের একটা নিষ্ক্রিয় হয়ে গুটিয়ে নিউক্লিয়াসের দেয়ালে সেক্স ক্রোমাটিন বা বার বডি তৈরি করে। বার বডির সংখ্যা = (X ক্রোমোজোমের মোট সংখ্যা − ১)। পুরুষদের বার বডি থাকে না (০)।</div>
+              <div class="space-y-6">
+  <!-- SECTION 1: পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর -->
+  <div class="callout-blue p-5 rounded-2xl border-l-4 border-blue-500 bg-blue-50/50 dark:bg-slate-800/60 space-y-5">
+    <h3 class="text-lg font-bold text-blue-900 dark:text-blue-200 border-b border-blue-200 dark:border-blue-700 pb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(ক) বার বডি (Barr Body / Sex Chromatin) এর সংজ্ঞা ও গঠন</h4>
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+        ১৯৪৯ সালে মারে বার (Murray Barr) ও এওয়ার্ট বার্ট্রাম সর্বপ্রথম বিড়ালের স্নায়ুকোষে এটি আবিষ্কার করেন। স্বাভাবিক স্তন্যপায়ী স্ত্রীদেহের সোম্যাটিক কোষের ইন্টারফেজ নিউক্লিয়াসে নিষ্ক্রিয় ও ঘনীভূত এক্স-ক্রোমোজোমটি গাঢ় রঞ্জিত পিণ্ড হিসেবে দেখা যায়, যাকে <strong>Barr Body</strong> বা <strong>Sex Chromatin</strong> বলে:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>অবস্থান ও রূপতত্ত্ব:</strong> বাক্কাল মিউকোসার (Buccal smear) কোষে এটি নিউক্লিয়ার মেমব্রেনের ভেতরের তলে সংযুক্ত প্রায় ১ মাইক্রোমিটার ব্যাসের গাঢ় প্ল্যানোকনভেক্স পিণ্ড হিসেবে থাকে। রক্তে পরিপক্ব নিউট্রোফিলের নিউক্লিয়াস থেকে ছোট উপবৃদ্ধি হিসেবে বের হয়ে থাকে, যাকে <strong>Drumstick Appendage</strong> বলা হয় (স্ত্রীদেহে ২–৭% নিউট্রোফিলে উপস্থিত)।</li>
+        <li><strong>বার বডি গণনার সূত্র (N - 1 Rule):</strong>
+          <br><code class="font-bold text-blue-600 dark:text-blue-400">বার বডির সংখ্যা = মোট এক্স-ক্রোমোজোমের সংখ্যা - ১ (Total X - 1)</code>
+        </li>
+      </ul>
+
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+        <table class="w-full text-left text-sm min-w-[520px]">
+          <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+            <tr>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">ক্লিনিক্যাল কন্ডিশন</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">ক্যারিওটাইপ</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">মোট X ক্রোমোজোম</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">বার বডির সংখ্যা ও স্ট্যাটাস</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+            <tr>
+              <td class="p-3 font-semibold">স্বাভাবিক পুরুষ (Normal Male)</td>
+              <td class="p-3">46, XY</td>
+              <td class="p-3">১টি</td>
+              <td class="p-3"><strong>০টি</strong> (Chromatin-negative)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">স্বাভাবিক নারী (Normal Female)</td>
+              <td class="p-3">46, XX</td>
+              <td class="p-3">২টি</td>
+              <td class="p-3"><strong>১টি</strong> (Chromatin-positive)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">টার্নার সিন্ড্রোম (Turner Syndrome)</td>
+              <td class="p-3">45, X (X0)</td>
+              <td class="p-3">১টি</td>
+              <td class="p-3"><strong>০টি</strong> (ফিমেল হওয়া সত্ত্বেও বার বডি নেই)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">ক্লাইনফেল্টার সিন্ড্রোম (Klinefelter)</td>
+              <td class="p-3">47, XXY</td>
+              <td class="p-3">২টি</td>
+              <td class="p-3"><strong>১টি</strong> (পুরুষ হওয়া সত্ত্বেও বার বডি পজিটিভ)</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">ট্রিপল এক্স সিন্ড্রোম (Super Female)</td>
+              <td class="p-3">47, XXX</td>
+              <td class="p-3">৩টি</td>
+              <td class="p-3"><strong>২টি</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(খ) লায়ন হাইপোথিসিস (Lyon Hypothesis / X-Inactivation)</h4>
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+        ১৯৬১ সালে ব্রিটিশ জেনেটিসিস্ট মেরি লায়ন (Mary Lyon) এক্স-ক্রোমোজোমের নিষ্ক্রিয়করণ ব্যাখ্যা করে যে যুগান্তকারী তত্ত্ব দেন, তাকে <strong>Lyon Hypothesis</strong> বলা হয়। এর মূল স্বীকার্য ৪টি:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>১. হেটারোক্রোমাটিনাইজেশন ও ডোজ কম্পেনসেশন:</strong> স্ত্রীদেহে দুটি এক্স-ক্রোমোজোমের মধ্যে একটি জিনগতভাবে নিষ্ক্রিয় হয়ে হেটারোক্রোমাটিনে (বার বডি) পরিণত হয়। এর ফলে পুরুষ (XY) ও নারীর (XX) দেহে এক্স-লিংকড জিনের প্রোডাক্টের সমতা রক্ষিত হয় (<strong>Dosage Compensation</strong>)।</li>
+        <li><strong>২. সময়কাল (Timing):</strong> ভ্রূণবিকাশের অতি প্রাথমিক অবস্থায় (ব্লাস্টোসিস্ট পর্যায়ে, নিষেকের প্রায় ১৬তম দিনে) এই নিষ্ক্রিয়করণ ঘটে।</li>
+        <li><strong>৩. অনিয়মিত ও দৈবচয়নমূলক (Random):</strong> প্রতিটি কোষে কোন এক্স-ক্রোমোজোমটি নিষ্ক্রিয় হবে (বাবার কাছ থেকে আসা Xp নাকি মায়ের কাছ থেকে আসা Xm) তা সম্পূর্ণ দৈবচয়নমূলক।</li>
+        <li><strong>৪. ক্লোনাল বংশবিস্তার ও মোজাইসিজম (Mosaicism):</strong> একবার একটি ভ্রূণকোষে যে এক্স-ক্রোমোজোমটি নিষ্ক্রিয় হয়, সেই কোষ থেকে সৃষ্ট পরবর্তী সকল মাইটোটিক অপত্য কোষে ঠিক সেই এক্স-ক্রোমোজোমটিই আজীবন নিষ্ক্রিয় থাকে। তাই নারীদেহ হলো দুই ধরনের কোষের মোজাইক (Cellular Mosaic)।</li>
+        <li><strong>আণবিক মেকানিজম (Molecular Mechanism):</strong> Xq13.2 অঞ্চলে অবস্থিত <strong>XIC</strong> লোকাস থেকে <strong>XIST</strong> নামক লং নন-কোডিং RNA ক্ষরিত হয়ে নিষ্ক্রিয় হওয়ার যোগ্য ক্রোমোজোমটিকে চাদরের মতো মুড়িয়ে ফেলে। এতে হিস্টোন মিথাইলেশন ও ডিএনএ সাইটোসিন হাইপারমিথাইলেশন ঘটে জিন এক্সপ্রেশন স্থায়ীভাবে বন্ধ হয়ে যায়।</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(গ) ক্লিনিক্যাল গুরুত্ব (Clinical Significance)</h4>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>লিঙ্গ ক্রোমোজোমীয় ত্রুটি দ্রুত নির্ণয়:</strong> বাক্কাল স্মিয়ার থেকে কয়েক মিনিটের মধ্যে বার বডি পরীক্ষা করে Turner syndrome (45, X - বার বডি শূন্য) এবং Klinefelter syndrome (47, XXY - ১টি বার বডি) শনাক্ত করা যায়।</li>
+        <li><strong>অ্যাম্বিগুয়াস জেনেটেলিয়া (Ambiguous Genitalia):</strong> নবজাতকের বাহ্যিক জননাঙ্গ দেখে ছেলে না মেয়ে নিশ্চিত হওয়া না গেলে (যেমন Congenital Adrenal Hyperplasia-তে) বার বডি পরীক্ষা জেনেটিক লিঙ্গ নির্ধারণে জরুরি ভূমিকা পালন করে।</li>
+        <li><strong>ক্যারিয়ার নারীদের রোগ প্রকাশ (Skewed X-Inactivation):</strong> সাধারণত হিমোফিলিয়া বা ডিউশেন মাসকুলার ডিস্ট্রোফির বাহক নারীরা সুস্থ থাকে। তবে দৈবক্রমে যদি স্বাভাবিক এক্স ক্রোমোজোমটি বেশিরভাগ কোষে নিষ্ক্রিয় হয়ে যায় (Skewed Lyonization), তবে বাহক নারীর মধ্যেও রক্তক্ষরণ বা মাংসপেশির দুর্বলতার মতো রোগ প্রকাশ পেতে পারে (Manifesting Heterozygote)।</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 2: ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা ও ভাইভা টিপস -->
+  <div class="callout-amber p-5 rounded-2xl border-l-4 border-amber-500 bg-amber-50/50 dark:bg-slate-800/60 space-y-4">
+    <h3 class="text-lg font-bold text-amber-900 dark:text-amber-200 border-b border-amber-200 dark:border-amber-700 pb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>ভাইভা প্রশ্ন: টার্নার সিন্ড্রোমে (45, X) যদি একটি এক্স ক্রোমোজোমই যথেষ্ট হয়, তবে রোগীরা বেঁটে ও বন্ধ্যা হয় কেন?</strong> কারণ এক্স-ক্রোমোজোমের সব জিন নিষ্ক্রিয় হয় না! ক্রোমোজোমের উভয় প্রান্তে অবস্থিত <strong>Pseudoautosomal Regions (PAR1 ও PAR2)</strong>-এর জিনগুলো (যেমন উচ্চতার জন্য দায়ী <strong>SHOX</strong> জিন) নিষ্ক্রিয়করণ এড়িয়ে যায় (Escape genes)। টার্নার সিন্ড্রোমে এই অঞ্চলগুলোর মাত্র একটি কপি থাকে বিধায় হেমিজাইগাস ঘাটতির কারণে বেঁটে উচ্চতা, ওভারিয়ান ডিসজেনেসিস ও ওয়েবড নেক সৃষ্টি হয়।</li>
+      <li><strong>ফরেনসিক মেডিসিনে ব্যবহার:</strong> অজ্ঞাত মৃতদেহের গলিত বা বিচ্ছিন্ন দেহাংশের লিঙ্গ শনাক্তকরণে দাঁতের পাল্প বা মুখের মিউকোসার কোষ থেকে বার বডি ও নিউট্রোফিলের ড্রামস্টিক পরীক্ষা অত্যন্ত বিশ্বস্ত ফরেনসিক প্রমাণ।</li>
+      <li><strong>ক্যালিকো বিড়ালের লোমের বর্ণ (Calico Cats):</strong> ক্লাসিক্যাল জেনেটিক্স ভাইভায় প্রায়ই জিজ্ঞেস করা হয়। স্ত্রী বিড়ালে লোমের রঙের জিন এক্স ক্রোমোজোমে থাকে (কালো বা কমলা)। লায়ন হাইপোথিসিসের কারণে শরীরের এক অংশের কোষে বাবার এক্স এবং অন্য অংশের কোষে মায়ের এক্স কাজ করায় কালো ও কমলার চমৎকার ছোপ ছোপ মোজাইক প্যাটার্ন তৈরি হয়। কেবল স্ত্রী বিড়ালই ক্যালিকো হয় (যদি কোনো পুরুষ বিড়াল ক্যালিকো হয়, তবে সে নির্ঘাত XXY ক্লাইনফেল্টার সিন্ড্রোমে আক্রান্ত!)।</li>
+    </ul>
+  </div>
+</div>
             </div>
           </div>
         </article>
@@ -1980,20 +2156,145 @@
             <div class="my-2 p-2 bg-slate-50 dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-center text-xs font-bold text-rose-600">Trisomy 21 (95% Maternal Meiotic Non-disjunction) ➔ 47, XX/XY, +21</div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">Down Syndrome (Trisomy 21):</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Karyotypes:</strong> <strong>95%</strong> Pure Trisomy 21 (47, XX/XY, +21 due to maternal meiotic non-disjunction); <strong>4%</strong> Robertsonian Translocation (e.g., t(14;21)); <strong>1%</strong> Mosaicism.</li>
-  <li><strong>Craniofacial Features:</strong> Flat facial profile, brachycephaly, upward slanting palpebral fissures, epicanthic folds, Brushfield spots on iris, low-set ears, macroglossia with protruding tongue.</li>
-  <li><strong>Musculoskeletal & Dermatoglyphics:</strong> Generalized hypotonia, hyperflexible joints, single transverse palmar crease (<strong>Simian crease</strong>), wide sandal gap between 1st and 2nd toes.</li>
-  <li><strong>Internal Systemic Malformations:</strong>
-    <ul class="list-circle pl-5 mt-1">
-      <li><strong>Congenital Heart Defects (50%):</strong> Atrioventricular septal defect (AVSD / Endocardial cushion defect), VSD.</li>
-      <li><strong>GIT:</strong> Duodenal atresia ("double-bubble" sign), Hirschsprung disease.</li>
-      <li><strong>Other:</strong> Intellectual disability, early-onset Alzheimer's disease (due to amyloid precursor protein gene on chromosome 21), 10–20x increased risk of Acute Lymphoblastic Leukemia (ALL).</li>
+              <div class="space-y-6">
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">1. Cytogenetic Karyotypes of Down Syndrome (Trisomy 21)</h3>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+      First clinically described by John Langdon Down in 1866 and cytogenetically mapped by Jerome Lejeune in 1959, Down syndrome (Trisomy 21) is the most prevalent viable chromosomal aneuploidy (~1 in 700 live births) and the leading genetic cause of intellectual disability. It manifests in three cytogenetic forms:
+    </p>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Genetic Type</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Percentage</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Karyotype Designation</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Mechanism & Recurrence Risk</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">1. Standard Primary Trisomy 21</td>
+            <td class="p-3">~95%</td>
+            <td class="p-3">47, XX, +21 or 47, XY, +21</td>
+            <td class="p-3">
+              - Caused by <strong>meiotic non-disjunction</strong> of chromosome 21 homologous pairs, predominantly during maternal meiosis I (~90% maternal origin).<br>
+              - Strongly correlated with <strong>advanced maternal age</strong> (&gt;35 years).<br>
+              - Parental karyotypes are completely normal.<br>
+              - Recurrence risk is ~1% (or age-related maternal risk, whichever is higher).
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">2. Robertsonian Translocation</td>
+            <td class="p-3">~4%</td>
+            <td class="p-3">
+              46, XX, rob(14;21)(q10;q10), +21 or<br>
+              46, XY, rob(14;21)(q10;q10), +21
+            </td>
+            <td class="p-3">
+              - Fusion of the long arm of chromosome 21 to another acrocentric chromosome (usually 14, occasionally 21 or 22). Total count is 46, but genetic material of chromosome 21 is triplicated.<br>
+              - <strong>Age-independent.</strong> Approximately 50% are de novo and 50% are inherited from a phenotypically normal carrier parent with balanced translocation (45, XX, rob(14;21)).<br>
+              - Recurrence risk: ~10–15% if mother is carrier; ~2–3% if father is carrier; 100% if parent has balanced 21;21 translocation.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">3. Mosaic Trisomy 21</td>
+            <td class="p-3">~1–2%</td>
+            <td class="p-3">46, XX / 47, XX, +21</td>
+            <td class="p-3">
+              - Results from <strong>mitotic non-disjunction</strong> in early embryogenesis post-fertilization.<br>
+              - Patient possesses a mixture of normal (46) and trisomic (47) cell lines.<br>
+              - Phenotype is typically milder, with higher cognitive performance, depending directly on the tissue percentage of trisomic cells.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">2. Comprehensive Clinical Features</h3>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Anatomical System</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Key Clinical Findings & Physical Signs</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">Craniofacial Features</td>
+            <td class="p-3">
+              - <strong>Brachycephaly</strong> with flattened occiput and flat facial profile.<br>
+              - <strong>Upward/Mongoloid slanting palpebral fissures</strong> with prominent bilateral epicanthic folds.<br>
+              - <strong>Brushfield spots:</strong> Ring of speckled white/grey spots on the outer margin of the iris.<br>
+              - Depressed nasal bridge with small nose.<br>
+              - Low-set, small, dysplastic ears with folded helices.<br>
+              - Open mouth with protruding, deeply fissured/furrowed tongue (macroglossia relative to small oral cavity/micrognathia).
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Musculoskeletal & Extremities</td>
+            <td class="p-3">
+              - Generalized <strong>muscular hypotonia</strong> ("floppy baby") and joint hyperflexibility.<br>
+              - Redundant skin folds at the back of the neck (excess nuchal skin).<br>
+              - Short, broad hands with <strong>Single Transverse Palmar Crease (Simian Crease)</strong>.<br>
+              - <strong>Clinodactyly:</strong> Incurving of the fifth digit due to hypoplastic middle phalanx.<br>
+              - Wide gap between the first and second toes (<strong>Sandal gap</strong>) with a plantar crease.<br>
+              - Short stature and pelvic dysplasia (decreased acetabular and iliac angles).<br>
+              - <strong>Atlantoaxial instability:</strong> Laxity of transverse ligament posing risk of cervical spinal cord compression.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Congenital Heart Defects (40–50%)</td>
+            <td class="p-3">
+              - <strong>Atrioventricular Septal Defect (AVSD / Complete Endocardial Cushion Defect):</strong> Most characteristic defect (~40% of cardiac anomalies).<br>
+              - Ventricular Septal Defect (VSD, ~30%).<br>
+              - Atrial Septal Defect (ASD, ostium primum, ~15%).<br>
+              - Patent Ductus Arteriosus (PDA) and Tetralogy of Fallot (TOF).
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Gastrointestinal Anomalies</td>
+            <td class="p-3">
+              - <strong>Duodenal Atresia / Stenosis:</strong> Bilious vomiting in neonates with classic <strong>"Double Bubble"</strong> sign on abdominal plain radiograph.<br>
+              - Hirschsprung disease (congenital aganglionic megacolon).<br>
+              - Annular pancreas, imperforate anus, and Celiac disease.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Neurological & Cognitive</td>
+            <td class="p-3">
+              - Intellectual disability: Moderate to severe (average IQ 30–50), delayed motor and speech milestones.<br>
+              - Pleasant, cheerful, and affectionate demeanor.<br>
+              - <strong>Early-Onset Alzheimer's Disease:</strong> Universally develops neurofibrillary tangles and amyloid plaques by age 40 due to triplication of the <strong>APP</strong> (Amyloid Precursor Protein) gene located on chromosome 21.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Hematological & Endocrine</td>
+            <td class="p-3">
+              - <strong>Transient Abnormal Myelopoiesis (TAM)</strong> / Transient leukemia in neonates (GATA1 mutation).<br>
+              - 10- to 20-fold increased risk of developing <strong>Acute Lymphoblastic Leukemia (ALL)</strong> and <strong>Acute Megakaryoblastic Leukemia (AML M7)</strong>.<br>
+              - Congenital and autoimmune <strong>Hypothyroidism</strong> (~30%), Hashimoto's thyroiditis, and Type 1 Diabetes.<br>
+              - Recurrent respiratory infections due to immune deficiency.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">3. Antenatal Screening Protocols</h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>First Trimester Combined Screen (11–13+6 weeks):</strong> Increased Nuchal Translucency (NT &ge; 3.5 mm on ultrasound) + Low serum PAPP-A + High free &beta;-hCG (~85% detection rate).</li>
+      <li><strong>Second Trimester Quadruple Screen (15–20 weeks):</strong> High &beta;-hCG + High Inhibin A + Low AFP (Alpha-fetoprotein) + Low unconjugated estriol (uE3) (Mnemonic: "<strong>HI</strong>gh = <strong>H</strong>CG & <strong>I</strong>nhibin").</li>
+      <li><strong>Non-Invasive Prenatal Testing (NIPT / cfDNA):</strong> Analysis of cell-free fetal DNA in maternal blood (&gt;99% sensitivity and specificity).</li>
+      <li><strong>Confirmatory Diagnostic Procedures:</strong> Chorionic Villus Sampling (CVS at 10–13 weeks) or Amniocentesis (at 15–20 weeks) followed by fetal karyotyping / QF-PCR.</li>
     </ul>
-  </li>
-</ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -2001,7 +2302,138 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200"><strong>💡 বাংলা হেল্প নোট:</strong> ২১ নম্বর ক্রোমোজোমে ৩টি কপি থাকে। মায়ের বয়স ৩৫-এর বেশি হলে ঝুঁকি দ্রুত বাড়ে। প্রধান লক্ষণ: চ্যাপ্টা মুখ, সিমিয়ান ক্রিজ (হাতের তালুতে সোজা একটি রেখা), জিভ বের হয়ে থাকা, এবং হার্টে AVSD ডিফেক্ট।</div>
+              <div class="space-y-6">
+  <!-- SECTION 1: পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর -->
+  <div class="callout-blue p-5 rounded-2xl border-l-4 border-blue-500 bg-blue-50/50 dark:bg-slate-800/60 space-y-5">
+    <h3 class="text-lg font-bold text-blue-900 dark:text-blue-200 border-b border-blue-200 dark:border-blue-700 pb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(ক) ডাউন সিন্ড্রোমের ক্যারিওটাইপ ও জেনেটিক প্রকারভেদ (Karyotypes of Down Syndrome)</h4>
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+        ১৮৬৬ সালে জন ল্যাংডন ডাউন কর্তৃক বর্ণিত এবং ১৯৫৯ সালে জেরোম লেজুয়ান কর্তৃক ২১ নম্বর ক্রোমোজোমের ট্রাইসোমি হিসেবে প্রমাণিত ডাউন সিন্ড্রোম হলো মানুষের সবচেয়ে প্রচলিত ক্রোমোজোমীয় ত্রুটি (প্রতি ৭০০ জীবিত জন্মে ১ জন)। এর ৩টি প্রধান সাইটোজেনেটিক ভ্যারিয়েন্ট রয়েছে:
+      </p>
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+        <table class="w-full text-left text-sm min-w-[520px]">
+          <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+            <tr>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">প্রকারভেদ</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">হার</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">ক্যারিওটাইপ সংকেত</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">মেকানিজম ও পুনরাবৃত্তির ঝুঁকি (Recurrence Risk)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+            <tr>
+              <td class="p-3 font-semibold">১. প্রাইমারি ট্রাইসোমি ২১ (Standard Non-disjunction)</td>
+              <td class="p-3">প্রায় ৯৫%</td>
+              <td class="p-3">47, XX, +21 অথবা 47, XY, +21</td>
+              <td class="p-3">
+                - মায়োসিস বিভাজনের সময় ২১ নম্বর ক্রোমোজোম আলাদা না হওয়ায় (Meiotic Non-disjunction) ঘটে; ৯০% ক্ষেত্রে মায়ের মায়োসিস-১ এ ঘটে।<br>
+                - <strong>মায়ের বয়স বৃদ্ধির সাথে সরাসরি সম্পর্কিত</strong> (৩৫ বছরের বেশি বয়সী মায়েদের ক্ষেত্রে ঝুঁকি বহুগুণ বাড়ে)।<br>
+                - বাবা-মায়ের ক্যারিওটাইপ স্বাভাবিক থাকে; পরবর্তী সন্তানে পুনরাবৃত্তির ঝুঁকি প্রায় ১%।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">২. রবার্টসোনিয়ান ট্রান্সলোকেশন (Robertsonian Translocation)</td>
+              <td class="p-3">প্রায় ৪%</td>
+              <td class="p-3">46, XX বা XY, rob(14;21)(q10;q10), +21</td>
+              <td class="p-3">
+                - ২১ নম্বর ক্রোমোজোমের বড় বাহুটি অন্য কোনো অ্যাক্রোসেন্ট্রিক ক্রোমোজোমের (প্রধানত ১৪ নম্বর) সাথে যুক্ত হয়। কোষে মোট ক্রোমোজোম ৪৬টি থাকলেও ২১ নম্বরের জিন ৩ বার থাকে।<br>
+                - <strong>মায়ের বয়সের উপর নির্ভরশীল নয়।</strong> প্রায় ৫০% ক্ষেত্রে বাবা বা মা একজন সুস্থ ব্যালেন্সড ট্রান্সলোকেশন বাহক (Carrier) থাকেন।<br>
+                - মা বাহক হলে ঝুঁকি ১০–১৫%; বাবা বাহক হলে ২–৩%; কিন্তু 21;21 ক্যারিয়ারের ক্ষেত্রে ঝুঁকি ১০০%।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">৩. মোজাইসিজম (Mosaicism)</td>
+              <td class="p-3">প্রায় ১–২%</td>
+              <td class="p-3">46, XX / 47, XX, +21</td>
+              <td class="p-3">
+                - নিষেকের পর জাইগোটে মাইটোসিস বিভাজনে নন-ডিসজাংশন হওয়ায় দেহে কিছু স্বাভাবিক ও কিছু ট্রাইসোমিক কোষের মিশ্রণ তৈরি হয়।<br>
+                - লক্ষণ তুলনামূলক মৃদু এবং বুদ্ধিমত্তা ভালো থাকে।
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(খ) শারীরিক ও ক্লিনিক্যাল লক্ষণসমূহ (Clinical Features)</h4>
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+        <table class="w-full text-left text-sm min-w-[520px]">
+          <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+            <tr>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">শারীরিক অঙ্গতন্ত্র</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">প্রধান প্রধান ক্লিনিক্যাল লক্ষণসমূহ</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+            <tr>
+              <td class="p-3 font-semibold">মাথা ও মুখমণ্ডল (Craniofacial)</td>
+              <td class="p-3">
+                - মাথা চ্যাপ্টা ও ছোট (Brachycephaly with flat occiput)।<br>
+                - চ্যাপ্টা মুখাবয়ব ও দেবে যাওয়া নাকের গোড়া (Flat nasal bridge)।<br>
+                - চোখ উপরের দিকে বাঁকা (Upward slanting palpebral fissures) এবং চোখের কোণে চামড়ার ভাঁজ (Epicanthic folds)।<br>
+                - চোখের আইরিশে সাদা ক্ষুদ্র ক্ষুদ্র দাগ (<strong>Brushfield spots</strong>)।<br>
+                - কান ছোট ও নিচে অবস্থিত (Low-set ears)।<br>
+                - মুখ খোলা থাকে এবং খাঁজকাটা জিহ্বা বাইরে বের হয়ে থাকে (Protruding furrowed tongue)।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">অস্থি ও পেশিতন্ত্র (Musculoskeletal)</td>
+              <td class="p-3">
+                - নবজাতকের পেশিতে চরম শিথিলতা (<strong>Generalized Hypotonia</strong> বা Floppy baby)।<br>
+                - ঘাড়ের পেছনে অতিরিক্ত চামড়ার ভাঁজ (Redundant nuchal skin folds)।<br>
+                - হাতের তালুতে আড়াআড়ি একটিমাত্র গভীর রেখা (<strong>Single Palmar Crease / Simian Crease</strong>)।<br>
+                - কনিষ্ঠ আঙুল ভেতরের দিকে বাঁকানো (Clinodactyly)।<br>
+                - পায়ের বুড়ো আঙুল ও দ্বিতীয় আঙুলের মাঝে অতিরিক্ত ফাঁকা স্থান (<strong>Sandal gap</strong>)।<br>
+                - অ্যাটলান্টোঅ্যাক্সিয়াল জয়েন্টের শিথিলতা (Atlantoaxial instability), যা স্পাইনাল কর্ডে চাপ ফেলতে পারে।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">জন্মগত হৃদরোগ (Congenital Heart Disease - 40-50%)</td>
+              <td class="p-3">
+                - <strong>Endocardial Cushion Defect / AVSD:</strong> সবচেয়ে প্রধান হৃদরোগ (প্রায় ৪০%)।<br>
+                - Ventricular Septal Defect (VSD) ও Atrial Septal Defect (ASD)।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">পরিপাকতন্ত্রীয় ত্রুটি (GI Tract)</td>
+              <td class="p-3">
+                - <strong>Duodenal Atresia:</strong> জন্মের পরপরই পিত্তমিশ্রিত বমি এবং এক্স-রেতে ক্লাসিক <strong>"Double Bubble Sign"</strong> দেখা যায়।<br>
+                - Hirschsprung disease, অ্যানুলার প্যানক্রিয়াস এবং সিলিয়াক ডিজিজ।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">স্নায়বিক ও এন্ডোক্রাইন সমস্যা</td>
+              <td class="p-3">
+                - মানসিক প্রতিবন্ধকতা (IQ সাধারণত ৩০–৫০); তবে এরা হাসিখুশি ও স্নেহপ্রবণ স্বভাবের হয়।<br>
+                - ৪০ বছর পেরোলেই দ্রুত <strong>Alzheimer's Disease</strong> দেখা দেয় (কারণ ২১ নম্বর ক্রোমোজোমে <strong>APP</strong> জিন ৩টি থাকে)।<br>
+                - <strong>হাইপোথাইরয়েডিজম (Hypothyroidism):</strong> প্রায় এক-তৃতীয়াংশ শিশুর থাইরয়েড গ্রন্থি অকেজো হয়।<br>
+                - রক্তে লিউকেমিয়ার মারাত্মক ঝুঁকি: <strong>Acute Lymphoblastic Leukemia (ALL)</strong> এবং <strong>AML M7</strong> হওয়ার ঝুঁকি ১০–২০ গুণ বেশি।
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2: ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা ও ভাইভা টিপস -->
+  <div class="callout-amber p-5 rounded-2xl border-l-4 border-amber-500 bg-amber-50/50 dark:bg-slate-800/60 space-y-4">
+    <h3 class="text-lg font-bold text-amber-900 dark:text-amber-200 border-b border-amber-200 dark:border-amber-700 pb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>গর্ভকালীন স্ক্রিনিং ট্রিক (Quadruple Screen Mnemonic):</strong> দ্বিতীয় ট্রাইমেস্টারে ডাউন সিন্ড্রোম স্ক্রিনিং মনে রাখার সহজ উপায় হলো "HIgh": <strong>H</strong>CG এবং <strong>I</strong>nhibin A রক্তে অনেক বেশি (High) থাকে; বিপরীতে AFP এবং Estriol কম থাকে।</li>
+      <li><strong>ফ্লপি ইনফ্যান্ট (Floppy Infant) এপ্রোচ:</strong> কোনো নবজাতককে যদি চরম হাইপোটোনিক ও শিথিল পাওয়া যায়, তবে তাকে সোজা না রেখে অবিলম্বে ফেসিয়াল ফিচার, সিমিয়ান ক্রিজ ও স্যান্ডেল গ্যাপ পরীক্ষা করতে হবে এবং কনফার্মেশনের জন্য <strong>Karyotyping</strong> ও হৃদরোগের জন্য <strong>Echocardiography</strong> করাতে হবে।</li>
+      <li><strong>অ্যাটলান্টোঅ্যাক্সিয়াল অস্থিতিশীলতা (Atlantoaxial Instability):</strong> ডাউন সিন্ড্রোমের বাচ্চাদের জেনারেল অ্যানেস্থেসিয়ার সময় এন্ডোট্র্যাকিয়াল ইনটুবেশন করার ক্ষেত্রে বা প্যারাঅলিম্পিক স্পোর্টসে অংশ নেওয়ার আগে ঘাড়ের সার্ভাইকাল এক্স-রে করা বাধ্যতামূলক; কারণ অতিরিক্ত নড়াচড়ায় C1-C2 সাবলাক্সেশন হয়ে তাৎক্ষণিক শ্বাসযন্ত্রের পক্ষাঘাত ও মৃত্যু হতে পারে।</li>
+      <li><strong>কেন ডাউন সিন্ড্রোমে দ্রুত অ্যালঝাইমার্স হয়?</strong> ২১ নম্বর ক্রোমোজোমে Amyloid Precursor Protein (<strong>APP</strong>) তৈরির জিন থাকে। ট্রাইসোমি ২১ এর কারণে ৩ কপি জিন অতিরিক্ত বিটা-অ্যামাইলয়েড তৈরি করে মস্তিষ্কে জমা করে, ফলে ৪০ বছর বয়সেই অ্যালঝাইমার্স ডিমেনশিয়া শুরু হয়।</li>
+    </ul>
+  </div>
+</div>
             </div>
           </div>
         </article>
@@ -2650,22 +3082,94 @@
             <div class="my-2 p-2 bg-slate-50 dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-center text-xs font-bold text-brand-600">Carpal Tunnel: 9 Tendons (4 FDS, 4 FDP, 1 FPL) + 1 Median Nerve under Flexor Retinaculum</div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">Carpal Tunnel Syndrome:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Anatomy:</strong> An osteofibrous canal formed by the concavity of carpal bones (floor/sides) roofed by the thick <strong>Flexor Retinaculum</strong> (transverse carpal ligament).</li>
-  <li><strong>Contents (10 structures):</strong> <strong>Median nerve</strong> + 9 long flexor tendons (4 Flexor Digitorum Superficialis, 4 Flexor Digitorum Profundus, 1 Flexor Pollicis Longus).</li>
-  <li><strong>Etiology:</strong> Compression of the Median nerve due to synovitis, rheumatoid arthritis, pregnancy, hypothyroidism, diabetes, or repetitive wrist flexion.</li>
-  <li><strong>Clinical Signs:</strong>
-    <ul class="list-circle pl-5 mt-1">
-      <li>Paresthesia, numbness, and burning pain over lateral 3½ fingers (palmar surface). Note: Palm sensation is spared because palmar cutaneous branch passes <em>superficial</em> to flexor retinaculum!</li>
-      <li>Thenar muscle wasting (Ape-thumb deformity).</li>
-      <li><strong>Tinel's Sign:</strong> Percussion over flexor retinaculum reproduces tingling.</li>
-      <li><strong>Phalen's Test:</strong> Unforced maximum wrist flexion for 60 seconds reproduces symptoms.</li>
+              <div class="space-y-6">
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">1. Anatomical Basis of the Carpal Tunnel</h3>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+      The <strong>Carpal Tunnel</strong> is a narrow, non-yielding fibro-osseous canal situated on the anterior (volar) aspect of the wrist joint:
+    </p>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Posterior & Lateral/Medial Boundaries (Carpal Arch / Floor & Walls):</strong> Formed by the anterior concavity of the eight carpal bones:
+        <ul class="list-circle pl-6 mt-1 space-y-1">
+          <li><strong>Medial pillars:</strong> Pisiform bone and the hook (hamulus) of the Hamate bone.</li>
+          <li><strong>Lateral pillars:</strong> Tubercle of the Scaphoid bone and crest/tubercle of the Trapezium bone.</li>
+        </ul>
+      </li>
+      <li><strong>Anterior Boundary (Roof):</strong> Closed by the dense, thick, inextensible <strong>Flexor Retinaculum (Transverse Carpal Ligament)</strong>, firmly bridging the medial and lateral bony pillars.</li>
+      <li><strong>Pathophysiological Mechanism:</strong> The carpal tunnel is an inelastic compartment with a baseline pressure of 2–10 mmHg. Any pathological condition increasing its contents or decreasing its cross-sectional area elevates intracarpal pressure (&gt;30 mmHg), exceeding capillary perfusion pressure. This causes focal median nerve ischemia, epineurial edema, demyelination, and subsequent axonal degeneration.</li>
     </ul>
-  </li>
-  <li><strong>Treatment:</strong> Wrist splints, local steroid injection; surgical release of flexor retinaculum.</li>
-</ul>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">2. Contents of the Carpal Tunnel (10 Structures Total)</h3>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Structure</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Number</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Anatomical Arrangement & Synovial Sheaths</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">1. Median Nerve</td>
+            <td class="p-3">1</td>
+            <td class="p-3">Lies <strong>most superficially</strong> directly beneath the flexor retinaculum, typically between FDS tendons and FPL tendon. Vulnerable to direct compression.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">2. Flexor Digitorum Superficialis (FDS) Tendons</td>
+            <td class="p-3">4</td>
+            <td class="p-3">Enclosed within the common flexor synovial sheath (<strong>Ulnar Bursa</strong>). Arranged in two tiers: tendons to digits 3 and 4 lie superficial; tendons to digits 2 and 5 lie deep.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">3. Flexor Digitorum Profundus (FDP) Tendons</td>
+            <td class="p-3">4</td>
+            <td class="p-3">Enclosed within the ulnar bursa, lying deep to the FDS tendons side-by-side on the osseous floor.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">4. Flexor Pollicis Longus (FPL) Tendon</td>
+            <td class="p-3">1</td>
+            <td class="p-3">Enclosed in its own separate synovial sheath (<strong>Radial Bursa</strong>), positioned along the lateral aspect of the tunnel.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout-blue p-4 rounded-xl border border-blue-200 dark:border-blue-800 text-sm">
+      <strong>Vital Surgical Anatomical Note:</strong>
+      <ul class="list-disc pl-5 mt-1 space-y-1">
+        <li>The <strong>Flexor Carpi Radialis (FCR)</strong> tendon does NOT enter the carpal tunnel proper; it traverses its own separate fibro-osseous compartment within the lateral split attachment of the flexor retinaculum.</li>
+        <li>The <strong>Ulnar Nerve and Ulnar Artery</strong> pass superficial to the flexor retinaculum through <strong>Guyon's Canal</strong>.</li>
+        <li>The <strong>Palmar Cutaneous Branch of the Median Nerve</strong> arises ~5 cm proximal to the wrist and passes <strong>superficial</strong> to the flexor retinaculum, sparing sensation over the central palm and thenar eminence!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">3. Clinical Features and Provocative Physical Signs</h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Sensory Symptoms:</strong> Paresthesia, tingling ("pins and needles"), burning pain, and numbness localized to the <strong>lateral 3.5 digits</strong> (palmar aspect of thumb, index, middle, and radial half of ring finger).
+        <ul class="list-circle pl-6 mt-1 space-y-1">
+          <li><strong>Nocturnal exacerbation:</strong> Patients are awakened from sleep with severe dysesthesias due to venous stasis and sustained wrist flexion; vigorously shaking the hand provides temporary relief (<strong>"Flick Sign"</strong>).</li>
+          <li><strong>Thenar sensory sparing:</strong> Sensation over the thenar eminence is preserved because its innervation (palmar cutaneous branch) travels superficial to the transverse carpal ligament.</li>
+        </ul>
+      </li>
+      <li><strong>Provocative Diagnostic Tests:</strong>
+        <ol class="list-decimal pl-6 mt-1 space-y-1">
+          <li><strong>Phalen's Maneuver:</strong> Patient flexes both wrists maximally (90 degrees) by pressing the dorsal surfaces of hands together for 60 seconds. Numbness/paresthesia in median nerve distribution confirms a positive test (~75% sensitivity).</li>
+          <li><strong>Tinel's Sign:</strong> Light percussion over the flexor retinaculum on the volar wrist elicits tingling electric-shock sensations radiating into the fingers.</li>
+          <li><strong>Durkan's Test (Carpal Compression Test):</strong> Direct manual thumb pressure applied over the carpal tunnel for 30 seconds. <strong>The most sensitive provocative test (&gt;85% sensitivity).</strong></li>
+        </ol>
+      </li>
+      <li><strong>Motor Signs (Late / Severe):</strong>
+        <ul class="list-circle pl-6 mt-1 space-y-1">
+          <li>Weakness of thumb abduction (Abductor Pollicis Brevis) and opposition (Opponens Pollicis) &rarr; difficulty buttoning shirts or opening jars.</li>
+          <li>Prominent <strong>Thenar Muscle Wasting / Atrophy</strong> resulting in a flattened palm resembling an <strong>"Ape-Hand Deformity" (Simian Hand)</strong>.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -2673,7 +3177,102 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200"><strong>💡 বাংলা হেল্প নোট:</strong> কার্পাল টানেলের ভেতর দিয়ে মিডিয়ান নার্ভ যায়। এখানে চাপ লাগলে বুড়ো আঙুলসহ সাড়ে তিনটি আঙুলে ঝিমঝিম/অবশ লাগে। হাতের তালুর চামড়ায় অনুভূতি ঠিক থাকে কারণ Palmar cutaneous branch টানেলের ওপর দিয়ে যায়! টিনেল সাইন ও ফ্যালেন টেস্ট পজিটিভ হয়।</div>
+              <div class="space-y-6">
+  <!-- SECTION 1: পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর -->
+  <div class="callout-blue p-5 rounded-2xl border-l-4 border-blue-500 bg-blue-50/50 dark:bg-slate-800/60 space-y-5">
+    <h3 class="text-lg font-bold text-blue-900 dark:text-blue-200 border-b border-blue-200 dark:border-blue-700 pb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(ক) কার্পাল টানেলের অ্যানাটমিক্যাল ভিত্তি (Anatomical Basis of Carpal Tunnel)</h4>
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+        কার্পাল টানেল হলো কবজির তালুর দিকে অবস্থিত একটি সংকীর্ণ ও অনুদ্বায়ী ফাইব্রো-অসিয়াস খাল (Fibro-osseous Canal):
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>মেঝে ও পার্শ্বপ্রাচীর (Floor & Walls):</strong> ৮টি কার্পাল বোনের তৈরি গভীর অবতল আর্চ (Carpal Arch)।
+          <ul class="list-circle pl-6 mt-1 space-y-1">
+            <li>মিডিয়াল পিলার: পিসিফর্ম (Pisiform) এবং হুক অব হ্যামেট (Hook of Hamate)।</li>
+            <li>ল্যাটারাল পিলার: স্ক্যাফয়েড টিউবারকল (Scaphoid tubercle) এবং ট্রাপিজিয়াম ক্রেস্ট (Trapezium crest)।</li>
+          </ul>
+        </li>
+        <li><strong>ছাদ (Roof):</strong> একটি অত্যন্ত পুরু, শক্ত ও সম্প্রসারণ-অক্ষম লিগামেন্ট <strong>Flexor Retinaculum (Transverse Carpal Ligament)</strong> দ্বারা আবৃত।</li>
+        <li><strong>প্যাথোফিজিওলজি:</strong> টানেলটির আকার প্রসারিত হতে পারে না। কোনো কারণে এর ভেতরে চাপ বৃদ্ধি পেলে (স্বাভাবিক ২–১০ mmHg থেকে ৩০ mmHg এর বেশি হলে) সেখানে থাকা মিডিয়ান নার্ভে রক্ত সঞ্চালন বাধাগ্রস্ত হয়ে ইসকেমিয়া ও কম্প্রেশন তৈরি হয়, যাকে <strong>Carpal Tunnel Syndrome (CTS)</strong> বলে।</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(খ) কার্পাল টানেলের মধ্যকার উপাদানসমূহ (Contents - মোট ১০টি স্ট্রাকচার)</h4>
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+        <table class="w-full text-left text-sm min-w-[520px]">
+          <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+            <tr>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">উপাদান</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">সংখ্যা</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">অবস্থান ও সাইনোভিয়াল আবরণী</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+            <tr>
+              <td class="p-3 font-semibold">১. Median Nerve (মিডিয়ান নার্ভ)</td>
+              <td class="p-3">১টি</td>
+              <td class="p-3">ফ্লেক্সর রেটিনাকুলামের ঠিক নিচেই <strong>সর্বাপেক্ষা ভাসাভাসা (Most Superficial)</strong> অবস্থানে থাকে। ফলে চাপ সৃষ্টি হলে এটিই সরাসরি সংকুচিত হয়।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">২. Flexor Digitorum Superficialis (FDS) টেন্ডন</td>
+              <td class="p-3">৪টি</td>
+              <td class="p-3">কমন সাইনোভিয়াল বার্সা (<strong>Ulnar Bursa</strong>) দ্বারা আবৃত। ৩য় ও ৪র্থ আঙুলের টেন্ডন উপরে এবং ২য় ও ৫ম আঙুলের টেন্ডন নিচে থাকে।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">৩. Flexor Digitorum Profundus (FDP) টেন্ডন</td>
+              <td class="p-3">৪টি</td>
+              <td class="p-3">আলনার বার্সার গভীরে FDS টেন্ডনের নিচে কার্পাল বোনের মেঝের উপর পাশাপাশি থাকে।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">৪. Flexor Pollicis Longus (FPL) টেন্ডন</td>
+              <td class="p-3">১টি</td>
+              <td class="p-3">ল্যাটারাল পাশে নিজস্ব সাইনোভিয়াল আবরণীতে (<strong>Radial Bursa</strong>) থাকে।</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(গ) ক্লিনিক্যাল লক্ষণ ও শারীরিক পরীক্ষা (Clinical Signs & Tests)</h4>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>সেন্সরি লক্ষণ:</strong> হাতের ল্যাটারাল সাড়ে তিনটি আঙুলে (বুড়ো আঙুল, তর্জনী, মধ্যমা এবং অনামিকার অর্ধেক) ঝিঁঝিঁ ধরা, অবশ ভাব ও তীব্র জ্বলুনি ব্যথা (Paresthesia)।
+          <ul class="list-circle pl-6 mt-1 space-y-1">
+            <li><strong>রাতের বেলা তীব্রতা বৃদ্ধি:</strong> রাতে কবজি অনিচ্ছাকৃত ভাঁজ হয়ে থাকায় ও শিরাস্থ স্থবিরতার কারণে তীব্র ব্যথায় ঘুম ভেঙে যায়। হাত ঝাঁকালে সাময়িক স্বস্তি মেলে (<strong>Flick Sign</strong>)।</li>
+            <li><strong>থেনার এমিনেন্সের অনুভূতি অক্ষত থাকা:</strong> মিডিয়ান নার্ভের পালমার কিউটেনিয়াস শাখা কবজির ৫ সেমি উপরে সৃষ্টি হয়ে ফ্লেক্সর রেটিনাকুলামের উপর দিয়ে যায়; তাই তালুর মাঝের ও থেনারের অনুভূতি স্বাভাবিক থাকে।</li>
+          </ul>
+        </li>
+        <li><strong>প্রোভোকেটিভ সাইন (Provocative Physical Signs):</strong>
+          <ol class="list-decimal pl-6 mt-1 space-y-1">
+            <li><strong>Phalen's Test:</strong> দুই কবজিকে উল্টো করে ৯০ ডিগ্রি ভাঁজ করে ৬০ সেকেন্ড ধরে রাখলে আঙুলে ঝিঁঝিঁ ও অবশ ভাব বেড়ে যায়।</li>
+            <li><strong>Tinel's Sign:</strong> ফ্লেক্সর রেটিনাকুলামের উপর আঙুল দিয়ে টোকা দিলে আঙুলে বৈদ্যুতিক শকের ন্যায় ঝিনঝিন অনুভূতি ছড়িয়ে পড়ে।</li>
+            <li><strong>Durkan's Test (Carpal Compression):</strong> বৃদ্ধাঙ্গুলি দিয়ে কার্পাল টানেলের উপর সরাসরি ৩০ সেকেন্ড চাপ দিলে লক্ষণ তৈরি হয় (সবচেয়ে সেন্সিটিভ টেস্ট)।</li>
+          </ol>
+        </li>
+        <li><strong>মোটর লক্ষণ ও অবক্ষয়:</strong> রোগের শেষ পর্যায়ে থেনার পেশি শুকিয়ে যায় (Thenar Atrophy), ফলে বৃদ্ধাঙ্গুলি নাড়ানোর ক্ষমতা হারিয়ে হাত দেখতে বানরের হাতের মতো ফ্ল্যাট হয়ে যায় (<strong>"Ape-Thumb Deformity" বা Simian Hand</strong>)।</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 2: ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা ও ভাইভা টিপস -->
+  <div class="callout-amber p-5 rounded-2xl border-l-4 border-amber-500 bg-amber-50/50 dark:bg-slate-800/60 space-y-4">
+    <h3 class="text-lg font-bold text-amber-900 dark:text-amber-200 border-b border-amber-200 dark:border-amber-700 pb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>কার্পাল টানেল সিন্ড্রোমের রিস্ক ফ্যাক্টরসমূহ (PRONG mnemonic):</strong>
+        <br><strong>P</strong>regnancy (শরীরে ফ্লুইড রিটেনশন), <strong>R</strong>heumatoid arthritis (টেন্ডন শিথের ইনফ্লামেশন), <strong>O</strong>besity/Overuse (কম্পিউটার টাইপিস্ট), <strong>N</strong>ephropathy (ডায়াবেটিক ও ক্রনিক কিডনি ডিজিজ), <strong>G</strong>oiter / Hypothyroidism (মিউকোপলিস্যাকারাইড জমে টানেল সংকুচিত হওয়া) এবং অ্যাক্রোমেগালি।</li>
+      <li><strong>কেন গর্ভাবস্থায় CTS বেশি হয়?</strong> প্রেগন্যান্সির তৃতীয় ট্রাইমেস্টারে প্রোজেস্টেরন ও ইস্ট্রোজেনের প্রভাবে টিস্যুতে অতিরিক্ত তরল জমা হয়ে (Edema) কার্পাল টানেলের অভ্যন্তরীণ চাপ বাড়িয়ে দেয়। ডেলিভারির পর এটি সাধারণত নিজে থেকেই সেরে যায়।</li>
+      <li><strong>অ্যানাটমিক্যাল ভাইভা ট্র্যাপ: Flexor Carpi Radialis কি টানেলের ভেতর থাকে?</strong> না! এটি ফ্লেক্সর রেটিনাকুলামের ল্যাটারাল স্প্লিটের নিজস্ব কম্পার্টমেন্টে থাকে, কার্পাল টানেলের প্রোপার কন্টেন্ট নয়। একইভাবে Ulnar nerve ও Ulnar artery টানেলের উপর দিয়ে Guyon's canal দিয়ে যায়।</li>
+      <li><strong>সার্জিক্যাল রিলিজ (Carpal Tunnel Release):</strong> কনজারভেটিভ স্প্লিন্টিং ও স্টেরয়েড ইনজেকশনে কাজ না হলে বা থেনার অ্যাট্রোফি শুরু হলে সার্জারির মাধ্যমে Transverse Carpal Ligament কেটে দিয়ে মিডিয়ান নার্ভকে চাপমুক্ত করা হয়।</li>
+    </ul>
+  </div>
+</div>
             </div>
           </div>
         </article>
@@ -2737,24 +3336,140 @@
     </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">1. Boundaries:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li>A triangular depression in front of the elbow.</li>
-  <li><strong>Base:</strong> Imaginary horizontal line connecting medial and lateral epicondyles of humerus.</li>
-  <li><strong>Medial Border:</strong> Lateral border of <strong>Pronator teres</strong> muscle.</li>
-  <li><strong>Lateral Border:</strong> Medial border of <strong>Brachioradialis</strong> muscle.</li>
-  <li><strong>Apex:</strong> Point where Brachioradialis overlaps Pronator teres.</li>
-  <li><strong>Floor:</strong> Formed by <strong>Brachialis</strong> (medially) and <strong>Supinator</strong> (laterally).</li>
-  <li><strong>Roof:</strong> Skin, superficial fascia containing median cubital vein, bicipital aponeurosis, and deep fascia.</li>
-</ul>
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">2. Contents from Medial to Lateral (Mnemonic: MBBR):</h5>
-<ol class="list-decimal pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Median Nerve:</strong> Gives branches to pronator teres, flexor carpi radialis, palmaris longus.</li>
-  <li><strong>Brachial Artery:</strong> Accompanied by venae comitantes; bifurcates at the neck of radius into Radial and Ulnar arteries.</li>
-  <li><strong>Tendon of Biceps Brachii:</strong> Centrally placed, twisting before inserting into radial tuberosity.</li>
-  <li><strong>Radial Nerve:</strong> Lies in the groove between brachialis and brachioradialis; divides into superficial and deep branches.</li>
-</ol>
-<p class="text-xs sm:text-sm"><strong>Clinical Importance:</strong> Median cubital vein in roof is preferred site for venipuncture; brachial pulse is palpated medial to biceps tendon for BP measurement.</p>
+              <div class="space-y-6">
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">1. Definition and Boundaries of the Cubital Fossa</h3>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+      The <strong>Cubital Fossa</strong> is a triangular subfascial depression located on the anterior aspect of the elbow joint, serving as an anatomical conduit between the arm and forearm (homologous to the popliteal fossa of the lower limb):
+    </p>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Boundary Element</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Anatomical Structure</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Specific Orientation & Margins</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">Base (Superior)</td>
+            <td class="p-3">Imaginary interepicondylar line</td>
+            <td class="p-3">Horizontal transverse line drawn between the medial and lateral epicondyles of the humerus.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Medial Border</td>
+            <td class="p-3"><strong>Pronator Teres</strong> muscle</td>
+            <td class="p-3">Specifically formed by the <strong>lateral border</strong> of the pronator teres muscle.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Lateral Border</td>
+            <td class="p-3"><strong>Brachioradialis</strong> muscle</td>
+            <td class="p-3">Specifically formed by the <strong>medial border</strong> of the brachioradialis muscle.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Apex (Inferior)</td>
+            <td class="p-3">Confluence of borders</td>
+            <td class="p-3">Directed downwards where the lateral border of pronator teres is overlapped by the brachioradialis muscle.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Roof (Superficial)</td>
+            <td class="p-3">From superficial to deep:
+              <br>1. Skin
+              <br>2. Superficial fascia
+              <br>3. Deep investing fascia
+              <br>4. <strong>Bicipital Aponeurosis</strong>
+            </td>
+            <td class="p-3">
+              - Superficial fascia contains the <strong>Median Cubital Vein</strong> (crosses obliquely from cephalic to basilic vein), the <strong>Lateral cutaneous nerve of forearm</strong> (terminal musculocutaneous, lateral to vein), and the <strong>Medial cutaneous nerve of forearm</strong> (medial to vein).<br>
+              - Deep fascia is reinforced by the tough <strong>Bicipital Aponeurosis</strong> (lacertus fibrosus) spreading medially from the biceps tendon to protect the underlying brachial artery and median nerve.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Floor (Deep)</td>
+            <td class="p-3">Two muscular beds:
+              <br>1. <strong>Brachialis</strong> (Medially)
+              <br>2. <strong>Supinator</strong> (Laterally)
+            </td>
+            <td class="p-3">
+              - <strong>Brachialis:</strong> Forms the medial muscular gutter covering the lower anterior humerus and elbow joint capsule.<br>
+              - <strong>Supinator:</strong> Wraps around the upper third of the radius to form the lateral muscular gutter.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">2. Contents of the Cubital Fossa (From Medial to Lateral: Mnemonic "MBBR")</h3>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+      The four principal structures traverse the fossa in a strictly ordered mediolateral sequence:
+    </p>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Order (Medial &rarr; Lateral)</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Structure</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Detailed Course, Branches & Relations</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">1. Most Medial (M)</td>
+            <td class="p-3"><strong>Median Nerve</strong></td>
+            <td class="p-3">
+              - Descends medial to the brachial artery.<br>
+              - Gives muscular branches to Pronator Teres, Flexor Carpi Radialis, Palmaris Longus, and Flexor Digitorum Superficialis.<br>
+              - Gives articular branches to the elbow joint.<br>
+              - Exits the fossa by passing between the humeral and ulnar heads of the Pronator Teres muscle.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">2. Intermediate Medial (B)</td>
+            <td class="p-3"><strong>Brachial Artery</strong> (with Venae Comitantes)</td>
+            <td class="p-3">
+              - Accompanied on either side by venae comitantes.<br>
+              - Lies medial to the biceps tendon, directly beneath the protective bicipital aponeurosis.<br>
+              - Opposite the neck of the radius near the apex, it bifurcates into its two terminal branches:
+                <br>&bull; <strong>Radial Artery:</strong> Smaller, superficial lateral branch.
+                <br>&bull; <strong>Ulnar Artery:</strong> Larger medial branch, passing deep to pronator teres, giving origin to the common interosseous artery.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">3. Intermediate Lateral (B)</td>
+            <td class="p-3"><strong>Biceps Brachii Tendon</strong></td>
+            <td class="p-3">
+              - Prominent central landmark; spirals 90 degrees backwards to insert into the rough posterior part of the <strong>Radial Tuberosity</strong>.<br>
+              - Separated from the smooth anterior part of the tuberosity by the friction-reducing <strong>bicipitoradial bursa</strong>.<br>
+              - Gives off the bicipital aponeurosis from its medial edge.
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">4. Most Lateral (R)</td>
+            <td class="p-3"><strong>Radial Nerve</strong></td>
+            <td class="p-3">
+              - Hidden deeply in the groove between Brachialis (medially) and Brachioradialis / Extensor Carpi Radialis Longus (laterally).<br>
+              - At the level of the lateral epicondyle, it divides into:
+                <br>&bull; <strong>Deep branch (Posterior Interosseous Nerve, PIN):</strong> Pure motor; pierces and passes between the two heads of the supinator muscle to enter the extensor compartment.
+                <br>&bull; <strong>Superficial branch:</strong> Pure sensory; runs down forearm under cover of brachioradialis with the radial artery.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">3. Applied Clinical Anatomy</h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Median Cubital Vein & Venipuncture:</strong> The roof houses the median cubital vein, the most common site for intravenous cannulation and blood withdrawal. It is stabilized by a perforating vein connecting it to deep veins and is separated from the underlying brachial artery by the tough bicipital aponeurosis, protecting the artery from accidental intra-arterial injection.</li>
+      <li><strong>Blood Pressure Auscultation:</strong> The brachial pulse is palpated and auscultated with a stethoscope in the cubital fossa immediately medial to the tendon of biceps brachii.</li>
+      <li><strong>Supracondylar Fracture of Humerus & Volkmann's Ischemia:</strong> Displaced extension-type supracondylar fracture in children poses an acute threat of sharp bone fragments kinking or transecting the brachial artery and median nerve. Unrelieved spasm or thrombosis results in <strong>Volkmann's Ischemic Contracture (VIC)</strong>—claw-like flexion of wrist and fingers due to ischemic necrosis and fibrosis of deep forearm flexors.</li>
+    </ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -2762,10 +3477,120 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200">
-  <strong>💡 বাংলা হেল্প নোট:</strong><br>
-  - <strong>কনটেন্টস মনে রাখার সেরা সূত্র (M-B-B-R):</strong> <strong>M</strong>edian nerve, <strong>B</strong>rachial artery, <strong>B</strong>iceps tendon, <strong>R</strong>adial nerve (মেডিয়াল থেকে ল্যাটেরাল)।<br>
-  - <strong>ক্লিনিক্যাল গুরুত্ব:</strong> রুফের মিডিয়ান কিউবিটাল ভেইন থেকে আমরা ইনজেকশন/রক্ত নিই, আর ব্রাকিয়াল আর্টারির উপর স্টেথো রেখে প্রেসার মাপি।
+              <div class="space-y-6">
+  <!-- SECTION 1: পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর -->
+  <div class="callout-blue p-5 rounded-2xl border-l-4 border-blue-500 bg-blue-50/50 dark:bg-slate-800/60 space-y-5">
+    <h3 class="text-lg font-bold text-blue-900 dark:text-blue-200 border-b border-blue-200 dark:border-blue-700 pb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(ক) কিউবিটাল ফোসার সংজ্ঞা ও সীমানা (Boundaries of Cubital Fossa)</h4>
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+        কিউবিটাল ফোসা হলো কনুইয়ের সামনের দিকে অবস্থিত একটি ত্রিভুজাকৃতির সাবফ্যাশিয়াল অগভীর গহ্বর (লোয়ার লিম্বের পপলিটিয়াল ফোসার সমতুল্য):
+      </p>
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+        <table class="w-full text-left text-sm min-w-[520px]">
+          <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+            <tr>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">সীমানা</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">গঠনকারী অ্যানাটমিক্যাল স্ট্রাকচার</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+            <tr>
+              <td class="p-3 font-semibold">Base (উপরের ভূমি)</td>
+              <td class="p-3">হিউমেরাসের মিডিয়াল ও ল্যাটারাল এপিকন্ডাইলের মধ্যবর্তী একটি কাল্পনিক আনুভূমিক রেখা (Interepicondylar Line)।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Medial Border</td>
+              <td class="p-3"><strong>Pronator Teres</strong> পেশির ল্যাটারাল বর্ডার (Lateral border of pronator teres)।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Lateral Border</td>
+              <td class="p-3"><strong>Brachioradialis</strong> পেশির মিডিয়াল বর্ডার (Medial border of brachioradialis)।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Apex (শীর্ষবিন্দু)</td>
+              <td class="p-3">নিচের দিকে নির্দেশিত; যেখানে ব্র্যাকিওরেডিয়ালিস পেশি প্রোনেটর টেরিসের উপর দিয়ে অতিক্রম করে।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Roof (ছাদ)</td>
+              <td class="p-3">
+                ত্বক, সুপারফিসিয়াল ফ্যাশিয়া (যাতে <strong>Median Cubital Vein</strong>, ল্যাটারাল কিউটেনিয়াস নার্ভ ও মিডিয়াল কিউটেনিয়াস নার্ভ থাকে), ডিপ ফ্যাশিয়া এবং শক্তিশালী <strong>Bicipital Aponeurosis</strong>।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Floor (মেঝে)</td>
+              <td class="p-3">
+                দুটি পেশি দ্বারা গঠিত:<br>
+                ১. মিডিয়ালি: <strong>Brachialis</strong> পেশি।<br>
+                ২. ল্যাটারালি: <strong>Supinator</strong> পেশি (রেডিয়াসের উপরিভাগকে ঘিরে থাকে)।
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(খ) কিউবিটাল ফোসার উপাদানসমূহ (মিডিয়াল থেকে ল্যাটারাল ক্রমানুসারে: Mnemonic "MBBR")</h4>
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+        <table class="w-full text-left text-sm min-w-[520px]">
+          <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+            <tr>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">ক্রম (Medial &rarr; Lateral)</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">উপাদান</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">কোর্স ও বিশদ অ্যানাটমি</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+            <tr>
+              <td class="p-3 font-semibold">১. সর্ব-মিডিয়াল (M)</td>
+              <td class="p-3"><strong>Median Nerve</strong></td>
+              <td class="p-3">ব্র্যাকিয়াল ধমনির মিডিয়ালি অবস্থান করে; প্রোনেটর টেরিসের দুই মাথার মধ্য দিয়ে ফোসা ত্যাগ করে ফোরআর্মে প্রবেশ করে। এটি সুপারফিসিয়াল ফ্লেক্সর পেশিগুলোতে নার্ভ সাপ্লাই দেয়।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">২. মধ্য-মিডিয়াল (B)</td>
+              <td class="p-3"><strong>Brachial Artery</strong></td>
+              <td class="p-3">বাইসেপস টেন্ডনের ঠিক মিডিয়ালি নামে এবং বিসিপিটাল অ্যাপোনিউরোসিস দ্বারা সুরক্ষিত থাকে। নেক অব রেডিয়াসের কাছে এসে এটি তার দুটি টার্মিনাল শাখায় বিভক্ত হয়: <strong>Radial Artery</strong> এবং <strong>Ulnar Artery</strong>।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">৩. মধ্য-ল্যাটারাল (B)</td>
+              <td class="p-3"><strong>Biceps Brachii Tendon</strong></td>
+              <td class="p-3">শক্ত কেন্দ্রীয় টেন্ডন যা পেঁচিয়ে গিয়ে রেডিয়াসের <strong>Radial Tuberosity</strong>-র পেছনের অংশে যুক্ত হয়। এর ঘর্ষণ কমাতে নিচে Bicipitoradial bursa থাকে।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">৪. সর্ব-ল্যাটারাল (R)</td>
+              <td class="p-3"><strong>Radial Nerve</strong></td>
+              <td class="p-3">ব্র্যাকিয়ালিস ও ব্র্যাকিওরেডিয়ালিসের মধ্যবর্তী গভীর খাঁজে লুকায়িত থাকে। ল্যাটারাল এপিকন্ডাইলের লেভেলে এটি দুটি শাখায় ভাগ হয়: <strong>Deep branch (PIN)</strong> সুপিনেটরকে ছিদ্র করে পোস্টেরিয়র কম্পার্টমেন্টে যায় এবং <strong>Superficial branch</strong> ফোরআর্মের নিচে নামে।</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(গ) ক্লিনিক্যাল গুরুত্ব (Clinical Significance)</h4>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>ভ্যালিপাংচার ও ক্যানুলেশন (Venipuncture):</strong> ছাদের সুপারফিসিয়াল ফ্যাসিয়ায় অবস্থিত <strong>Median Cubital Vein</strong> হলো রক্ত নেওয়া ও আইভি ইনজেকশন দেওয়ার প্রধানতম শিরা। এর ঠিক নিচে Bicipital Aponeurosis থাকায় ভুলবশত সিরিঞ্জের নিডল ভেতরের ব্র্যাকিয়াল ধমনিতে ঢুকে পড়ার ঝুঁকি থেকে রক্ষা পায়।</li>
+        <li><strong>রক্তচাপ পরিমাপ (Blood Pressure Measurement):</strong> বাইসেপস টেন্ডনের ঠিক মিডিয়ালি স্টেথোস্কোপ ডায়াফ্রাম বসিয়ে ব্র্যাকিয়াল ধমনির করোৎকফ শব্দ (Korotkoff sounds) শুনে রক্তচাপ মাপা হয়।</li>
+        <li><strong>সুপ্রাকন্ডাইলার ফ্র্যাকচার ও ভকম্যানস কনট্রাকচার:</strong> শিশুদের সুপ্রাকন্ডাইলার ফ্র্যাকচারে ভাঙা হাড় ব্র্যাকিয়াল ধমনি ও মিডিয়ান নার্ভ ছিঁড়ে বা চেপে দিতে পারে। সময়মতো চাপমুক্ত না করলে ফোরআর্মের ফ্লেক্সর পেশিগুলো পচে গিয়ে শক্ত হয়ে চিরতরে হাত বেঁকে যায়, যাকে <strong>Volkmann's Ischemic Contracture (VIC)</strong> বলে।</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 2: ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা ও ভাইভা টিপস -->
+  <div class="callout-amber p-5 rounded-2xl border-l-4 border-amber-500 bg-amber-50/50 dark:bg-slate-800/60 space-y-4">
+    <h3 class="text-lg font-bold text-amber-900 dark:text-amber-200 border-b border-amber-200 dark:border-amber-700 pb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>ভাইভা ট্রিক: কন্টেন্ট মনে রাখার টেকনিক:</strong> মিডিয়াল থেকে ল্যাটারাল মনে রাখার সবচেয়ে বিখ্যাত নেমোনিক হলো <strong>MBBR</strong> (<strong>M</strong>edian nerve, <strong>B</strong>rachial artery, <strong>B</strong>iceps tendon, <strong>R</strong>adial nerve)। অনেকে এটিকে "My Brother's Bed Red" বা "MBBS" (S = Supinator branch of radial nerve) হিসেবেও মনে রাখেন।</li>
+      <li><strong>কেন রেডিয়াল নার্ভ অনেক সময় কন্টেন্ট হিসেবে সরাসরি দেখা যায় না?</strong> কারণ রেডিয়াল নার্ভটি ব্র্যাকিওরেডিয়ালিস পেশির নিচে গভীরভাবে প্রোটেক্টেড থাকে। ব্র্যাকিওরেডিয়ালিস পেশি ল্যাটারালি রিট্র্যাক্ট না করলে এটি খালি চোখে দেখা যায় না।</li>
+      <li><strong>পালস হারিয়ে যাওয়া (Absent Radial Pulse):</strong> সুপ্রাকন্ডাইলার ফ্র্যাকচারের পর বা এলবো ডিসলোকেশন রিডাকশনের পর যদি হাতের রেডিয়াল পালস বন্ধ হয়ে যায়, তবে তা সার্জিক্যাল ইমার্জেন্সি। কালবিলম্ব না করে ব্র্যাকিয়াল ধমনি এক্সপ্লোর করতে হবে।</li>
+    </ul>
+  </div>
 </div>
             </div>
           </div>
@@ -2834,19 +3659,86 @@
     </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">1. Definition & Boundaries:</h5>
-<p class="text-xs sm:text-sm mb-2">A triangular depression on the posterolateral aspect of the wrist seen when thumb is fully extended.</p>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Medial (Ulnar) boundary:</strong> Tendon of <strong>Extensor Pollicis Longus (EPL)</strong>.</li>
-  <li><strong>Lateral (Radial) boundary:</strong> Tendons of <strong>Abductor Pollicis Longus (APL)</strong> and <strong>Extensor Pollicis Brevis (EPB)</strong>.</li>
-  <li><strong>Floor:</strong> Styloid process of radius, <strong>Scaphoid</strong>, Trapezium, and base of 1st metacarpal.</li>
-  <li><strong>Roof:</strong> Skin, superficial fascia containing Cephalic vein and superficial branch of radial nerve.</li>
-</ul>
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">2. Contents & Clinical Significance:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Content:</strong> <strong>Radial Artery</strong> passes through the floor, giving princeps pollicis and radialis indicis branches.</li>
-  <li><strong>Clinical Significance:</strong> Tenderness in snuffbox is diagnostic of <strong>Scaphoid fracture</strong> following fall on an outstretched hand (FOOSH). Risk of avascular necrosis (AVN) of proximal scaphoid pole due to retrograde blood supply.</li>
-</ul>
+              <div class="space-y-6">
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">1. Definition and Boundaries of the Anatomical Snuffbox</h3>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+      The <strong>Anatomical Snuffbox</strong> (Tabatiere anatomique) is a triangular cutaneous depression on the posterolateral aspect of the wrist and base of the thumb, best appreciated when the thumb is fully extended and abducted:
+    </p>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Boundary Feature</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Forming Anatomical Structures</th>
+            <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">Surgical / Extensor Compartment Details</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">Anterolateral (Lateral) Border</td>
+            <td class="p-3">
+              1. <strong>Abductor Pollicis Longus (APL)</strong> tendon<br>
+              2. <strong>Extensor Pollicis Brevis (EPB)</strong> tendon
+            </td>
+            <td class="p-3">These two tendons traverse the <strong>First extensor compartment</strong> of the wrist under the extensor retinaculum.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Posteromedial (Medial) Border</td>
+            <td class="p-3"><strong>Extensor Pollicis Longus (EPL)</strong> tendon</td>
+            <td class="p-3">Traverses the <strong>Third extensor compartment</strong>, hooking acutely around the dorsal tubercle of the radius (<strong>Lister's Tubercle</strong>) which serves as a pulley.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Apex</td>
+            <td class="p-3">Convergence of borders</td>
+            <td class="p-3">Directed distally at the base of the first metacarpal bone where EPL meets EPB.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Base</td>
+            <td class="p-3">Proximal margin</td>
+            <td class="p-3">Styloid process of the radius.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Floor (Osseous bed)</td>
+            <td class="p-3">From proximal to distal:
+              <br>1. Styloid process of the radius
+              <br>2. <strong>Scaphoid bone</strong>
+              <br>3. <strong>Trapezium bone</strong>
+              <br>4. Base of the 1st metacarpal bone
+            </td>
+            <td class="p-3">The scaphoid and trapezium bones form the main articular floor over which the radial artery glides.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Roof (Superficial cover)</td>
+            <td class="p-3">Skin, subcutaneous tissue containing:
+              <br>1. <strong>Cephalic Vein</strong>
+              <br>2. <strong>Superficial branch of Radial Nerve (SBRN)</strong>
+            </td>
+            <td class="p-3">SBRN terminal branches supply sensation to the skin of the lateral two-thirds of the dorsum of the hand and dorsal aspect of lateral 3.5 digits.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">2. Contents of the Anatomical Snuffbox</h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Radial Artery (Main Deep Content):</strong> Wounds around the lateral side of the radius and enters the snuffbox deep to the APL and EPB tendons. It passes across the scaphoid and trapezium floor where its pulsations can be palpated. It leaves the snuffbox by plunging between the two heads of the first dorsal interosseous muscle into the palm to form the <strong>Deep Palmar Arch</strong>.</li>
+      <li><strong>Superficial Branch of the Radial Nerve (In Roof):</strong> Purely sensory terminal twigs coursing in the subcutaneous tissue over the roof.</li>
+      <li><strong>Cephalic Vein (In Roof):</strong> Arises from the radial end of the dorsal venous arch, crossing the snuffbox roof obliquely before ascending up the lateral forearm.</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">3. Applied Clinical Significance</h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Scaphoid Fracture & Avascular Necrosis (AVN):</strong> Direct point tenderness on palpation in the anatomical snuffbox following a fall on an outstretched hand (FOOSH) is <strong>clinically diagnostic of a scaphoid fracture</strong> until proven otherwise. Because the scaphoid receives its arterial blood supply in a retrograde fashion (entering distally through branches of the radial artery), a fracture through the waist frequently strips blood supply to the proximal pole, resulting in non-union and <strong>Avascular Necrosis (AVN)</strong>. Initial plain X-rays may appear normal; repeat imaging at 10–14 days or MRI is mandatory.</li>
+      <li><strong>De Quervain's Tenosynovitis:</strong> Stenosing tenosynovitis affecting the APL and EPB tendons in the first extensor compartment (lateral boundary). Elicited by <strong>Finkelstein's Test</strong> (sharp pain over radial styloid when thumb is clasped inside fist and wrist is forcibly adducted/ulnar deviated).</li>
+      <li><strong>Distal Radial Artery Cannulation ("Snuffbox Access"):</strong> Puncture of the radial artery in the snuffbox is increasingly favored by interventional cardiologists for coronary angiography. Because it lies distal to the superficial palmar branch, occlusion carries virtually zero risk of hand ischemia, and hemostasis is facilitated by bony backstop of the scaphoid/trapezium.</li>
+    </ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -2854,11 +3746,98 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200">
-  <strong>💡 বাংলা হেল্প নোট:</strong><br>
-  - আগে মানুষ এই জায়গায় তামাকের গুঁড়ো (Snuff) রেখে নাকের কাছে নিয়ে টানত, তাই নাম স্ন্যাফবক্স!<br>
-  - <strong>বাউন্ডারি:</strong> মিডিয়ালে EPL (লংগাস একা), ল্যাটেরালে APL + EPB (দুটো একসাথে)। ফ্লোরে থাকে স্ক্যাফয়েড বোন (Scaphoid)।<br>
-  - <strong>ক্লিনিক্যাল গুরুত্ব:</strong> হাতে ভর দিয়ে আছাড় খেলে স্ন্যাফবক্সে চাপ দিলে তীব্র ব্যথা হলে স্ক্যাফয়েড ফ্র্যাকচার নিশ্চিত, যা মিস করলে রক্ত সরবরাহের অভাবে বোন নেক্রোসিস হয়ে যায়।
+              <div class="space-y-6">
+  <!-- SECTION 1: পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর -->
+  <div class="callout-blue p-5 rounded-2xl border-l-4 border-blue-500 bg-blue-50/50 dark:bg-slate-800/60 space-y-5">
+    <h3 class="text-lg font-bold text-blue-900 dark:text-blue-200 border-b border-blue-200 dark:border-blue-700 pb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(ক) অ্যানাটমিক্যাল স্নাফবক্সের সংজ্ঞা ও সীমানা (Boundaries of Anatomical Snuffbox)</h4>
+      <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-3">
+        বৃদ্ধাঙ্গুলি সম্পূর্ণ সোজা (Extension) ও বাইরে প্রসারিত (Abduction) করলে কবজির ল্যাটারাল ও পেছনের দিকে যে সুস্পষ্ট ত্রিভুজাকার খাঁজ দৃশ্যমান হয়, তাকে <strong>Anatomical Snuffbox</strong> বলা হয় (ঐতিহাসিকভাবে মানুষ এখানে গুঁড়া তামাক বা নস্যি রেখে নাকে টানতো বলে এর এরূপ নামকরণ):
+      </p>
+      <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+        <table class="w-full text-left text-sm min-w-[520px]">
+          <thead class="bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200">
+            <tr>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">সীমানা</th>
+              <th class="p-3 border-b border-slate-200 dark:border-slate-700 font-semibold">গঠনকারী টেন্ডন ও অস্থিসমূহ</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+            <tr>
+              <td class="p-3 font-semibold">Anterolateral (ল্যাটারাল সীমানা)</td>
+              <td class="p-3">
+                দুটি টেন্ডন (কবজির ১ম এক্সটেনসর কম্পার্টমেন্ট):<br>
+                ১. <strong>Abductor Pollicis Longus (APL)</strong> টেন্ডন<br>
+                ২. <strong>Extensor Pollicis Brevis (EPB)</strong> টেন্ডন
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Posteromedial (মিডিয়াল সীমানা)</td>
+              <td class="p-3">
+                <strong>Extensor Pollicis Longus (EPL)</strong> টেন্ডন (কবজির ৩য় এক্সটেনসর কম্পার্টমেন্ট; এটি রেডিয়াসের <strong>Lister's Tubercle</strong>-কে পুলি হিসেবে ব্যবহার করে বাঁক নেয়)।
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Apex (শীর্ষ)</td>
+              <td class="p-3">১ম মেটাকার্পাল অস্থির গোড়ায় যেখানে EPL এবং EPB মিলিত হয়।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Base (গোড়া)</td>
+              <td class="p-3">রেডিয়াস অস্থির স্টাইলয়েড প্রসেস (Styloid process of radius)।</td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Floor (মেঝে)</td>
+              <td class="p-3">
+                অস্থিনির্মিত মেঝে; প্রক্সিমাল থেকে ডিস্টাল ক্রমানুসারে:<br>
+                ১. Styloid process of radius<br>
+                ২. <strong>Scaphoid bone</strong> (সবচেয়ে গুরুত্বপূর্ণ)<br>
+                ৩. <strong>Trapezium bone</strong><br>
+                ৪. Base of 1st metacarpal bone
+              </td>
+            </tr>
+            <tr>
+              <td class="p-3 font-semibold">Roof (ছাদ)</td>
+              <td class="p-3">ত্বক এবং সুপারফিসিয়াল ফ্যাশিয়া, যার ভেতর <strong>Cephalic Vein</strong> এবং <strong>Superficial branch of Radial Nerve</strong> থাকে।</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(খ) উপাদানসমূহ (Contents of Anatomical Snuffbox)</h4>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>১. Radial Artery (প্রধান ডিপ কন্টেন্ট):</strong> রেডিয়াল ধমনিটি ফোরআর্ম থেকে ঘুরে APL ও EPB টেন্ডনের নিচ দিয়ে স্নাফবক্সে ঢোকে। এটি স্ক্যাফয়েড ও ট্রাপিজিয়াম অস্থির মেঝের উপর দিয়ে আড়াআড়িভাবে গমন করে এবং First dorsal interosseous পেশির দুই মাথার মধ্য দিয়ে তালুতে গিয়ে Deep Palmar Arch গঠন করে। স্নাফবক্সের মেঝের বিপরীতে চাপ দিয়ে রেডিয়াল ধমনির স্পন্দন অনুভব করা যায়।</li>
+        <li><strong>২. Superficial branch of Radial Nerve:</strong> ছাদের সুপারফিসিয়াল ফ্যাসিয়ায় অবস্থান করে এবং হাতের ডরসামের ল্যাটারাল অংশে ত্বকের অনুভূতি যোগায়।</li>
+        <li><strong>৩. Cephalic Vein:</strong> ছাদের উপর দিয়ে নিচ থেকে উপরের দিকে ল্যাটারাল ফোরআর্মে প্রবেশ করে।</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 class="font-bold text-slate-900 dark:text-white mb-2">(গ) ক্লিনিক্যাল গুরুত্ব (Clinical Significance)</h4>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+        <li><strong>স্ক্যাফয়েড ফ্র্যাকচার ও অ্যাভাস্কুলার নেক্রোসিস (Scaphoid Fracture & AVN):</strong> হাত প্রসারিত অবস্থায় মাটিতে পড়ে গেলে (FOOSH - Fall on Outstretched Hand) কার্পাল বোনগুলোর মধ্যে সবচেয়ে বেশি ভাঙে স্ক্যাফয়েড বোন। <strong>স্নাফবক্সের ভেতর বৃদ্ধাঙ্গুলি দিয়ে চাপ দিলে যদি তীব্র ব্যথা (Tenderness) অনুভূত হয়, তবে এক্স-রেতে কিছু না দেখা গেলেও স্ক্যাফয়েড ফ্র্যাকচার হিসেবে চিকিৎসা দিতে হবে।</strong> স্ক্যাফয়েডের রক্ত সরবরাহ ডিস্টাল প্রান্ত থেকে উল্টো দিকে (Retrograde) আসে; তাই কোমরে (Waist) ফ্র্যাকচার হলে প্রক্সিমাল পোলে রক্ত সরবরাহ সম্পূর্ণ বন্ধ হয়ে <strong>Avascular Necrosis (AVN)</strong> ঘটে পচন ধরে।</li>
+        <li><strong>ডি কুয়ারভেইন্স টেনোসাইনোভাইটিস (De Quervain's Tenosynovitis):</strong> স্নাফবক্সের ল্যাটারাল বর্ডারের APL ও EPB টেন্ডনের আবরণীতে প্রদাহ। এটি নির্ণয়ে <strong>Finkelstein's Test</strong> করা হয় (হাতের মুঠোয় বুড়ো আঙুল ঢুকিয়ে কবজি আলনার দিকে বাঁকালে তীব্র ব্যথা হয়)।</li>
+        <li><strong>ডিস্টাল রেডিয়াল আর্টারি ক্যানুলেশন:</strong> আধুনিক কার্ডিওলজিতে হার্টের এনজিওগ্রাম ও রিং পরানোর জন্য কবজির চেয়ে স্নাফবক্সের রেডিয়াল ধমনি দিয়ে ক্যাথেটার ঢোকানো বেশি পছন্দ করা হয়; কারণ এতে হাতের রক্ত চলাচলে কোনো বিঘ্ন ঘটে না এবং স্ক্যাফয়েড হাড়ের উপর চাপ দিয়ে দ্রুত রক্তপাত বন্ধ করা যায়।</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 2: ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা ও ভাইভা টিপস -->
+  <div class="callout-amber p-5 rounded-2xl border-l-4 border-amber-500 bg-amber-50/50 dark:bg-slate-800/60 space-y-4">
+    <h3 class="text-lg font-bold text-amber-900 dark:text-amber-200 border-b border-amber-200 dark:border-amber-700 pb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>ভাইভা প্রশ্ন: স্ক্যাফয়েড ফ্র্যাকচারের প্রাথমিক এক্স-রে কেন প্রায়ই নরমাল থাকে?</strong> হেয়ারলাইন ফ্র্যাকচার প্রাথমিক এক্স-রেতে হাড়ের ওভারল্যাপিংয়ের কারণে বোঝা যায় না। তাই ক্লিনিকে স্নাফবক্সে ব্যথা থাকলে কাঁচা প্লাস্টার (Scaphoid cast) দিয়ে ১০-১৪ দিন পর পুনরায় এক্স-রে বা অবিলম্বে এমআরআই (MRI) করতে হয়।</li>
+      <li><strong>লিস্টার্স টিউবারকল (Lister's Tubercle):</strong> রেডিয়াস অস্থির ডরসাল টিউবারকল একটি পুলি হিসেবে কাজ করে। এর পাশ দিয়েই EPL টেন্ডনটি ৯০ ডিগ্রি বাঁক নেয়। কলিস ফ্র্যাকচারের পর বা রিউমাটয়েড আর্থ্রাইটিসে এই টেন্ডনটি ঘর্ষণে ছিঁড়ে যেতে পারে (EPL Tendon Rupture)।</li>
+      <li><strong>মাদার্স রিস্ট (Mother's Wrist):</strong> সদ্য মা হওয়া নারীদের নবজাতককে বারবার কোলে তোলার সময় কবজি বাঁকানোর ফলে APL ও EPB টেন্ডনে প্রচণ্ড চাপ পড়ে De Quervain's tenosynovitis দেখা দেয়, যাকে ঘরোয়া ভাষায় "Mother's Wrist" বলে।</li>
+    </ul>
+  </div>
 </div>
             </div>
           </div>
