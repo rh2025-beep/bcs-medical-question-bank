@@ -31658,27 +31658,66 @@
     </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">1. Classification of Gene Mutations:</h5>
-<p class="text-xs sm:text-sm mb-2">A mutation is a permanent, heritable change in the nucleotide sequence of the genome. Primary classes:</p>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>I. Point Mutations (Base Substitutions):</strong> Single base replaced by another (Transition: purine-to-purine / pyrimidine-to-pyrimidine; Transversion: purine-to-pyrimidine or vice versa).
-    <ul class="list-circle pl-5 mt-0.5">
-      <li><strong>Silent Mutation:</strong> Alters codon, but codes for the identical amino acid due to genetic code degeneracy (wobble). No phenotypic change.</li>
-      <li><strong>Missense Mutation:</strong> Alters codon to code for a <strong>different amino acid</strong>.
-        <br>• <em>Classic Example:</em> <strong>Sickle Cell Anemia</strong> — single point mutation in $\beta$-globin gene (GAG ➔ GTG) replaces hydrophilic Glutamic acid with hydrophobic Valine at position 6 ($\text{Glu}^6\text{Val}$).</li>
-      <li><strong>Nonsense Mutation:</strong> Alters an amino acid codon to a premature <strong>STOP codon</strong> (UAA, UAG, UGA), leading to premature polypeptide chain termination and truncated, non-functional protein. (E.g., severe forms of $\beta^0$-Thalassemia).</li>
-    </ul>
-  </li>
-  <li><strong>II. Frameshift Mutations:</strong>
-    <ul class="list-circle pl-5 mt-0.5">
-      <li>Insertion or deletion of a number of nucleotides that is <strong>NOT a multiple of 3</strong>.</li>
-      <li>Shifts the entire triplet reading frame downstream, scrambling all subsequent amino acids and usually terminating in a premature stop codon.</li>
-      <li><em>Examples:</em> <strong>Duchenne Muscular Dystrophy</strong> (frameshift deletion in dystrophin gene), <strong>Tay-Sachs Disease</strong> (4-base insertion in hexosaminidase A gene), BRCA1 deletions.</li>
-    </ul>
-  </li>
-  <li><strong>III. Trinucleotide Repeat Expansions:</strong> Amplification of tandem 3-base repeats (unstable dynamic mutations exhibiting genetic anticipation):
-    <br>• <strong>Huntington's Disease:</strong> CAG expansion (>36 repeats) in huntingtin gene (polyglutamine tract).
-    <br>• <strong>Fragile X Syndrome:</strong> CGG expansion (>200 repeats) in FMR1 gene causing intellectual disability.</li>
+              <h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">1. Definition & Structural Classification of Gene Mutations</h4>
+<p class="text-sm mb-2">A mutation is a permanent, transmissible alteration in the genomic nucleotide sequence that escapes DNA proofreading and enzymatic repair mechanisms. Gene mutations are broadly classified by their structural and molecular effects on the genetic code:</p>
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">
+        <th class="p-2.5 font-bold border-b">Mutation Class</th>
+        <th class="p-2.5 font-bold border-b">Molecular Mechanism</th>
+        <th class="p-2.5 font-bold border-b">Impact on Polypeptide</th>
+        <th class="p-2.5 font-bold border-b">Classic Disease Examples</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Silent Point Mutation</td>
+        <td class="p-2.5">Single base substitution (transition or transversion) changing a codon to a synonymous codon.</td>
+        <td class="p-2.5">No change in amino acid sequence due to the degeneracy / wobble of the genetic code. Normal wild-type protein.</td>
+        <td class="p-2.5">Neutral polymorphic variants; benign DNA polymorphisms used in forensic STR typing.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Missense Point Mutation</td>
+        <td class="p-2.5">Single base substitution resulting in a triplet codon that encodes a <strong>different amino acid</strong>.</td>
+        <td class="p-2.5">Alters chemical properties (charge, hydrophobicity) or conformational folding of the synthesized protein.</td>
+        <td class="p-2.5"><strong>Sickle Cell Anemia:</strong> GAG &rarr; GTG point mutation in the &beta;-globin gene substituting hydrophilic Glutamic acid with hydrophobic Valine at position 6 (&beta;6 Glu &rarr; Val).</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Nonsense Point Mutation</td>
+        <td class="p-2.5">Single base substitution converting an amino acid-specifying codon into a <strong>premature stop codon (UAA, UAG, or UGA)</strong>.</td>
+        <td class="p-2.5">Premature termination of translation, producing a severely truncated, unstable, non-functional protein rapidly degraded by nonsense-mediated decay.</td>
+        <td class="p-2.5"><strong>&beta;0-Thalassemia major</strong> (nonsense mutation at codon 39), severe cystic fibrosis, Duchenne muscular dystrophy variants.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Frameshift Mutation</td>
+        <td class="p-2.5">Insertion or deletion (indel) of a number of nucleotides <strong>not divisible by 3</strong> within the protein-coding sequence.</td>
+        <td class="p-2.5">Completely scrambles the downstream triplet reading frame, generating completely aberrant amino acids until encountering a premature stop codon.</td>
+        <td class="p-2.5"><strong>Duchenne Muscular Dystrophy (DMD):</strong> Out-of-frame deletion of exons in dystrophin gene. <strong>Tay-Sachs Disease:</strong> 4-base pair insertion (TATC) in HEXA gene.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">In-Frame Deletion / Insertion</td>
+        <td class="p-2.5">Deletion or insertion of an exact multiple of 3 nucleotides (e.g., 3, 6, 9 bp).</td>
+        <td class="p-2.5">Reading frame remains intact downstream, but one or more specific amino acids are deleted or added.</td>
+        <td class="p-2.5"><strong>Cystic Fibrosis (&Delta;F508):</strong> 3-bp deletion resulting in the loss of Phenylalanine at position 508 of the CFTR protein, causing misfolding in ER.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Trinucleotide Repeat Expansion</td>
+        <td class="p-2.5">Massive enzymatic slippage and expansion of unstable triplet repeat tandem sequences during DNA replication.</td>
+        <td class="p-2.5">Polyglutamine tracts causing toxic gain-of-function protein aggregates, or gene hypermethylation causing transcriptional silencing.</td>
+        <td class="p-2.5"><strong>Huntington Disease:</strong> (CAG)n expansion &gt; 36 repeats. <strong>Fragile X Syndrome:</strong> (CGG)n expansion &gt; 200 repeats. <strong>Friedreich Ataxia:</strong> (GAA)n expansion.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">2. Clinical & Biological Consequences of Mutations</h4>
+<ul class="list-disc pl-5 space-y-1.5 text-sm mb-3">
+  <li><strong>Loss-of-Function Mutations:</strong> Reduce or abolish protein activity. Most commonly inherited in an <strong>autosomal recessive</strong> manner (e.g., enzyme deficiencies such as Phenylketonuria and Tay-Sachs) because 50% enzyme level in heterozygotes is usually sufficient for survival.</li>
+  <li><strong>Dominant-Negative Mutations:</strong> An abnormal mutant polypeptide blunts or poisons the function of the normal wild-type protein produced by the unaffected allele within a multimeric complex (e.g., <strong>Osteogenesis Imperfecta</strong>, where mutated procollagen chains disrupt normal triple-helix assembly).</li>
+  <li><strong>Gain-of-Function Mutations:</strong> Confer novel, hyperactive, or constitutive enzymatic activity. Typically inherited in an <strong>autosomal dominant</strong> pattern (e.g., Achondroplasia due to constitutively active FGFR3 receptor) or acquired somatically as oncogenes (e.g., <strong>KRAS</strong>, <strong>BRAF</strong> V600E in malignancies).</li>
+  <li><strong>Splice-Site Mutations:</strong> Alter conserved dinucleotides (GT at 5' donor or AG at 3' acceptor splice junctions), leading to aberrant intron retention or whole-exon skipping (common cause of &beta;-thalassemia).</li>
 </ul>
             </div>
 
@@ -31687,12 +31726,62 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200">
-  <strong>💡 বাংলা হেল্প নোট:</strong><br>
-  - মিউটেশন হলো ডিএনএ সিকোয়েন্সে স্থায়ী পরিবর্তন।<br>
-  - <strong>মিস-সেন্স মিউটেশন (Missense):</strong> ১টি অক্ষর বদলে গিয়ে অন্য অ্যামিনো এসিড বসে যায়। সেরা উদাহরণ: <strong>সিকল সেল অ্যানিমিয়া</strong>—যেখানে ৬ নম্বর পজিশনে গ্লুটামিক এসিডের জায়গায় ভ্যালিন বসে পুরো রক্তকণিকা কাস্তের মতো বাঁকা করে ফেলে।<br>
-  - <strong>নন-সেন্স মিউটেশন (Nonsense):</strong> মাঝপথে হুট করে 'স্টপ কোডন' (UAA/UAG/UGA) বসে প্রোটিন তৈরি অর্ধেক পথেই থামিয়ে দেয় (থেলাসেমিয়া)।<br>
-  - <strong>ফ্রেমশিফট (Frameshift):</strong> ৩টির গুণিতক ছাড়া ১টি বা ২টি অক্ষর ঢুকলে বা মুছে গেলে পেছনের পুরো অর্থ এলোমেলো হয়ে যায় (ডুশেন মাসকুলার ডিস্ট্রফি)।
+              <div class="space-y-4">
+  <div class="p-4 bg-blue-50 dark:bg-blue-950/40 rounded-xl border border-blue-200 dark:border-blue-800">
+    <h3 class="text-base font-bold text-blue-900 dark:text-blue-200 mb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+    <div class="space-y-3 text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
+      <div>
+        <strong>(ক) মিউটেশন (Mutation)-এর সংজ্ঞা:</strong>
+        <p class="mt-1">জীবদেহের ডিএনএ-এর নিউক্লিওটাইড বা ক্ষারক অনুক্রমে যে কোনো স্থায়ী, বংশপরম্পরায় সঞ্চারণযোগ্য আকস্মিক পরিবর্তনকে মিউটেশন বলে।</p>
+      </div>
+
+      <div>
+        <strong>(খ) মিউটেশনের প্রধান প্রকারভেদ ও রোগের উদাহরণ:</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-2">
+          <li><strong>১. পয়েন্ট মিউটেশন বা বেস সাবস্টিটিউশন (Point Mutations):</strong> ডিএনএ-এর একটিমাত্র ক্ষারক বদলে অন্য ক্ষারক বসে যাওয়া:
+            <br>&bull; <strong>সাইলেন্ট মিউটেশন (Silent Mutation):</strong> কোডন পাল্টালেও একই অ্যামাইনো এসিড কোড করে (জেনেটিক কোডের ডিজেনারেসির কারণে)। ফলে কোনো রোগ হয় না।
+            <br>&bull; <strong>মিস-সেন্স মিউটেশন (Missense Mutation):</strong> একটি ক্ষারক পরিবর্তনের ফলে কোডনটি একটি <strong>ভিন্ন অ্যামাইনো এসিডকে</strong> নির্দেশ করে।
+            <br><strong>সেরা উদাহরণ:</strong> <strong>সিকেল সেল অ্যানিমিয়া (Sickle Cell Anemia)</strong>—&beta;-গ্লোবিন জিনের ৬ নম্বর কোডনে GAG বদলে GTG হয়ে গ্লুটামিক এসিডের বদলে ভ্যালিন (Valine) বসে যায়।
+            <br>&bull; <strong>নন-সেন্স মিউটেশন (Nonsense Mutation):</strong> একটি ক্ষারক পরিবর্তনের ফলে স্বাভাবিক কোডনটি একটি <strong>স্টপ কোডনে (UAA, UAG, UGA)</strong> পরিণত হয়। ফলে প্রোটিন তৈরি মাঝপথেই থেমে যায় এবং ছোট অকেজো প্রোটিন তৈরি হয় (যেমন: <strong>&beta;0-Thalassemia Major</strong>)।</li>
+          <li><strong>২. ফ্রেমশিফ্ট মিউটেশন (Frameshift Mutation):</strong>
+            <br>&bull; ৩-এর গুণিতক নয় এমন এক বা একাধিক ক্ষারক ডিএনএ-তে যুক্ত (Insertion) বা মুছে (Deletion) যাওয়া।
+            <br>&bull; এর ফলে ৩ অক্ষরের ট্রিপলেট রিডিং ফ্রেম পুরো উল্টে যায় এবং পেছনের সব অ্যামাইনো এসিড বদলে গিয়ে অকাল স্টপ কোডনে প্রোটিন ধ্বংস হয়ে যায়।
+            <br><strong>সেরা উদাহরণ:</strong> <strong>Duchenne Muscular Dystrophy (DMD)</strong>—ডিস্ট্রোফিন জিনের আউট-অব-ফ্রেম ডিলিশনের কারণে পেশি সম্পূর্ণ অকেজো হয়ে যায়; এবং <strong>Tay-Sachs Disease</strong> (৪ ক্ষারক ইনসার্শন)।</li>
+          <li><strong>৩. ইন-ফ্রেম ডিলিশন (In-frame Deletion):</strong>
+            <br>&bull; ঠিক ৩টি ক্ষারক মুছে যাওয়া। এতে রিডিং ফ্রেম ঠিক থাকে, কিন্তু প্রোটিন থেকে একটি নির্দিষ্ট অ্যামাইনো এসিড হারিয়ে যায়।
+            <br><strong>সেরা উদাহরণ:</strong> <strong>Cystic Fibrosis (&Delta;F508)</strong>—CFTR জিন থেকে ৩টি বেস মুছে যাওয়ায় ৫০৮ নম্বর পজিশনের Phenylalanine হারিয়ে যায়।</li>
+          <li><strong>৪. ট্রাইনিউক্লিওটাইড রিপিট এক্সপানশন (Trinucleotide Repeat Expansion):</strong>
+            <br>&bull; ৩টি ক্ষারকের পুনরাবৃত্তি অস্বাভাবিক হারে বেড়ে যাওয়া (Dynamic Mutation)।
+            <br><strong>উদাহরণ:</strong> <strong>Huntington Disease</strong> (CAG রিপিট বৃদ্ধি) এবং <strong>Fragile X Syndrome</strong> (CGG রিপিট বৃদ্ধি)।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(গ) কার্যকারিতা অনুযায়ী মিউটেশনের প্রভাব:</strong>
+        <p class="mt-1"><strong>Loss-of-function:</strong> প্রোটিনের কাজ নষ্ট করে (Autosomal recessive এনজাইম রোগ, যেমন PKU); <strong>Gain-of-function:</strong> প্রোটিনকে অস্বাভাবিক অতিসক্রিয় করে তোলে (Autosomal dominant রোগ, যেমন Achondroplasia বা ক্যান্সার সৃষ্টিকারী <strong>KRAS</strong>, <strong>BRAF</strong> অনকোজিন)।</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 bg-amber-50 dark:bg-amber-950/40 rounded-xl border border-amber-200 dark:border-amber-800">
+    <h3 class="text-base font-bold text-amber-900 dark:text-amber-200 mb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+      <li><strong>ডুশেন বনাম বেকার মাসকুলার ডিস্ট্রোফি—ফ্রেমশিফ্টের ক্লিনিক্যাল ক্লু:</strong>
+        <br>ভাইভায় খুব পছন্দের প্রশ্ন: <strong>"Duchenne এবং Becker ডিস্ট্রোফি একই জিনের রোগ, কিন্তু Duchenne এতো মারাত্মক কেন?"</strong>
+        <br>উত্তর: <strong>Duchenne</strong>-এ ঘটে <strong>Frameshift (out-of-frame) deletion</strong>; যার ফলে পুরো রিডিং ফ্রেম নষ্ট হয়ে কোনো কার্যকরী Dystrophin প্রোটিনই তৈরি হতে পারে না (১০-১২ বছরে শিশু হুইলচেয়ারে চলে যায়)। কিন্তু <strong>Becker</strong>-এ ঘটে <strong>In-frame deletion (৩-এর গুণিতক)</strong>; এতে প্রোটিনের আকার সামান্য ছোট হলেও ফ্রেম ঠিক থাকে এবং আংশিক কাজ করতে পারে, ফলে রোগী অনেক বছর স্বাভাবিকভাবে হেঁটে চলতে পারে!
+      </li>
+      <li><strong>জেনেটিক অ্যান্টিসিপেশন (Genetic Anticipation) কী?</strong>
+        <br>ট্রাইনিউক্লিওটাইড রিপিট রোগে (যেমন Huntington বা Fragile X) প্রতি প্রজন্মে বংশানুক্রমে যাওয়ার সময় রিপিটের সংখ্যা ধাপে ধাপে বাড়তে থাকে। ফলে পরবর্তী বংশধরে রোগটি <strong>কম বয়সে প্রকাশ পায় এবং অনেক বেশি মারাত্মক রূপ নেয়</strong>। এই ঘটনাকে চিকিৎসাবিজ্ঞানে <strong>Anticipation</strong> বলে।
+      </li>
+      <li><strong>ট্রানজিশন বনাম ট্রান্সভার্সন (Transition vs Transversion):</strong>
+        <br>পিউরিনের জায়গায় পিউরিন (A &harr; G) বা পিরিমিডিনের জায়গায় পিরিমিডিন (C &harr; T) বসলে তাকে <strong>Transition</strong> বলে। আর পিউরিনের জায়গায় পিরিমিডিন বসলে (বা বিপরীত) তাকে <strong>Transversion</strong> বলে।
+      </li>
+    </ul>
+  </div>
 </div>
             </div>
           </div>
@@ -32520,20 +32609,80 @@
     </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">1. Absorption Mechanism in Duodenum:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li>Total body iron is ~3.5 to 4.0 g (~65% in hemoglobin, ~25% in ferritin storage, ~10% in myoglobin/enzymes). Daily loss is only ~1–2 mg (sloughed enterocytes/skin); <strong>absorption in duodenum and upper jejunum precisely equals loss</strong> because the human body has NO physiological mechanism for active iron excretion!</li>
-  <li><strong>Heme Iron (Meat):</strong> Absorbed directly and efficiently (20–30%) via Heme Carrier Protein-1 (HCP-1); cleaved inside enterocyte by heme oxygenase to release $Fe^{2+}$.</li>
-  <li><strong>Non-Heme Iron (Plant diet, Ferric $Fe^{3+}$):</strong> Reduced to soluble Ferrous ($Fe^{2+}$) at apical brush border by <strong>Duodenal Cytochrome b (Dcytb / Ferrireductase)</strong> in the presence of gastric acid and Vitamin C (ascorbate). Transported into enterocyte via <strong>Divalent Metal Transporter-1 (DMT-1)</strong>.</li>
-  <li><strong>Basolateral Export & Oxidation:</strong> $Fe^{2+}$ is exported into portal blood via the iron exporter <strong>Ferroportin</strong>. Oxidized back to Ferric ($Fe^{3+}$) by copper-dependent ferroxidases (<strong>Hephaestin</strong> on basolateral membrane, and <strong>Ceruloplasmin</strong> in plasma) to enable safe binding to Transferrin.</li>
+              <h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">1. Body Iron Distribution & Physiology of Iron Balance</h4>
+<p class="text-sm mb-2">The total body iron content in a healthy adult is approximately <strong>3.5 to 4.0 g (50 mg/kg in men, 40 mg/kg in women)</strong>, distributed as follows:</p>
+
+<ul class="list-disc pl-5 space-y-1 text-sm mb-3">
+  <li><strong>Functional Compartment (~70%):</strong> Hemoglobin (~65% / 2.5 g), Myoglobin in muscle (~4% / 150 mg), and intracellular respiratory heme enzymes (cytochromes, catalase, peroxidase ~1% / 50 mg).</li>
+  <li><strong>Storage Compartment (~25% to 30%):</strong> <strong>Ferritin</strong> and <strong>Hemosiderin</strong> in hepatocytes, bone marrow macrophages, and spleen (0.8 to 1.0 g in men; 0.3 to 0.5 g in women).</li>
+  <li><strong>Transport Compartment (&lt; 0.1%):</strong> Iron bound to <strong>Transferrin</strong> in blood plasma (~3 to 4 mg).</li>
+  <li><strong>The Iron Conservation Principle:</strong> The human body has <strong>NO physiological excretory mechanism for iron</strong>. Normal daily basal loss is only 1.0 to 2.0 mg (via exfoliated intestinal enterocytes, bile, urine, and desquamated skin; additional 1 mg/day during menstruation). Therefore, <strong>systemic iron balance is regulated strictly at the level of duodenal absorption</strong>.</li>
 </ul>
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">2. Transport, Storage & Hepcidin Regulation:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Transport:</strong> Carried in plasma bound to <strong>Transferrin</strong> (normally ~30% saturated; total iron binding capacity, TIBC ~300 µg/dL).</li>
-  <li><strong>Storage:</strong> Stored primarily in liver, spleen, and bone marrow as <strong>Ferritin</strong> (water-soluble apoferritin shell enclosing up to 4500 $Fe^{3+}$ atoms) and insoluble <strong>Hemosiderin</strong>. Serum ferritin ($< 15\ \mu g/L$) is the most reliable marker of iron deficiency.</li>
-  <li><strong>Hepcidin (The Master Iron Hormone):</strong> 25-amino acid peptide synthesized by hepatocytes. Binds to <strong>Ferroportin</strong>, triggering its internalisation and lysosomal degradation:
-    <br>• <em>High Hepcidin:</em> Shuts down iron absorption from enterocytes and traps iron inside macrophages (seen in <strong>Anemia of Chronic Disease / Inflammation</strong> driven by IL-6).
-    <br>• <em>Low Hepcidin:</em> Maximizes iron export into blood (seen in Iron Deficiency Anemia and hypoxia).</li>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">2. Enterocyte Absorption, Basolateral Transport & Hepcidin Regulation</h4>
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">
+        <th class="p-2.5 font-bold border-b">Phase / Location</th>
+        <th class="p-2.5 font-bold border-b">Transporter / Protein</th>
+        <th class="p-2.5 font-bold border-b">Molecular Mechanism & Biochemical Event</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Dietary Iron Reduction</td>
+        <td class="p-2.5"><strong>Duodenal Cytochrome b (DCYTB)</strong></td>
+        <td class="p-2.5">Dietary non-heme iron exists in the insoluble ferric ($Fe^{3+}$) state. Brush-border ferric reductase DCYTB (stimulated by gastric $HCl$ and dietary <strong>Ascorbic acid / Vitamin C</strong>) reduces $Fe^{3+}$ to soluble ferrous ($Fe^{2+}$). Dietary heme iron (from meat) is transported intact via HCP-1.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Apical Enterocyte Influx</td>
+        <td class="p-2.5"><strong>Divalent Metal Transporter-1 (DMT-1)</strong></td>
+        <td class="p-2.5">Co-transports ferrous iron ($Fe^{2+}$) and protons ($H^+$) across the apical brush-border membrane of mature duodenal enterocytes into the enterocyte cytoplasm.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Basolateral Export & Re-oxidation</td>
+        <td class="p-2.5"><strong>Ferroportin-1 (FPN-1)</strong> & <strong>Hephaestin</strong></td>
+        <td class="p-2.5">Ferroportin is the <strong>only known cellular iron exporter</strong> in mammals, transporting $Fe^{2+}$ across the basolateral membrane into portal capillaries. The membrane copper ferroxidase <strong>Hephaestin</strong> (and plasma <strong>Ceruloplasmin</strong>) oxidizes $Fe^{2+} \rightarrow Fe^{3+}$, permitting safe incorporation into plasma apotransferrin.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Systemic Circulation</td>
+        <td class="p-2.5"><strong>Transferrin</strong></td>
+        <td class="p-2.5">Plasma glycoprotein synthesized by the liver with 2 high-affinity ferric ($Fe^{3+}$) binding sites. Total Iron-Binding Capacity (TIBC) is 250 to 400 &mu;g/dL; normal transferrin saturation is <strong>20% to 50% (~33%)</strong>. Delivers iron to erythroblasts via Transferrin Receptor-1 (TfR1) receptor-mediated endocytosis.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Intracellular Storage</td>
+        <td class="p-2.5"><strong>Ferritin</strong> & <strong>Hemosiderin</strong></td>
+        <td class="p-2.5">Ferritin consists of a hollow spherical 24-subunit apoferritin shell sequestering up to 4,500 $Fe^{3+}$ atoms as mineralized ferrihydrite crystals. Serum ferritin (1 &mu;g/L &approx; 8 to 10 mg stored iron) is the most accurate non-invasive index of total body storage pools. Insoluble denatured ferritin aggregates form <strong>Hemosiderin</strong> (visualized by Prussian blue stain).</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Systemic Master Regulator</td>
+        <td class="p-2.5"><strong>Hepcidin</strong></td>
+        <td class="p-2.5">A 25-amino-acid peptide hormone synthesized by hepatocytes in response to iron loading or inflammatory cytokines (IL-6). <strong>Hepcidin binds to Ferroportin, inducing its internalization, ubiquitination, and lysosomal degradation</strong>:
+          <br>&bull; <strong>High Hepcidin:</strong> Shuts down intestinal iron absorption and traps iron inside reticuloendothelial macrophages (pathophysiological basis of <strong>Anemia of Chronic Disease</strong>).
+          <br>&bull; <strong>Low Hepcidin:</strong> Promotes maximal ferroportin expression, stimulating iron absorption and release (seen in Iron Deficiency Anemia, hypoxia, and ineffective erythropoiesis).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">3. Iron Deficiency Anemia (IDA): Etiology, Clinical Features & Diagnostic Profile</h4>
+<ul class="list-disc pl-5 space-y-1.5 text-sm mb-3">
+  <li><strong>Etiological Categories:</strong>
+    <br>&bull; <strong>Chronic Occult Blood Loss:</strong> Gastrointestinal bleeding (peptic ulcer, hookworm infestation [<strong>Necator americanus</strong>], colon carcinoma in elderly, NSAID gastropathy), menorrhagia.
+    <br>&bull; <strong>Increased Physiological Demand:</strong> Pregnancy, lactation, rapid adolescent growth spurts, infancy.
+    <br>&bull; <strong>Inadequate Intake or Malabsorption:</strong> Strict vegan diet, Celiac disease, post-gastrectomy / bariatric surgery, <strong>Helicobacter pylori</strong> gastritis.</li>
+  <li><strong>Clinical Manifestations:</strong>
+    <br>&bull; General anemic symptoms: Exertional fatigue, pallor, palpitation, dyspnea, postural dizziness.
+    <br>&bull; Epithelial tissue changes: <strong>Koilonychia</strong> (spoon-shaped concave nails), painless glossitis, angular stomatitis/cheilitis, brittle hair.
+    <br>&bull; <strong>Pica:</strong> Uncontrolled compulsive craving for non-nutritive substances (pagophagia: ice; geophagia: dirt/clay).
+    <br>&bull; <strong>Plummer-Vinson (Paterson-Kelly) Syndrome:</strong> Triad of iron deficiency anemia, post-cricoid esophageal web causing dysphagia, and atrophic glossitis.</li>
+  <li><strong>Laboratory Diagnosis & Typical Profile:</strong>
+    <br>&bull; <strong>Complete Blood Count (CBC):</strong> Microcytic, hypochromic anemia (low Hemoglobin, MCV &lt; 80 fL, MCH &lt; 27 pg, elevated Red Cell Distribution Width [RDW]).
+    <br>&bull; <strong>Serum Ferritin:</strong> <strong>&lt; 15 &mu;g/L</strong> (The single most sensitive and specific biomarker for depleted iron stores; rules in IDA).
+    <br>&bull; <strong>Serum Iron:</strong> Markedly decreased (&lt; 30 &mu;g/dL).
+    <br>&bull; <strong>Total Iron-Binding Capacity (TIBC):</strong> Markedly increased (&gt; 400 &mu;g/dL).
+    <br>&bull; <strong>Transferrin Saturation:</strong> Markedly decreased (&lt; 16%).</li>
 </ul>
             </div>
 
@@ -32542,12 +32691,68 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200">
-  <strong>💡 বাংলা হেল্প নোট:</strong><br>
-  - শরীরে প্রতিদিন মাত্র ১–২ মিলিগ্রাম আয়রন লাগে এবং শরীর থেকে সক্রিয়ভাবে আয়রন বের করার কোনো অঙ্গ নেই।<br>
-  - <strong>শোষণের ট্রিক:</strong> উদ্ভিজ্জ খাবারের আয়রন থাকে $Fe^{3+}$ হিসেবে। ভিটামিন সি এবং পাকস্থলীর অ্যাসিড এটিকে $Fe^{2+}$ বানিয়ে <strong>DMT-1 ট্রান্সপোর্টার</strong> দিয়ে ডুওডেনামে শোষণ করায়।<br>
-  - রক্তে আয়রন বহন করে <strong>Transferrin</strong> এবং শরীরে জমা থাকে <strong>Ferritin</strong> হিসেবে। রক্তে সিরাম ফেরিটিন < ১৫ হলে আয়রন ঘাটতি নিশ্চিত।<br>
-  - <strong>হেপসিডিন (Hepcidin):</strong> লিভারের গেটকিপার—রক্তে আয়রন বেশি থাকলে সে রক্তনালীর গেট <strong>Ferroportin</strong> বন্ধ করে দেয় যাতে নতুন আয়রন ঢুকতে না পারে।
+              <div class="space-y-4">
+  <div class="p-4 bg-blue-50 dark:bg-blue-950/40 rounded-xl border border-blue-200 dark:border-blue-800">
+    <h3 class="text-base font-bold text-blue-900 dark:text-blue-200 mb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+    <div class="space-y-3 text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
+      <div>
+        <strong>(ক) শরীরে আয়রনের বণ্টন ও শোষণ নীতি:</strong>
+        <p class="mt-1">একজন পূর্ণবয়স্ক সুস্থ মানুষের শরীরে মোট আয়রন থাকে প্রায় <strong>৩.৫ থেকে ৪.০ গ্রাম</strong>।</p>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>কোথায় কত থাকে:</strong> প্রায় ৬৫% থাকে হিমোগ্লোবিনে (Hemoglobin), ২৫-৩০% জমা থাকে লিভার ও প্লীহার ফেরিটিনে (Ferritin), ৪% পেশির মায়োগ্লোবিনে এবং মাত্র ০.১% রক্তের ট্রান্সফারিনে (Transferrin)।</li>
+          <li><strong>লোহার অদ্ভুত নিয়ম:</strong> মানুষের শরীর থেকে বাড়তি আয়রন নিষ্কাশন বা বের করে দেওয়ার (Active excretion) কোনো পথ নেই! প্রতিদিন খাদ্যনালীর খসে পড়া কোষ ও ঘামের মাধ্যমে মাত্র ১-২ মিলিগ্রাম লোহা নষ্ট হয়। তাই ক্ষুদ্রান্ত্রে ঠিক যতটুকু লোহা শোষণ (Absorption) হয়, শরীরের ভারসাম্য সম্পূর্ণ তার ওপরই নির্ভর করে।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(খ) ডিওডেনামে আয়রন শোষণের মেকানিজম (Absorption Steps):</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>খাবারের আয়রন রূপান্তর:</strong> উদ্ভিজ্জ খাবারের আয়রন থাকে অদ্রবণীয় ফেরিক ($Fe^{3+}$) অবস্থায়। পাকস্থলীর এসিড এবং <strong>Vitamin C</strong>-এর উপস্থিতিতে অন্ত্রের ব্রাশ বর্ডারের <strong>DCYTB</strong> এনজাইম একে দ্রবণীয় ফেরাস ($Fe^{2+}$)-এ পরিণত করে। মাংসের হিম-আয়রন সরাসরি HCP-1 দিয়ে কোষে ঢোকে।</li>
+          <li><strong>কোষে প্রবেশ:</strong> <strong>DMT-1 (Divalent Metal Transporter-1)</strong> প্রোটিন ফেরাস আয়রনকে ডিওডেনামের কোষে ঢুকিয়ে নেয়।</li>
+          <li><strong>রক্তে পাঠানো:</strong> অন্ত্রের দেয়াল থেকে রক্তে লোহা বের করার একমাত্র ফটক হলো <strong>Ferroportin</strong>। এরপর <strong>Hephaestin</strong> এনজাইম একে আবার $Fe^{3+}$ বানিয়ে রক্তরসের <strong>Transferrin</strong>-এর গাড়িতে তুলে দেয়।</li>
+          <li><strong>মাস্টার হরমোন হেপসিডিন (Hepcidin):</strong> লিভারের তৈরি এই হরমোন Ferroportin চ্যানেলকে ধ্বংস করে দেয়। ফলে শরীরে আয়রন বেশি থাকলে বা ক্রনিক প্রদাহে হেপসিডিন বেড়ে গিয়ে অন্ত্র থেকে লোহা শোষণ ও ম্যাক্রোফেজ থেকে লোহা বের হওয়া সম্পূর্ণ বন্ধ করে দেয়!</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(গ) পরিবহন ও সঞ্চয় (Transport & Storage):</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>পরিবহন (Transferrin):</strong> রক্তে লোহা মুক্তভাবে ঘুরলে তা বিষাক্ত ফ্রি-রেডিকেল তৈরি করে। তাই ট্রান্সফারিন প্রোটিনের সাথে নিরাপদে আবদ্ধ হয়ে এটি অস্থিমজ্জায় হিমোগ্লোবিন তৈরির জন্য যায়। স্বাভাবিক অবস্থায় এর মাত্র এক-তৃতীয়াংশ (৩৩%) স্থান আয়রন দ্বারা পূর্ণ থাকে।</li>
+          <li><strong>সঞ্চয় (Ferritin):</strong> লিভার ও ম্যাক্রোফেজে লোহা সুরক্ষিতভাবে জমা থাকে <strong>Ferritin</strong> নামক ফাঁপা প্রোটিন খোলসের ভেতরে। রক্তে ফেরিটিনের মাত্রা (&lt; 15 &mu;g/L) দেখে শরীরের মোট আয়রন ঘাটতি নিশ্চিত হওয়া যায়।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(ঘ) আয়রন ডেফিসিয়েন্সি অ্যানিমিয়া (Iron Deficiency Anemia - IDA):</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>কারণ:</strong> দীর্ঘস্থায়ী রক্তক্ষরণ (হুকওয়ার্ম বা কৃমি সংক্রমণ, পেপটিক আলসার, মহিলাদের অতিরিক্ত ঋতুস্রাব, বয়স্কদের কোলন ক্যান্সার), গর্ভাবস্থা এবং খাদ্যনালীতে শোষণ ত্রুটি (Celiac disease)।</li>
+          <li><strong>লক্ষণ:</strong> রক্তশূন্যতার সাধারণ লক্ষণের পাশাপাশি নখ চামচের মতো গর্ত হয়ে যাওয়া (<strong>Koilonychia / Spoon nails</strong>), জিহ্বায় ঘা ও জ্বালাপোড়া (Glossitis), ঠোঁটের কোণে ঘা (Angular stomatitis), এবং বরফ, মাটি বা কয়লা খাওয়ার তীব্র অদ্ভুত আসক্তি (<strong>Pica</strong>)।</li>
+          <li><strong>ল্যাব রিপোর্ট:</strong> Microcytic Hypochromic anemia (কম MCV ও MCH), <strong>সিরাম ফেরিটিন মারাত্মক কম (&lt; 15 &mu;g/L - গোল্ড স্ট্যান্ডার্ড)</strong>, সিরাম আয়রন কম, কিন্তু আয়রন বাঁধার মোট ক্ষমতা (<strong>TIBC</strong>) অনেক বেড়ে যায় (&gt; 400 &mu;g/dL)।</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 bg-amber-50 dark:bg-amber-950/40 rounded-xl border border-amber-200 dark:border-amber-800">
+    <h3 class="text-base font-bold text-amber-900 dark:text-amber-200 mb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+      <li><strong>আয়রন ঘাটতি রক্তশূন্যতা বনাম অ্যানিমিয়া অব ক্রনিক ডিজিজ—ল্যাব পার্থক্য:</strong>
+        <br>ভাইভায় স্যারদের সবচেয়ে প্রিয় প্রশ্ন: <strong>"Chronic Disease (যক্ষ্মা, ক্যান্সার, রিউমাটয়েড আর্থ্রাইটিস)-এর অ্যানিমিয়া আর সাধারণ Iron Deficiency Anemia ল্যাবে কীভাবে আলাদা করবেন?"</strong>
+        <br>&bull; <strong>Iron Deficiency Anemia:</strong> সিরাম ফেরিটিন <strong>খুব কম (&lt; 15)</strong> এবং TIBC <strong>অনেক বেশি (&gt; 400)</strong>।
+        <br>&bull; <strong>Anemia of Chronic Disease:</strong> প্রদাহের কারণে IL-6 ও Hepcidin বেড়ে যায়। ফলে রক্তে আয়রন না থাকলেও ম্যাক্রোফেজের ভেতর প্রচুর আয়রন আটকা পড়ে থাকে। তাই এখানে <strong>সিরাম ফেরিটিন স্বাভাবিক বা অনেক বেশি থাকে</strong> এবং TIBC <strong>স্বাভাবিক বা কম থাকে</strong>!
+      </li>
+      <li><strong>প্লামার-ভিনসন সিন্ড্রোম (Plummer-Vinson Syndrome):</strong>
+        <br>মধ্যবয়সী নারীদের মধ্যে ৩টি জিনিসের মেলবন্ধন: <strong>আয়রন ডেফিসিয়েন্সি অ্যানিমিয়া + খাদ্যনালীর ওপরের পর্দায় জাল (Esophageal web) ও খাবার গিলতে কষ্ট (Dysphagia) + জিহ্বায় মসৃণ ঘা</strong>। এটি একটি প্রি-ম্যালিগন্যান্ট কন্ডিশন, যা থেকে পরবর্তীতে খাদ্যনালীর ক্যান্সার (Squamous cell carcinoma) হতে পারে!
+      </li>
+      <li><strong>আয়রন ট্যাবলেট খাওয়ার নিয়ম ও ক্লিনিক্যাল টিপস:</strong>
+        <br>রোগীকে আয়রন ট্যাবলেট সবসময় <strong>লেবুর শরবত বা Vitamin C-এর সাথে ভরা পেটে</strong> খেতে বলতে হয়, কারণ ভিটামিন সি ফেরিককে ফেরাসে রূপান্তর করে শোষণ বহুগুণ বাড়িয়ে দেয়। কখনোই চা, কফি বা দুধের সাথে আয়রন খাওয়া যাবে না, কারণ চা-এর ট্যানিন এবং দুধের ক্যালসিয়াম আয়রন শোষণ বন্ধ করে দেয়! রোগীকে আগেই আশ্বস্ত করতে হয় যে আয়রন খেলে পায়খানা কালো রঙের হতে পারে, যাতে রোগী ভয় না পায়।
+      </li>
+    </ul>
+  </div>
 </div>
             </div>
           </div>
@@ -32613,20 +32818,71 @@
     </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">1. Biochemical Role in Collagen Synthesis:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li>Water-soluble antioxidant and reducing agent (ascorbate/dehydroascorbate).</li>
-  <li>Acts as an essential co-substrate/reducing cofactor for <strong>Prolyl Hydroxylase</strong> and <strong>Lysyl Hydroxylase</strong> in the post-translational modification of procollagen in the rough endoplasmic reticulum.</li>
-  <li>During hydroxylation, enzyme-bound iron is oxidized from $Fe^{2+}$ to inactive $Fe^{3+}$. <strong>Ascorbic acid specifically reduces iron back to the active Ferrous ($Fe^{2+}$) state</strong>, maintaining catalytic activity.</li>
-  <li><strong>Hydroxyproline</strong> residues are mandatory for inter-chain hydrogen bonding that stabilizes the <strong>collagen triple-helix structure</strong>; <strong>Hydroxylysine</strong> residues are essential for carbohydrate attachment and covalent cross-linking providing tensile strength.</li>
-  <li>Other roles: Norepinephrine synthesis (dopamine $\beta$-hydroxylase), carnitine biosynthesis, enhances non-heme iron absorption in gut, neutralizes free radicals.</li>
+              <h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">1. Biochemical Identity & Mechanism in Collagen Biosynthesis</h4>
+<p class="text-sm mb-2">Ascorbic acid (Vitamin C) is a water-soluble enolic hexose derivative and potent reducing agent that reversibly interconverts between ascorbic acid and dehydroascorbic acid. Its fundamental biochemical role in connective tissue maintenance is serving as an essential <strong>reducing co-substrate for the post-translational hydroxylation of procollagen</strong>:</p>
+
+<ul class="list-disc pl-5 space-y-1.5 text-sm mb-3">
+  <li><strong>Intracellular Location:</strong> Cisternal lumen of the <strong>rough endoplasmic reticulum (RER) and Golgi apparatus</strong> of fibroblasts, osteoblasts, chondrocytes, and odontoblasts.</li>
+  <li><strong>Target Hydroxylase Enzymes:</strong>
+    <br>&bull; <strong>Prolyl 4-Hydroxylase & Prolyl 3-Hydroxylase:</strong> Hydroxylate proline residues on polypeptide chains.
+    <br>&bull; <strong>Lysyl Hydroxylase:</strong> Hydroxylates lysine residues on polypeptide chains.</li>
+  <li><strong>The Redox Catalytic Cycle & Vitamin C Requirement:</strong>
+    <br>&bull; Hydroxylation requires molecular oxygen ($O_2$), $\alpha$-ketoglutarate, and catalytic <strong>ferrous iron ($Fe^{2+}$)</strong> bound to the enzyme active site.
+    <br>&bull; During uncoupled catalytic cycles, active ferrous iron is periodically oxidized to catalytically inactive <strong>ferric iron ($Fe^{3+}$)</strong>, inactivating the hydroxylase enzyme.
+    <br>&bull; <strong>Specific Reducing Role of Ascorbate:</strong> Vitamin C acts as a dedicated single-electron donor that <strong>reduces $Fe^{3+}$ back to active $Fe^{2+}$</strong>, keeping prolyl and lysyl hydroxylases in their active state for continuous rounds of synthesis.</li>
+  <li><strong>Structural Consequences of Hydroxylation:</strong>
+    <br>&bull; <strong>Hydroxyproline:</strong> Indispensable for forming <strong>inter-chain hydrogen bonds</strong> that lock the three left-handed polypeptide chains into a stable right-handed triple-helical <strong>tropocollagen</strong> molecule. At core body temperature (37°C), unhydroxylated procollagen is unstable and uncoils (denatures at &lt; 20°C).
+    <br>&bull; <strong>Hydroxylysine:</strong> Essential for covalent intermolecular cross-linking (catalyzed by extracellular lysyl oxidase) and attachment of glucose and galactose residues (glycosylation), providing collagen fibrils with immense tensile strength.</li>
 </ul>
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">2. Scurvy Pathogenesis & Clinical Manifestations:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li>Deficiency produces unstable defective collagen with decreased melting temperature ($< 37^\circ C$), leading to severe connective tissue fragility throughout the body.</li>
-  <li><strong>Capillary Fragility & Hemorrhages:</strong> Swollen, spongy, bleeding gums (gingival hemorrhage around erupted teeth); <strong>Perifollicular petechial hemorrhages</strong> on legs with characteristic <strong>"Corkscrew hairs"</strong>; painful subperiosteal hematomas in children; hemarthrosis.</li>
-  <li><strong>Defective Wound Healing:</strong> Dehiscence of surgical incisions and old scars.</li>
-  <li><strong>Skeletal:</strong> Osteopenia, painful pseudoparalysis in infants due to tender subperiosteal bleeds.</li>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">2. Pathogenesis of Scurvy & Clinical Manifestations</h4>
+<p class="text-sm mb-2">In the absence of Vitamin C, defective, unhydroxylated procollagen chains cannot form stable triple helices, fail to be normally secreted, and undergo rapid intracellular ubiquitination and degradation. The resulting profound loss of collagen tensile strength causes widespread capillary basement membrane fragility, periodontal tissue collapse, and bone mineralization arrest:</p>
+
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">
+        <th class="p-2.5 font-bold border-b">Clinical Organ System</th>
+        <th class="p-2.5 font-bold border-b">Pathological Lesion</th>
+        <th class="p-2.5 font-bold border-b">Characteristic Signs & Diagnostic Symptoms</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Cutaneous & Hair Follicles</td>
+        <td class="p-2.5">Microvascular fragility around hair follicles; dysplastic hair growth.</td>
+        <td class="p-2.5"><strong>Perifollicular petechial hemorrhages</strong> (predominantly on lower extremities); hyperkeratotic papules containing swan-neck or <strong>"Corkscrew hairs"</strong>; spontaneous large subcutaneous ecchymoses and splinter hemorrhages under nails.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Oral Cavity & Gingiva</td>
+        <td class="p-2.5">Breakdown of periodontal ligaments and alveolar bone resorption.</td>
+        <td class="p-2.5"><strong>Scorbutic gingivitis:</strong> Swollen, spongy, purple, easily bleeding gums; ulceration and foul halitosis; loosening and eventual spontaneous exfoliation of teeth (only occurs around erupted teeth).</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Musculoskeletal & Skeletal</td>
+        <td class="p-2.5">Subperiosteal microvascular rupture and defective osteoid matrix.</td>
+        <td class="p-2.5">Excruciating <strong>subperiosteal hematomas</strong> causing bone tenderness and pseudo-paralysis (infants refuse to move legs; classic "pit-legged" or "frog-leg" posture); hemarthrosis (bleeding into joints). <strong>Scorbutic rosary</strong> (swollen costochondral junctions).</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Wound Healing & Scars</td>
+        <td class="p-2.5">Arrested fibroblastic collagen deposition and capillary sprouting.</td>
+        <td class="p-2.5">Severely delayed wound healing; spontaneous breakdown and <strong>dehiscence of previously healed surgical scars</strong> and old wounds.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Hematological System</td>
+        <td class="p-2.5">Chronic microvascular blood loss combined with impaired iron/folate metabolism.</td>
+        <td class="p-2.5">Normocytic or microcytic hypochromic anemia (impaired non-heme iron reduction) or macrocytic anemia (impaired conversion of folate to tetrahydrofolate).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">3. Additional Biochemical Functions of Vitamin C</h4>
+<ul class="list-disc pl-5 space-y-1 text-sm mb-3">
+  <li><strong>Promotion of Non-Heme Iron Absorption:</strong> Reduces insoluble dietary ferric iron ($Fe^{3+}$) to soluble ferrous iron ($Fe^{2+}$) in the duodenal lumen, forming chelation complexes that facilitate uptake via DMT-1.</li>
+  <li><strong>Neurotransmitter Biosynthesis:</strong> Acts as an essential cofactor for <strong>Dopamine &beta;-Hydroxylase</strong> in the conversion of dopamine to norepinephrine in adrenal medulla and sympathetic neurons.</li>
+  <li><strong>Carnitine Biosynthesis:</strong> Required by trimethyllysine and $\gamma$-butyrobetaine hydroxylases to synthesize carnitine, indispensable for long-chain fatty acid entry into mitochondria (&beta;-oxidation). (Explains severe muscle weakness and fatigue in early scurvy).</li>
+  <li><strong>Antioxidant Action:</strong> Directly scavenges superoxide, hydroxyl radicals, and singlet oxygen; regenerates oxidized Vitamin E (tocopherol) back to its active form in lipid membranes.</li>
 </ul>
             </div>
 
@@ -32635,11 +32891,64 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200">
-  <strong>💡 বাংলা হেল্প নোট:</strong><br>
-  - ভিটামিন সি ছাড়া শরীরের কোলাজেন (সংযোজক কলা ও রক্তনালীর সিমেন্ট) তৈরি হতে পারে না।<br>
-  - কোলাজেন এনজাইমে থাকা লোহাকে সক্রিয় <strong>$Fe^{2+}$ (ফেরাস)</strong> অবস্থায় ধরে রাখতে ভিটামিন সি কাজ করে।<br>
-  - <strong>স্কার্ভি রোগ (Scurvy):</strong> ভিটামিন সি না থাকলে কোলাজেন ভেঙে গিয়ে রক্তনালীর প্রাচীর ছিঁড়ে যায়—ফলে দাঁতের মাড়ি দিয়ে রক্ত পড়ে, ত্বকের লোমকূপ দিয়ে রক্তপাত হয় (Perifollicular hemorrhage), লোমগুলো স্ক্রু-এর মতো পেঁচিয়ে যায় (Corkscrew hair), এবং কাটা ঘা কখনোই শুকায় না।
+              <div class="space-y-4">
+  <div class="p-4 bg-blue-50 dark:bg-blue-950/40 rounded-xl border border-blue-200 dark:border-blue-800">
+    <h3 class="text-base font-bold text-blue-900 dark:text-blue-200 mb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+    <div class="space-y-3 text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
+      <div>
+        <strong>(ক) কোলাজেন তৈরিতে ভিটামিন সি (Ascorbic acid)-এর ভূমিকা:</strong>
+        <p class="mt-1">কোলাজেন হলো আমাদের রক্তনালী, ত্বক, হাড় ও দাঁতের মূল গাঠনিক প্রোটিন। একে মজবুত রাখতে ভিটামিন সি-এর ভূমিকা অপরিহার্য:</p>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>এনজাইমের কো-ফ্যাক্টর:</strong> ফাইব্রোব্লাস্ট কোষে নতুন প্রোকোলাজেন তৈরির সময় <strong>Prolyl Hydroxylase</strong> এবং <strong>Lysyl Hydroxylase</strong> এনজাইম দুটিকে সচল রাখতে ভিটামিন সি সরাসরি কাজ করে।</li>
+          <li><strong>আয়রন সক্রিয় রাখা (Redox Mechanism):</strong> কোলাজেন হাইড্রোক্সিলেশন চলার সময় এনজাইমের ভেতরের Ferrous ($Fe^{2+}$) আয়রন ক্ষয়ে গিয়ে অকেজো Ferric ($Fe^{3+}$) হয়ে যায়। <strong>ভিটামিন সি এখানে ইলেকট্রন দান করে আয়রনকে পুনরায় সক্রিয় $Fe^{2+}$ অবস্থায় ফিরিয়ে আনে</strong>, ফলে এনজাইম অবিরাম কাজ করতে পারে।</li>
+          <li><strong>হাইড্রক্সিপ্রোলিন ও ট্রিপল হেলিক্সের স্থায়িত্ব:</strong> প্রোলিন হাইড্রোক্সিলেটেড হয়ে <strong>Hydroxyproline</strong> না হলে কোলাজেনের তিনটি সুতা একে অপরকে হাইড্রোজেন বন্ড দিয়ে পেঁচিয়ে ধরে রাখতে পারে না। মানুষের শরীরের স্বাভাবিক ৩৭°C তাপমাত্রাতেই কাঁচা কোলাজেন গলে যায়!</li>
+          <li><strong>হাইড্রক্সিলিসিনের ভূমিকা:</strong> Hydroxylysine কোলাজেনের অণুগুলোর মাঝে মজবুত ক্রস-লিংক তৈরি করে টিস্যুকে প্রচণ্ড টান সহ্য করার ক্ষমতা (Tensile strength) দেয়।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(খ) স্কার্ভি (Scurvy) রোগের প্যাথোফিজিওলজি ও লক্ষণসমূহ:</strong>
+        <p class="mt-1">শরীরে ভিটামিন সি না থাকলে ভঙ্গুর কোলাজেন তৈরি হয়। এর ফলে রক্তনালীর দেয়াল দুর্বল হয়ে সামান্য চাপে ফেটে যায় এবং টিস্যু আলগা হয়ে স্কার্ভি রোগের ৪টি প্রধান লক্ষণ (4 H's) দেখা দেয়:</p>
+        <ol class="list-decimal pl-5 mt-1 space-y-1">
+          <li><strong>১. রক্তপাত (Hemorrhage):</strong>
+            <br>&bull; <strong>দাঁতের মাড়িতে ঘা ও রক্তপাত (Spongy bleeding gums):</strong> দাঁতের গোড়ার মাড়ি ফুলে বেগুনি রঙের স্পঞ্জের মতো হয়ে সামান্য ছোঁয়া লাগলেই রক্ত ঝরে, দাঁত নড়বড়ে হয়ে খসে পড়ে।
+            <br>&bull; <strong>লোমকূপের চারপাশে রক্তক্ষরণ (Perifollicular hemorrhages):</strong> পায়ের লোমকূপের গোড়ায় ছোট ছোট রক্তবিন্দু জমে চামড়া লালচে-কালো হয়ে যায়।</li>
+          <li><strong>২. কর্কস্ক্রু চুল (Hyperkeratosis with Corkscrew Hairs):</strong> লোমকূপের চারপাশের চামড়া খসখসে হয়ে লোমগুলো ছিপির স্ক্রু বা স্প্রিংয়ের মতো পেঁচিয়ে যায় (<strong>Corkscrew hair</strong> - স্কার্ভির ট্রেডমার্ক সাইন!)।</li>
+          <li><strong>৩. ক্ষত নিরাময়ে বাধা (Defective Wound Healing):</strong> নতুন টিস্যু তৈরি না হওয়ায় যে কোনো কাটাছেঁড়া শুকাতে চায় না; এমনকি বহু বছর আগের পুরোনো অপারেশনের সেলাই বা দাগ আপনা-আপনি ফেটে রক্তপাত শুরু হয়!</li>
+          <li><strong>৪. হাড় ও অস্থিসন্ধির ব্যথা:</strong> শিশুদের হাড়ের পর্দার নিচে রক্ত জমে (Subperiosteal hematoma) তীব্র ব্যথায় শিশু পা নাড়াতে পারে না, যাকে সিউডোপ্যারালাইসিস (Pseudoparalysis) বা ব্যাঙের মতো পা ছড়িয়ে রাখা (Frog-leg posture) বলে।</li>
+        </ol>
+      </div>
+
+      <div>
+        <strong>(গ) ভিটামিন সি-এর অন্যান্য গুরুত্বপূর্ণ কাজ:</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li>খাদ্যনালীতে আয়রন শোষণে সহায়তা ($Fe^{3+}$ থেকে $Fe^{2+}$ রূপান্তর)।</li>
+          <li>অ্যাড্রেনালিন ও নর-অ্যাড্রেনালিন তৈরিতে (Dopamine &beta;-hydroxylase-এর কো-ফ্যাক্টর)।</li>
+          <li>শক্তিশালী অ্যান্টিঅক্সিডেন্ট হিসেবে কোষকে ফ্রি-রেডিকেলের ক্ষতি থেকে রক্ষা করা।</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 bg-amber-50 dark:bg-amber-950/40 rounded-xl border border-amber-200 dark:border-amber-800">
+    <h3 class="text-base font-bold text-amber-900 dark:text-amber-200 mb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+      <li><strong>দাঁতহীন শিশুর বা বয়োবৃদ্ধের স্কার্ভিতে কি মাড়ি দিয়ে রক্ত পড়বে?</strong>
+        <br>ভাইভায় নিশ্চিত ট্র্যাপ প্রশ্ন: <strong>"দাঁত ওঠেনি এমন ৬ মাসের শিশুর স্কার্ভি হয়েছে। তার মাড়ি কি ফুলে রক্ত পড়বে?"</strong>
+        <br>উত্তর: <strong>না!</strong> স্কার্ভিতে মাড়ি ফোলা ও রক্তপাত কেবল <strong>দাঁত ওঠা জায়গাতেই (Erupted teeth)</strong> ঘটে, কারণ দাঁতের গোড়ায় পেরিওডন্টাল লিগামেন্টের টান থাকে। দাঁতহীন নবজাতক বা সম্পূর্ণ দাঁত পড়ে যাওয়া বৃদ্ধের মাড়িতে স্কার্ভির ব্লিডিং হয় না; তাদের কেবল সাবপেরিওস্টিয়াল বা ত্বকের রক্তক্ষরণ দেখা দেয়!
+      </li>
+      <li><strong>স্কার্ভির রোগীর শরীর এতো দুর্বল ও ক্লান্ত কেন থাকে?</strong>
+        <br>ভিটামিন সি শুধু কোলাজেন বানায় না, এটি মাইটোকন্ড্রিয়ায় ফ্যাটি এসিড পোড়ানোর বাহন <strong>Carnitine</strong> তৈরিতেও দুটি হাইড্রোক্সিলেজ এনজাইমের কো-ফ্যাক্টর হিসেবে কাজ করে। ভিটামিন সি কমে গেলে পেশিতে কার্নিটিন তৈরি বন্ধ হয়ে যায়, ফলে ফ্যাটি এসিড থেকে শক্তি তৈরি হতে না পেরে রোগী ভয়াবহ ক্লান্তিতে বিছানায় পড়ে থাকে।
+      </li>
+      <li><strong>কেন রান্না করা খাবারে ভিটামিন সি নষ্ট হয়ে যায়?</strong>
+        <br>ভিটামিন সি চরম মাত্রায় তাপ-অসহনশীল (Heat-labile)। অতিরিক্ত তাপে বা দীর্ঘক্ষণ রান্না করলে অ্যাসকরবিক এসিড জারিত হয়ে ডাইকিটোগুলোনিক এসিডে ভেঙে কার্যকারিতা হারায়। তাই ভিটামিন সি পেতে তাজা কাঁচা লেবু, আমলকী, পেয়ারা বা টক ফল কাঁচা অবস্থায় খাওয়া আবশ্যক।
+      </li>
+    </ul>
+  </div>
 </div>
             </div>
           </div>
@@ -32705,25 +33014,66 @@
     </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">1. Post-Translational $\gamma$-Carboxylation Mechanism:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li>Fat-soluble quinone: <strong>Phylloquinone (K₁)</strong> from green leafy vegetables; <strong>Menaquinone (K₂)</strong> synthesized by intestinal colonic bacterial flora.</li>
-  <li>Acts as an indispensable coenzyme for hepatic microsomal <strong>$\gamma$-Glutamyl Carboxylase</strong>.</li>
-  <li>Converts specific glutamic acid (Glu) residues into <strong>$\gamma$-Carboxyglutamic Acid (Gla)</strong> residues on:
-    <ul class="list-circle pl-5 mt-0.5">
-      <li><strong>Clotting Factors: II (Prothrombin), VII, IX, and X</strong> (Mnemonic: "1972").</li>
-      <li>Natural anticoagulants: <strong>Protein C and Protein S</strong>.</li>
-      <li>Bone matrix proteins: Osteocalcin.</li>
-    </ul>
-  </li>
-  <li><strong>Function of Gla Residues:</strong> Possess two adjacent negatively charged carboxyl groups ($-COO^-$) that act as a bidentate claw chelating positively charged <strong>Calcium ions ($Ca^{2+}$)</strong>. This enables clotting factors to bind to negatively charged platelet surface phospholipids, forming active tenase and prothrombinase coagulation complexes.</li>
+              <h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">1. Chemical Forms & Post-Translational Modification</h4>
+<p class="text-sm mb-2">Vitamin K represents a group of fat-soluble naphthoquinones essential for maintaining physiological hemostasis. Naturally occurring forms include <strong>Phylloquinone (K1)</strong> from green leafy vegetables (spinach, kale, broccoli) and <strong>Menaquinone (K2)</strong> synthesized by normal bacterial flora in the human ileum and colon. Synthetic water-soluble provitamin is <strong>Menadione (K3)</strong>.</p>
+
+<p class="text-sm mb-2">The fundamental biochemical function of Vitamin K is serving as an obligate coenzyme for the enzyme <strong>&gamma;-Glutamyl Carboxylase (Microsomal Carboxylase)</strong> located on the luminal surface of the rough endoplasmic reticulum in hepatocytes:</p>
+
+<ul class="list-disc pl-5 space-y-1.5 text-sm mb-3">
+  <li><strong>Target Hepatic Coagulation Proteins:</strong>
+    <br>&bull; <strong>Procoagulant Clotting Factors:</strong> Factor II (Prothrombin), Factor VII, Factor IX, and Factor X (Mnemonic: <strong>"1972"</strong>).
+    <br>&bull; <strong>Endogenous Natural Anticoagulants:</strong> <strong>Protein C</strong> and <strong>Protein S</strong> (and Protein Z).
+    <br>&bull; <strong>Bone Matrix Mineralization Proteins:</strong> <strong>Osteocalcin</strong> (bone Gla-protein) and matrix Gla-protein (MGP).</li>
+  <li><strong>The Carboxylation Reaction:</strong>
+    <br>&bull; &gamma;-Glutamyl Carboxylase catalyzes the addition of a second carboxyl group ($-COO^-$) to the &gamma;-carbon of specific <strong>Glutamic acid (Glu)</strong> residues within the amino-terminal domain of precursor clotting proteins.
+    <br>&bull; This converts neutral glutamic acid residues into negatively charged <strong>&gamma;-Carboxyglutamic acid (Gla)</strong> residues:
+      <br>$$\text{Protein-Glu} + CO_2 + O_2 + \text{Vitamin } KH_2 \xrightarrow{\mathbf{\gamma\text{-Glutamyl Carboxylase}}} \text{Protein-Gla} + H_2O + \text{Vitamin K 2,3-Epoxide}$$</li>
 </ul>
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">2. The Vitamin K Cycle & Anticoagulant Action:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li>During carboxylation, active hydroquinone (reduced Vitamin K) is oxidized to <strong>Vitamin K Epoxide</strong>.</li>
-  <li>It must be regenerated back to active reduced form by the enzyme <strong>Vitamin K Epoxide Reductase Complex 1 (VKORC1)</strong>.</li>
-  <li><strong>Warfarin & Coumarin:</strong> Potent competitive inhibitors of <strong>VKORC1</strong>, depleting active reduced vitamin K, leading to synthesis of non-functional decarboxylated clotting factors (PIVKA - Proteins Induced by Vitamin K Absence), prolonging Prothrombin Time (PT/INR).</li>
-  <li><strong>Hemorrhagic Disease of the Newborn:</strong> Newborns have a sterile gut (no bacteria to synthesize K₂), low hepatic stores, and breast milk is low in Vitamin K. Routine prophylactic <strong>1 mg IM Vitamin K₁ at birth</strong> prevents life-threatening neonatal intracranial hemorrhage.</li>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">2. Functional Molecular Significance of Gla Residues</h4>
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">
+        <th class="p-2.5 font-bold border-b">Biochemical Element</th>
+        <th class="p-2.5 font-bold border-b">Molecular Structure</th>
+        <th class="p-2.5 font-bold border-b">Role in Blood Coagulation Cascade</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Gla Domain</td>
+        <td class="p-2.5">Contains two adjacent, ionized negative carboxylate groups ($-CH(COO^-)_2$) on the &gamma;-carbon.</td>
+        <td class="p-2.5">Acts as a high-affinity bidentate claw designed specifically to coordinate and chelate positively charged <strong>Calcium ions ($Ca^{2+}$)</strong>.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Platelet Surface Assembly</td>
+        <td class="p-2.5">Positively charged $Ca^{2+}$-Gla coordination complex.</td>
+        <td class="p-2.5">Electrostatic bridge linking the clotting factor to negatively charged <strong>phosphatidylserine phospholipids</strong> displayed on the exterior membrane of activated platelets.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Enzyme Complex Activation</td>
+        <td class="p-2.5">Tenase and Prothrombinase complexes.</td>
+        <td class="p-2.5">Concentrates clotting factors locally at the vascular breach site, accelerating thrombin generation by &gt; 100,000-fold. Without &gamma;-carboxylation, clotting factors remain inert in solution and cannot assemble or cleave substrates!</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">3. The Vitamin K Redox Cycle & Warfarin Pharmacodynamics</h4>
+<ul class="list-disc pl-5 space-y-1.5 text-sm mb-3">
+  <li><strong>The Cyclic Regeneration:</strong>
+    <br>&bull; The active cofactor is the reduced hydroquinone form: <strong>Vitamin $KH_2$</strong>.
+    <br>&bull; During carboxylation, $KH_2$ is stoichiometrically oxidized into inactive <strong>Vitamin K 2,3-Epoxide</strong>.
+    <br>&bull; To maintain carboxylation, the epoxide must be recycled back to $KH_2$ by the microsomal enzyme <strong>Vitamin K Epoxide Reductase Complex 1 (VKORC1)</strong> and quinone reductase.</li>
+  <li><strong>Mechanism of Warfarin & Coumarin Anticoagulants:</strong>
+    <br>&bull; Warfarin acts as a potent, competitive active-site inhibitor of <strong>VKORC1</strong>.
+    <br>&bull; By blocking VKORC1, warfarin depletes intracellular pools of reduced $KH_2$. Hepatocytes continue to synthesize clotting factor peptides, but release under-carboxylated, functionally dead molecules into plasma, known as <strong>PIVKA (Proteins Induced by Vitamin K Absence or Antagonism)</strong>.
+    <br>&bull; <strong>Monitoring:</strong> Evaluated clinically by Prothrombin Time (PT) and International Normalized Ratio (INR).</li>
+  <li><strong>Hemorrhagic Disease of the Newborn (HDN / VKDB):</strong>
+    <br>&bull; Newborns have minimal hepatic Vitamin K stores, an immature sterile gut without menaquinone-producing bacteria, poor placental transfer of Vitamin K, and maternal breast milk contains very low levels (&lt; 2 &mu;g/L).
+    <br>&bull; Causes life-threatening spontaneous intracranial or umbilical cord hemorrhage.
+    <br>&bull; <strong>Universal Prophylaxis:</strong> Routine administration of <strong>1.0 mg Vitamin K1 intramuscularly at birth</strong> prevents neonatal VKDB worldwide.</li>
 </ul>
             </div>
 
@@ -32732,12 +33082,64 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200">
-  <strong>💡 বাংলা হেল্প নোট:</strong><br>
-  - রক্ত জমাট বাঁধার ফ্যাক্টর <strong>1972 (Factors 2, 7, 9, 10)</strong> এবং Protein C & S তৈরি করতে ভিটামিন কে অপরিহার্য।<br>
-  - এটি গ্লুটামিক এসিডের ওপর <strong>$\gamma$-কার্বোক্সিলেশন</strong> করে দুটি হাতওয়ালা নখর (Gla) বানায়—যা ক্যালসিয়াম আঁকড়ে ধরে প্লাটিলেটের ওপর রক্ত জমাট বাঁধার কারখানা চালু করে।<br>
-  - <strong>ওয়ারফারিন (Warfarin):</strong> এই ভিটামিন কে-কে রিসাইকেল করার এনজাইম (VKORC1) বন্ধ করে রক্ত পাতলা রাখে।<br>
-  - নবজাতকের পেটে কোনো ব্যাকটেরিয়া না থাকায় জন্মের সাথে সাথে <strong>১ মিলিগ্রাম ভিটামিন কে ইনজেকশন</strong> না দিলে ব্রেইনে রক্তক্ষরণ হয়ে বাচ্চা মারা যেতে পারে।
+              <div class="space-y-4">
+  <div class="p-4 bg-blue-50 dark:bg-blue-950/40 rounded-xl border border-blue-200 dark:border-blue-800">
+    <h3 class="text-base font-bold text-blue-900 dark:text-blue-200 mb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+    <div class="space-y-3 text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
+      <div>
+        <strong>(ক) ভিটামিন কে-এর রূপ ও রক্ত জমাট বাঁধার ফ্যাক্টরে ভূমিকা:</strong>
+        <p class="mt-1">ভিটামিন কে হলো চর্বিতে দ্রবণীয় ন্যাপথোকুইনোন। সবুজ শাকসবজি থেকে আসে Phylloquinone (K1) এবং অন্ত্রের স্বাভাবিক ব্যাকটেরিয়া বানায় Menaquinone (K2)।</p>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>টার্গেট ক্লটিং ফ্যাক্টরসমূহ:</strong> লিভারে রক্ত জমাট বাঁধার ৪টি মূল ফ্যাক্টর—<strong>Factor II (Prothrombin), VII, IX, X</strong> (মনে রাখার কোড: <strong>"1972"</strong>) এবং রক্ত তরল রাখার দুটি উপাদান <strong>Protein C ও Protein S</strong> তৈরির পর তাদের সক্রিয় করতে ভিটামিন কে অপরিহার্য।</li>
+          <li><strong>পোস্ট-ট্রান্সলেশনাল গামা-কার্বোক্সিলেশন (&gamma;-Carboxylation):</strong>
+            <br>লিভারের এন্ডোপ্লাজমিক রেটিকুলামে <strong>&gamma;-Glutamyl Carboxylase</strong> এনজাইমের কো-ফ্যাক্টর হিসেবে ভিটামিন কে কাজ করে। এটি প্রোটিনের গ্লুটামিক এসিডের (Glu) গামা-কার্বনে একটি বাড়তি কার্বক্সিল গ্রুপ ($-COO^-$) যুক্ত করে তাকে <strong>&gamma;-Carboxyglutamic acid (Gla)</strong>-তে রূপান্তরিত করে।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(খ) গ্লা (Gla) রেসিডিউ কীভাবে রক্ত জমাট বাঁধায়? (Molecular Mechanism):</strong>
+        <p class="mt-1">গ্লুটামিক এসিডে যখন দুটি ঋণাত্মক চার্জযুক্ত ($-COO^-$) গ্রুপ তৈরি হয়, তখন এটি একটি সাঁড়াশির মতো খাঁজ তৈরি করে।</p>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li>এই খাঁজ দিয়ে ফ্যাক্টরগুলো ধনাত্মক <strong>ক্যালসিয়াম আয়নকে ($Ca^{2+}$)</strong> শক্ত করে আঁকড়ে ধরে।</li>
+          <li>এই ক্যালসিয়াম তখন সেতুর মতো কাজ করে ফ্যাক্টরগুলোকে সক্রিয় প্লাটিলেটের গায়ের নেগেটিভ ফসফোলিপিডের সাথে নোঙর করে দেয়।</li>
+          <li>প্লাটিলেটের গায়ে ফ্যাক্টরগুলো দলবদ্ধভাবে বসে প্রোথ্রম্বিনেস কমপ্লেক্স তৈরি করে ক্ষতের মুখে মুহূর্তের মধ্যে বিপুল পরিমাণ থ্রম্বিন ও ফাইব্রিন জাল বুনে রক্তপাত বন্ধ করে দেয়! <strong>ভিটামিন কে না থাকলে ক্লটিং ফ্যাক্টরগুলো ক্যালসিয়াম বাঁধতে পারে না এবং রক্তপাত বন্ধ করতে সম্পূর্ণ অক্ষম হয়ে পড়ে।</strong></li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(গ) ভিটামিন কে চক্র ও ওয়ারফারিন (Warfarin)-এর কাজের কৌশল:</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li>কার্বোক্সিলেশন করার পর সক্রিয় ভিটামিন কে ক্ষয়ে গিয়ে নিষ্ক্রিয় <strong>Vitamin K Epoxide</strong>-এ রূপ নেয়। লিভারের <strong>VKORC1</strong> এনজাইম একে আবার সক্রিয় ভিটামিন কে-তে ফিরিয়ে আনে।</li>
+          <li>হার্ট বা স্ট্রোকের রোগীদের রক্ত পাতলা করার ওষুধ <strong>Warfarin</strong> এই <strong>VKORC1 এনজাইমকে ব্লক করে দেয়</strong>। ফলে লিভার থেকে নিষ্ক্রিয় ফ্যাক্টর (PIVKA) বের হয় এবং রক্ত সহজে জমাট বাঁধতে পারে না।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(ঘ) নবজাতকের রক্তক্ষরণ রোগ (Hemorrhagic Disease of the Newborn - HDN):</strong>
+        <p class="mt-1">নবজাতকের অন্ত্রে ব্যাকটেরিয়া থাকে না, লিভারে ভিটামিন কে সঞ্চয় থাকে না এবং মায়ের বুকের দুধে ভিটামিন কে খুব কম থাকে। তাই জন্মের পরপরই ব্রেন বা নাভি দিয়ে মারাত্মক রক্তক্ষরণ রোধে <strong>প্রতিটি নবজাতককে জন্মের পরপরই ১ মিগ্রা ভিটামিন কে ১ ইনজেকশন (IM Vitamin K1) দেওয়া বাধ্যতামূলক</strong>।</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 bg-amber-50 dark:bg-amber-950/40 rounded-xl border border-amber-200 dark:border-amber-800">
+    <h3 class="text-base font-bold text-amber-900 dark:text-amber-200 mb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+      <li><strong>ওয়ারফারিন শুরু করার প্রথম ২-৩ দিন কেন হেপারিন দিয়ে "ব্রিজিং" (Heparin Bridging) করতে হয়?</strong>
+        <br>ভাইভায় নিশ্চিত ধরা প্রশ্ন: <strong>"Warfarin দেওয়ার শুরুতে রোগী রক্ত জমাট বেঁধে মরতে পারে কেন? (Warfarin-Induced Skin Necrosis)"</strong>
+        <br>উত্তর: ভিটামিন কে ক্লটিং ফ্যাক্টর (2, 7, 9, 10)-এর পাশাপাশি শরীরের নিজস্ব অ্যান্টিকোয়াগুল্যান্ট <strong>Protein C</strong>-কেও বানায়। Protein C-এর আয়ুষ্কাল সবচেয়ে কম (মাত্র ৬-৮ ঘণ্টা), কিন্তু Factor II ও X বাঁচে ৪৮-৭২ ঘণ্টা। তাই ওয়ারফারিন দেওয়ার প্রথম দিনেই Protein C আগে শেষ হয়ে যায়, কিন্তু রক্ত জমাট বাঁধার ফ্যাক্টরগুলো রক্তে বহাল তবিয়তে থাকে! এর ফলে সাময়িকভাবে শরীর চরম থ্রম্বোটিক স্টেটে চলে গিয়ে চামড়ায় রক্ত জমাট বেঁধে পচন ধরে (Skin necrosis)। তাই প্রথম কয়েকদিন হেপারিন দিয়ে রক্ত সুরক্ষিত রেখে ওয়ারফারিন চালু করতে হয়।
+      </li>
+      <li><strong>দীর্ঘদিন অ্যান্টিবায়োটিক খেলে রক্তক্ষরণ শুরু হয় কেন?</strong>
+        <br>কোনো রোগী দীর্ঘদিন ব্রড-স্পেকট্রাম অ্যান্টিবায়োটিক (যেমন Cephalosporin বা Metronidazole) খেলে অন্ত্রের স্বাভাবিক উপকারি ব্যাকটেরিয়া ধ্বংস হয়ে যায়। ফলে অন্ত্রে ব্যাকটেরিয়াজাত ভিটামিন কে (Menaquinone) তৈরি বন্ধ হয়ে তীব্র ভিটামিন কে ঘাটতি ও রক্তপাত দেখা দেয়।
+      </li>
+      <li><strong>ওয়ারফারিন ওভারডোজ হলে ইমার্জেন্সি রিভার্সাল কীভাবে করবেন?</strong>
+        <br>যদি রোগীর মারাত্মক রক্তপাত হয়, তবে শুধু ভিটামিন কে ইনজেকশন দিলে কাজ হতে ৬-১২ ঘণ্টা সময় লাগবে কারণ লিভারে নতুন ফ্যাক্টর তৈরি হতে সময় লাগে। তাই তৎক্ষণাৎ রোগীকে <strong>Fresh Frozen Plasma (FFP)</strong> অথবা <strong>Prothrombin Complex Concentrate (PCC)</strong> দিতে হয়, যাতে তৈরি করা তাজা ক্লটিং ফ্যাক্টর সাথে সাথে কাজ শুরু করতে পারে।
+      </li>
+    </ul>
+  </div>
 </div>
             </div>
           </div>
@@ -32804,35 +33206,77 @@
     </div>
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">1. Biological Roles of Zinc:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li>Essential trace element serving as catalytic and structural cofactor for over <strong>300 metalloenzymes</strong> (Carbonic Anhydrase, Alkaline Phosphatase, Alcohol Dehydrogenase, RNA Polymerase, Carboxypeptidase, Cytosolic Cu/Zn Superoxide Dismutase).</li>
-  <li>Crucial structural motif in <strong>"Zinc Finger" transcription factors</strong> mediating steroid hormone and DNA binding.</li>
-  <li>Vital for immune function (T-lymphocyte maturation, thymulin activity) and wound healing (collagenase activity).</li>
+              <h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">1. Fundamental Biological Roles & Metalloenzymes</h4>
+<p class="text-sm mb-2">Zinc ($Zn^{2+}$) is the second most abundant essential intracellular trace element in the human body (total adult body pool ~2.0 to 2.5 g, predominantly in skeletal muscle, bone, skin, and prostate). It possesses distinct biological mechanisms:</p>
+
+<ul class="list-disc pl-5 space-y-1.5 text-sm mb-3">
+  <li><strong>Cofactor for &gt; 300 Metalloenzymes:</strong> Indispensable for active catalytic site geometry or quaternary structural stability of major enzymes across all six enzyme classes:
+    <br>&bull; <strong>Carbonic Anhydrase:</strong> $CO_2$ transport and renal acid-base regulation.
+    <br>&bull; <strong>Alkaline Phosphatase (ALP):</strong> Bone osteoblastic mineralization and hepatobiliary excretion.
+    <br>&bull; <strong>Alcohol Dehydrogenase:</strong> Hepatic ethanol catabolism and retinol oxidation.
+    <br>&bull; <strong>Cytosolic Cu/Zn Superoxide Dismutase (SOD1):</strong> Neutralizes toxic intracellular superoxide free radicals.
+    <br>&bull; <strong>DNA and RNA Polymerases:</strong> Nucleic acid replication and gene transcription.
+    <br>&bull; <strong>Matrix Metalloproteinases / Collagenases:</strong> Tissue remodeling and wound re-epithelialization.</li>
+  <li><strong>"Zinc Finger" Motif in Gene Expression:</strong> A structural coordination complex where a zinc ion coordinates with two cysteine and two histidine residues ($Cys_2His_2$), forming finger-like peptide loops that insert directly into the major groove of DNA. Crucial for nuclear transcription factors, steroid hormone receptors (glucocorticoid, estrogen, thyroid), and cellular differentiation.</li>
+  <li><strong>Immune System Competence:</strong> Essential for thymic endocrine function (cofactor for the hormone <strong>Thymulin</strong>), regulating T-lymphocyte differentiation ($CD4^+ / CD8^+$ ratio), natural killer (NK) cell cytotoxicity, and neutrophil oxidative burst.</li>
 </ul>
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">2. Zinc Deficiency Manifestations:</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Acrodermatitis Enteropathica:</strong> Rare inborn error of intestinal zinc transporter (ZIP4); presents in infants with characteristic periorificial (around mouth, anus, perineum) and acral (hands/feet) vesicular/bullous pustular rash, alopecia, and intractable chronic diarrhea.</li>
-  <li><strong>Acquired Deficiency:</strong> Growth retardation/stunting in children, delayed sexual maturation/hypogonadism, impaired cellular immunity (frequent recurrent infections), <strong>Hypogeusia / Dysgeusia (loss of taste)</strong>, night blindness, and severely impaired wound healing.</li>
-</ul>
-<h5 class="font-bold text-sm text-brand-700 dark:text-brand-400 mb-1">3. Mechanism & Role of Zinc in Pediatric Diarrhea Management (WHO/UNICEF):</h5>
-<ul class="list-disc pl-5 space-y-1 text-xs sm:text-sm mb-2">
-  <li><strong>Pathophysiological Rationale:</strong> Diarrhea causes extensive loss of endogenous zinc in stool. Zinc deficiency impairs intestinal mucosal regeneration, prolonging the diarrheal episode and creating a vicious malnutrition-diarrhea cycle.</li>
-  <li><strong>Mechanisms of Action:</strong>
-    <ul class="list-circle pl-5 mt-0.5">
-      <li>Promotes rapid enterocyte regeneration and mucosal repair of denuded intestinal villi.</li>
-      <li>Restores brush-border disaccharidase enzyme activity and upregulates intestinal water and electrolyte absorption.</li>
-      <li>Improves intestinal tight-junction integrity, preventing microbial translocation.</li>
-      <li>Enhances mucosal secretory IgA and cell-mediated immunity against enteropathogens.</li>
-    </ul>
-  </li>
-  <li><strong>Standard Therapeutic Regimen:</strong>
-    <ul class="list-circle pl-5 mt-0.5">
-      <li>Infants < 6 months: <strong>10 mg elemental zinc daily for 10 to 14 days</strong>.</li>
-      <li>Children ≥ 6 months to 5 years: <strong>20 mg elemental zinc daily for 10 to 14 days</strong>.</li>
-      <li><em>Clinical Outcome:</em> Reduces diarrhea duration by ~25%, reduces stool volume by 30%, and <strong>protects against subsequent diarrheal episodes for up to 3 months</strong>.</li>
-    </ul>
-  </li>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">2. Clinical Manifestations of Zinc Deficiency</h4>
+<div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+  <table class="w-full text-left text-sm min-w-[520px]">
+    <thead>
+      <tr class="bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100">
+        <th class="p-2.5 font-bold border-b">Clinical Category</th>
+        <th class="p-2.5 font-bold border-b">Etiology & Syndrome</th>
+        <th class="p-2.5 font-bold border-b">Characteristic Signs & Diagnostic Features</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700 text-slate-700 dark:text-slate-300">
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Acrodermatitis Enteropathica</td>
+        <td class="p-2.5">Rare inborn autosomal recessive mutation in the intestinal zinc transporter gene <strong>SLC39A4 (ZIP4)</strong>.</td>
+        <td class="p-2.5">Manifests typically upon weaning from breast milk with the <strong>classic diagnostic triad:</strong>
+          <br>1. <strong>Periorificial & acral dermatitis:</strong> Vesiculobullous, pustular, erythematous plaques around mouth, nostrils, anus, perineum, fingers, and toes.
+          <br>2. <strong>Intractable chronic diarrhea.</strong>
+          <br>3. <strong>Complete alopecia</strong> (total loss of scalp hair, eyebrows, eyelashes).</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Dermatological & Wound Healing</td>
+        <td class="p-2.5">Acquired deficiency (malnutrition, alcoholism, total parenteral nutrition lacking zinc).</td>
+        <td class="p-2.5">Dry, scaling skin, paronychia, stomatitis, brittle nails with transverse white lines (Beau's lines); <strong>severely impaired surgical wound healing</strong> and breakdown of granulation tissue.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Growth & Endocrine</td>
+        <td class="p-2.5">Impairment of growth hormone-IGF-1 axis and zinc finger steroid receptors.</td>
+        <td class="p-2.5"><strong>Severe growth stunting / dwarfism</strong> in children; delayed puberty; <strong>hypogonadism</strong> in adolescent males (oligospermia, testicular atrophy, loss of secondary sexual characteristics).</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Sensory & Neurological</td>
+        <td class="p-2.5">Carbonic anhydrase VI (gustin) deficiency in salivary glands and impaired retinol dehydrogenase.</td>
+        <td class="p-2.5"><strong>Hypogeusia (blunted taste sensation)</strong> and <strong>dysosmia (distorted smell)</strong>; night blindness (nyctalopia) due to impaired conversion of retinol to retinal; mental lethargy and mood lability.</td>
+      </tr>
+      <tr>
+        <td class="p-2.5 font-semibold text-brand-600 dark:text-brand-400">Immunological</td>
+        <td class="p-2.5">Thymic atrophy and blunted cell-mediated immunity.</td>
+        <td class="p-2.5">Recurrent, severe bacterial, fungal, and viral infections (especially bronchopneumonia, candidiasis, and protracted infectious diarrhea).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h4 class="font-bold text-base text-brand-800 dark:text-brand-300 mb-2">3. Role & Mechanisms of Zinc in Pediatric Diarrhea Management (WHO/UNICEF)</h4>
+<ul class="list-disc pl-5 space-y-1.5 text-sm mb-3">
+  <li><strong>The Vicious Malnutrition-Diarrhea Cycle:</strong> Acute and persistent diarrhea causes massive fecal zinc loss through damaged intestinal shedding. Depleted intracellular zinc arrests enterocyte proliferation, prolongs villous blunting, increases mucosal permeability, and exacerbates fluid loss.</li>
+  <li><strong>Physiological Mechanisms of Zinc in Diarrhea:</strong>
+    <br>&bull; <strong>Mucosal Regeneration:</strong> Stimulates DNA synthesis and cellular mitosis in crypt stem cells, accelerating rapid re-epithelialization of denuded intestinal villi.
+    <br>&bull; <strong>Brush-Border Enzyme Recovery:</strong> Restores apical brush-border disaccharidases (lactase, sucrase), improving nutrient absorption and preventing secondary osmotic diarrhea.
+    <br>&bull; <strong>Inhibition of Secretory Channels:</strong> Directly inhibits cyclic adenosine monophosphate (cAMP)-dependent chloride secretion across apical enterocyte membranes, counteracting bacterial enterotoxins (e.g., <strong>Vibrio cholerae</strong>, ETEC).
+    <br>&bull; <strong>Electrolyte Absorption:</strong> Enhances the sodium-glucose cotransporter (SGLT-1), boosting water and electrolyte reabsorption.
+    <br>&bull; <strong>Local Gut Immunity:</strong> Upregulates gut mucosal secretory IgA (sIgA) secretion and macrophage phagocytosis against invasive enteric pathogens.</li>
+  <li><strong>WHO / UNICEF Standard Dosing Protocol:</strong>
+    <br>&bull; <strong>Infants aged &lt; 6 months:</strong> <strong>10 mg elemental zinc once daily for 10 to 14 consecutive days</strong>.
+    <br>&bull; <strong>Children aged &ge; 6 months to 5 years:</strong> <strong>20 mg elemental zinc once daily for 10 to 14 consecutive days</strong>.
+    <br>&bull; <strong>Clinical Outcomes:</strong> Shortens the duration of acute diarrhea by <strong>~25%</strong>, reduces stool volume and frequency by <strong>~30%</strong>, and substantially reduces the incidence and recurrence of new diarrheal episodes for the subsequent <strong>2 to 3 months</strong>!</li>
 </ul>
             </div>
 
@@ -32841,13 +33285,75 @@
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <div class="bg-amber-50 dark:bg-amber-950/40 border-l-4 border-amber-500 p-2.5 rounded-r-xl text-xs text-slate-800 dark:text-slate-200">
-  <strong>💡 বাংলা হেল্প নোট:</strong><br>
-  - জিংক শরীরের ৩০০টির বেশি এনজাইমের প্রাণভোমরা।<br>
-  - <strong>ঘাটতির লক্ষণ:</strong> মুখের স্বাদ চলে যাওয়া (Hypogeusia), ঘা না শুকানো, এবং শিশুর মুখে ও মলদ্বারের চারপাশে ঘা হয়ে চুল পড়ে যাওয়া (<strong>Acrodermatitis enteropathica</strong>)।<br>
-  - <strong>ডায়রিয়ায় জিংক কেন জাদুর মতো কাজ করে?</strong><br>
-    • ডায়রিয়া হলে অন্ত্রের ভেতরের চামড়া ছিলে যায়। জিংক অন্ত্রের নতুন কোষ খুব দ্রুত গজাতে সাহায্য করে এবং অন্ত্রের রোগ প্রতিরোধ ক্ষমতা বাড়ায়।<br>
-    • <strong>WHO ডোজ:</strong> ৬ মাসের বেশি বয়সী শিশুদের <strong>২০ মিলিগ্রাম জিংক প্রতিদিন ১০–১৪ দিন</strong> খাওয়ালে ডায়রিয়ার মেয়াদ ২৫% কমে যায় এবং পরবর্তী ৩ মাস পর্যন্ত ডায়রিয়া হওয়া প্রতিরোধ করে।
+              <div class="space-y-4">
+  <div class="p-4 bg-blue-50 dark:bg-blue-950/40 rounded-xl border border-blue-200 dark:border-blue-800">
+    <h3 class="text-base font-bold text-blue-900 dark:text-blue-200 mb-2">
+      📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+    </h3>
+    <div class="space-y-3 text-slate-700 dark:text-slate-300 text-sm leading-relaxed">
+      <div>
+        <strong>(ক) শরীরে জিংক (Zinc)-এর প্রধান শারীরবৃত্তীয় কাজ:</strong>
+        <p class="mt-1">জিংক মানবদেহের দ্বিতীয় সর্বাধিক গুরুত্বপূর্ণ ট্রেস এলিমেন্ট। এর প্রধান কাজগুলো হলো:</p>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>৩০০টির বেশি এনজাইমের প্রাণ:</strong> Carbonic anhydrase, Alkaline phosphatase (ALP), Alcohol dehydrogenase, RNA/DNA polymerase এবং অ্যান্টিঅক্সিডেন্ট এনজাইম Cu/Zn Superoxide Dismutase-এর সক্রিয়তায় জিংক অত্যাবশ্যক।</li>
+          <li><strong>জিংক ফিঙ্গার ও জিন প্রকাশ (Zinc Finger Motif):</strong> জিনের ট্রান্সক্রিপশন ফ্যাক্টর এবং স্টেরয়েড হরমোনের রিসেপ্টরে আঙুলের মতো বিশেষ খাঁজ তৈরিতে জিংক লাগে, যা কোষের স্বাভাবিক বৃদ্ধি ও বিভাজন চালায়।</li>
+          <li><strong>রোগ প্রতিরোধ ও ক্ষত শুকানো:</strong> টি-লিম্ফোসাইট ইমিউনিটি এবং কোলাজেন তৈরির এনজাইমকে সক্রিয় রেখে শরীরের যে কোনো ঘা বা ক্ষত দ্রুত শুকাতে সাহায্য করে।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(খ) জিংকের ঘাটতিজনিত লক্ষণসমূহ (Manifestations of Deficiency):</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>১. এক্রোডার্মাটাইটিস এন্টারোপ্যাথিকা (Acrodermatitis Enteropathica):</strong>
+            <br>জন্মগতভাবে অন্ত্রের জিংক পরিবহনকারী প্রোটিন (ZIP4) না থাকার রোগ। মায়ের বুকের দুধ ছাড়ার পর পরই শিশুর ৩টি প্রধান লক্ষণ প্রকাশ পায়:
+            <br>&bull; <strong>মুখ, নাক, চোখ ও পায়ুপথের চারপাশে ফোস্কাযুক্ত লাল ক্ষত (Periorificial dermatitis)</strong>
+            <br>&bull; <strong>দীর্ঘস্থায়ী ডায়রিয়া</strong>
+            <br>&bull; <strong>মাথার চুল ও চোখের ভ্রু সম্পূর্ণ উঠে যাওয়া (Alopecia)</strong>।</li>
+          <li><strong>২. বৃদ্ধি ব্যাহত ও যৌন বিকাশহীনতা (Dwarfism & Hypogonadism):</strong> শিশুদের শারীরিক বৃদ্ধি থেমে বামনত্ব (Stunting) হয় এবং কিশোর বয়সে অণ্ডকোষের বৃদ্ধি বন্ধ হয়ে হাইপোগোনাডিজম দেখা দেয়।</li>
+          <li><strong>৩. স্বাদ ও গন্ধ চলে যাওয়া (Hypogeusia & Dysosmia):</strong> লালাগ্রন্থির গাস্টিন এনজাইম নিষ্ক্রিয় হয়ে মুখে খাবারের কোনো স্বাদ ও ঘ্রাণ পাওয়া যায় না।</li>
+          <li><strong>৪. ক্ষত না শুকানো ও রোগ প্রতিরোধহীনতা:</strong> শরীরের কাটাছেঁড়া ও অপারেশনের ক্ষত শুকাতে চায় না এবং বারবার নিউমোনিয়া ও ডায়রিয়া সংক্রমণ ঘটে।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(গ) শিশুদের ডায়রিয়া চিকিৎসায় জিংকের জাদুকরী ভূমিকা (WHO/UNICEF Protocol):</strong>
+        <p class="mt-1">ডায়রিয়া হলে মলের সাথে প্রচুর জিংক শরীর থেকে বের হয়ে যায়। এতে অন্ত্রের কোষ ধ্বংস হয়ে ডায়রিয়া চলতেই থাকে। জিংক যেভাবে কাজ করে:</p>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>অন্ত্রের দেয়াল পুনর্নির্মাণ:</strong> ধ্বংসপ্রাপ্ত অন্ত্রের ভিলাই (Intestinal villi) ও মিউকোসাকে দ্রুত মেরামত ও নতুন কোষ দিয়ে ঢেকে দেয়।</li>
+          <li><strong>পানি ও লবণ শোষণ বৃদ্ধি:</strong> অন্ত্রের দেয়াল দিয়ে পানি ও ইলেকট্রোলাইটস শোষণ বাড়িয়ে মলকে শক্ত করে।</li>
+          <li><strong>ব্যাকটেরিয়ার বিষ নিষ্ক্রিয়করণ:</strong> কলেরাসহ বিভিন্ন জীবাণুর টক্সিনের কারণে অন্ত্র থেকে ক্লোরাইড ক্ষরণ বন্ধ করে।</li>
+          <li><strong>লোকাল ইমিউনিটি বৃদ্ধি:</strong> খাদ্যনালীতে Secretory IgA অ্যান্টিবডি বাড়িয়ে জীবাণু মেরে ফেলে।</li>
+        </ul>
+      </div>
+
+      <div>
+        <strong>(ঘ) জিংক সেবনের নিয়ম ও ফলাফল:</strong>
+        <ul class="list-disc pl-5 mt-1 space-y-1">
+          <li><strong>৬ মাসের কম বয়সী শিশু:</strong> দৈনিক <strong>১০ মিগ্রা জিংক টানা ১০ থেকে ১৪ দিন</strong>।</li>
+          <li><strong>৬ মাস থেকে ৫ বছর বয়সী শিশু:</strong> দৈনিক <strong>২০ মিগ্রা জিংক টানা ১০ থেকে ১৪ দিন</strong>।</li>
+          <li><strong>ফলাফল:</strong> ডায়রিয়ার স্থায়িত্ব <strong>২৫% কমে যায়</strong>, মলের পরিমাণ <strong>৩০% কমে যায়</strong> এবং সবচেয়ে বড় লাভ হলো—পরবর্তী <strong>২ থেকে ৩ মাস শিশুটি পুনরায় ডায়রিয়ায় আক্রান্ত হওয়া থেকে সুরক্ষিত থাকে!</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4 bg-amber-50 dark:bg-amber-950/40 rounded-xl border border-amber-200 dark:border-amber-800">
+    <h3 class="text-base font-bold text-amber-900 dark:text-amber-200 mb-2">
+      💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+    </h3>
+    <ul class="list-disc pl-6 space-y-2 text-slate-700 dark:text-slate-300 text-sm">
+      <li><strong>ডায়রিয়া ভালো হয়ে গেলেও টানা ১৪ দিন জিংক খাওয়াতে কেন বলা হয়?</strong>
+        <br>মা-বাবারা প্রায়ই ডায়রিয়া ভালো হওয়ার ২ দিন পরেই জিংক সিরাপ বন্ধ করে দেন। ভাইভায় স্যাররা জিজ্ঞেস করেন: <strong>"রোগীকে ১৪ দিন জিংক পূর্ণ করার পরামর্শ কেন দেওয়া হয়?"</strong>
+        <br>উত্তর: ডায়রিয়া বন্ধ হলেও অন্ত্রের মিউকোসা সম্পূর্ণ পুনরুদ্ধার হতে এবং শরীরের জিংক ভাণ্ডার পূর্ণ হতে অন্তত ১০-১৪ দিন সময় লাগে। কোর্স পূর্ণ করলে শিশুর অন্ত্রের প্রতিরক্ষা ব্যবস্থা এতো শক্তিশালী হয় যে আগামী <strong>২ থেকে ৩ মাসের মধ্যে তার নতুন করে কোনো ডায়রিয়া বা নিউমোনিয়া সংক্রমণ হতে পারে না</strong>!
+      </li>
+      <li><strong>অ্যাক্রোডার্মাটাইটিস এন্টারোপ্যাথিকা কেবল বুকের দুধ ছাড়ার পরই কেন দেখা দেয়?</strong>
+        <br>মায়ের বুকের দুধে প্রোটিন থাকে <strong>Zinc-binding ligand (Picolinic acid)</strong>, যা শিশুর ত্রুটিপূর্ণ ইনটেস্টাইনাল রিসেপ্টর ছাড়াও সরাসরি জিংক শোষণ করিয়ে নিতে পারে। কিন্তু যখনই শিশুকে ফর্মুলা দুধ বা শক্ত খাবার দেওয়া হয়, গরুর দুধের ফাইটিন ও কেসিন জিংককে আটকে ফেলে। ফলে শিশু হঠাৎ তীব্র জিংক শূন্যতায় আক্রান্ত হয়ে ডায়রিয়া ও ত্বকের ক্ষতে ভুগে।
+      </li>
+      <li><strong>আইসিইউ বা টিপিএন (TPN) রোগীদের জিংক সতর্কতা:</strong>
+        <br>যেসব রোগীকে মুখ দিয়ে না খাইয়ে দীর্ঘদিন শিরার মাধ্যমে কৃত্রিম খাদ্য (Total Parenteral Nutrition) দেওয়া হয়, তাদের টিপিএন ব্যাগে জিংক ট্রেস এলিমেন্ট হিসেবে না মেশালে কয়েক সপ্তাহের মধ্যে রোগীর সারা মুখে ঘা, ডায়রিয়া এবং অপারেশনের ক্ষত ফেটে মারাত্মক বিপদ হতে পারে!
+      </li>
+    </ul>
+  </div>
 </div>
             </div>
           </div>
