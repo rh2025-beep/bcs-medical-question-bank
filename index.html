@@ -31636,63 +31636,111 @@ Cardiogenic shock is a state of severe end-organ hypoperfusion caused by primary
           <div class="answer-drawer hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-800 space-y-3">
             <div class="flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-2.5 rounded-lg border border-slate-200 dark:border-slate-700">
               <span class="text-sm">📚</span>
-              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 15; National Guidelines and Operational Manual for Tuberculosis (NTP Bangladesh 2023)</span>
+              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 15; National Guidelines for Tuberculosis (NTP Bangladesh 2023); WHO Operational Handbook on TB</span>
             </div>
 
-            <div class="my-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center text-xs">
-  <div class="font-bold text-brand-600 dark:text-brand-400 mb-2">PULMONARY TB DIAGNOSTIC ALGORITHM & CAT-1 REGIMEN</div>
-  <div class="font-mono text-slate-700 dark:text-slate-300">
-    Cough &gt; 2 weeks + Hemoptysis/Fever/Weight Loss &rarr; <strong>GeneXpert (CBNAAT) / Sputum AFB Microscopy (2 samples)</strong> + Chest X-ray<br>
-    GeneXpert: Detects MTB DNA + <strong>Rifampicin Resistance (rpoB gene mutation)</strong> within 2 hours!<br>
-    <span class="text-rose-600 font-bold">Standard Regimen (Category 1): 2HRZE / 4HR (2 months Intensive + 4 months Continuation)</span>
-  </div>
-</div>
+            Cough >= 2 weeks -> GeneXpert MTB/RIF -> MTB+ Rif Susceptible -> 2HRZE / 4HR; Sputum Smear at Month 2, 5, 6 -> Positive at M5/M6 = Treatment Failure -> SL-LPA & MDR-TB Regimen
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Diagnostic Algorithm for Pulmonary Tuberculosis (National TB Control Programme - NTP):</strong>
-<ol class="list-decimal pl-5 space-y-1">
-  <li><strong>Presumptive TB Identification:</strong> Any patient presenting with persistent cough for <strong>$\ge 2$ weeks</strong>, accompanied by constitutional symptoms (low-grade evening pyrexia, night sweats, unexplained weight loss, anorexia, or hemoptysis).</li>
-  <li><strong>First-Line Molecular Diagnostic &mdash; GeneXpert MTB/RIF (CBNAAT):</strong>
-    <ul class="list-disc pl-5">
-      <li>Now the <strong>initial preferred diagnostic test</strong> recommended by WHO and NTP Bangladesh.</li>
-      <li>Automated cartridge-based nucleic acid amplification test (CBNAAT) performed on early morning purulent sputum.</li>
-      <li>Provides results within <strong>2 hours</strong>: simultaneously identifies <em>M. tuberculosis</em> genomic DNA and detects mutations in the <strong>$rpoB$ gene conferring Rifampicin resistance</strong> (rapid marker for MDR-TB).</li>
+              <div class="space-y-4">
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">1. Diagnostic Algorithm for Pulmonary Tuberculosis (NTP Bangladesh Guidelines)</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-2">
+      Under the National Tuberculosis Control Programme (NTP, DGHS Bangladesh), systematic evaluation follows a standardized sequence:
+    </p>
+    <ul class="list-disc pl-5 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Identification of Presumptive TB Case:</strong> Any individual presenting with a persistent cough lasting <strong>&gt;= 2 weeks</strong> (with or without fever, night sweats, unexplained weight loss, anorexia, or hemoptysis), or any abnormal chest radiograph consistent with tuberculosis.</li>
+      <li><strong>Primary Upfront Molecular Diagnostic Test (GeneXpert / Xpert MTB/RIF Ultra):</strong>
+        <p class="mt-0.5">Two sputum samples (one spot and one early morning) collected. GeneXpert RT-PCR is the <strong>preferred first-line diagnostic modality</strong> across all NTP centers. It simultaneously detects <strong>Mycobacterium tuberculosis</strong> DNA and mutations in the <strong>rpoB</strong> gene conferring <strong>Rifampicin resistance (RR-TB)</strong> within 2 hours.</p>
+      </li>
+      <li><strong>Sputum Smear Microscopy:</strong> Ziehl-Neelsen (ZN) staining or LED Fluorescence Microscopy (Auramine-O) performed in peripheral centers lacking GeneXpert, reporting acid-fast bacilli (AFB) grading.</li>
+      <li><strong>Chest Radiograph (CXR PA View):</strong> Performed in all presumptive cases. Classical features include apical or subapical consolidation, cavitary lesions, patchy infiltrates, and pleural effusion. Indispensable for diagnosing <strong>Smear/GeneXpert-Negative Pulmonary TB</strong> (evaluated by clinical medical officer panel if symptoms persist despite broad-spectrum non-fluoroquinolone antibiotics).</li>
     </ul>
-  </li>
-  <li><strong>Sputum Smear Microscopy for AFB (Ziehl-Neelsen / LED-Fluorescence):</strong>
-    Collect two sputum specimens ("Spot" and "Early morning"). Demonstration of Acid-Fast Bacilli (AFB) confirms bacteriologically positive pulmonary TB.</li>
-  <li><strong>Chest Radiography (PA View):</strong>
-    Shows characteristic apical/subapical infiltrates, fibro-cavitary lesions, consolidation, or hilar lymphadenopathy. Essential if sputum is negative or GeneXpert unavailable.</li>
-  <li><strong>Culture & Phenotypic DST:</strong> Solid Lowenstein-Jensen (LJ) medium or liquid BACTEC MGIT used for definitive drug-susceptibility testing in treatment failure or MDR-TB suspects.</li>
-</ol><br>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">GeneXpert Result</th>
+            <th class="p-3">Interpretation</th>
+            <th class="p-3">Action & Regimen Initiated</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold text-emerald-600 dark:text-emerald-400">MTB Detected, Rifampicin Resistance NOT Detected</td>
+            <td class="p-3">Confirmed Drug-Susceptible Pulmonary TB.</td>
+            <td class="p-3 font-bold text-emerald-700 dark:text-emerald-300">Initiate Standard Category-1 Regimen (2HRZE / 4HR).</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-rose-600 dark:text-rose-400">MTB Detected, Rifampicin Resistance DETECTED</td>
+            <td class="p-3">Rifampicin-Resistant TB (RR-TB) / Presumptive Multidrug-Resistant TB (MDR-TB).</td>
+            <td class="p-3 font-bold text-rose-700 dark:text-rose-300">Refer immediately to specialized DR-TB center. Send sputum for Second-line Line Probe Assay (SL-LPA) & culture/DST; initiate Shorter MDR-TB Regimen (Bedaquiline-based).</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-amber-600 dark:text-amber-400">MTB NOT Detected</td>
+            <td class="p-3">TB not confirmed; does not rule out paucibacillary TB.</td>
+            <td class="p-3">Trial of non-fluoroquinolone broad-spectrum antibiotic x 10-14 days; if symptoms persist, review CXR and clinical picture for clinical diagnosis.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<strong>2. Categorization & Standard National Regimen (Category 1 Regimen):</strong><br>
-Indicated for all <strong>new patients</strong> with pulmonary TB (smear-positive, smear-negative, or extra-pulmonary):
-<div class="text-center font-mono my-2 text-sm text-brand-600 font-bold">
-  Total Duration = 6 Months: &nbsp; 2HRZE / 4HR
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">2. Category-1 Anti-TB Treatment Regimen (2HRZE / 4HR)</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-2">
+      Administered as daily Fixed-Dose Combination (FDC) tablets tailored strictly by patient body weight:
+    </p>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Phase & Duration</th>
+            <th class="p-3">Drugs & Daily Dosing (mg/kg)</th>
+            <th class="p-3">Fixed-Dose Formulation & Purpose</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold text-rose-600 dark:text-rose-400">Intensive Phase<br><strong>(2 Months: 2HRZE)</strong></td>
+            <td class="p-3">
+              • <strong>Isoniazid (H):</strong> 5 mg/kg (max 300 mg)<br>
+              • <strong>Rifampicin (R):</strong> 10 mg/kg (max 600 mg)<br>
+              • <strong>Pyrazinamide (Z):</strong> 25 mg/kg (max 2000 mg)<br>
+              • <strong>Ethambutol (E):</strong> 15 mg/kg (max 1200 mg)
+            </td>
+            <td class="p-3">4-Drug FDC (HRZE: 75/150/400/275 mg). Rapidly kills metabolically active dividing bacilli, prevents drug resistance selection, and achieves early non-infectiousness (converts sputum negative).</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-emerald-600 dark:text-emerald-400">Continuation Phase<br><strong>(4 Months: 4HR)</strong></td>
+            <td class="p-3">
+              • <strong>Isoniazid (H):</strong> 5 mg/kg (max 300 mg)<br>
+              • <strong>Rifampicin (R):</strong> 10 mg/kg (max 600 mg)
+            </td>
+            <td class="p-3">2-Drug FDC (HR: 75/150 mg). Eliminates slow-replicating or dormant persistent bacilli (sterilizing activity), preventing relapse.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">3. Monitoring for Treatment Response & Definition of Treatment Failure</h4>
+    <ul class="list-disc pl-5 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Follow-up Sputum Smear Microscopy Schedule:</strong>
+        <p class="mt-0.5">• <strong>End of Month 2 (end of intensive phase):</strong> Sputum smear examined. If negative, advance to continuation phase (4HR). If still smear-positive, continue continuation phase as scheduled but request GeneXpert to check for emergence of rifampicin resistance.<br>
+        • <strong>End of Month 5:</strong> Follow-up sputum smear examined.<br>
+        • <strong>End of Month 6 (completion of therapy):</strong> Final sputum examination to declare clinical "Cure".</p>
+      </li>
+      <li><strong>Definition of Treatment Failure:</strong> A Category-1 patient whose sputum smear or culture remains <strong>persistently positive at Month 5 or at the end of Month 6</strong> of treatment.</li>
+      <li><strong>Action Protocol on Treatment Failure:</strong>
+        <p class="mt-0.5">1. Immediately collect two fresh sputum samples for <strong>GeneXpert MTB/RIF</strong>, First-line & Second-line Line Probe Assays (LPA), and Liquid Mycobacterial Culture & Phenotypic DST.<br>
+        2. Never add a single drug to a failing regimen.<br>
+        3. Refer patient to the National Drug-Resistant TB (DR-TB) Management Committee for evaluation and initiation of Second-line MDR-TB treatment.</p>
+      </li>
+    </ul>
+  </div>
 </div>
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>Intensive Phase (First 2 Months &mdash; 2HRZE):</strong>
-    Daily administration of four first-line fixed-dose combination (FDC) drugs:
-    - <strong>Isoniazid (H)</strong>: 5 mg/kg (300 mg/day)<br>
-    - <strong>Rifampicin (R)</strong>: 10 mg/kg (450&ndash;600 mg/day)<br>
-    - <strong>Pyrazinamide (Z)</strong>: 25 mg/kg (1500 mg/day)<br>
-    - <strong>Ethambutol (E)</strong>: 15 mg/kg (800&ndash;1200 mg/day)<br>
-    <em>Objective:</em> Rapidly kill multiplying bacilli, render patient non-infectious, and prevent emergence of drug resistance. (Supplement with <strong>Pyridoxine 20 mg/day</strong> to prevent INH peripheral neuropathy).
-  </li>
-  <li><strong>Continuation Phase (Subsequent 4 Months &mdash; 4HR):</strong>
-    Daily administration of two drugs:
-    - <strong>Isoniazid (H)</strong> + <strong>Rifampicin (R)</strong> for 4 months.<br>
-    <em>Objective:</em> Eliminate dormant semi-dormant "persisters" in caseous tissue, preventing disease relapse.
-  </li>
-</ul><br>
-
-<strong>3. Treatment Monitoring & Directly Observed Treatment (DOTS):</strong>
-<ul class="list-disc pl-5 space-y-1">
-  <li>Sputum smear microscopy repeated at the <strong>end of the 2nd month</strong> (end of intensive phase), <strong>5th month</strong>, and <strong>6th month</strong> (end of treatment).</li>
-  <li>Negative sputum at 5 and 6 months defines <strong>"Cured"</strong>.</li>
-  <li>DOTS strategy ensures adherence by having a designated treatment supporter observe every single dose swallow.</li>
-</ul>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -31700,12 +31748,74 @@ Indicated for all <strong>new patients</strong> with pulmonary TB (smear-positiv
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট (যক্ষ্মা নির্ণয় ও ডটস চিকিৎসা):</strong><br>
-- <strong>টিবি পরীক্ষার আধুনিক নিয়ম:</strong> টানা <strong>২ সপ্তাহের বেশি কাশি</strong>, রাতে ঘাম দিয়ে জ্বর ও ওজন কমার ইতিহাস থাকলে সবার আগে <strong>GeneXpert (CBNAAT)</strong> টেস্ট করাতে হবে। এটি মাত্র <strong>২ ঘণ্টার মধ্যে</strong> কফে টিবির জীবাণু এবং রিফাম্পিসিন রেজিস্ট্যান্স (MDR-TB) আছে কি না তা বলে দেয়।<br>
-- <strong>৬ মাসের চিকিৎসা ফর্মুলা (2HRZE / 4HR):</strong><br>
-  - <strong>প্রথম ২ মাস (Intensive phase):</strong> ৪টি ওষুধ একসাথে রোজ সকালে খালি পেটে খেতে হয়—Isoniazid, Rifampicin, Pyrazinamide, Ethambutol (সাথে ভিটামিন B6 ট্যাবলেট)।<br>
-  - <strong>পরের ৪ মাস (Continuation phase):</strong> ২টি ওষুধ রোজ খেতে হয়—Isoniazid ও Rifampicin।<br>
-- <strong>কখন সম্পূর্ণ সুস্থ ঘোষণা করা হয়?</strong> ৫ম ও ৬ষ্ঠ মাসে কফ পরীক্ষা করে যদি টিবির জীবাণু না পাওয়া যায়, তবে রোগী সম্পূর্ণ ভালো বা Cured। ডটস (DOTS) পদ্ধতিতে স্বাস্থ্যকর্মীর সামনে ওষুধ গিলতে হয় যাতে কেউ ওষুধ বাদ না দেয়।
+              <div class="callout-blue p-4 rounded-xl border border-blue-200 dark:border-blue-800 bg-blue-50/50 dark:bg-blue-950/30 text-slate-800 dark:text-slate-200 mb-4 space-y-3">
+  <h4 class="font-bold text-blue-700 dark:text-blue-300 text-base border-b border-blue-200 dark:border-blue-800 pb-2">
+    📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+  </h4>
+
+  <div class="space-y-3">
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">১. জাতীয় যক্ষ্মা নিয়ন্ত্রণ কর্মসূচী (NTP) অনুযায়ী পালমোনারি টিবি নির্ণয়ের অ্যালগরিদম:</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>Presumptive TB কেস চিহ্নিতকরণ:</strong> কোনো ব্যক্তির যদি <strong>টানা ২ সপ্তাহ বা তার বেশি সময় কাশি</strong> থাকে (সাথে ওজন হ্রাস, সন্ধ্যায় জ্বর, রাতের ঘাম, বা কফে রক্ত যাওয়া), তবে তাকে সম্ভাব্য যক্ষ্মা রোগী হিসেবে গণ্য করতে হবে।</li>
+        <li><strong>GeneXpert (Xpert MTB/RIF Ultra) - ফার্স্ট-লাইন টেস্ট:</strong> বর্তমান জাতীয় গাইডলাইনে কফের জিন-এক্সপার্ট পরীক্ষাকে এক নম্বর অগ্রাধিকার দেওয়া হয়েছে। এটি মাত্র ২ ঘণ্টার মধ্যে রক্তে টিবি ব্যাকটেরিয়ার ডিএনএ এবং রিফাম্পিসিন রেজিস্ট্যান্স (RR-TB) নিশ্চিত করে দেয়।</li>
+        <li><strong>Chest X-ray (PA View):</strong> সব রোগীর জন্য আবশ্যক। ফুসফুসের উপরিভাগে ক্যাভিটি বা সাদা দাগ (Infiltrates) দেখে ব্যাকটেরিওলজিক্যালি নেগেটিভ টিবি নিশ্চিত করা যায়।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">২. ক্যাটাগরি-১ অ্যান্টি-টিবি রেজিমেন (Category-1 Regimen: 2HRZE / 4HR):</p>
+      <p class="leading-relaxed">
+        ওজন অনুযায়ী ফিক্সড-ডোজ কম্বিনেশন (FDC) ট্যাবলেটের মাধ্যমে মোট ৬ মাসের চিকিৎসা দেওয়া হয়:
+      </p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>Intensive Phase (প্রথম ২ মাস - 2HRZE):</strong> ৪টি ড্রাগ একসাথে দেওয়া হয়—<strong>Isoniazid (H), Rifampicin (R), Pyrazinamide (Z), এবং Ethambutol (E)</strong>। এটি দ্রুত ব্যাকটেরিয়ার সংখ্যা কমিয়ে রোগীকে অসংক্রামক করে তোলে।</li>
+        <li><strong>Continuation Phase (পরবর্তী ৪ মাস - 4HR):</strong> ২টি ড্রাগ দেওয়া হয়—<strong>Isoniazid (H) এবং Rifampicin (R)</strong>। এটি সুপ্ত ব্যাকটেরিয়া মেরে রোগমুক্তি নিশ্চিত করে ও রিল্যাপ্স প্রতিরোধ করে।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">৩. চিকিৎসার অগ্রগতি পর্যবেক্ষণ ও ট্রিটমেন্ট ফেইলিয়র (Treatment Failure):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>কফ পরীক্ষার শিডিউল:</strong>
+          <br>• <strong>২য় মাস শেষে:</strong> কফের স্মিয়ার পরীক্ষা করা হয়। নেগেটিভ হলে ৪HR শুরু হয়।
+          <br>• <strong>৫ম মাস শেষে:</strong> কফ পরীক্ষা করে দেখা হয় ব্যাকটেরিয়া আছে কিনা।
+          <br>• <strong>৬ষ্ঠ মাস শেষে:</strong> সফল চিকিৎসা শেষে কফ নেগেটিভ এলে রোগীকে "Cured" ঘোষণা করা হয়।
+        </li>
+        <li><strong>ট্রিটমেন্ট ফেইলিয়রের সংজ্ঞা:</strong> যদি কোনো ক্যাটাগরি-১ রোগীর কফ <strong>৫ম মাস শেষে অথবা ৬ষ্ঠ মাস শেষেও পজিটিভ</strong> পাওয়া যায়, তবে তাকে <strong>Treatment Failure</strong> বলা হয়।</li>
+        <li><strong>ট্রিটমেন্ট ফেইলিয়রে করণীয়:</strong> অবিলম্বে কফের GeneXpert, কালচার এবং ড্রাগ সেনসিটিভিটি (DST) পাঠাতে হবে। কখনোই চলমান ব্যর্থ রেজিমেনে একটি নতুন ড্রাগ যোগ করা যাবে না। রোগীকে ন্যাশনাল MDR-TB সেন্টারে রেফার করে সেকেন্ড-লাইন ওষুধ শুরু করতে হবে।</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="callout-amber p-4 rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/30 text-slate-800 dark:text-slate-200 space-y-3">
+  <h4 class="font-bold text-amber-700 dark:text-amber-300 text-base border-b border-amber-200 dark:border-amber-800 pb-2">
+    💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+  </h4>
+
+  <div class="space-y-3 leading-relaxed">
+    <p>
+      <strong>১. ভাইভা বোর্ড প্রশ্ন: আইসোনিয়াজিড (INH) দেওয়ার সাথে ভিটামিন বি৬ (Pyridoxine) কেন দেওয়া হয়?</strong><br>
+      আইসোনিয়াজিড শরীরে ভিটামিন বি৬ এর মেটাবলিজমে বাধা দেয় এবং প্রস্রাবের সাথে পাইরিডক্সিন বের করে দেয়। ফলে তীব্র ভিটামিন বি৬ এর ঘাটতি হয়ে রোগীর হাত-পায়ে অবশ ভাব ও জ্বালাপোড়া (<strong>Peripheral Neuropathy</strong>) হতে পারে। এটি প্রতিরোধে আইসোনিয়াজিডের সাথে প্রতিদিন <strong>Pyridoxine 20-50 mg</strong> সাপ্লিমেন্ট দেওয়া বাধ্যতামূলক (বিশেষ করে গর্ভবতী, অপুষ্টিতে ভোগা এবং ডায়াবেটিক রোগীদের)।
+    </p>
+
+    <p>
+      <strong>২. রিফাম্পিসিন নেওয়ার পর রোগীর প্রস্রাব লালচে-কমলা হলে কী বলবেন?</strong><br>
+      এটি কোনো অভ্যন্তরীণ রক্তপাত বা মারাত্মক রোগ নয়। রিফাম্পিসিন নিজে একটি লাল-কমলা রঙের যৌগ। এটি শরীর থেকে নির্গমনের সময় রোগীর প্রস্রাব, ঘাম, লালা এবং চোখের পানি লালচে-কমলা (Orange-red discoloration) হয়ে যায়। ওষুধ শুরুর দিনেই রোগীকে এই ব্যাপারে অভয় দিতে হবে যেন ভয় পেয়ে ওষুধ বন্ধ না করে দেয়।
+    </p>
+
+    <p>
+      <strong>৩. চোখের সমস্যা হলে কোন ড্রাগ তাৎক্ষণিক বন্ধ করবেন?</strong><br>
+      <strong>Ethambutol</strong>। কারণ এর সবচেয়ে মারাত্মক সাইড এফেক্ট হলো <strong>Optic Neuritis</strong> (লাল-সবুজ রঙ চিনতে সমস্যা ও দৃষ্টিশক্তি হ্রাস)। রোগীর দৃষ্টির কোনো সমস্যা দেখা দিলে সাথে সাথে ইথামবিউটল বন্ধ করতে হবে।
+    </p>
+
+    <p>
+      <strong>৪. ড্রাগ-ইনডিউসড হেপাটাইটিস (DIH):</strong><br>
+      ক্যাটাগরি-১ এর ৪টি ওষুধের মধ্যে ৩টি লিভার নষ্ট করে: <strong>Pyrazinamide &gt; Isoniazid &gt; Rifampicin</strong> (ইথামবিউটল লিভারের কোনো ক্ষতি করে না)। রোগীর জন্ডিস হলে বা এসজিপিটি (SGPT/ALT) স্বাভাবিকের চেয়ে ৫ গুণের বেশি বাড়লে হেপাটোটক্সিক ওষুধ বন্ধ রাখতে হয়।
+    </p>
+  </div>
+</div>
             </div>
           </div>
         </article>
@@ -32220,61 +32330,96 @@ Presents with sudden, unexplained onset of respiratory or cardiovascular comprom
           <div class="answer-drawer hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-800 space-y-3">
             <div class="flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-2.5 rounded-lg border border-slate-200 dark:border-slate-700">
               <span class="text-sm">📚</span>
-              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 21; BSG Guidelines on Management of Acute Upper GI Bleeding</span>
+              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 21; Baveno VII Consensus on Portal Hypertension; BSG Acute Upper GI Bleeding Guidelines</span>
             </div>
 
-            <div class="my-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center text-xs">
-  <div class="font-bold text-brand-600 dark:text-brand-400 mb-2">ACUTE UPPER GI BLEED PROTOCOL</div>
-  <div class="font-mono text-slate-700 dark:text-slate-300">
-    Hematemesis / Melena &rarr; <strong>ABC Resuscitation</strong> (2 large-bore 16G IVs + Crystalloids + Cross-match)<br>
-    Non-variceal (Peptic Ulcer) &rarr; IV PPI bolus + infusion | Variceal (Cirrhosis) &rarr; <span class="text-rose-600 font-bold">Terlipressin + Ceftriaxone</span><br>
-    <span class="text-emerald-600 font-bold">Early Upper GI Endoscopy within 24 hours (Endoscopic Band Ligation / Hemoclip)</span>
-  </div>
-</div>
+            Bleeding Varices -> Resuscitation (Target Hb 7-8 g/dL) -> IV Terlipressin + IV Ceftriaxone -> Endoscopy with EVL Banding within 12h -> Secondary Prophylaxis: EVL q2-4w + Propranolol/Carvedilol
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>(a) Common Causes of Upper Gastrointestinal Bleeding:</strong><br>
-Defined as bleeding originating proximal to the ligament of Treitz (duodenojejunal junction):
-<ol class="list-decimal pl-5 space-y-1">
-  <li><strong>Peptic Ulcer Disease (Most Common &mdash; 50%):</strong> Duodenal ulcer (erosion of gastroduodenal artery) or Gastric ulcer (left gastric artery). Driven by <em>H. pylori</em> and NSAID/Aspirin abuse.</li>
-  <li><strong>Esophagogastric Varices (15&ndash;20%):</strong> Ruptured submucosal varices in lower esophagus or gastric fundus secondary to portal hypertension (Liver cirrhosis). Highest mortality!</li>
-  <li><strong>Mallory-Weiss Syndrome (5&ndash;10%):</strong> Longitudinal mucosal laceration at the gastroesophageal junction caused by forceful vomiting or retching (classically post-alcohol binge).</li>
-  <li><strong>Gastroduodenal Erosions / Acute Stress Gastropathy:</strong> Alcohol, NSAIDs, severe burns (Curling's ulcer), head trauma (Cushing's ulcer).</li>
-  <li><strong>Upper GI Malignancy:</strong> Gastric adenocarcinoma, esophageal carcinoma, GIST.</li>
-  <li><strong>Vascular Ectasias:</strong> Dieulafoy's lesion (tortuous large submucosal arteriole), Gastric Antral Vascular Ectasia (GAVE / "watermelon stomach").</li>
-</ol><br>
+              <div class="space-y-4">
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">(a) Most Probable Cause of Upper GI Bleeding</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+      <strong>Diagnosis:</strong> <strong>Ruptured Esophageal (or Gastroesophageal) Varices</strong> secondary to Portal Hypertension in Decompensated Chronic Liver Disease (Alcohol-induced Cirrhosis).
+    </p>
+  </div>
 
-<strong>(b) Immediate Bedside Resuscitation & Stabilization (The "ABC" Approach):</strong>
-<ol class="list-decimal pl-5 space-y-1">
-  <li><strong>Airway & Breathing:</strong> Maintain clear airway; administer high-flow oxygen; place in recovery lateral position to prevent aspiration of vomited blood; consider endotracheal intubation in massive hematemesis or hepatic encephalopathy.</li>
-  <li><strong>Circulatory Resuscitation & Access:</strong>
-    <ul class="list-disc pl-5">
-      <li>Insert <strong>two large-bore peripheral IV cannulae (14G or 16G)</strong> immediately.</li>
-      <li>Draw blood stat for: Complete Blood Count, Blood Grouping & Cross-matching (order 4&ndash;6 units packed RBCs), Coagulation profile (PT/INR, APTT), Renal function (blood urea and creatinine), Serum electrolytes, and Liver function tests. (Urea rises disproportionately due to digestion and absorption of blood proteins).</li>
-      <li>Initiate rapid IV volume resuscitation with <strong>crystalloids (Normal Saline or Hartmann's solution)</strong> to restore intravascular volume and maintain Mean Arterial Pressure $\ge 65\text{ mmHg}$.</li>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">(b) Immediate Hemodynamic Resuscitation Protocol</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-2">
+      Resuscitation takes absolute priority over all diagnostic investigations:
+    </p>
+    <ul class="list-disc pl-5 space-y-1 text-slate-700 dark:text-slate-300">
+      <li><strong>Airway & Breathing:</strong> Ensure patent airway; administer high-flow oxygen via facemask. In patients with massive hematemesis or severe encephalopathy, perform elective endotracheal intubation to prevent lethal pulmonary aspiration of blood.</li>
+      <li><strong>Circulation & Large-Bore Venous Access:</strong> Immediately insert <strong>two large-bore intravenous cannulae (16G or 14G)</strong> into antecubital veins. Draw urgent blood samples for blood grouping and cross-matching (at least 4-6 units of packed red blood cells), complete blood count, coagulation profile (PT/INR, aPTT), liver function tests, serum electrolytes, and renal function tests.</li>
+      <li><strong>Crystalloid Resuscitation:</strong> Rapid infusion of 0.9% Normal Saline or Ringer's Lactate to restore circulating volume and maintain mean arterial pressure.</li>
+      <li><strong>Restrictive Blood Transfusion Strategy (Crucial Concept):</strong>
+        <p class="mt-0.5">Target a <strong>Hemoglobin level between 7.0 and 8.0 g/dL</strong> (target SBP 90-100 mmHg). <strong>Avoid aggressive over-transfusion:</strong> excessive volume expansion increases portal venous pressure and precipitates rebound catastrophic rebleeding!</p>
+      </li>
+      <li><strong>Coagulopathy & Platelet Correction:</strong> Transfuse Fresh Frozen Plasma (FFP 10-15 mL/kg) only if severe coagulopathy (INR &gt; 2.0) with ongoing uncontrolled bleeding, and platelet concentrate if platelets &lt; 50,000 / microL with active hemorrhage.</li>
     </ul>
-  </li>
-  <li><strong>Blood Transfusion Strategy (Restrictive Transfusion):</strong>
-    Transfuse Packed Red Blood Cells (PRBCs) using a <strong>restrictive transfusion threshold</strong>: target hemoglobin between <strong>$7.0\text{--}9.0\text{ g/dL}$</strong> (over-transfusion in variceal bleeding raises portal venous pressure, triggering disastrous re-bleeding!). Transfuse platelets if count &lt; 50,000/&mu;L; give FFP or prothrombin complex concentrate if INR &gt; 1.5.</li>
-</ol><br>
+  </div>
 
-<strong>(c) Definitive Pharmacological & Endoscopic Management:</strong>
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>Vasoactive Therapy (Suspected Variceal Bleeding / Cirrhotic patient):</strong>
-    Initiate immediately prior to endoscopy:
-    - <strong>Inj. Terlipressin</strong> 2 mg IV bolus every 4 hours (splanchnic vasoconstrictor &rarr; reduces portal venous pressure and variceal blood flow); OR Somatostatin/Octreotide.<br>
-    - <strong>Prophylactic Antibiotic:</strong> <strong>IV Ceftriaxone 1g daily for 5&ndash;7 days</strong> (dramatically reduces spontaneous bacterial peritonitis, re-bleeding, and mortality in cirrhotics).
-  </li>
-  <li><strong>Proton Pump Inhibitor Therapy (Non-variceal / Peptic Ulcer):</strong>
-    High-dose IV PPI: <strong>Omeprazole or Pantoprazole 80 mg IV bolus</strong>, followed by continuous infusion of 8 mg/hour for 72 hours (maintains intragastric pH &gt; 6, preventing pepsin clot dissolution and promoting platelet aggregation).</li>
-  <li><strong>Early Upper Gastrointestinal Endoscopy (Within 24 Hours):</strong>
-    The diagnostic and therapeutic modality of choice once the patient is hemodynamically stabilized:
-    <ul class="list-square pl-5">
-      <li><em>For Varices:</em> <strong>Endoscopic Variceal Ligation (EVL &mdash; Banding)</strong> is the treatment of choice; endoscopic cyanoacrylate glue injection for gastric fundal varices. If refractory, placement of a Sengstaken-Blakemore balloon tube or emergency Transjugular Intrahepatic Portosystemic Shunt (TIPS).</li>
-      <li><em>For Peptic Ulcers:</em> Endoscopic dual therapy for high-risk stigmata (Forrest Ia/Ib spurting/oozing, Forrest IIa non-bleeding visible vessel): <strong>Adrenaline injection (1:10,000)</strong> combined with <strong>Hemoclips (mechanical)</strong> or bipolar electrocoagulation (thermal).</li>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">(c) Pharmacological & Endoscopic Interventions</h4>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Intervention Modality</th>
+            <th class="p-3">Specific Agent & Administration Protocol</th>
+            <th class="p-3">Clinical Mechanism & Goal</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold text-rose-600 dark:text-rose-400">Vasoactive Splanchnic Vasoconstrictors</td>
+            <td class="p-3">Initiate immediately upon presentation (prior to endoscopy):<br>
+            • <strong>Terlipressin:</strong> 2.0 mg IV stat, followed by 1.0 to 2.0 mg IV every 4 hours for 48 hours, then 1.0 mg 4-hourly for up to 5 days; OR<br>
+            • <strong>Octreotide:</strong> 50 micrograms IV bolus, followed by continuous infusion of 50 micrograms/hour for 2 to 5 days.</td>
+            <td class="p-3">Selective splanchnic vasoconstriction reduces portal collateral blood flow and lowers portal venous pressure, significantly controlling acute hemorrhage.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-amber-600 dark:text-amber-400">Prophylactic Antibiotics (Mandatory)</td>
+            <td class="p-3"><strong>IV Ceftriaxone: 1.0 g IV daily for 5 to 7 days</strong>.</td>
+            <td class="p-3">Cirrhotic patients undergoing GI bleed have extreme risks of bacterial translocation, Spontaneous Bacterial Peritonitis (SBP), and sepsis. Prophylactic antibiotics reduce bacteremia, rebleeding rates, and overall mortality by ~50%.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-indigo-600 dark:text-indigo-400">Urgent Upper GI Endoscopy & Banding</td>
+            <td class="p-3">Perform within <strong>12 hours</strong> of admission once hemodynamically stable:<br>
+            • <strong>Endoscopic Variceal Ligation (EVL / Band Ligation):</strong> The primary therapeutic intervention of choice. Elastic rubber bands deployed directly over bleeding and prominent variceal columns.</td>
+            <td class="p-3">Mechanical occlusion, thrombosis, and sloughing of varices; superior efficacy and lower complication rates compared to endoscopic sclerotherapy.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-purple-600 dark:text-purple-400">Balloon Tamponade (Rescue Therapy)</td>
+            <td class="p-3"><strong>Sengstaken-Blakemore Tube</strong> or Minnesota tube inserted if massive bleeding persists uncontrolled despite endoscopy and pharmacological agents.</td>
+            <td class="p-3">Direct balloon compression of the gastroesophageal junction. Temporary bridge (maximum 24 hours to prevent esophageal necrosis) to definitive therapy (TIPS).</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-teal-600 dark:text-teal-400">Rescue Shunt (TIPS)</td>
+            <td class="p-3"><strong>Transjugular Intrahepatic Portosystemic Shunt (TIPS)</strong> using PTFE-covered stents.</td>
+            <td class="p-3">Creates low-resistance channel between portal vein and hepatic vein; salvage therapy for refractory or early high-risk rebleeding.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">(d) Secondary Variceal Bleeding Prophylaxis Protocol</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-2">
+      Without secondary prophylaxis, &gt;60% of patients rebleed within 1-2 years. The standard protocol combines mechanical and pharmacological therapy:
+    </p>
+    <ul class="list-disc pl-5 space-y-1 text-slate-700 dark:text-slate-300">
+      <li><strong>Repeated Endoscopic Variceal Ligation (EVL):</strong> Serial banding performed every <strong>2 to 4 weeks</strong> until complete obliteration of all varices is achieved, followed by surveillance endoscopy at 3, 6, and 12 months.</li>
+      <li><strong>Non-Selective Beta-Blockers (NSBB):</strong>
+        <p class="mt-0.5">• <strong>Propranolol:</strong> Start 20 mg PO BD; titrate upward weekly to achieve target resting heart rate of 55-60 beats/min or a 25% reduction in baseline pulse.<br>
+        • <strong>Alternative:</strong> <strong>Carvedilol:</strong> 6.25 mg to 12.5 mg PO OD (has additional alpha-1 adrenergic blocking activity lowering intrahepatic vascular resistance).<br>
+        • <strong>Mechanism:</strong> Beta-1 blockade reduces cardiac output; Beta-2 blockade leaves splanchnic alpha-1 receptors unopposed, producing sustained splanchnic vasoconstriction and lowering the Hepatic Venous Pressure Gradient (HVPG &lt; 12 mmHg).</p>
+      </li>
     </ul>
-  </li>
-</ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -32282,15 +32427,72 @@ Defined as bleeding originating proximal to the ligament of Treitz (duodenojejun
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট (রক্তবমি ও কালো পায়খানা - ইমার্জেন্সি প্রটোকল):</strong><br>
-- <strong>রক্তবমির প্রধান কারণ:</strong> পেপটিক আলসার ফেটে যাওয়া (৫০%) এবং লিভার সিরোসিস রোগীদের খাদ্যনালীর রগ ফোলা ফেটে যাওয়া (<strong>Esophageal varices</strong>)।<br>
-- <strong>হাসপাতালে প্রথম পদক্ষেপ:</strong><br>
-  - সাথে সাথে দুই হাতে দুটি <strong>মোটা ক্যানুলা (16G)</strong> পরিয়ে নরমাল স্যালাইন চালু করা এবং ৪ ব্যাগ রক্তের ক্রসমেচিং পাঠানো।<br>
-  - রক্ত দেওয়ার টার্গেট: হিমোগ্লোবিন <strong>৭ থেকে ৯ গ্রাম/ডেসিলিটার</strong> এর মধ্যে রাখা (অতিরিক্ত রক্ত দিলে শিরায় প্রেশার বেড়ে গিয়ে আবার রক্তবমি শুরু হয়!)।<br>
-- <strong>জরুরি ড্রাগস:</strong><br>
-  - সিরোসিসের রোগী হলে: সাথে সাথে <strong>Terlipressin ইনজেকশন</strong> এবং ইনফেকশন ঠেকাতে <strong>Ceftriaxone ইনজেকশন</strong> শুরু করতে হবে।<br>
-  - আলসার সন্দেহ হলে: <strong>IV Omeprazole (80 mg bolus)</strong> দিতে হবে যাতে পেটের এসিড নিউট্রালাইজ হয়ে রক্ত জমাট বাঁধতে পারে।<br>
-- <strong>চূড়ান্ত চিকিৎসা:</strong> ২৪ ঘণ্টার মধ্যে <strong>এন্ডোস্কোপি (Endoscopy)</strong> করে রাবার ব্যান্ড পরানো (Band ligation) বা ক্লিপ লাগানো।
+              <div class="callout-blue p-4 rounded-xl border border-blue-200 dark:border-blue-800 bg-blue-50/50 dark:bg-blue-950/30 text-slate-800 dark:text-slate-200 mb-4 space-y-3">
+  <h4 class="font-bold text-blue-700 dark:text-blue-300 text-base border-b border-blue-200 dark:border-blue-800 pb-2">
+    📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+  </h4>
+
+  <div class="space-y-3">
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">(ক) রক্তবমির সবচেয়ে সম্ভাব্য কারণ (Most Probable Cause):</p>
+      <p class="leading-relaxed">
+        <strong>Ruptured Esophageal Varices (খাদ্যনালীর শিরা ফেটে যাওয়া)</strong>। দীর্ঘদিনের অ্যালকোহল ও জন্ডিসের ইতিহাস এবং প্লীহা বড় (Splenomegaly) থাকা নির্দেশ করে রোগী ক্রনিক লিভার ডিজিজ বা লিভার সিরোসিসের কারণে পোর্টাল হাইপারটেনশনে ভুগছেন।
+      </p>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">(খ) জরুরি রিসাসিটেশন প্রোটোকল (Immediate Resuscitation):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>Airway & Breathing:</strong> রোগীকে শুইয়ে মাথা একপাশে কাত করে রাখতে হবে যাতে বমি ফুসফুসে না যায় (Aspiration prevention)। রোগী অজ্ঞান হলে দ্রুত এন্ডোট্র্যাকিয়াল ইনটুবেশন করতে হবে।</li>
+        <li><strong>IV Access:</strong> দুই হাতে দুটি বড় বোরের আইভি ক্যানুলা (16G বা 18G) পরাতে হবে এবং সাথে সাথে ক্রস-ম্যাচিংয়ের জন্য রক্তের স্যাম্পল পাঠাতে হবে।</li>
+        <li><strong>ফ্লুইড ও রক্ত পরিসঞ্চালন (Restrictive Blood Transfusion):</strong>
+          <br>নরমাল স্যালাইন দিতে হবে। তবে রক্ত দেওয়ার ক্ষেত্রে গোল্ডেন রুল হলো: <strong>টার্গেট হিমোগ্লোবিন ৭ থেকে ৮ g/dL</strong> এর মধ্যে রাখতে হবে। অতিরিক্ত রক্ত দিয়ে হিমোগ্লোবিন ১০ এর উপরে ওঠালে পোর্টাল প্রেশার বেড়ে গিয়ে পুনরায় খাদ্যনালীর শিরা ফেটে রোগী মারা যেতে পারে!
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">(গ) ফার্মাকোলজিক্যাল ও এন্ডোস্কোপিক চিকিৎসা (Management):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>১. ভ্যাসোঅ্যাক্টিভ ড্রাগস (Vasoactive Drugs):</strong> এন্ডোস্কোপির আগেই শিরাপথে শুরু করতে হবে—<strong>IV Terlipressin</strong> (২ mg স্ট্যাট, এরপর প্রতি ৪ ঘণ্টা পর পর ১-২ mg) অথবা <strong>IV Octreotide</strong> (৫০ মাইক্রোগ্রাম বোলাস, এরপর প্রতি ঘণ্টায় ৫০ মাইক্রোগ্রাম করে একটানা ৩-৫ দিন)। এটি পোর্টাল প্রেশার দ্রুত কমায়।</li>
+        <li><strong>২. প্রোফাইল্যাক্টিক অ্যান্টিবায়োটিক:</strong> <strong>IV Ceftriaxone ১ গ্রাম দৈনিক ৫-৭ দিন</strong>। এটি ব্যাকটেরিয়াল ইনফেকশন ও স্পন্টেনিয়াস ব্যাকটেরিয়াল পেরিটোনাইটিস (SBP) প্রতিরোধ করে মৃত্যুহার অর্ধেক কমিয়ে দেয়।</li>
+        <li><strong>৩. জরুরি আপার জিআই এন্ডোস্কোপি ও ব্যান্ডিং (EVL):</strong> রোগী স্থিতিশীল হলে ১২ ঘণ্টার মধ্যে এন্ডোস্কোপি করে রক্তক্ষরণরত শিরার মুখে রবার ব্যান্ড পরিয়ে (Endoscopic Variceal Ligation - EVL) রক্তপাত স্থায়ীভাবে বন্ধ করতে হবে।</li>
+        <li><strong>৪. বেলুন ট্যাম্পোনেড (Sengstaken-Blakemore Tube):</strong> এন্ডোস্কোপি দিয়ে রক্তপাত বন্ধ না হলে খাদ্যনালীতে টিউব ঢুকিয়ে বেলুন ফুলিয়ে সাময়িক রক্ত বন্ধ রাখা হয় (সর্বোচ্চ ২৪ ঘণ্টার জন্য)।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">(ঘ) পুনরায় রক্তক্ষরণ প্রতিরোধ (Secondary Prophylaxis):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>এন্ডোস্কোপিক ব্যান্ড লাইগেশন (EVL):</strong> প্রতি ২ থেকে ৪ সপ্তাহ পর পর এন্ডোস্কোপি করে সব ভ্যারিক্স সম্পূর্ণ নির্মূল না হওয়া পর্যন্ত ব্যান্ডিং চালিয়ে যেতে হবে।</li>
+        <li><strong>নন-সিলেক্টিভ বিটা-ব্লকার (NSBB):</strong> <strong>Oral Propranolol</strong> (২০ mg দিনে ২ বার শুরু করে ডোজ বাড়িয়ে রোগীর বিশ্রামের হার্ট রেট ৫৫-৬০/মিনিট এ আনা) অথবা <strong>Carvedilol</strong> (৬.২৫ mg দৈনিক)। এটি আজীবন চালু রাখতে হয় যাতে পোর্টাল প্রেশার ১২ mmHg এর নিচে থাকে।</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="callout-amber p-4 rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/30 text-slate-800 dark:text-slate-200 space-y-3">
+  <h4 class="font-bold text-amber-700 dark:text-amber-300 text-base border-b border-amber-200 dark:border-amber-800 pb-2">
+    💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+  </h4>
+
+  <div class="space-y-3 leading-relaxed">
+    <p>
+      <strong>১. ভাইভা বোর্ডের সুপার ফেভারিট ট্র্যাপ: ভ্যারিসিয়াল রক্তক্ষরণে কেন হিমোগ্লোবিন ১০ বা ১২ পর্যন্ত ওঠানো নিষিদ্ধ?</strong><br>
+      অনভিজ্ঞ ডাক্তাররা ভাবতে পারেন যত রক্ত দেওয়া যায় ততই ভালো! কিন্তু লিভার সিরোসিস রোগীর পোর্টাল সিস্টেম একটি বদ্ধ ও বাধাগ্রস্ত হাই-প্রেশার পাইপলাইনের মতো। যদি দ্রুত ৪-৫ ব্যাগ রক্ত দিয়ে হিমোগ্লোবিন বেশি বাড়িয়ে দেওয়া হয়, তবে ইন্ট্রাভাস্কুলার ভলিউম এবং পোর্টাল প্রেশার রকেট গতিতে বেড়ে যাবে (Rebound increase in Portal Pressure)। এর ফলে সদ্য জমাট বাঁধা ভ্যারিক্সের ক্লট ছিঁড়ে গিয়ে ভয়াবহ দ্বিতীয় দফা রক্তক্ষরণ হবে এবং রোগী মারা যাবে। তাই টার্গেট সবসময় <strong>Hb ৭-৮ g/dL এবং সিস্টোলিক প্রেশার ৯০-১০০ mmHg</strong>।
+    </p>
+
+    <p>
+      <strong>২. রক্তবমির রোগীকে কেন অবিলম্বে ল্যাকটুলোজ (Lactulose) দিতে হবে?</strong><br>
+      পাকস্থলী ও অন্ত্রে যে বিপুল পরিমাণ রক্ত জমা হয়, রক্তে থাকা প্রোটিনকে অন্ত্রের ব্যাকটেরিয়া ভেঙে প্রচুর পরিমাণে <strong>অ্যামোনিয়া (Ammonia)</strong> তৈরি করে। সিরোসিস আক্রান্ত অকেজো লিভার এই অ্যামোনিয়া মেটাবলাইজ করতে পারে না, ফলে অ্যামোনিয়া ব্রেনে ঢুকে তীব্র <strong>Hepatic Encephalopathy</strong> (কোমা) ডেকে আনে। তাই অন্ত্র থেকে রক্ত পরিষ্কার করতে দ্রুত <strong>Lactulose সিরাপ (৩০-৪৫ মিলি দিনে ৩-৪ বার)</strong> বা এনিমা দিতে হবে।
+    </p>
+
+    <p>
+      <strong>৩. কেন লিভারের রোগীদের গ্যাস্ট্রিকের ব্যথায় এনএসএআইডি (NSAIDs) দেওয়া সম্পূর্ণ নিষিদ্ধ?</strong><br>
+      NSAIDs যেমন ভ্যারিসিয়াল রক্তপাত ডেকে আনে, তেমনি রেনাল প্রোস্টাগ্ল্যান্ডিন সিন্থেসিস বন্ধ করে মারাত্মক <strong>Hepatorenal Syndrome (HRS)</strong> তৈরি করে কিডনি অকেজো করে দেয়।
+    </p>
+  </div>
+</div>
             </div>
           </div>
         </article>
@@ -32301,7 +32503,7 @@ Defined as bleeding originating proximal to the ligament of Treitz (duodenojejun
                  data-paper="Paper-II, Part I"
                  data-topic="Gastroenterology & Hepatology"
                  data-frequency="★★★★★"
-                 data-text="define acute fulminant hepatic failure. enumerate its common etiologies in bangladesh. describe its clinical stages of hepatic encephalopathy and outline inpatient medical management. clinical medicine & allied gastroenterology & hepatology davidson's 24th ed., ch. 21; easl acute liver failure guide">
+                 data-text="define acute fulminant hepatic failure. enumerate its common etiologies in bangladesh. describe its clinical stages of hepatic encephalopathy and outline inpatient medical management. clinical medicine & allied gastroenterology & hepatology davidson's 24th ed., ch. 21; easl clinical practice guideli">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
             <div class="flex flex-wrap items-center gap-1.5">
               <span class="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-[11px] font-bold uppercase tracking-wider">Clinical Medicine & Allied</span>
@@ -32343,59 +32545,114 @@ Defined as bleeding originating proximal to the ligament of Treitz (duodenojejun
           <div class="answer-drawer hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-800 space-y-3">
             <div class="flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-2.5 rounded-lg border border-slate-200 dark:border-slate-700">
               <span class="text-sm">📚</span>
-              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 21; EASL Acute Liver Failure Guidelines</span>
+              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 21; EASL Clinical Practice Guidelines on Acute Liver Failure; AASLD Guidelines on ALF</span>
             </div>
 
-            <div class="my-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center text-xs">
-  <div class="font-bold text-brand-600 dark:text-brand-400 mb-2">ACUTE LIVER FAILURE (ALF) HALLMARKS</div>
-  <div class="font-mono text-slate-700 dark:text-slate-300">
-    Acute Massive Hepatocyte Necrosis in patient WITHOUT prior liver disease &rarr; Rapid development within 4&ndash;26 weeks of:<br>
-    <span class="text-rose-600 font-bold">1. Severe Coagulopathy (INR &ge; 1.5) + 2. Hepatic Encephalopathy + 3. Jaundice</span><br>
-    Major Complications: <strong>Cerebral Edema (Herniation)</strong>, Severe Sepsis, Hypoglycemia & Renal Failure
-  </div>
-</div>
+            Acute Liver Injury -> Coagulopathy (INR>=1.5) + Encephalopathy (within 8 weeks, no prior liver disease) -> ICU + Head up 30° -> IV Mannitol for Cerebral Edema -> IV NAC + Dextrose -> Assess King's College Criteria for Liver Transplant
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Definition of Acute (Fulminant) Hepatic Failure (ALF):</strong><br>
-Acute liver failure is a severe, life-threatening clinical syndrome defined by the sudden development of severe acute liver injury characterized by:
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>Severe Coagulopathy</strong> (International Normalized Ratio <strong>$INR \ge 1.5$</strong> or Prothrombin Time prolongation); AND</li>
-  <li><strong>Any degree of Hepatic Encephalopathy</strong> (altered mental status, asterixis, coma);</li>
-  <li>Developing in a patient <strong>WITHOUT preexisting liver disease or cirrhosis</strong>, within a period of <strong>$&lt; 26\text{ weeks}$</strong> (hyperacute: &lt; 7 days; acute: 7&ndash;28 days; subacute: 4&ndash;26 weeks) from the onset of initial symptoms (jaundice).</li>
-</ul><br>
+              <div class="space-y-4">
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">1. Definition of Acute Fulminant Hepatic Failure</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+      <strong>Fulminant Hepatic Failure (Acute Liver Failure - ALF)</strong> is defined as the rapid onset of severe acute liver injury characterized by <strong>coagulopathy (INR &gt;= 1.5)</strong> and <strong>hepatic encephalopathy</strong> occurring within <strong>8 weeks</strong> of the onset of first jaundice in an individual with <strong>no pre-existing liver disease</strong> (or within 26 weeks under the broader definition of subacute liver failure).
+    </p>
+  </div>
 
-<strong>2. Common Etiologies:</strong>
-<ol class="list-decimal pl-5 space-y-1">
-  <li><strong>Hepatotropic Viral Infections:</strong>
-    - <strong>Hepatitis B Virus (HBV):</strong> Acute infection or sudden reactivation under immunosuppression (with or without Delta Hepatitis &mdash; HDV).<br>
-    - <strong>Hepatitis E Virus (HEV):</strong> Major cause of fulminant hepatic failure in <strong>pregnant women</strong> in South Asia (case fatality rate ~20%).<br>
-    - <em>Hepatitis A Virus (HAV):</em> Rare in adults, very rare in children.<br>
-    - Non-hepatotropic viruses: Herpes Simplex Virus (HSV), Cytomegalovirus (CMV), Dengue virus.
-  </li>
-  <li><strong>Drugs and Toxins:</strong>
-    - <strong>Paracetamol (Acetaminophen) Overdose:</strong> Leading cause in Western world (&gt; 50% of ALF; dose-dependent NAPQI toxicity).<br>
-    - <em>Idiosyncratic Drug-Induced Liver Injury (DILI):</em> Anti-tuberculosis drugs (Isoniazid, Rifampicin, Pyrazinamide), Halothane, Sodium Valproate, Phenytoin.<br>
-    - <em>Toxins:</em> <em>Amanita phalloides</em> (death cap mushroom containing amatoxin), Carbon tetrachloride.
-  </li>
-  <li><strong>Vascular & Miscellaneous:</strong>
-    - Ischemic hepatitis ("shock liver" following cardiac arrest/severe hypotension).<br>
-    - Budd-Chiari Syndrome (acute hepatic vein thrombosis).<br>
-    - Acute fatty liver of pregnancy (AFLP) and HELLP syndrome.<br>
-    - Wilson's disease (fulminant presentation with Coombs-negative hemolytic anemia).<br>
-    - Autoimmune hepatitis (acute presentation).
-  </li>
-</ol><br>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">2. Common Etiologies in Bangladesh & South Asia</h4>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Etiological Category</th>
+            <th class="p-3">Specific Causative Agents</th>
+            <th class="p-3">Local Epidemiological Relevance</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold text-rose-600 dark:text-rose-400">Viral Hepatitis (Most Common, &gt;60%)</td>
+            <td class="p-3">• <strong>Hepatitis E Virus (HEV):</strong> Major culprit; carries 20-25% maternal mortality when acquired during the 3rd trimester of pregnancy.<br>• <strong>Hepatitis B Virus (HBV):</strong> Acute infection, precore mutants, or reactivation following chemotherapy/immunosuppression.<br>• <strong>Hepatitis A Virus (HAV)</strong> in children; <strong>Hepatitis D (HDV)</strong> co/superinfection.</td>
+            <td class="p-3">Water-borne epidemics and endemic parenteral transmission across Bangladesh.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-amber-600 dark:text-amber-400">Drug-Induced Liver Injury (DILI) & Toxins</td>
+            <td class="p-3">• <strong>Anti-Tubercular Drugs:</strong> Isoniazid, Rifampicin, Pyrazinamide.<br>• <strong>Paracetamol (Acetaminophen) Overdose:</strong> Intentional suicidal or accidental hepatotoxicity mediated by NAPQI.<br>• Alternative herbal and indigenous remedies (Ayurvedic/Kabiraji preparations containing heavy metals).<br>• Carbon tetrachloride, <strong>Amanita phalloides</strong> mushroom poisoning.</td>
+            <td class="p-3">Frequent due to widespread high TB treatment burden and unregulated herbal medicine use.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-indigo-600 dark:text-indigo-400">Metabolic & Miscellaneous</td>
+            <td class="p-3">• <strong>Wilson's Disease:</strong> Acute fulminant presentation with Coombs-negative hemolytic anemia and low alkaline phosphatase.<br>• <strong>Autoimmune Hepatitis:</strong> Acute flare.<br>• <strong>Acute Fatty Liver of Pregnancy (AFLP):</strong> 3rd trimester maternal emergency.<br>• Budd-Chiari syndrome (acute hepatic vein thrombosis), ischemic hepatitis (shock liver).</td>
+            <td class="p-3">Must be actively excluded in young or pregnant patients presenting with sudden jaundice and encephalopathy.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<strong>3. Life-Threatening Complications:</strong>
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>Cerebral Edema & Raised Intracranial Pressure (Leading cause of death):</strong>
-    Neurotoxicity of massive systemic ammonia ($NH_3$). In brain astrocytes, ammonia is converted by glutamine synthetase to <strong>glutamine</strong>, an organic osmolyte. Intracellular glutamine accumulation induces osmotic swelling of astrocytes, cytotoxic cerebral edema, brain herniation, and brainstem death.</li>
-  <li><strong>Severe Bacterial & Fungal Sepsis:</strong> Profound immune dysfunction (complement deficiency, impaired Kupffer cell clearance, defective neutrophil phagocytosis). Bacterial peritonitis, pneumonia, and candidemia.</li>
-  <li><strong>Profound Hypoglycemia:</strong> Failure of hepatic gluconeogenesis and depleted glycogen stores.</li>
-  <li><strong>Coagulopathy & Catastrophic Bleeding:</strong> Failure of synthesis of clotting factors.</li>
-  <li><strong>Acute Kidney Injury (Hepatorenal Syndrome):</strong> Occurs in &gt; 50%.</li>
-  <li><strong>Metabolic Acidosis & Lactic Acidosis:</strong> Impaired hepatic clearance of lactate.</li>
-</ul>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">3. Clinical Stages of Hepatic Encephalopathy (West Haven Criteria)</h4>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Stage / Grade</th>
+            <th class="p-3">Consciousness & Intellectual State</th>
+            <th class="p-3">Neurological Signs</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-bold text-emerald-600 dark:text-emerald-400">Grade 1</td>
+            <td class="p-3">Mild confusion, euphoria or anxiety, shortened attention span, altered sleep pattern (day-night reversal).</td>
+            <td class="p-3">Impaired handwriting, slight tremor; asterixis rarely elicited.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold text-blue-600 dark:text-blue-400">Grade 2</td>
+            <td class="p-3">Lethargy, apathy, drowsiness, disorientation to time, inappropriate behavior.</td>
+            <td class="p-3"><strong>Easily elicitable Asterixis (flapping tremor)</strong>, ataxia, hyperactive deep tendon reflexes.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold text-amber-600 dark:text-amber-400">Grade 3</td>
+            <td class="p-3">Somnolence, semi-stupor, marked confusion; responds to verbal commands only when vigorously aroused; incoherent speech.</td>
+            <td class="p-3">Asterixis usually present, rigidity, clonus, extensor plantar responses (Babinski positive).</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold text-rose-600 dark:text-rose-400">Grade 4</td>
+            <td class="p-3">Coma; unresponsive to verbal stimuli. Grade 4A responds to noxious pain; Grade 4B unrousable even to deep pain.</td>
+            <td class="p-3">Asterixis absent; decerebrate or decorticate posturing; dilated non-reactive pupils indicate cerebral herniation.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">4. Inpatient Medical Management Protocol</h4>
+    <ul class="list-disc pl-5 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Immediate ICU Admission:</strong> Dedicated one-to-one nursing care in a quiet, low-stimulus environment. Elective endotracheal intubation indicated for Grade 3 or 4 encephalopathy to prevent aspiration.</li>
+      <li><strong>Management of Cerebral Edema & Intracranial Hypertension (Leading Cause of Death):</strong>
+        <p class="mt-0.5">• Elevate head of the bed to 30 degrees.<br>
+        • <strong>IV Mannitol (20%):</strong> 0.5 to 1.0 g/kg infused over 20 minutes for surges in intracranial pressure (ICP &gt; 20 mmHg), provided serum osmolality &lt; 320 mOsm/kg.<br>
+        • <strong>Hypertonic Saline (3% NaCl):</strong> Maintain serum sodium at 145 to 150 mmol/L to reduce astroglial swelling.</p>
+      </li>
+      <li><strong>Reduction of Blood Ammonia:</strong>
+        <p class="mt-0.5">• <strong>Lactulose:</strong> 20-30 mL via nasogastric tube to achieve 2 to 3 soft bowel movements daily; titrate cautiously to avoid bowel distension.<br>
+        • <strong>Rifaximin:</strong> 550 mg PO/NG BD as an adjunct non-absorbable gut antibiotic.</p>
+      </li>
+      <li><strong>Metabolic & Hemodynamic Support:</strong>
+        <p class="mt-0.5">• Continuous 10% or 20% Dextrose infusion to maintain blood glucose between 6.0 and 10.0 mmol/L (impaired gluconeogenesis causes fatal hypoglycemia).<br>
+        • Maintain mean arterial pressure &gt;= 65 mmHg using IV fluids and Norepinephrine infusion.</p>
+      </li>
+      <li><strong>Specific Antidotes & Pharmacotherapy:</strong>
+        <p class="mt-0.5">• <strong>Intravenous N-Acetylcysteine (NAC):</strong> Administer immediately to ALL patients regardless of etiology (proven to improve transplant-free survival and microcirculatory perfusion in non-acetaminophen ALF).<br>
+        • Coagulopathy correction: Routine prophylactic FFP is strictly contraindicated (obscures INR monitoring); reserve FFP or platelets solely for active hemorrhage or invasive procedures.</p>
+      </li>
+      <li><strong>Evaluation for Emergency Liver Transplantation:</strong> Daily assessment by <strong>King's College Criteria</strong> for early emergency transplant transfer.</li>
+    </ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -32403,13 +32660,81 @@ Acute liver failure is a severe, life-threatening clinical syndrome defined by t
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট:</strong><br>
-- <strong>Fulminant Hepatic Failure কী?</strong> পূর্বে কোনো লিভারের রোগ ছিল না এমন সুস্থ মানুষের হঠাৎ লিভারের কোষ ব্যাপক ধ্বংস হয়ে <strong>রক্তে জন্ডিস, রক্ত জমাট বাঁধার ক্ষমতা হারানো (INR $\ge 1.5$) এবং ব্রেন উল্টাপাল্টা হওয়া (Hepatic encephalopathy)</strong>।<br>
-- <strong>প্রধান কারণসমূহ:</strong><br>
-  - গর্ভবতী মায়েদের ক্ষেত্রে: <strong>Hepatitis E Virus</strong> (মারাত্মক প্রাণঘাতী)।<br>
-  - বিষক্রিয়া: অতিরিক্ত <strong>প্যারাসিটামল খাওয়া</strong> (Overdose)।<br>
-  - ওষুধের পার্শ্বপ্রতিক্রিয়া: যক্ষ্মার ওষুধ (INH, Rifampicin, Pyrazinamide)।<br>
-- <strong>মৃত্যুর প্রধান কারণ:</strong> মস্তিষ্কে পানি জমে ফুলে যাওয়া বা <strong>Cerebral Edema</strong>। অ্যামোনিয়া ব্রেইনে গিয়ে অ্যাস্ট্রোসাইট ফুলিয়ে ব্রেন হাড়ের ভেতর আটকে দেয় (Brain herniation)। জরুরি <strong>লিভার প্রতিস্থাপন (Liver transplantation)</strong> ছাড়া এদের বাঁচানো কঠিন।
+              <div class="callout-blue p-4 rounded-xl border border-blue-200 dark:border-blue-800 bg-blue-50/50 dark:bg-blue-950/30 text-slate-800 dark:text-slate-200 mb-4 space-y-3">
+  <h4 class="font-bold text-blue-700 dark:text-blue-300 text-base border-b border-blue-200 dark:border-blue-800 pb-2">
+    📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+  </h4>
+
+  <div class="space-y-3">
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">১. অ্যাকিউট ফালমিন্যান্ট হেপাটিক ফেইলিয়রের সংজ্ঞা:</p>
+      <p class="leading-relaxed">
+        পূর্বে কোনো লিভারের অসুখ ছিল না এমন কোনো ব্যক্তির শরীরে প্রথম জন্ডিস দেখা দেওয়ার <strong>৮ সপ্তাহের মধ্যে</strong> যদি দ্রুত লিভারের তীব্র অকার্যকারিতা দেখা দেয় এবং এর সাথে <strong>Coagulopathy (রক্ত জমাট বাঁধার ক্ষমতা হ্রাস: INR &gt;= ১.৫)</strong> এবং <strong>Hepatic Encephalopathy (মানসিক বিভ্রান্তি বা কোমা)</strong> তৈরি হয়, তবে তাকে <strong>Acute Fulminant Hepatic Failure</strong> বলা হয়।
+      </p>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">২. বাংলাদেশে প্রধান কারণসমূহ (Common Etiologies in Bangladesh):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>১. ভাইরাল হেপাটাইটিস (৬০% এর বেশি):</strong>
+          <br>• <strong>Hepatitis E Virus (HEV):</strong> দূষিত পানির মাধ্যমে ছড়ায়; গর্ভবতী নারীদের ৩য় ট্রাইমেস্টারে আক্রান্ত হলে শতকরা ২০-২৫ ভাগ ক্ষেত্রে মৃত্যু ঘটে।
+          <br>• <strong>Hepatitis B Virus (HBV):</strong> তীব্র নতুন ইনফেকশন অথবা সুপ্ত ভাইরাসের হঠাৎ ফ্লেয়ার।
+          <br>• <strong>Hepatitis A Virus:</strong> শিশুদের ক্ষেত্রে।
+        </li>
+        <li><strong>২. ড্রাগস ও টক্সিন (DILI):</strong>
+          <br>• যক্ষ্মার ওষুধ (Anti-TB drugs: বিশেষ করে Pyrazinamide ও Isoniazid)।
+          <br>• প্যারাসিটামলের বিষক্রিয়া (Paracetamol overdose)।
+          <br>• দেশীয় কবিরাজি ও ভেষজ ওষুধ (যাতে আর্সেনিক বা ভারী ধাতু মিশ্রিত থাকে)।
+        </li>
+        <li><strong>৩. অন্যান্য বিরল কারণ:</strong> উইলসন্স ডিজিজ (Wilson's disease), গর্ভকালীন লিভার বিকল (AFLP), এবং অটোইমিউন হেপাটাইটিস।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">৩. হেপাটিক এনসেফালোপ্যাথির ৪টি পর্যায় (Stages of Hepatic Encephalopathy):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>গ্রেড ১:</strong> মৃদু বিভ্রান্তি, ঘুমের ছন্দ উল্টে যাওয়া (দিনে ঘুম, রাতে জাগা), খিটখিটে মেজাজ। হাতের লেখায় সামান্য জড়তা আসে।</li>
+        <li><strong>গ্রেড ২:</strong> তন্দ্রাচ্ছন্নতা (Lethargy), স্থান ও কাল ভুলে যাওয়া, অস্বাভাবিক আচরণ। হাত সোজা করলে পাখির ডানার মতো কাঁপুনি বা <strong>Asterixis (Flapping tremor)</strong> স্পষ্টভাবে দেখা যায়।</li>
+        <li><strong>গ্রেড ৩:</strong> গভীর ঘুমে আচ্ছন্ন থাকা (Somnolence), তীব্র ঝাঁকুনি দিলে চোখ খোলে এবং অসংলগ্ন কথা বলে। হাত শক্ত হয়ে যায় ও ক্লোনাস পাওয়া যায়।</li>
+        <li><strong>গ্রেড ৪:</strong> গভীর কোমা (Coma); ব্যথায় কোনো সাড়া দেয় না। চোখের মণি বড় ও ফিক্সড হয়ে যাওয়া ব্রেন হার্নিয়েশন নির্দেশ করে।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">৪. ইন-পেশেন্ট হাসপাতালের চিকিৎসা প্রোটোকল:</p>
+      <ul class="list-disc pl-5 space-y-2">
+        <li><strong>আইসিইউ মনিটরিং ও এয়ারওয়ে প্রটেকশন:</strong> গ্রেড ৩ বা ৪ এ রোগীকে দ্রুত ভেন্টিলেটরে দিতে হবে যাতে ফুসফুসে কিছু না ঢোকে।</li>
+        <li><strong>মস্তিষ্কের ইডিমা নিয়ন্ত্রণ (Cerebral Edema Management):</strong> ফালমিন্যান্ট ফেইলিয়রে মৃত্যুর প্রধান কারণ মস্তিষ্কে পানি জমা। মাথা ৩০ ডিগ্রি উঁচুতে রাখতে হবে এবং প্রয়োজনে <strong>IV Mannitol (20%)</strong> অথবা হাইপারটনিক স্যালাইন (3% NaCl) দিতে হবে।</li>
+        <li><strong>অ্যামোনিয়া হ্রাসকরণ:</strong> রাইলস টিউব দিয়ে <strong>Lactulose</strong> সিরাপ দিতে হবে যাতে দিনে ২-৩ বার নরম পায়খানা হয়ে কোলন থেকে টক্সিক অ্যামোনিয়া বের হয়ে যায়। সাথে <strong>Rifaximin</strong> ট্যাবলেট যোগ করা।</li>
+        <li><strong>হাইপোগ্লাইসেমিয়া প্রতিরোধ:</strong> লিভার গ্লুকোজ তৈরি করতে পারে না বলে মারাত্মক লো সুগার হতে পারে। একটানা ১০% বা ২০% ডেক্সট্রোজ স্যালাইন চালু রাখতে হবে।</li>
+        <li><strong>N-Acetylcysteine (NAC) ইনফিউশন:</strong> প্যারাসিটামল ছাড়া অন্য সব ধরণের একিউট লিভার ফেইলিয়রেও আইভি এন-অ্যাসিটাইলসিস্টিন দিলে মাইক্রোসার্কুলেশন উন্নত হয় ও রোগী দ্রুত সারে।</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="callout-amber p-4 rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/30 text-slate-800 dark:text-slate-200 space-y-3">
+  <h4 class="font-bold text-amber-700 dark:text-amber-300 text-base border-b border-amber-200 dark:border-amber-800 pb-2">
+    💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+  </h4>
+
+  <div class="space-y-3 leading-relaxed">
+    <p>
+      <strong>১. ভাইভা বোর্ডের প্রশ্ন: ফালমিন্যান্ট লিভার ফেইলিয়রে রোগী আসলে কেন প্রোফাইল্যাক্টিক রক্ত বা প্লাজমা (FFP) দেওয়া নিষেধ?</strong><br>
+      লিভার ফেইলিয়র রোগীর লিভার প্রথম থেকেই ক্লটিং ফ্যাক্টর তৈরি করতে পারে না, ফলে Prothrombin Time (PT/INR) অনেক বেশি আসে। এই পিটি/আইএনআর দেখেই ডাক্তাররা বুঝতে পারেন লিভার কতটা বাঁচানো সম্ভব বা কখন জরুরি লিভার প্রতিস্থাপন (Liver Transplant - King's College Criteria) লাগবে। যদি আগ বাড়িয়ে বাইরে থেকে ফ্রেশ ফ্রোজেন প্লাজমা (FFP) পুশ করা হয়, তবে রক্তের আইএনআর কৃত্রিমভাবে স্বাভাবিক হয়ে যায়। এর ফলে রোগীর লিভারের প্রকৃত অবস্থার মনিটরিং নষ্ট হয়ে যায়। তাই সক্রিয় বড় রক্তপাত ছাড়া এফএফপি দেওয়া নিষিদ্ধ।
+    </p>
+
+    <p>
+      <strong>২. ফালমিন্যান্ট লিভার ফেইলিয়রে মৃত্যুর প্রধান কারণ কী?</strong><br>
+      <strong>Cerebral Edema এবং Brain Herniation</strong>। রক্তে মাত্রাতিরিক্ত অ্যামোনিয়া ব্রেনের অ্যাস্ট্রোসাইটের ভেতরে ঢুকে গ্লুটামিনে রূপান্তরিত হয়, যা অভিস্রবণ প্রক্রিয়ায় প্রচুর পানি টেনে নিয়ে মস্তিষ্কের মারাত্মক ফোলা বা সেরিব্রাল ইডিমা ঘটায়।
+    </p>
+
+    <p>
+      <strong>৩. গর্ভবতী নারীর হেপাটাইটিস ই (HEV) কেন এত মারাত্মক?</strong><br>
+      সাধারণ মানুষের ক্ষেত্রে হেপাটাইটিস ই ভাইরাসে মৃত্যুহার ১% এর নিচে। কিন্তু গর্ভবতী নারী (বিশেষ করে ৩য় ট্রাইমেস্টারে) আক্রান্ত হলে উচ্চ প্রোজেস্টেরন ও ইমিউন পরিবর্তনের কারণে ভাইরাসটি দ্রুত ব্যাপক লিভার নেক্রোসিস ঘটায় এবং ২০-২৫% ক্ষেত্রে মা ও গর্ভস্থ সন্তান উভয়ই মারা যায়।
+    </p>
+  </div>
+</div>
             </div>
           </div>
         </article>
@@ -32420,7 +32745,7 @@ Acute liver failure is a severe, life-threatening clinical syndrome defined by t
                  data-paper="Paper-II, Part I"
                  data-topic="Gastroenterology & Hepatology"
                  data-frequency="★★★★★"
-                 data-text="define cirrhosis of the liver. enumerate the clinical signs of portal hypertension and hepatocellular failure. describe the management of hepatorenal syndrome and spontaneous bacterial peritonitis (sbp). clinical medicine & allied gastroenterology & hepatology davidson's 24th ed., ch. 21; kumar & cl">
+                 data-text="define cirrhosis of the liver. enumerate the clinical signs of portal hypertension and hepatocellular failure. describe the management of hepatorenal syndrome and spontaneous bacterial peritonitis (sbp). clinical medicine & allied gastroenterology & hepatology davidson's 24th ed., ch. 21; easl clini">
           <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5">
             <div class="flex flex-wrap items-center gap-1.5">
               <span class="px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-[11px] font-bold uppercase tracking-wider">Clinical Medicine & Allied</span>
@@ -32462,69 +32787,95 @@ Acute liver failure is a severe, life-threatening clinical syndrome defined by t
           <div class="answer-drawer hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-800 space-y-3">
             <div class="flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-2.5 rounded-lg border border-slate-200 dark:border-slate-700">
               <span class="text-sm">📚</span>
-              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 21; Kumar & Clark 10th ed., Ch. 12</span>
+              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 21; EASL Clinical Practice Guidelines for Decompensated Cirrhosis; AASLD Guidelines</span>
             </div>
 
-            <div class="my-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center text-xs">
-  <div class="font-bold text-brand-600 dark:text-brand-400 mb-2">CIRRHOSIS CLINICAL STIGMATA DUAL SPECTRUM</div>
-  <div class="grid grid-cols-2 gap-2 text-left font-mono">
-    <div class="p-2 bg-white dark:bg-slate-900 border rounded"><strong>1. Hepatocellular Failure:</strong> Jaundice, Palmar erythema, Spider angiomas, Gynecomastia, Testicular atrophy, Bruising.</div>
-    <div class="p-2 bg-white dark:bg-slate-900 border rounded"><strong>2. Portal Hypertension:</strong> Ascites, Splenomegaly (hypersplenism), Caput medusae, Esophageal variceal bleeding.</div>
-  </div>
-</div>
+            Cirrhosis -> Portal HTN (Splenomegaly, Ascites, Varices) + Liver Failure (Jaundice, Spider Naevi, Asterixis) -> SBP: PMN>=250 -> IV Ceftriaxone + IV Albumin; HRS: Stop Diuretics -> IV Terlipressin + IV Albumin -> Liver Transplant
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Definition of Cirrhosis of the Liver:</strong><br>
-Cirrhosis is the histologically defined end-stage of chronic liver disease, characterized by diffuse hepatic parenchymal destruction, extensive bridging fibrosis, and the conversion of normal hepatic architecture into structurally abnormal regenerative parenchymal nodules surrounded by fibrous tissue, resulting in progressive hepatocellular failure and portal hypertension.<br><br>
+              <div class="space-y-4">
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">1. Definition of Cirrhosis of the Liver</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed">
+      <strong>Cirrhosis</strong> is the histologically defined end-stage of chronic liver disease characterized by diffuse parenchymal injury, widespread fibrous tissue proliferation bridging vascular structures, and the conversion of normal hepatic lobular architecture into structurally abnormal <strong>regenerative parenchymal nodules</strong>, disrupting both intrahepatic vascular architecture and biliary drainage.
+    </p>
+  </div>
 
-<strong>2. Physical Signs of Cirrhosis Categorized by Pathophysiology:</strong><br>
-<strong>A. Stigmata of Chronic Liver Failure / Hepatocellular Failure:</strong>
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>Jaundice (Icterus):</strong> Failure of bilirubin uptake, conjugation, and excretion; deep greenish-yellow skin and sclera.</li>
-  <li><strong>Hyperestrogenism Signs (Impaired hepatic metabolism of androgens into estrogens):</strong>
-    <ul class="list-square pl-5">
-      <li><strong>Spider Telangiectasia (Spider Naevi):</strong> Central pulsating arteriole with radiating spider-like capillary legs, located exclusively in the distribution of the superior vena cava (face, neck, upper chest, arms). Pressing the central body blanches the lesion.</li>
-      <li><strong>Palmar Erythema:</strong> Mottled, bright red erythema over thenar and hypothenar eminences.</li>
-      <li><strong>Gynecomastia:</strong> Painless enlargement of male breast glandular tissue.</li>
-      <li><strong>Testicular Atrophy & Loss of Secondary Sexual Hair:</strong> Loss of axillary and pubic hair in males (female escutcheon pattern).</li>
-    </ul>
-  </li>
-  <li><strong>Nail Changes (Hypoalbuminemia):</strong>
-    <ul class="list-square pl-5">
-      <li><strong>Terry's Nails:</strong> Proximal two-thirds of nail bed is opaque white, with a narrow dark pink distal band.</li>
-      <li><strong>Muehrcke's Lines:</strong> Paired white transverse lines across the nail plate.</li>
-      <li><strong>Leukonychia:</strong> White discoloration of nails.</li>
-      <li>Clubbing of fingers (Digital clubbing).</li>
-    </ul>
-  </li>
-  <li><strong>Fetor Hepaticus:</strong> Sweetish, musty, fecal breath odor caused by exhaled volatile sulfur compounds (dimethyl sulfide and mercaptans).</li>
-  <li><strong>Bruising / Purpura:</strong> Defective synthesis of clotting factors and thrombocytopenia.</li>
-  <li><strong>Dupuytren's Contracture:</strong> Fibrous thickening and nodular shortening of palmar aponeurosis (especially in alcoholic cirrhosis).</li>
-</ul><br>
-<strong>B. Stigmata of Portal Hypertension:</strong>
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>Ascites:</strong> Distended abdomen with bulging flanks, shifting dullness, and positive fluid thrill.</li>
-  <li><strong>Splenomegaly:</strong> Congestive enlargement of the spleen (often accompanied by hypersplenism &rarr; anemia, leukopenia, thrombocytopenia).</li>
-  <li><strong>Portosystemic Collaterals:</strong>
-    <ul class="list-square pl-5">
-      <li><strong>Caput Medusae:</strong> Prominent, tortuous, distended subcutaneous abdominal wall veins radiating outward from the umbilicus (re-canalization of umbilical vein via ligamentum teres). Blood flows *away* from umbilicus.</li>
-      <li>Esophageal and gastric fundal varices (manifesting as hematemesis and melena).</li>
-      <li>Hemorrhoids / Anorectal varices.</li>
-    </ul>
-  </li>
-</ul><br>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">2. Clinical Signs: Portal Hypertension vs Hepatocellular Failure</h4>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Pathological Syndrome</th>
+            <th class="p-3">Physical Signs & Stigmata</th>
+            <th class="p-3">Underlying Pathophysiology</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold text-rose-600 dark:text-rose-400">Signs of Portal Hypertension<br><span class="text-xs font-normal">(HVPG &gt; 5-10 mmHg)</span></td>
+            <td class="p-3">
+              • <strong>Splenomegaly:</strong> Congestive enlargement of the spleen (often with hypersplenism causing thrombocytopenia and leukopenia).<br>
+              • <strong>Ascites:</strong> Free fluid accumulation in the peritoneal cavity (shifting dullness, fluid thrill).<br>
+              • <strong>Portosystemic Collaterals:</strong> Caput medusae (dilated periumbilical veins radiating from umbilicus), esophageal and gastric varices, anorectal varices.<br>
+              • Cruveilhier-Baumgarten venous murmur over abdominal wall.
+            </td>
+            <td class="p-3">Increased intrahepatic vascular resistance due to fibrous bands and regenerative nodules, plus hyperdynamic splanchnic circulation mediated by nitric oxide.</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-indigo-600 dark:text-indigo-400">Signs of Hepatocellular Failure<br><span class="text-xs font-normal">(Impaired synthesis & detoxification)</span></td>
+            <td class="p-3">
+              • <strong>Jaundice:</strong> Scleral icterus due to impaired bilirubin uptake, conjugation, and excretion.<br>
+              • <strong>Hyperestrogenism:</strong> Spider telangiectasias / naevi (on SVC territory: face, neck, upper chest), Palmar erythema, Gynecomastia, testicular atrophy, loss of secondary axillary/pubic hair.<br>
+              • <strong>Protein/Coagulation:</strong> Hypoalbuminemia, bilateral pitting pedal edema, bruising, purpura, petechiae.<br>
+              • <strong>Neurotoxins:</strong> Asterixis (flapping tremor), Fetor hepaticus (sweet, musty breath odor due to dimethyl sulfide), Dupuytren's contracture, white nails (Terry's nails / leuconychia).
+            </td>
+            <td class="p-3">Decreased metabolic clearance of circulating androgens to estrogens in adipose tissue; loss of hepatic protein synthesis (albumin, clotting factors II, VII, IX, X); failure to clear gut-derived mercaptans.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<strong>3. Scoring Systems for Prognostic Staging:</strong>
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>Child-Pugh (Child-Turcotte-Pugh &mdash; CTP) Score:</strong>
-    Based on 5 parameters (Mnemonic: <strong>"P-B-A-A-E"</strong>: Prothrombin time/INR, Bilirubin, Albumin, Ascites, Encephalopathy).
-    - Class A (5&ndash;6 pts): Well-compensated (100% 1-year survival).<br>
-    - Class B (7&ndash;9 pts): Significant functional compromise (80% 1-year survival).<br>
-    - Class C (10&ndash;15 pts): Decompensated end-stage cirrhosis (45% 1-year survival &mdash; evaluate for urgent liver transplantation).
-  </li>
-  <li><strong>MELD Score (Model for End-Stage Liver Disease):</strong>
-    Objective mathematical logarithmic score calculated from: <strong>Serum Bilirubin, Serum Creatinine, INR, and Serum Sodium (MELD-Na)</strong>. Used worldwide for organ allocation priority in liver transplantation.</li>
-</ul>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">3. Management of Spontaneous Bacterial Peritonitis (SBP)</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-2">
+      SBP is an acute bacterial infection of ascitic fluid occurring without an identifiable intra-abdominal surgically treatable source, caused by bacterial translocation (predominantly <strong>Escherichia coli</strong>, <strong>Klebsiella pneumoniae</strong>).
+    </p>
+    <ul class="list-disc pl-5 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Diagnostic Paracentesis:</strong> Mandatory in any cirrhotic patient with ascites presenting with fever, abdominal pain, altered mental status, or unexplained clinical deterioration. Diagnostic hallmark: <strong>Ascitic fluid Polymorphonuclear (PMN) neutrophil count &gt;= 250 cells/microL (0.25 x 10^9/L)</strong>.</li>
+      <li><strong>Immediate Empirical Antibiotic Therapy:</strong>
+        <p class="mt-0.5">• <strong>IV Ceftriaxone:</strong> 2.0 g IV daily; OR<br>
+        • <strong>IV Cefotaxime:</strong> 2.0 g IV 8-hourly for 5 to 7 days.</p>
+      </li>
+      <li><strong>Intravenous Albumin Infusion (Crucial to Prevent Hepatorenal Syndrome):</strong>
+        <p class="mt-0.5">Administer <strong>IV Albumin 20%: 1.5 g/kg within 6 hours</strong> of diagnosis, followed by <strong>1.0 g/kg on Day 3</strong>. (Slashes the incidence of hepatorenal syndrome from 30% to 10% and cuts hospital mortality from 29% to 10%!).</p>
+      </li>
+      <li><strong>Secondary Long-Term Prophylaxis:</strong> After recovering from an episode of SBP, all patients must receive lifelong daily oral prophylaxis: <strong>Norfloxacin 400 mg PO OD</strong> or <strong>Ciprofloxacin 500 mg PO OD</strong> (or Co-trimoxazole) until liver transplantation or ascites resolution.</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">4. Management of Hepatorenal Syndrome (HRS)</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-2">
+      <strong>HRS-AKI</strong> is functional renal failure occurring in advanced cirrhosis caused by profound splanchnic arterial vasodilation, resulting in severe renal vasoconstriction and hypoperfusion.
+    </p>
+    <ul class="list-disc pl-5 space-y-2 text-slate-700 dark:text-slate-300">
+      <li><strong>Diagnostic Workup & Exclusion:</strong>
+        <p class="mt-0.5">1. Immediately discontinue all diuretics (spironolactone, furosemide) and nephrotoxic drugs (NSAIDs, aminoglycosides).<br>
+        2. Expand plasma volume with <strong>IV Albumin (1 g/kg/day, maximum 100 g/day) for 48 hours</strong>.<br>
+        3. Diagnosis confirmed if serum creatinine fails to improve (&gt;0.3 mg/dL rise or &gt;=50% above baseline) despite 2 days of diuretic withdrawal and volume expansion, in the absence of shock, proteinuria (&gt;500 mg/day), or structural renal disease.</p>
+      </li>
+      <li><strong>Definitive Pharmacotherapy (First-Line):</strong>
+        <p class="mt-0.5">• <strong>IV Terlipressin:</strong> Start 1.0 mg IV bolus every 4-6 hours (or continuous infusion of 2-4 mg/day); titrate up to 2.0 mg 4-hourly if serum creatinine does not decrease by &gt;=25% after 3 days; continue until creatinine normalizes or for a maximum of 14 days.<br>
+        • <strong>IV Albumin Co-Administration:</strong> 20 to 40 g daily alongside terlipressin.<br>
+        • <strong>Alternative (if Terlipressin unavailable):</strong> Norepinephrine infusion (0.5 to 3 mg/hr targeting mean arterial pressure increase of &gt;= 10 mmHg) + IV Albumin; OR Midodrine + Octreotide + Albumin.</p>
+      </li>
+      <li><strong>Definitive Curative Treatment:</strong> <strong>Orthotopic Liver Transplantation (OLT)</strong> is the only definitive curative therapy; TIPS or Renal Replacement Therapy (CRRT) serves as a temporary bridge.</li>
+    </ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -32532,13 +32883,79 @@ Cirrhosis is the histologically defined end-stage of chronic liver disease, char
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট:</strong><br>
-- <strong>লিভার সিরোসিস রোগীর শরীরের বাহ্যিক লক্ষণ (Stigmata):</strong><br>
-  - <strong>ইস্ট্রোজেন হরমোন ভাঙতে না পারার লক্ষণ:</strong> বুকে-মুখে মাকড়সার জালের মতো লাল রক্তনালী (<strong>Spider Nevi</strong>), হাতের তালু লাল হওয়া (<strong>Palmar erythema</strong>), পুরুষদের স্তন বড় হওয়া (<strong>Gynecomastia</strong>) এবং অণ্ডকোষ শুকিয়ে যাওয়া।<br>
-  - <strong>প্রোটিনের অভাবে নখের পরিবর্তন:</strong> নখ সাদা হয়ে যাওয়া (<strong>Terry's nails</strong>), নখে সাদা রেখা (Muehrcke's lines)।<br>
-  - মুখের নিঃশ্বাসে মিষ্টি-পচা গন্ধ (Fetor hepaticus)।<br>
-  - <strong>পোর্টাল হাইপারটেনশনের সাইন:</strong> পেটে পানি (Ascites), প্লীহা বড় হওয়া (Splenomegaly), পেটের চামড়ার উপর নাভি থেকে চারদিকে ছড়ানো নীল শিরা (<strong>Caput Medusae</strong>)।<br>
-- <strong>রোগী কতদিন বাঁচবে বোঝার স্কোর:</strong> <strong>Child-Pugh Score</strong> (Class A, B, C) এবং <strong>MELD Score</strong> (যা দিয়ে লিভার প্রতিস্থাপনের সিরিয়াল ঠিক করা হয়)।
+              <div class="callout-blue p-4 rounded-xl border border-blue-200 dark:border-blue-800 bg-blue-50/50 dark:bg-blue-950/30 text-slate-800 dark:text-slate-200 mb-4 space-y-3">
+  <h4 class="font-bold text-blue-700 dark:text-blue-300 text-base border-b border-blue-200 dark:border-blue-800 pb-2">
+    📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+  </h4>
+
+  <div class="space-y-3">
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">১. লিভার সিরোসিসের সংজ্ঞা (Definition of Cirrhosis):</p>
+      <p class="leading-relaxed">
+        লিভার সিরোসিস হলো লিভারের দীর্ঘস্থায়ী রোগের চূড়ান্ত পরিণতি। এতে দীর্ঘ প্রদাহের কারণে স্বাভাবিক লিভার কোষ ধ্বংস হয়ে ব্যাপক ফাইব্রোসিস বা ক্ষত তৈরি হয় এবং লিভারের স্বাভাবিক গঠন নষ্ট হয়ে ছোট-বড় <strong>পুনরুৎপাদনশীল নোডিউল (Regenerative Nodules)</strong> এ রূপান্তরিত হয়। এর ফলে লিভারের মধ্য দিয়ে স্বাভাবিক রক্ত সঞ্চালন এবং পিত্ত নিঃসরণ স্থায়ীভাবে বাধাগ্রস্ত হয়।
+      </p>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">২. পোর্টাল হাইপারটেনশন ও হেপাটোসেলুলার ফেইলিয়রের লক্ষণসমূহ:</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>পোর্টাল হাইপারটেনশনের লক্ষণ (রক্তচাপ বৃদ্ধির কারণে):</strong>
+          <br>• <strong>Splenomegaly:</strong> প্লীহা বা স্প্লিন বড় হয়ে যাওয়া।
+          <br>• <strong>Ascites:</strong> পেটে পানি জমা (পেট ফুলে যাওয়া ও Shifting dullness)।
+          <br>• <strong>কোল্যাটারাল ভেইন:</strong> পেটের নাভির চারদিকে নীল শিরা ফুলে উঠা (<strong>Caput Medusae</strong>), এবং খাদ্যনালীর শিরা ফুলে ব্লিডিং হওয়া (Esophageal varices)।
+        </li>
+        <li><strong>হেপাটোসেলুলার ফেইলিয়রের লক্ষণ (কোষের কার্যক্ষমতা হ্রাসের কারণে):</strong>
+          <br>• <strong>জন্ডিস:</strong> চোখ ও প্রস্রাব হলুদ হওয়া।
+          <br>• <strong>এস্ট্রোজেন জমার লক্ষণ:</strong> বুকে ও ঘাড়ে মাকড়সার জালের মতো লাল দাগ (<strong>Spider Angioma / Telangiectasia</strong>), হাতের তালু লাল হওয়া (Palmar erythema), পুরুষদের স্তন বড় হওয়া (Gynecomastia), এবং অণ্ডকোষ ছোট হয়ে যাওয়া।
+          <br>• <strong>অ্যালবুমিন ও ক্লটিং ফ্যাক্টর ঘাটতি:</strong> দুই পায়ে পানি জমা (Pedal edema) এবং চামড়ার নিচে রক্ত জমাট বা কালশিটে পড়া (Purpura/Bruising)।
+          <br>• <strong>টক্সিন জমার লক্ষণ:</strong> হাত সোজা রাখলে কাঁপুনি (Asterixis / Flapping tremor) এবং নিঃশ্বাসে বিশেষ দুর্গন্ধ (Fetor hepaticus)।
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">৩. স্পন্টেনিয়াস ব্যাকটেরিয়াল পেরিটোনাইটিস (SBP) এর চিকিৎসা:</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>ডায়াগনোসিস:</strong> পেটের পানিতে সুঁই ফুটিয়ে (Paracentesis) নিউট্রোফিল গণনা করা। যদি <strong>Ascitic fluid PMN &gt;= ২৫০ cells/microL</strong> হয়, তবে নিশ্চিত এসবিপি।</li>
+        <li><strong>অ্যান্টিবায়োটিক:</strong> দ্রুত <strong>IV Ceftriaxone ২ গ্রাম দৈনিক</strong> অথবা Cefotaxime ৫-৭ দিন দিতে হবে।</li>
+        <li><strong>IV Albumin (কিডনি বাঁচানোর জীবনরক্ষাকারী উপাদান):</strong> ডায়াগনোসিসের ৬ ঘণ্টার মধ্যে <strong>১.৫ g/kg আইভি অ্যালবুমিন</strong> এবং ৩য় দিনে <strong>১.০ g/kg</strong> দিতে হবে। এটি হেপাটোরেনাল সিন্ড্রোমের ঝুঁকি ৩০% থেকে ১০%-এ নামিয়ে আনে।</li>
+        <li><strong>আজীবন প্রোফাইল্যাক্সিস:</strong> একবার এসবিপি হওয়া রোগীদের পুনরায় ইনফেকশন ঠেকাতে প্রতিদিন মুখে <strong>Norfloxacin 400 mg</strong> অথবা Ciprofloxacin খেতে হবে।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">৪. হেপাটোরেনাল সিন্ড্রোম (HRS) এর চিকিৎসা:</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>প্রাথমিক পদক্ষেপ:</strong> সমস্ত ডাইইউরেটিক্স (Lasix, Spironolactone) এবং ব্যথানাশক তাৎক্ষণিক বন্ধ করতে হবে এবং ২ দিন আইভি অ্যালবুমিন দিয়ে ভলিউম বাড়াতে হবে।</li>
+        <li><strong>ফার্স্ট-লাইন ওষুধ:</strong> <strong>IV Terlipressin (১ mg প্রতি ৪-৬ ঘণ্টা পর পর) + IV Albumin (২০-৪০ গ্রাম দৈনিক)</strong> দিতে হবে। এটি পেটের রক্তনালী সংকুচিত করে কিডনির রক্ত সরবরাহ পুনরুদ্ধার করে।</li>
+        <li><strong>স্থায়ী চিকিৎসা:</strong> একমাত্র স্থায়ী নিরাময় হলো <strong>Liver Transplantation (লিভার প্রতিস্থাপন)</strong>।</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="callout-amber p-4 rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/30 text-slate-800 dark:text-slate-200 space-y-3">
+  <h4 class="font-bold text-amber-700 dark:text-amber-300 text-base border-b border-amber-200 dark:border-amber-800 pb-2">
+    💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+  </h4>
+
+  <div class="space-y-3 leading-relaxed">
+    <p>
+      <strong>১. ভাইভা বোর্ডের প্রশ্ন: পুরুষ লিভার সিরোসিস রোগীর কেন Gynecomastia এবং Spider Naevi হয়?</strong><br>
+      সুস্থ মানুষের শরীরে যে সামান্য পরিমাণ অ্যান্ড্রোজেন (পুরুষ হরমোন) তৈরি হয়, অতিরিক্ত অংশ লিভার মেটাবলাইজ করে নিষ্ক্রিয় করে ফেলে। কিন্তু লিভার সিরোসিস হলে লিভার অ্যান্ড্রোজেন মেটাবলাইজ করতে পারে না। তখন পেরিফেরাল টিস্যুর অ্যারোমেটেজ এনজাইম এই অতিরিক্ত অ্যান্ড্রোজেনকে <strong>এস্ট্রোজেনে (Estrogen)</strong> রূপান্তরিত করে। রক্তে এস্ট্রোজেন মাত্রাতিরিক্ত বেড়ে যাওয়ার কারণেই পুরুষদের স্তন বড় হয় (Gynecomastia), অণ্ডকোষ শুকিয়ে যায়, হাতের তালু লাল হয় এবং ত্বকের ক্যাপিলারি ফুলে মাকড়সার জালের মতো Spider Naevi তৈরি হয়।
+    </p>
+
+    <p>
+      <strong>২. হেপাটোরেনাল সিন্ড্রোমে (HRS) কিডনি কি আসলেই ড্যামেজ হয়?</strong><br>
+      না! এটি একটি <strong>Functional Renal Failure</strong>। কিডনির ভেতরে কোনো কাঠামোগত ত্রুটি থাকে না। লিভার সিরোসিসের কারণে পেটের স্প্ল্যাঙ্কনিক রক্তনালী অতিরিক্ত প্রসারিত হয়ে প্রচুর রক্ত সেখানে আটকে থাকে, ফলে শরীরের কিডনিতে তীব্র ভেসোকনস্ট্রিকশন হয়ে রক্ত চলাচল বন্ধ হয়ে যায়। প্রমাণস্বরূপ: হেপাটোরেনাল সিন্ড্রোমের রোগীর সেই কিডনিটি যদি কোনো সুস্থ কিডনি অকেজো রোগীকে ট্রান্সপ্লান্ট করা হয়, তবে ওই কিডনি নতুন শরীরে গিয়ে ১০০% স্বাভাবিকভাবে কাজ শুরু করে!
+    </p>
+
+    <p>
+      <strong>৩. এসবিপিতে (SBP) আইভি অ্যালবুমিন দেওয়া কেন বাধ্যতামূলক?</strong><br>
+      এসবিপির প্রদাহের কারণে রক্তনালী আরও প্রসারিত হয়ে রক্তচাপ মারাত্মক পড়ে যায় এবং কিডনি শাটডাউন হয়ে হেপাটোরেনাল সিন্ড্রোম ঘটে। অ্যালবুমিন দিলে তা ভাস্কুলার ভলিউম ধরে রেখে কিডনি ফেইলিউর ও মৃত্যু প্রতিরোধ করে।
+    </p>
+  </div>
+</div>
             </div>
           </div>
         </article>
@@ -33186,93 +33603,195 @@ Non-Alcoholic Fatty Liver Disease (now redefined in international consensus as <
           <div class="answer-drawer hidden mt-3 pt-3 border-t border-slate-100 dark:border-slate-800 space-y-3">
             <div class="flex items-center gap-1.5 text-xs text-slate-600 dark:text-slate-300 bg-slate-50 dark:bg-slate-800/60 p-2.5 rounded-lg border border-slate-200 dark:border-slate-700">
               <span class="text-sm">📚</span>
-              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 17; KDIGO Clinical Practice Guideline for Acute Kidney Injury</span>
+              <span><strong>Reference:</strong> Davidson's 24th ed., Ch. 17; KDIGO AKI Clinical Practice Guidelines; Brenner & Rector's The Kidney</span>
             </div>
 
-            <div class="my-3 p-3 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center text-xs">
-  <div class="font-bold text-brand-600 dark:text-brand-400 mb-2">KDIGO AKI DEFINITION & STAGING MATRIX</div>
-  <div class="font-mono text-slate-700 dark:text-slate-300">
-    <strong>Stage 1:</strong> SCr &uarr; 1.5&ndash;1.9&times; baseline OR &ge; 0.3 mg/dL (&ge; 26.5 &mu;mol/L) | UO &lt; 0.5 mL/kg/h for 6&ndash;12h<br>
-    <strong>Stage 2:</strong> SCr &uarr; 2.0&ndash;2.9&times; baseline | UO &lt; 0.5 mL/kg/h for &ge; 12h<br>
-    <strong>Stage 3:</strong> SCr &uarr; 3.0&times; baseline OR SCr &ge; 4.0 mg/dL (&ge; 353.6 &mu;mol/L) OR Initiation of RRT | UO &lt; 0.3 mL/kg/h for &ge; 24h OR Anuria &ge; 12h
-  </div>
-</div>
+            KDIGO AKI (Cr>=0.3 in 48h / 1.5x in 7d / UO<0.5ml/kg/h) -> Classify: Prerenal (FeNa<1%) vs Intrinsic ATN (FeNa>2%, Muddy brown casts) vs Postrenal (USG hydronephrosis) -> Dialysis AEIOU
 
             <div class="model-answer-content text-slate-800 dark:text-slate-200 text-xs sm:text-sm leading-relaxed space-y-2">
-              <strong>1. Definition of Acute Kidney Injury (KDIGO Criteria):</strong><br>
-According to Kidney Disease: Improving Global Outcomes (KDIGO), AKI is diagnosed if <strong>ANY ONE</strong> of the following criteria is met:
-<ul class="list-disc pl-5 space-y-1">
-  <li>Increase in Serum Creatinine by <strong>$\ge 0.3\text{ mg/dL}$ ($\ge 26.5\ \mu\text{mol/L}$) within 48 hours</strong>; OR</li>
-  <li>Increase in Serum Creatinine to <strong>$\ge 1.5\text{ times baseline}$</strong>, which is known or presumed to have occurred within the prior 7 days; OR</li>
-  <li><strong>Urine volume $&lt; 0.5\text{ mL/kg/hour}$ for 6 consecutive hours</strong>.</li>
-</ul><br>
+              <div class="space-y-4">
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">1. Definition of Acute Kidney Injury (KDIGO Diagnostic Criteria)</h4>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-2">
+      According to Kidney Disease: Improving Global Outcomes (KDIGO 2012), <strong>Acute Kidney Injury (AKI)</strong> is defined by the fulfillment of any ONE of the following three objective criteria:
+    </p>
+    <ul class="list-disc pl-5 space-y-1 text-slate-700 dark:text-slate-300">
+      <li><strong>Increase in Serum Creatinine by &gt;= 0.3 mg/dL</strong> (&gt;= 26.5 micromol/L) within <strong>48 hours</strong>; OR</li>
+      <li><strong>Increase in Serum Creatinine to &gt;= 1.5 times baseline</strong>, which is known or presumed to have occurred within the prior <strong>7 days</strong>; OR</li>
+      <li><strong>Urine Volume &lt; 0.5 mL/kg/hour for 6 consecutive hours</strong>.</li>
+    </ul>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">KDIGO Stage</th>
+            <th class="p-3">Serum Creatinine Criteria</th>
+            <th class="p-3">Urine Output Criteria</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold text-emerald-600 dark:text-emerald-400">Stage 1</td>
+            <td class="p-3">1.5 to 1.9 times baseline OR &gt;= 0.3 mg/dL increase</td>
+            <td class="p-3">&lt; 0.5 mL/kg/h for 6 to 12 hours</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-amber-600 dark:text-amber-400">Stage 2</td>
+            <td class="p-3">2.0 to 2.9 times baseline</td>
+            <td class="p-3">&lt; 0.5 mL/kg/h for &gt;= 12 hours</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-rose-600 dark:text-rose-400">Stage 3</td>
+            <td class="p-3">3.0 times baseline OR Serum Creatinine &gt;= 4.0 mg/dL (&gt;= 353.6 micromol/L) OR initiation of Renal Replacement Therapy</td>
+            <td class="p-3">&lt; 0.3 mL/kg/h for &gt;= 24 hours OR Anuria for &gt;= 12 hours</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<strong>2. Etiological Classification: Prerenal, Intrinsic Renal, and Postrenal:</strong>
-<div class="overflow-x-auto my-2">
-  <table class="min-w-full text-xs border border-slate-300 dark:border-slate-700">
-    <thead class="bg-slate-100 dark:bg-slate-800 font-bold">
-      <tr><th class="p-2 border">Category</th><th class="p-2 border">Pathophysiologic Mechanism</th><th class="p-2 border">Common Causes</th><th class="p-2 border">Diagnostic Indices (FeNa / Uosm)</th></tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="p-2 border font-bold text-indigo-600">Prerenal AKI<br>(60&ndash;70%)</td>
-        <td class="p-2 border">Renal hypoperfusion with intact nephron parenchyma (functional decline in GFR). Completely reversible if restored early.</td>
-        <td class="p-2 border">
-          - <em>True Hypovolemia:</em> Severe dehydration (cholera), hemorrhage, burns, excessive diuresis.<br>
-          - <em>Effective Hypovolemia:</em> Congestive Heart Failure (Cardiorenal), Cirrhosis (Hepatorenal syndrome), Sepsis.<br>
-          - <em>Hemodynamic drugs:</em> NSAIDs (afferent constriction), ACEi/ARBs (efferent vasodilation).
-        </td>
-        <td class="p-2 border text-emerald-600 font-bold">
-          - Fractional Excretion of Sodium ($FeNa$) <strong>$&lt; 1\%$</strong>.<br>
-          - Urine Osmolality <strong>$&gt; 500\text{ mOsm/kg}$</strong>.<br>
-          - Urine $Na^+ < 20\text{ mEq/L}$.<br>
-          - BUN / Creatinine ratio &gt; 20:1.
-        </td>
-      </tr>
-      <tr>
-        <td class="p-2 border font-bold text-rose-600">Intrinsic Renal AKI<br>(25&ndash;30%)</td>
-        <td class="p-2 border">Structural and cellular damage to glomeruli, renal tubules, interstitium, or renal microvessels.</td>
-        <td class="p-2 border">
-          - <strong>Acute Tubular Necrosis (ATN &mdash; 85%):</strong> Prolonged ischemic prerenal insult; Nephrotoxic (Aminoglycosides, amphotericin, radiocontrast, cisplatin, myoglobin in rhabdomyolysis).<br>
-          - <em>Acute Glomerulonephritis (PSGN, RPGN, lupus nephritis).</em><br>
-          - <em>Acute Interstitial Nephritis (AIN):</em> Drug-induced (PPIs, NSAIDs, penicillins).
-        </td>
-        <td class="p-2 border text-rose-600 font-bold">
-          - Fractional Excretion of Sodium ($FeNa$) <strong>$&gt; 2\%$</strong>.<br>
-          - Urine Osmolality <strong>$&lt; 350\text{ mOsm/kg}$</strong> (isosthenuric).<br>
-          - Urine $Na^+ > 40\text{ mEq/L}$.<br>
-          - Microscopy: <strong>"Muddy-brown" granular casts</strong> and renal tubular epithelial cells in ATN.
-        </td>
-      </tr>
-      <tr>
-        <td class="p-2 border font-bold text-amber-600">Postrenal AKI<br>(5&ndash;10%)</td>
-        <td class="p-2 border">Acute bilateral urinary tract obstruction (or unilateral in a solitary functioning kidney).</td>
-        <td class="p-2 border">
-          - <em>Bladder neck / Urethral:</em> <strong>Benign Prostatic Hyperplasia (BPH)</strong>, prostate cancer, blocked Foley catheter, neurogenic bladder.<br>
-          - <em>Ureteric:</em> Bilateral calculi, pelvic malignancy (cervical carcinoma), retroperitoneal fibrosis.
-        </td>
-        <td class="p-2 border">Renal ultrasound shows <strong>bilateral hydronephrosis and hydroureter</strong> (may be absent in early acute obstruction or retroperitoneal fibrosis).</td>
-      </tr>
-    </tbody>
-  </table>
-</div><br>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">2. Classification & Etiological Spectrum of AKI</h4>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Category</th>
+            <th class="p-3">Underlying Pathophysiology</th>
+            <th class="p-3">Common Clinical Causes</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold text-rose-600 dark:text-rose-400">Prerenal AKI<br><span class="text-xs font-normal">(~60% of cases)</span></td>
+            <td class="p-3">Renal hypoperfusion without structural damage to the renal parenchyma. Glomerular filtration drops due to reduced perfusion pressure; tubules remain functionally intact. Completely reversible if corrected early.</td>
+            <td class="p-3">
+              • Hypovolemia: Hemorrhage, gastrointestinal fluid loss (diarrhea, vomiting), burns, excessive diuresis.<br>
+              • Decreased effective arterial volume: Congestive heart failure (cardiorenal), cirrhosis with ascites (hepatorenal), septic shock.<br>
+              • Hemodynamic auto-regulation disruption: NSAIDs (blocks afferent vasodilation), ACEIs/ARBs (blocks efferent vasoconstriction).
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-amber-600 dark:text-amber-400">Intrinsic / Intrarenal AKI<br><span class="text-xs font-normal">(~35% of cases)</span></td>
+            <td class="p-3">Direct structural parenchymal injury to renal tubules, interstitium, glomeruli, or microvasculature.</td>
+            <td class="p-3">
+              • <strong>Acute Tubular Necrosis (ATN, &gt;85% of intrinsic):</strong> Ischemic (prolonged uncorrected prerenal shock) or Nephrotoxic (Aminoglycosides, Radiocontrast media, Amphotericin B, Cisplatin, Rhabdomyolysis / Myoglobinuria).<br>
+              • <strong>Acute Interstitial Nephritis (AIN):</strong> Drug-induced hypersensitivity (PPIs, NSAIDs, Penicillins, Cephalosporins).<br>
+              • <strong>Acute Glomerulonephritis (AGN):</strong> Rapidly progressive GN (anti-GBM, ANCA vasculitis, lupus nephritis, post-streptococcal).
+            </td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold text-indigo-600 dark:text-indigo-400">Postrenal AKI<br><span class="text-xs font-normal">(~5% of cases)</span></td>
+            <td class="p-3">Acute bilateral mechanical obstruction to urinary outflow anywhere from renal pelvis to urethral meatus, generating retrograde hydrostatic pressure that collapses glomerular filtration.</td>
+            <td class="p-3">
+              • Bladder neck / Urethral obstruction: Benign Prostatic Hyperplasia (BPH), prostate carcinoma, blocked Foley catheter, urethral stricture, neurogenic bladder.<br>
+              • Bilateral ureteric obstruction: Ureteric calculi, retroperitoneal fibrosis, pelvic malignancies (cervical/colorectal carcinoma compressing ureters).
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<strong>3. Clinical Approach & Conservative Management:</strong>
-<ol class="list-decimal pl-5 space-y-1">
-  <li><strong>Fluid Resuscitation vs Fluid Restriction:</strong> In prerenal hypovolemia, administer isotonic crystalloids (Normal Saline or Balanced salt solution) titrated to volume status. Once euvolemic or in intrinsic oliguric AKI, strictly restrict fluid intake to <strong>previous day's measured output + 500 mL (insensible loss)</strong> to prevent fatal pulmonary edema.</li>
-  <li><strong>Discontinue Nephrotoxic Insults:</strong> Immediately stop NSAIDs, ACEi, ARBs, Aminoglycosides, and avoid IV radiocontrast. Adjust doses of all renally excreted drugs.</li>
-  <li><strong>Relieve Obstruction (Postrenal):</strong> Urgent urethral catheterization (relieves BPH obstruction); emergency percutaneous nephrostomy (PCN) or double-J (DJ) stenting for ureteric obstruction.</li>
-  <li><strong>Electrolyte & Acid-Base Management:</strong> Treat hyperkalemia aggressively (calcium gluconate, insulin-dextrose, salbutamol); treat metabolic acidosis ($HCO_3^- < 15\text{ mmol/L}$) with oral/IV sodium bicarbonate.</li>
-</ol><br>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">3. Diagnostic Differentiation: Prerenal vs Intrinsic ATN</h4>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Diagnostic Parameter</th>
+            <th class="p-3">Prerenal Azotemia</th>
+            <th class="p-3">Intrinsic AKI (Acute Tubular Necrosis)</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-semibold">Fractional Excretion of Sodium (FeNa)</td>
+            <td class="p-3 font-bold text-emerald-600 dark:text-emerald-400">&lt; 1% (Intact tubular avidity for Na+)</td>
+            <td class="p-3 font-bold text-rose-600 dark:text-rose-400">&gt; 2% (Damaged tubules waste sodium)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Urinary Sodium Concentration (UNa)</td>
+            <td class="p-3">&lt; 20 mmol/L</td>
+            <td class="p-3">&gt; 40 mmol/L</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Urine Osmolality</td>
+            <td class="p-3">&gt; 500 mOsm/kg (Concentrated urine)</td>
+            <td class="p-3">&lt; 350 mOsm/kg (Isosthenuria, cannot concentrate)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Serum BUN : Creatinine Ratio</td>
+            <td class="p-3">&gt; 20:1</td>
+            <td class="p-3">10:1 to 15:1</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-semibold">Urine Microscopy (Sediment)</td>
+            <td class="p-3">Normal or transparent Hyaline casts</td>
+            <td class="p-3 font-bold text-rose-600 dark:text-rose-400">Pathognomonic "Muddy Brown" Granular Casts & Renal Tubular Epithelial Cells</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
-<strong>4. Absolute Indications for Emergency Hemodialysis (Mnemonic: "A-E-I-O-U"):</strong>
-<ul class="list-disc pl-5 space-y-1">
-  <li><strong>A &mdash; Acidosis:</strong> Severe refractory metabolic acidosis (<strong>$pH < 7.15\text{--}7.20$</strong>) unresponsive to medical therapy.</li>
-  <li><strong>E &mdash; Electrolytes:</strong> Severe refractory <strong>Hyperkalemia ($K^+ \ge 6.5\text{ mmol/L}$)</strong> or progressive ECG changes (peaked T, lost P, widened QRS, sine wave) unresponsive to conservative measures.</li>
-  <li><strong>I &mdash; Ingestions (Toxins):</strong> Overdose of dialyzable poisons (Mnemonic <em>SLIME</em>: Salicylates, Lithium, Isopropanol, Methanol, Ethylene glycol).</li>
-  <li><strong>O &mdash; Overload:</strong> Refractory <strong>Acute Pulmonary Edema / Fluid Overload</strong> unresponsive to high-dose loop diuretics.</li>
-  <li><strong>U &mdash; Uremia:</strong> Overt uremic complications &mdash; <strong>Uremic Pericarditis</strong> (friction rub), <strong>Uremic Encephalopathy</strong> (asterixis, seizures, coma), or Uremic Bleeding (platelet dysfunction). (Usually corresponding to Blood Urea &gt; 35&ndash;40 mmol/L / BUN &gt; 100 mg/dL).</li>
-</ul>
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">4. Indications for Emergency Hemodialysis (Mnemonic: AEIOU)</h4>
+    <div class="overflow-x-auto border border-slate-200 dark:border-slate-700 rounded-xl my-3">
+      <table class="w-full text-left text-sm min-w-[520px]">
+        <thead class="bg-slate-50 dark:bg-slate-800/60 font-semibold border-b border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200">
+          <tr>
+            <th class="p-3">Letter</th>
+            <th class="p-3">Life-Threatening Indication</th>
+            <th class="p-3">Clinical Cut-Off Parameter</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 dark:divide-slate-800 text-slate-700 dark:text-slate-300">
+          <tr>
+            <td class="p-3 font-bold text-rose-600 dark:text-rose-400">A</td>
+            <td class="p-3"><strong>Acidosis:</strong> Severe metabolic acidosis refractory to medical therapy / sodium bicarbonate.</td>
+            <td class="p-3 font-semibold">pH &lt; 7.15 to 7.20 or serum HCO3 &lt; 10 mmol/L</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold text-amber-600 dark:text-amber-400">E</td>
+            <td class="p-3"><strong>Electrolytes:</strong> Severe, refractory Hyperkalemia or with ECG manifestations (tall peaked T waves, widened QRS, sine wave).</td>
+            <td class="p-3 font-semibold">Serum Potassium &gt; 6.5 mmol/L resistant to calcium gluconate/insulin-glucose</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold text-indigo-600 dark:text-indigo-400">I</td>
+            <td class="p-3"><strong>Ingestion:</strong> Dialyzable toxins or drug overdose (SLIME: Salicylates, Lithium, Isopropanol, Methanol, Ethylene glycol).</td>
+            <td class="p-3 font-semibold">Toxic serum drug levels with end-organ injury</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold text-purple-600 dark:text-purple-400">O</td>
+            <td class="p-3"><strong>Overload:</strong> Acute severe Pulmonary Edema due to hypervolemia failing to respond to intravenous loop diuretics.</td>
+            <td class="p-3 font-semibold">Severe hypoxemia, bilateral pulmonary infiltrates</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold text-emerald-600 dark:text-emerald-400">U</td>
+            <td class="p-3"><strong>Uremia:</strong> Serious, life-threatening uremic complications.</td>
+            <td class="p-3 font-semibold">Uremic Pericarditis (friction rub), Uremic Encephalopathy (confusion, asterixis, seizures), Uremic Coagulopathy</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div>
+    <h4 class="text-base font-bold text-slate-800 dark:text-slate-100 mb-1">5. Conservative Medical Management</h4>
+    <ul class="list-disc pl-5 space-y-1 text-slate-700 dark:text-slate-300">
+      <li><strong>Fluid Balance Optimization:</strong> If prerenal, restore volume with isotonic crystalloids (0.9% Normal Saline); if oliguric/volume-overloaded, restrict fluids to strictly match insensible losses (500 mL/day) plus previous day's urine and GI output.</li>
+      <li><strong>Eliminate Nephrotoxins:</strong> Instantly discontinue NSAIDs, aminoglycosides, ACEIs, ARBs, and avoid intravenous radiocontrast.</li>
+      <li><strong>Dose Adjustment:</strong> Renally adjust all antimicrobials and therapeutic drugs according to measured or estimated GFR.</li>
+      <li><strong>Emergency Medical Management of Hyperkalemia (Bridge to Dialysis):</strong>
+        <p class="mt-0.5">• <strong>Cardioprotection:</strong> 10% Calcium Gluconate (10 mL IV over 3-5 min; stabilizes myocardial membrane).<br>
+        • <strong>Intracellular Shift:</strong> 10 units regular Insulin in 50 mL of 25% Dextrose infused over 20-30 min, and nebulized Salbutamol (10-20 mg).<br>
+        • <strong>Elimination:</strong> Oral Potassium binders (Calcium polystyrene sulfonate or Patiromer) and IV loop diuretics if non-oliguric.</p>
+      </li>
+      <li><strong>Relieve Postrenal Obstruction:</strong> Urgent urethral catheterization (Foley) or percutaneous nephrostomy.</li>
+    </ul>
+  </div>
+</div>
             </div>
 
             <div class="bangla-note-box bg-emerald-50/70 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-900/60 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm leading-relaxed text-emerald-950 dark:text-emerald-50">
@@ -33280,18 +33799,87 @@ According to Kidney Disease: Improving Global Outcomes (KDIGO), AKI is diagnosed
                 <span class="text-sm">💡</span>
                 <span>বাংলা ব্যাখ্যা ও হাই-ইল্ড ক্লিনিক্যাল টিপস (Bengali Clinical Walkthrough)</span>
               </div>
-              <strong>বাংলা হেল্প নোট (একিউট কিডনি ইনজুরি - AKI ও ডায়ালাইসিস):</strong><br>
-- <strong>KDIGO সংজ্ঞা:</strong> ৪৮ ঘণ্টার মধ্যে রক্তের ক্রিয়েটিনিন <strong>$\ge 0.3\text{ mg/dL}$</strong> বেড়ে যাওয়া, অথবা স্বাভাবিকের চেয়ে ১.৫ গুণ বৃদ্ধি পাওয়া, অথবা টানা ৬ ঘণ্টা প্রস্রাব প্রতি ঘণ্টায় $0.5\text{ mL/kg}$ এর নিচে থাকা।<br>
-- <strong>৩ ধরনের AKI:</strong><br>
-  - <strong>Prerenal:</strong> রক্তশূন্যতা বা ডায়রিয়ায় কিডনিতে রক্ত কম পৌঁছানো ($FeNa < 1\%$, স্যালাইন দিলেই ভালো হয়ে যায়)।<br>
-  - <strong>Intrinsic:</strong> কিডনির ভেতরের ফিল্টার বা নালী পচে যাওয়া (ATN - প্রস্রাবে কাদামাটির মতো Muddy brown কাস্ট দেখা যায়, $FeNa > 2\%$, স্যালাইন দিলেও কাজ হয় না)।<br>
-  - <strong>Postrenal:</strong> প্রস্রাবের রাস্তা বন্ধ হওয়া (প্রোস্টেট বা পাথর &mdash; আল্ট্রাসনোগ্রামে হাইড্রোনেফ্রোসিস দেখা যায়)।<br>
-- <strong>ইমার্জেন্সি ডায়ালাইসিসের নির্দেশক "A-E-I-O-U":</strong><br>
-  - <strong>A</strong> = Acidosis (রক্ত অতিরিক্ত অম্লীয় হওয়া, pH &lt; 7.15)<br>
-  - <strong>E</strong> = Electrolyte (পটাশিয়াম $\ge 6.5\text{ mmol/L}$ হয়ে হার্ট বন্ধ হওয়ার ঝুঁকি)<br>
-  - <strong>I</strong> = Ingestion (মিথানল বা বিষ খাওয়া)<br>
-  - <strong>O</strong> = Overload (ফুসফুসে পানি জমে তীব্র শ্বাসকষ্ট - Pulmonary edema)<br>
-  - <strong>U</strong> = Uremia (ইউরিয়া বেড়ে ব্রেনে খিঁচুনি বা হার্টের পর্দায় ঘর্ষণ - Uremic pericarditis)।
+              <div class="callout-blue p-4 rounded-xl border border-blue-200 dark:border-blue-800 bg-blue-50/50 dark:bg-blue-950/30 text-slate-800 dark:text-slate-200 mb-4 space-y-3">
+  <h4 class="font-bold text-blue-700 dark:text-blue-300 text-base border-b border-blue-200 dark:border-blue-800 pb-2">
+    📌 পার্ট-বাই-পার্ট পূর্ণাঙ্গ বাংলা উত্তর (Direct Question-by-Question Answer in Bangla)
+  </h4>
+
+  <div class="space-y-3">
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">১. অ্যাকিউট কিডনি ইনজুরি (AKI) এর KDIGO সংজ্ঞা:</p>
+      <p class="leading-relaxed">
+        আন্তর্জাতিক KDIGO গাইডলাইন অনুযায়ী নিচের <strong>যেকোনো একটি মাপকাঠি</strong> পূরণ হলেই AKI ডায়াগনোসিস হবে:
+      </p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>৪৮ ঘণ্টার মধ্যে:</strong> সিরাম ক্রিয়েটিনিন <strong>&gt;= ০.৩ mg/dL</strong> (বা ২৬.৫ micromol/L) বৃদ্ধি পাওয়া; অথবা</li>
+        <li><strong>পূর্ববর্তী ৭ দিনের মধ্যে:</strong> সিরাম ক্রিয়েটিনিন বেসলাইনের চেয়ে <strong>&gt;= ১.৫ গুণ বৃদ্ধি</strong> পাওয়া; অথবা</li>
+        <li><strong>টানা ৬ ঘণ্টা ধরে:</strong> প্রস্রাবের পরিমাণ <strong>&lt; ০.৫ mL/kg/ঘণ্টা</strong> এর নিচে থাকা।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">২. AKI এর শ্রেণিবিভাগ ও কারণসমূহ (Prerenal, Intrinsic, Postrenal):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>Prerenal AKI (৬০% ক্ষেত্রে):</strong> কিডনি টিস্যুর কোনো ক্ষতি হয় না, কেবল কিডনিতে রক্ত প্রবাহ কমে যায় (Renal hypoperfusion)। দ্রুত স্যালাইন দিলে এটি সম্পূর্ণ ভালো হয়ে যায়।
+          <br>• কারণ: ডায়রিয়া, বমি বা রক্তক্ষরণে পানিশূন্যতা, সেপটিক শক, হার্ট ফেইলিয়র, এবং ব্যথানাশক NSAIDs বা প্রেশারের ওষুধ (ACEI/ARB)।
+        </li>
+        <li><strong>Intrinsic Renal AKI (৩৫% ক্ষেত্রে):</strong> কিডনির ভেতরের নেফ্রন, টিউবিউল বা গ্লোমেরুলাস সরাসরি ক্ষতিগ্রস্ত হয়।
+          <br>• কারণ: <strong>Acute Tubular Necrosis (ATN)</strong>—দীর্ঘ সময় প্রিরেনাল শক থাকলে, অথবা বিষাক্ত ড্রাগের সংস্পর্শে (Aminoglycoside ইঞ্জেকশন, সিটি স্ক্যানের Radiocontrast ডাই); ড্রাগের এলার্জি থেকে ইন্টারস্টিশিয়াল নেফ্রাইটিস (AIN), এবং তীব্র গ্লোমেরুলোনেফ্রাইটিস।
+        </li>
+        <li><strong>Postrenal AKI (৫% ক্ষেত্রে):</strong> প্রস্রাবের স্বাভাবিক রাস্তায় কোনো বাধার কারণে মূত্র কিডনি থেকে বের হতে পারে না।
+          <br>• কারণ: বয়স্ক পুরুষদের প্রোস্টেট বড় হওয়া (BPH), মূত্রথলিতে পাথর, ইউরেথ্রাল স্ট্রিকচার, অথবা জরায়ু মুখের বা কোলন ক্যানসার দিয়ে ইউরেটার চেপে যাওয়া।
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">৩. ইমার্জেন্সি হেমোডায়ালাইসিসের নির্দেশনাসমূহ (Mnemonic: AEIOU):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>A = Acidosis:</strong> ওষুধ বা সোডা-বাইকার্ব দিয়ে নিয়ন্ত্রণ করা যায় না এমন মারাত্মক মেটাবলিক এসিডোসিস (রক্তের pH &lt; ৭.১৫)।</li>
+        <li><strong>E = Electrolytes (Hyperkalemia):</strong> রক্তে পটাশিয়াম বিপজ্জনকভাবে বেড়ে যাওয়া (&gt; ৬.৫ mmol/L) এবং ইসিজিতে হার্ট অ্যাটাকের মতো উঁচু টি-ওয়েভ (Tall peaked T wave) আসা।</li>
+        <li><strong>I = Ingestion:</strong> বিষাক্ত পদার্থ বা ড্রাগের অতিরিক্ত ওভারডোজ যা ডায়ালাইসিসে দূর হয় (যেমন: মিথানল, লিথিয়াম, অ্যাসপিরিন)।</li>
+        <li><strong>O = Overload:</strong> ফুসফুসে পানি জমে শ্বাসকষ্ট বা তীব্র পালমোনারি ইডিমা (Pulmonary Edema) যা Lasix ইনজেকশনেও সারে না।</li>
+        <li><strong>U = Uremia:</strong> রক্তে ইউরিয়া জমার প্রাণঘাতী লক্ষণসমূহ: ইউরেমিক পেরিকার্ডাইটিস (বুকে ঘষা শব্দ), ইউরেমিক এনসেফালোপ্যাথি (রোগী উল্টাপাল্টা বকা, খিঁচুনি বা অচেতন হওয়া), এবং মারাত্মক রক্তক্ষরণ।</li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="font-semibold text-blue-900 dark:text-blue-200">৪. কনজারভেটিভ চিকিৎসা ব্যবস্থাপনা (Conservative Management):</p>
+      <ul class="list-disc pl-5 space-y-1">
+        <li><strong>ফ্লুইড ভারসাম্য:</strong> প্রিরেনাল হলে নরমাল স্যালাইন দিয়ে দ্রুত ঘাটতি পূরণ করতে হবে। কিন্তু রোগী যদি প্রস্রাব বন্ধ হয়ে ফুলে যায়, তবে তরল মেপে দিতে হবে (দৈনিক ৫০০ মিলি + আগের দিনের মোট প্রস্রাব ও বমির সমপরিমাণ)।</li>
+        <li><strong>বিষাক্ত ড্রাগ বন্ধ:</strong> ব্যথানাশক NSAIDs, এমিকাসিন/জেনটামাইসিন এবং কন্ট্রাস্ট ডাই অবিলম্বে বন্ধ করা।</li>
+        <li><strong>পটাশিয়াম কমানোর তাৎক্ষণিক চিকিৎসা:</strong> (১) হার্ট বাঁচাতে <strong>10% Calcium Gluconate</strong> ১০ মিলি আইভি ৫ মিনিটে পুশ করা; (২) পটাশিয়াম কোষে ঢোকাতে <strong>10 units Regular Insulin + 25% Dextrose 50 mL</strong> আইভি ইনফিউশন দেওয়া।</li>
+        <li><strong>পোস্ট-রেনাল অবস্ট্রাকশন সমাধান:</strong> মূত্রথলিতে ক্যাথেটার (Foley catheter) পরানো।</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="callout-amber p-4 rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/30 text-slate-800 dark:text-slate-200 space-y-3">
+  <h4 class="font-bold text-amber-700 dark:text-amber-300 text-base border-b border-amber-200 dark:border-amber-800 pb-2">
+    💡 ইন-ডেপথ ক্লিনিক্যাল ব্যাখ্যা, মেকানিজম ও ভাইভা টিপস (Clinical Rationale & Viva Tips)
+  </h4>
+
+  <div class="space-y-3 leading-relaxed">
+    <p>
+      <strong>১. ভাইভা বোর্ডের প্রশ্ন: Prerenal AKI এবং Intrinsic ATN এর মধ্যে ল্যাবে কীভাবে তফাৎ করবেন?</strong><br>
+      সবচেয়ে নির্ভরযোগ্য পরীক্ষা হলো <strong>Fractional Excretion of Sodium (FeNa)</strong>:
+      <br>• <strong>Prerenal AKI:</strong> FeNa <strong>&lt; ১%</strong> এবং প্রস্রাবে সোডিয়াম &lt; ২০ mmol/L। কারণ টিউবিউল সম্পূর্ণ সুস্থ থাকায় শরীর সোডিয়াম বাঁচানোর জন্য প্রস্রাব থেকে সব সোডিয়াম শুষে নেয়।
+      <br>• <strong>Intrinsic ATN:</strong> FeNa <strong>&gt; ২%</strong> এবং প্রস্রাবে সোডিয়াম &gt; ৪০ mmol/L। কারণ টিউবিউলের কোষগুলো মরে যাওয়ায় তারা সোডিয়াম ধরে রাখতে পারে না, ফলে প্রচুর সোডিয়াম প্রস্রাবে বেরিয়ে যায়।
+      <br>• প্রস্রাবের মাইক্রোস্কোপিতে ATN এ ক্লাসিক্যাল <strong>"Muddy Brown Granular Casts"</strong> পাওয়া যায়!
+    </p>
+
+    <p>
+      <strong>২. ক্যালসিয়াম গ্লুকোনেট (Calcium Gluconate) কি রক্তে পটাশিয়াম কমায়?</strong><br>
+      কখনোই না! এটি ভাইভার সবচেয়ে কমন ট্র্যাপ। ক্যালসিয়াম গ্লুকোনেট সিরাম পটাশিয়াম ১ ফোঁটাও কমায় না। এর একমাত্র কাজ হলো কার্ডিয়াক মায়োসাইটের মেমব্রেন পটেনশিয়াল স্ট্যাবিলাইজ করে তাৎক্ষণিক ভেন্ট্রিকুলার ফিব্রিলেশন ও কার্ডিয়াক অ্যারেস্ট থেকে হার্টকে সাময়িকভাবে (২০-৩০ মিনিট) রক্ষা করা। পটাশিয়াম কমানোর জন্য ইনসুলিন-গ্লুকোজ বা ডায়ালাইসিস দিতে হবে।
+    </p>
+
+    <p>
+      <strong>৩. অলফিউরিক একেআই (Oliguric AKI) রোগীকে কি পটাশিয়াম সমৃদ্ধ স্যালাইন (যেমন: DNS, Dextrose with saline, বা Ringer's) দেওয়া যাবে?</strong><br>
+      Ringer's Lactate বা পটাশিয়াম যুক্ত যেকোনো স্যালাইন কঠোরভাবে নিষিদ্ধ, কারণ অলফিউরিক অবস্থায় পটাশিয়াম প্রস্রাব দিয়ে বের হতে পারে না, ফলে রোগী দ্রুত কার্ডিয়াক অ্যারেস্টে মারা যেতে পারে।
+    </p>
+  </div>
+</div>
             </div>
           </div>
         </article>
