@@ -5956,5 +5956,355 @@
       "40th"
     ],
     "marks": "5"
+  },
+  {
+    "id": 448,
+    "sec_id": "sec-13",
+    "subject": "Clinical Medicine & Emergency",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Clinical Medicine & Emergency",
+    "text": "Define Shock. Classify shock with pathophysiological mechanisms and clinical examples. Describe the step-by-step emergency management of Anaphylactic Shock and Septic Shock (Hour-1 bundle).",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 12 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "12",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 449,
+    "sec_id": "sec-13",
+    "subject": "Clinical Medicine & Emergency",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Clinical Medicine & Emergency",
+    "text": "What are the clinical criteria to diagnose Acute Severe Asthma? Detail the emergency management protocol in an Upazila Health Complex / Emergency Room.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 450,
+    "sec_id": "sec-13",
+    "subject": "Clinical Medicine & Emergency",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Clinical Medicine & Emergency",
+    "text": "Classify Dengue infection according to the National Dengue Clinical Management Guideline of Bangladesh. Mention the warning signs and describe the fluid replacement protocol in Dengue Shock Syndrome (DSS).",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 12 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "12",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 451,
+    "sec_id": "sec-13",
+    "subject": "Clinical Medicine & Emergency",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Clinical Medicine & Emergency",
+    "text": "How do you diagnose acute ST-Elevation Myocardial Infarction (STEMI) on a 12-lead ECG? Describe the emergency medical management (MONA + dual antiplatelet therapy) and indications for thrombolysis.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 452,
+    "sec_id": "sec-13",
+    "subject": "Clinical Medicine & Emergency",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Clinical Medicine & Emergency",
+    "text": "Describe the clinical features of Organophosphorus Compound (OPC) poisoning. Explain the principle of Atropinization (dosages, endpoints) and the role of Pralidoxime (PAM).",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 453,
+    "sec_id": "sec-13",
+    "subject": "Clinical Medicine & Emergency",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Clinical Medicine & Emergency",
+    "text": "Describe the clinical manifestation of venomous Snake Bite in Bangladesh (Neurotoxic vs Vasculotoxic). Outline the emergency management and Anti-Snake Venom (ASV) administration protocol.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 454,
+    "sec_id": "sec-13",
+    "subject": "Clinical Medicine & Emergency",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Clinical Medicine & Emergency",
+    "text": "Write short notes on: (a) CURB-65 Score for Pneumonia triage, (b) Laboratory diagnosis of Enteric Fever across 1st, 2nd, and 3rd weeks.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 455,
+    "sec_id": "sec-13",
+    "subject": "Obstetrics & Gynaecology",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Obstetrics & Gynaecology (DGFP)",
+    "text": "Define primary and secondary Postpartum Haemorrhage (PPH). Enumerate the causes of PPH (the 4 Ts). Describe the active emergency medical and surgical management of atonic PPH.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 12 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "12",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 456,
+    "sec_id": "sec-13",
+    "subject": "Obstetrics & Gynaecology",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Obstetrics & Gynaecology (DGFP)",
+    "text": "Define Pre-eclampsia and Eclampsia. Describe the Pritchard Regimen of Magnesium Sulphate (Loading and Maintenance doses), signs of Magnesium toxicity, and its antidote.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 12 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "12",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 457,
+    "sec_id": "sec-13",
+    "subject": "Obstetrics & Gynaecology",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Obstetrics & Gynaecology (DGFP)",
+    "text": "Classify contraceptive methods available under the Directorate General of Family Planning (DGFP) Bangladesh. Mention the mechanism of action, side effects, and contraindications of Combined Oral Contraceptive Pills (COCPs) and DMPA injectables.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 458,
+    "sec_id": "sec-13",
+    "subject": "Obstetrics & Gynaecology",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Obstetrics & Gynaecology (DGFP)",
+    "text": "Write short notes on: (a) Menstrual Regulation (MR & MRVA) in Bangladesh, (b) Emergency Contraceptive Pills (ECP).",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 459,
+    "sec_id": "sec-13",
+    "subject": "General Surgery & Allied",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Surgery & Trauma",
+    "text": "Define Acute Abdomen. Provide the differential diagnosis of acute lower abdominal pain in an adult. Describe the clinical presentation, Alvarado scoring, and management of Acute Appendicitis.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 12 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "12",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 460,
+    "sec_id": "sec-13",
+    "subject": "General Surgery & Allied",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Surgery & Trauma",
+    "text": "Describe the assessment of burn surface area using Wallace's Rule of Nines. Calculate the fluid resuscitation volume in the first 24 hours using the Parkland Formula for a 60 kg patient with 40% burns.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 461,
+    "sec_id": "sec-13",
+    "subject": "General Surgery & Allied",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Surgery & Trauma",
+    "text": "Describe the Advanced Trauma Life Support (ATLS) primary survey protocol (ABCDE approach). How do you assess the Glasgow Coma Scale (GCS) in head injury?",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 462,
+    "sec_id": "sec-13",
+    "subject": "Paediatrics",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Paediatrics & Child Health",
+    "text": "Classify dehydration according to WHO/IMCI guidelines (No, Some, Severe). Detail the management of Plan A, Plan B (formula: Weight x 75 mL ORS over 4 hours), and Plan C (IV fluids).",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 12 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "12",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 463,
+    "sec_id": "sec-13",
+    "subject": "Paediatrics",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Paediatrics & Child Health",
+    "text": "Tabulate the updated National EPI Schedule of Bangladesh: Name of vaccines, target diseases, age of administration, doses, and routes.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 464,
+    "sec_id": "sec-13",
+    "subject": "Paediatrics",
+    "paper": "Paper-II, Part I",
+    "topic": "Non-Cadre Paediatrics & Child Health",
+    "text": "Describe the steps of Neonatal Resuscitation (T-A-B-C algorithm). Write the APGAR scoring system and clinical interpretation at 1 and 5 minutes.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 465,
+    "sec_id": "sec-13",
+    "subject": "Anatomy",
+    "paper": "Paper-I, Part II",
+    "topic": "Non-Cadre Anatomy & Coronary Circulation",
+    "text": "Describe the arterial supply of the heart: Origin, course, branches of Right and Left Coronary Arteries, coronary dominance, and clinical correlation of LAD occlusion.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 466,
+    "sec_id": "sec-13",
+    "subject": "Pathology & Microbiology",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Pathology & Microbiology",
+    "text": "Classify Hypersensitivity Reactions (Type I to Type IV) according to Gell and Coombs. Explain the immunological mechanism, mediators, and clinical disease examples for each type.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 467,
+    "sec_id": "sec-13",
+    "subject": "Physiology & Pharmacology",
+    "paper": "Paper-I & Paper-II",
+    "topic": "Non-Cadre Physiology & Pharmacology",
+    "text": "Define Glomerular Filtration Rate (GFR). Explain the physiological factors regulating GFR and describe the Counter-Current Multiplier system.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 468,
+    "sec_id": "sec-13",
+    "subject": "Pathology & Microbiology",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Pathology & Microbiology",
+    "text": "Describe the parameters of Autoclave Sterilization (temperature, pressure, time). Mention the physical, chemical, and biological indicators used for validation.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 8 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "8",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 469,
+    "sec_id": "sec-13",
+    "subject": "Pathology & Microbiology",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Pathology & Microbiology",
+    "text": "Tabulate and interpret the serological markers of Hepatitis B Virus (HBsAg, Anti-HBs, HBeAg, Anti-HBe, IgM Anti-HBc, IgG Anti-HBc) across acute, chronic, window period, and vaccinated states.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 470,
+    "sec_id": "sec-13",
+    "subject": "Physiology & Pharmacology",
+    "paper": "Paper-I & Paper-II",
+    "topic": "Non-Cadre Physiology & Pharmacology",
+    "text": "Classify Oral Antidiabetic Drugs (OADs). Explain the mechanism of action, clinical benefits, and lactic acidosis contraindications of Metformin vs hypoglycemia risk of Sulfonylureas.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 471,
+    "sec_id": "sec-13",
+    "subject": "Community Medicine & Public Health",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Community Medicine & Public Health",
+    "text": "Tabulate the updated National Expanded Programme on Immunization (EPI) Schedule of Bangladesh. Mention the diseases prevented, age of administration, doses, injection routes, and sites.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
+  },
+  {
+    "id": 472,
+    "sec_id": "sec-13",
+    "subject": "Forensic Medicine & Public Health",
+    "paper": "Paper-II, Part II",
+    "topic": "Non-Cadre Forensic Medicine & Public Health",
+    "text": "Write short notes on: (a) Biomedical Waste Management in hospital settings (Color-coded bins), (b) Differences between Hanging and Strangulation in post-mortem examination.",
+    "meta": "*[BPSC Non-Cadre Medical Officer Written Exam | Category: Non-Cadre (Grade-9) | Marks: 10 | Frequency: ★★★★★]*",
+    "batches": [
+      "Non-Cadre"
+    ],
+    "marks": "10",
+    "frequency": "★★★★★"
   }
 ]
