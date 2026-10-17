@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@source "../used_classes.txt";
+@source "./index.html";
+@source "./*.js";
+
+@theme {
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-200: #99f6e4;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0d9488;
+  --color-brand-700: #0f766e;
+  --color-brand-800: #115e59;
+  --color-brand-900: #134e4a;
+  --color-brand-950: #042f2e;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom helper classes */
+.badge-star { color: #f59e0b; letter-spacing: 1px; }
+
+pre.ascii-diagram {
+  background: #0f172a;
+  color: #38bdf8;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 0.775rem;
+  line-height: 1.48;
+  padding: 1.1rem;
+  border-radius: 0.875rem;
+  overflow-x: auto;
+  white-space: pre;
+  margin: 1rem 0;
+  border: 1px solid #1e293b;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Callout boxes */
+.callout-box {
+  margin: 0.75rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border-left-width: 4px;
+}
+.callout-blue { background-color: #eff6ff; border-left-color: #3b82f6; }
+.callout-amber { background-color: #fffbeb; border-left-color: #f59e0b; }
+.callout-red { background-color: #fef2f2; border-left-color: #ef4444; }
+
+.dark .callout-blue { background-color: rgba(30, 58, 138, 0.25); border-left-color: #60a5fa; color: #dbeafe; }
+.dark .callout-amber { background-color: rgba(120, 53, 15, 0.25); border-left-color: #fbbf24; color: #fef3c7; }
+.dark .callout-red { background-color: rgba(127, 29, 29, 0.25); border-left-color: #f87171; color: #fee2e2; }
+
+/* Flex gap fallbacks for Chromium < 84 (Android 6 WebView, Samsung Internet < 14) */
+@supports not (gap: 1px) {
+  .gap-1 > * { margin: 2px; }
+  .gap-1\.5 > * { margin: 3px; }
+  .gap-2 > * { margin: 4px; }
+  .gap-2\.5 > * { margin: 5px; }
+  .gap-3 > * { margin: 6px; }
+  .gap-4 > * { margin: 8px; }
+}
+
+/* Touch targets and scrolling optimization for Android 6 tablets */
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+body {
+  touch-action: manipulation;
+}
+
+button {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Dynamic text size scaling */
+body.font-size-sm { font-size: 14px; }
+body.font-size-md { font-size: 16px; }
+body.font-size-lg { font-size: 18px; }
+body.font-size-xl { font-size: 20px; }
+
+/* Floating Back to Top button */
+#backToTopBtn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 50;
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: opacity 0.2s, transform 0.2s;
+}
